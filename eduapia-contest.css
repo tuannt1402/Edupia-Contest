@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-color-blue:#005487;
+    --color-yellow:#F9D742;
+    --primary-background-color-blue:#36BFC7;
+}
