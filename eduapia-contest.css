@@ -57,7 +57,6 @@
     border-radius: var(--primary-border-radius);
     border: inherit;
     font-weight: var(--primary-font-weight);
-    font-size: var(--primary-font-size);
 }
 
 .primary-comingsoon {
@@ -79,4 +78,9 @@
     height: var(--primary-height);
     background-color: #DD34480D;
     color: #DD3448;
+}
+
+.primary-text{
+    font-size: var(--primary-font-size);
+    padding: 0 4px 0 4px;
 }
