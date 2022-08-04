@@ -5,17 +5,31 @@
 }
 
 :root {
-    --background-color-blue:#005487;
-    --btn-background-color-blue:#00CCCC;
     --color-yellow:#F9D742;
     --color-white:#FFFFFF;
+
+    --background-color-blue:#005487;
+    --btn-background-color-blue:#00CCCC;
     --btn-border-radius:0.5em;
     --btn-border:none;
     --btn-font-weight:700;
+
+    --primary-height:1.75em;
+    --primary-border-radius:0.25em;
+    --primary-font-weight:600;
+    --primary-font-size:0.875em;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-border-radius {
+    border: inherit;
     border-radius: var(--btn-border-radius);
+    font-weight: var(--btn-font-weight);
 }
 
 .btn-register {
@@ -23,8 +37,6 @@
     width: 6.5625em;
     background-color: var(--btn-background-color-blue);
     color: var(--color-white);
-    border: var(--btn-border);
-    font-weight: var(--btn-font-weight);
 }
 
 .btn-join{
@@ -32,69 +44,39 @@
     width: 8.3125em;
     background-color: var(--btn-background-color-blue);
     color: var(--color-white);
-    border: var(--btn-border);
-    font-weight: var(--btn-font-weight);
 }
 
+.btn-detail{
+    width: 9.125em;
+    height: 2.5em;
+    background-color: #F6F7F8;
+    color: #51545F;
+}
 
+.primary-border-radius {
+    border-radius: var(--primary-border-radius);
+    border: inherit;
+    font-weight: var(--primary-font-weight);
+    font-size: var(--primary-font-size);
+}
 
+.primary-comingsoon {
+    width:5.6875em;
+    height: var(--primary-height);
+    background-color: rgba(58, 178, 132, 0.05);
+    color: #3AB284;
+}
 
+.primary-happening {
+    width: 6.25em;
+    height: var(--primary-height);
+    background-color: rgba(255, 164, 37, 0.05);
+    color: #FFA425;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.primary-end{
+    width: 5.8125em;
+    height: var(--primary-height);
+    background-color: #DD34480D;
+    color: #DD3448;
+}
