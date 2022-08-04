@@ -82,5 +82,5 @@
 
 .primary-text{
     font-size: var(--primary-font-size);
-    padding: 0 4px 0 4px;
+    padding: 0 0.25em 0 0.25em;
 }
