@@ -6,6 +6,32 @@
 
 :root {
     --background-color-blue:#005487;
+    --btn-background-color-blue:#00CCCC;
     --color-yellow:#F9D742;
-    --primary-background-color-blue:#36BFC7;
+    --color-white:#FFFFFF;
+    --btn-border-radius:0.5em;
+    --btn-border:none;
+    --btn-font-weight:700;
+}
+
+.btn-border-radius {
+    border-radius: var(--btn-border-radius);
+}
+
+.btn-register {
+    height: 2.5em;
+    width: 6.5625em;
+    background-color: var(--btn-background-color-blue);
+    color: var(--color-white);
+    border: var(--btn-border);
+    font-weight: var(--btn-font-weight);
+}
+
+.btn-join{
+    height: 2.5em;
+    width: 8.3125em;
+    background-color: var(--btn-background-color-blue);
+    color: var(--color-white);
+    border: var(--btn-border);
+    font-weight: var(--btn-font-weight);
 }
