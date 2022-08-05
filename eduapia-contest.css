@@ -219,7 +219,7 @@
     padding: 1em;
 }
 
-.nav-mobile-login>.btn-login {
+.nav-mobile-login >.btn-login {
     height: 2.5em;
     width: 8.6875em;
     background-color: var(--color-yellow);
@@ -237,12 +237,15 @@
 
 .nav-web {
     background-color: var(--background-color-blue);
+    padding-left: 4em;
+    padding-right: 4em;
 }
 .nav-web > .nav-web-header {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 0.25em;
+    padding: 1em 0em;
 }
 .nav-web > .nav-web-header > .nav-web-header-text {
     height: 1.25em;
@@ -261,10 +264,75 @@
     font-weight: var(--btn-font-weight);
 }
 
-
-
-
-
+.nav-web> .nav-web-content> .btn-login {
+    height: 2.5em;
+    width: 8.6875em;
+    background-color: var(--color-yellow);
+    color: var(--colo-NeutralColors);
+    margin-left: 1em;
+}
+.nav-web> .nav-web-content {
+    display: grid;
+    grid-template-columns: 15% 60% 16%;
+    gap: 4.5%;
+    padding: 1em 0em;
+    align-items: center;
+    border-top: 0.03125em solid rgba(0, 204, 204, 0.2);
+}
+.nav-web> .nav-web-content> .nav-web-content-menu{
+    list-style-type: none;
+    gap: 6%;
+    margin-top: 0.5em;
+}
+.nav-web> .nav-web-content> .nav-web-content-menu> .nav-web-content-menu-cuocthi{
+    height: 1.5em;
+    width: 5.5625em;
+    gap: 4%;
+    font-weight: 600;
+    color: var(--color-white);
+}
+.nav-web> .nav-web-content> .nav-web-content-menu> .nav-web-content-menu-ontapcungedupia{
+    height: 1.5em;
+    width: 11.3125em;
+    gap: 4%;
+    font-weight: 400; 
+    color: var(--color-white); 
+    opacity: 0.7;
+}
+.nav-web> .nav-web-content> .nav-web-content-menu> .nav-web-content-menu-tuluyen{
+    height: 1.5em;
+    width: 5.5625em;
+    gap: 4%;
+    font-weight: 400; 
+    color: var(--color-white);
+    position: relative; 
+    opacity: 0.7;
+}
+.nav-web> .nav-web-content> .nav-web-content-menu> .nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen-framesapramat {
+    position: absolute;
+    width: 3.9375em;
+    left: 3.375em;
+    padding: 0.125em;
+    top: -0.875em;
+    background: rgba(0, 204, 204, 0.2);
+    border-radius: 1.5em;
+}
+.nav-web> .nav-web-content> .nav-web-content-menu> .nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen-framesapramat> .nav-web-content-menu-textuluyen-textsapramat{
+    font-weight: 700;
+    font-size: 0.625em;
+    color: var(--btn-background-color-blue);
+}
+.nav-web> .nav-web-content> .nav-web-content-menu> .nav-web-content-menu-tintuc{
+    height: 1.5em;
+    width: 5.5625em;
+    gap: 4%;
+    font-weight: 400; 
+    color: var(--color-white);
+    opacity: 0.7;
+}
+.nav-web> .nav-web-content> .btn-login{
+    color: var(--background-color-blue) !important;
+}
 
 
 
