@@ -163,7 +163,28 @@
 .nav-web{
     background-color: var(--background-color-blue);
 }
-
+.nav-web > .nav-web-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25em;
+}
+.nav-web > .nav-web-header > .nav-web-header-text {
+    height: 1.25em;
+    width: 9.625em;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    font-weight: 400;
+    color: var(--color-white);
+}
+.nav-web > .nav-web-header > .nav-web-header-number {
+    height: 1.5em;
+    width: 6.1875em;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--color-yellow);
+    font-weight: var(--btn-font-weight);
+}
 
 
 
