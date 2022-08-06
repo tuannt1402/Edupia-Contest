@@ -276,15 +276,12 @@
 .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-gap: var(--size-16px);
     justify-items: center;
     color: var(--color-white);
     font-size: var(--primary-font-size-14px);
     font-weight: var(--primary-font-weight-600);
     margin-top: 1.5em;
-}
-
-.footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-img {
-    margin-top: var(--size-16px);
 }
 
 .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-socialmedia {
@@ -334,12 +331,14 @@
     padding-left: 4em;
     padding-right: 4em;
 }
-.nav-web> .nav-web-header {
+
+.nav-web>.nav-web-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-web>.nav-web-header> .nav-web-header-left {
+
+.nav-web>.nav-web-header>.nav-web-header-left {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -347,7 +346,7 @@
     padding: 1em 0em;
 }
 
-.nav-web> .nav-web-header> .nav-web-header-left>.nav-web-header-text {
+.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-text {
     height: 1.25em;
     width: 9.625em;
     font-size: 0.875em;
@@ -356,7 +355,7 @@
     color: var(--color-white);
 }
 
-.nav-web>.nav-web-header> .nav-web-header-left>.nav-web-header-number {
+.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-number {
     height: 1.5em;
     width: 6.1875em;
     font-size: var(--size-16px);
@@ -364,23 +363,28 @@
     color: var(--color-yellow);
     font-weight: var(--btn-font-weight);
 }
-.nav-web> .nav-web-header> .nav-web-header-right {
+
+.nav-web>.nav-web-header>.nav-web-header-right {
     font-weight: 400;
     font-size: 0.875em;
     color: var(--color-yellow);
     gap: 0.2em;
 }
-.nav-web> .nav-web-header> .nav-web-header-right-60ngayvip {
+
+.nav-web>.nav-web-header>.nav-web-header-right-60ngayvip {
     font-weight: 400;
     font-size: 0.875em;
     color: var(--color-white);
 }
-.nav-web> .nav-web-header> .nav-web-header-right> .nav-web-header-right-textcomakichhoat {
+
+.nav-web>.nav-web-header>.nav-web-header-right>.nav-web-header-right-textcomakichhoat {
     color: var(--color-white) !important;
 }
-.nav-web> .nav-web-header> .nav-web-header-right> .nav-web-header-right-textkichhoattk {
+
+.nav-web>.nav-web-header>.nav-web-header-right>.nav-web-header-right-textkichhoattk {
     color: var(--btn-background-color-blue) !important;
 }
+
 .nav-web>.nav-web-content>.btn-login {
     height: 2.5em;
     width: 8.6875em;
@@ -391,7 +395,7 @@
 
 .nav-web>.nav-web-content {
     display: grid;
-    grid-template-columns: 15% 72.5% 12.5% ;
+    grid-template-columns: 15% 72.5% 12.5%;
     padding: 1em 0em;
     align-items: center;
     border-top: 0.03125em solid rgba(0, 204, 204, 0.2);
@@ -458,46 +462,22 @@
 .nav-web>.nav-web-content>.btn-login {
     color: var(--background-color-blue) !important;
 }
+
 .nav-web>.nav-web-content>.flex.nav-web-content-login {
     gap: 0.5em;
 }
-.nav-web>.nav-web-content>.flex.nav-web-content-login> .nav-web-content-login-text>.nav-web-content-login-text-top {
+
+.nav-web>.nav-web-content>.flex.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-top {
     color: #FFF;
     font-size: 0.875em;
     font-weight: 600;
 }
-.nav-web>.nav-web-content>.flex.nav-web-content-login> .nav-web-content-login-text>.nav-web-content-login-text-bottom {
+
+.nav-web>.nav-web-content>.flex.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
     font-weight: 400;
     font-size: 0.75em;
     line-height: 2em;
     color: #E3E4EC;
-}
-
-.choose-province-container>.choose-province-content>.row>.col>.choose-province-content-inside {
-    font-weight: var(--btn-font-weight-700);
-    font-size: var(--size-16px);
-    color: #1F2230;
-    text-align: center;
-}
-
-.choose-province-container>.choose-province-content {
-    height: 7em;
-}
-
-.choose-province-container>.choose-province-cover-pop-up>.pop-up {
-    margin-top: var(--size-16px);
-}
-
-.choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.footer-choose-province {
-    justify-content: center;
-}
-
-.choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.footer-choose-province>.btn-choose-province {
-    width: 15.625em;
-}
-
-.choose-province-container>.footer-container-mobile {
-    margin-top: 3em;
 }
 
 .nav-web-four {
@@ -509,12 +489,14 @@
     gap: 2%;
     align-items: center;
 }
-.nav-web-four>.nav-web-right> .nav-web-header {
+
+.nav-web-four>.nav-web-right>.nav-web-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-web-four>.nav-web-right>.nav-web-header> .nav-web-header-left {
+
+.nav-web-four>.nav-web-right>.nav-web-header>.nav-web-header-left {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -522,7 +504,7 @@
     padding: 1em 0em;
 }
 
-.nav-web-four>.nav-web-right> .nav-web-header> .nav-web-header-left>.nav-web-header-text {
+.nav-web-four>.nav-web-right>.nav-web-header>.nav-web-header-left>.nav-web-header-text {
     height: 1.25em;
     width: 9.625em;
     font-size: 0.875em;
@@ -531,7 +513,7 @@
     color: var(--color-white);
 }
 
-.nav-web-four>.nav-web-right>.nav-web-header> .nav-web-header-left>.nav-web-header-number {
+.nav-web-four>.nav-web-right>.nav-web-header>.nav-web-header-left>.nav-web-header-number {
     height: 1.5em;
     width: 6.1875em;
     font-size: var(--size-1em);
@@ -539,23 +521,28 @@
     color: var(--color-yellow);
     font-weight: var(--btn-font-weight);
 }
-.nav-web-four>.nav-web-right> .nav-web-header> .nav-web-header-right {
+
+.nav-web-four>.nav-web-right>.nav-web-header>.nav-web-header-right {
     font-weight: 400;
     font-size: 0.875em;
     color: var(--color-yellow);
     gap: 0.2em;
 }
-.nav-web-four>.nav-web-right> .nav-web-header> .nav-web-header-right-60ngayvip {
+
+.nav-web-four>.nav-web-right>.nav-web-header>.nav-web-header-right-60ngayvip {
     font-weight: 400;
     font-size: 0.875em;
     color: var(--color-white);
 }
-.nav-web-four>.nav-web-right> .nav-web-header> .nav-web-header-right> .nav-web-header-right-textcomakichhoat {
+
+.nav-web-four>.nav-web-right>.nav-web-header>.nav-web-header-right>.nav-web-header-right-textcomakichhoat {
     color: var(--color-white) !important;
 }
-.nav-web-four>.nav-web-right> .nav-web-header> .nav-web-header-right> .nav-web-header-right-textkichhoattk {
+
+.nav-web-four>.nav-web-right>.nav-web-header>.nav-web-header-right>.nav-web-header-right-textkichhoattk {
     color: var(--btn-background-color-blue) !important;
 }
+
 .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
     height: 2.5em;
     width: 8.6875em;
@@ -636,15 +623,18 @@
 .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
     color: var(--background-color-blue) !important;
 }
+
 .nav-web-four>.nav-web-right>.nav-web-content>.flex.nav-web-content-login {
     gap: 0.5em;
 }
-.nav-web-four>.nav-web-right>.nav-web-content>.flex.nav-web-content-login> .nav-web-content-login-text>.nav-web-content-login-text-top {
+
+.nav-web-four>.nav-web-right>.nav-web-content>.flex.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-top {
     color: #FFF;
     font-size: 0.875em;
     font-weight: 600;
 }
-.nav-web-four>.nav-web-right>.nav-web-content>.flex.nav-web-content-login> .nav-web-content-login-text>.nav-web-content-login-text-bottom {
+
+.nav-web-four>.nav-web-right>.nav-web-content>.flex.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
     font-weight: 400;
     font-size: 0.75em;
     line-height: 2em;
@@ -661,69 +651,15 @@
     margin-top: -0.4em;
 }
 
-
-
-
-
-
-
-@media screen and (min-width: 800px) {
-    .footer-container-mobile-inside {
-        display: grid;
-        grid-template-columns: 22% 20% 12% 27%;
-        grid-gap: 2em;
-        justify-content: center;
-    }
-
-    .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode {
-        grid-gap: var(--size-16px);
-    }
-
-    .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-text {
-        width: max-content;
-    }
-
-    .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-img>img {
-        width: 90%;
-    }
-
-    .choose-province-container>.choose-province-cover-pop-up {
-        display: grid;
-        grid-template-columns: 32% 32% 32%;
-        grid-gap: 1em;
-        padding-left: 4em;
-        padding-right: 4em;
-    }
-
-    .choose-province-container>.pop-up-line-second {
-        margin-top: 3em;
-    }
-
-    .choose-province-container>.choose-province-content {
-        margin-top: 2em;
-    }
-
-    .choose-province-container>.choose-province-content>.row>.col>.choose-province-content-inside {
-        width: 24em;
-        height: 4em;
-        font-size: var(--font-size-24px);
-    }
-
-    .choose-province-container>.pop-up {
-        width: 23em;
-        height: 19em;
-    }
-
+.footer-container-mobile-inside {
+    display: grid;
+    grid-template-columns: 22% 20% 12% 27%;
+    grid-gap: 2em;
+    justify-content: center;
 }
 
-@media screen and (min-width: 1200px) {
-    .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode {
-        justify-items: baseline;
-    }
-
-    .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode {
-        grid-template-columns: 12em 12em;
-    }
+.footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-text {
+    width: max-content;
 }
 @media screen and (max-width: 1500px) {
     .nav-web>.nav-web-content>.flex.nav-web-content-login> .nav-web-content-login-text>.nav-web-content-login-text-bottom{
@@ -743,21 +679,85 @@
     }
 }
 
+.footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-img>img {
+    width: 90%;
+}
+
+/* Begin-Edupia-choose-province */
+.choose-province-container>.choose-province-cover-pop-up {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.choose-province-container>.pop-up-line-second {
+    margin-top: 3em;
+}
+
+.choose-province-container>.choose-province-content {
+    height: 7em;
+    margin-top: 2em;
+}
+
+.choose-province-container>.choose-province-content>.row>.col>.choose-province-content-inside {
+    width: 24em;
+    height: 4em;
+    font-size: var(--font-size-24px);
+    font-weight: var(--btn-font-weight-700);
+    color: #1F2230;
+    text-align: center;
+}
+
+.choose-province-container>.pop-up {
+    width: 23em;
+    height: 19em;
+}
+
+.choose-province-container>.choose-province-cover-pop-up>.pop-up {
+    margin-top: var(--size-16px);
+}
+
+.choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.footer-choose-province {
+    justify-content: center;
+}
+
+.choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.footer-choose-province>.btn-choose-province {
+    width: 15.625em;
+}
+
+.choose-province-container>.footer-container-mobile {
+    margin-top: 3em;
+}
+/* End-Edupia-choose-province */
+
+
 @media screen and (max-width: 1300px) {
-    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
-        width: 178px;
-        height: 50px;
-        font-size: var(--font-size-24px);
-    }
     .nav-web>.nav-web-content>.flex.nav-web-content-login> .nav-web-content-login-text>.nav-web-content-login-text-bottom{
         font-size: 0.45em;
     }
     .nav-web>.nav-web-content>.btn-login{
         margin-left: 0;
     }
+    /* Begin-Edupia-choose-province */
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 178px;
+        height: 50px;
+        font-size: var(--font-size-24px);
+    }
+        /* End-Edupia-choose-province */
+
 }
 
 @media screen and (max-width: 1220px) {
+    .nav-web>.nav-web-content>.btn-login{
+        font-size: 0.9em;
+    }
+    .nav-web-four>.nav-web-right>.nav-web-content>.btn-login{
+        font-size: 0.9em;
+    }
+    /* Begin-Edupia-choose-province */
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
         left: 15%;
     }
@@ -765,15 +765,11 @@
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-content {
         font-size: 0.75em;
     }
-    .nav-web>.nav-web-content>.btn-login{
-        font-size: 0.9em;
-    }
-    .nav-web-four>.nav-web-right>.nav-web-content>.btn-login{
-        font-size: 0.9em;
-    }
+    /* End-Edupia-choose-province */
 }
 
 @media screen and (max-width: 1100px) {
+    /* Begin-Edupia-choose-province */
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
         width: 170px;
         height: 38px;
@@ -794,9 +790,20 @@
         width: 7em;
         font-size: var(--primary-font-size-14px);
     }
+    /* End-Edupia-choose-province */
 }
 
 @media screen and (max-width: 1000px) {
+    .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi> .nav-web-content-menu-textcuocthi, .nav-web-content-menu-textontapcungedupia, .nav-web-content-menu-textuluye, .nav-web-content-menu-textintuc{
+        font-size: 0.8em;
+    }
+    .nav-web-four>.nav-web-right>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi >.nav-web-content-menu-textcuocthi, .nav-web-content-menu-textontapcungedupia, .nav-web-content-menu-textuluyen{
+        font-size: 0.8em;
+    }
+    .nav-web>.nav-web-content>.nav-web-content-menu{
+        gap: 0 !important;
+    }
+    /* Begin-Edupia-choose-province */
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
         width: 145px;
         height: 32px;
@@ -815,19 +822,18 @@
         width: 80px;
         font-size: 0.7em;
     }
-    .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi> .nav-web-content-menu-textcuocthi, .nav-web-content-menu-textontapcungedupia, .nav-web-content-menu-textuluye, .nav-web-content-menu-textintuc{
-        font-size: 0.8em;
-    }
-    .nav-web-four>.nav-web-right>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi >.nav-web-content-menu-textcuocthi, .nav-web-content-menu-textontapcungedupia, .nav-web-content-menu-textuluyen{
-        font-size: 0.8em;
-    }
-    .nav-web>.nav-web-content>.nav-web-content-menu{
-        gap: 0 !important;
-    }
     
+    /* End-Edupia-choose-province */
 }
 
 @media screen and (max-width: 900px) {
+    .nav-web>.nav-web-content>.btn-login{
+        font-size: 0.8em;
+    }
+    .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
+        font-size: 0.8em;
+    }
+    /* Begin-Edupia-choose-province */
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
         width: 120px;
         height: 28px;
@@ -838,10 +844,71 @@
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
         font-size: 0.75em;
     }
-    .nav-web>.nav-web-content>.btn-login{
-        font-size: 0.8em;
+    /* End-Edupia-choose-province */
+}
+
+@media screen and (max-width: 800px) {
+    /* Begin-Edupia-choose-province */
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 100px;
+        height: 21px;
+        font-size: 12px;
     }
-    .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
-        font-size: 0.8em;
+
+    .choose-province-container>.footer-container-mobile>.row>.col>.footer-container-mobile-inside {
+        grid-template-columns: none;
     }
+
+    .choose-province-container>.footer-container-mobile>.row>.col>.footer-container-mobile-inside>.footer-mobile-location>.location-content {
+        justify-content: flex-start;
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
+        font-size: 0.6em;
+    }
+    /* End-Edupia-choose-province */
+
+}
+
+@media screen and (max-width: 700px) {
+    /* Begin-Edupia-choose-province */
+    .choose-province-container>.choose-province-cover-pop-up {
+        grid-template-columns: none;
+        padding: 0;
+    }
+
+    .choose-province-container>.choose-province-content>.row>.col>.choose-province-content-inside {
+        width: 100%;
+        font-size: 0.9375em;
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 178px;
+        height: 50px;
+        font-size: var(--font-size-24px);
+        left: 22%;
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-content,
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-comingsoon,
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-register,
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join,
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
+        font-size: var(--size-16px);
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.footer-choose-province>.btn-choose-province {
+        width: 15.625em;
+        height: 2em;
+        font-size: var(--size-16px);
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join {
+        width: 8.3125em;
+    }
+
+    .choose-province-container>.footer-container-mobile>.row>.col>.footer-container-mobile-inside {
+        grid-template-columns: none;
+    }
+    /* End-Edupia-choose-province */
 }
