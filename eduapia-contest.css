@@ -45,6 +45,10 @@
     position: relative;
 }
 
+.non-active {
+    display: none;
+}
+
 .btn-border-radius {
     border: inherit;
     border-radius: var(--btn-border-radius-05em);
@@ -849,6 +853,18 @@
 
 @media screen and (max-width: 800px) {
     /* Begin-Edupia-choose-province */
+    .choose-province-container>.nav-mobile-login {
+        display: flex;
+    }
+
+    .choose-province-container>.nav-mobile-login>.nav-mobile-login-content {
+        flex: 1;
+    }
+
+    .choose-province-container>.nav-web {
+        display: none;
+    }
+
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
         width: 100px;
         height: 21px;
