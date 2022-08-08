@@ -672,31 +672,29 @@
 /* end nav web */
 
 /* form đăng nhập */
-.form-login {
-    height: 22.625em;
-    width: 31.25em;
+.form-login-inside {
     /* background: var(--color-white); */
     background: var(--color-white);
     border-radius: 0.75em;
     border: #d4d4d4;
 }
-.form-login> .form-login-header {
+.form-login-inside> .form-login-header {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #1f223017;
     padding: 1em 1.5em 1em 1.5em;
     align-items: center;
 }
-.form-login> .form-login-header> div {
+.form-login-inside> .form-login-header> div {
     font-weight: 700;
     font-size: 1.125em;
     line-height: 1.625em;
     color: #1F2230
 }
-.form-login>.form-login-account, .form-login-password {
+.form-login-inside>.form-login-account, .form-login-password {
     padding: 1em 1.5em 0 1.5em;
 }
-.form-login> .form-login-account >.form-login-account-header {
+.form-login-inside> .form-login-account >.form-login-account-header {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -704,7 +702,7 @@
     padding-bottom: 1em;
     padding-top: 1em;
 }
-.form-login> .form-login-password .form-login-account-header{
+.form-login-inside> .form-login-password .form-login-account-header{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -712,7 +710,7 @@
     padding-bottom: 1em;
 
 }
-.form-login> .form-login-account> input {
+.form-login-inside> .form-login-account> input {
     height: 3em;
     width: 100%;
     padding: 0.75em 1em;
@@ -720,7 +718,7 @@
     border: 0.0625em solid #E3E4EC;
     border-radius: 0.75em;
 }
-.form-login> .form-login-password> input {
+.form-login-inside> .form-login-password> input {
     height: 3em;
     width: 100%;
     padding: 0.75em 1em;
@@ -728,7 +726,7 @@
     border: 0.0625em solid #E3E4EC;
     border-radius: 0.75em;
 }
-.form-login>.form-login-note {
+.form-login-inside>.form-login-note {
     display: flex;
     padding: 1em 1.5em 1em 1.5em;
     font-weight: 600;
@@ -736,16 +734,19 @@
     line-height: 1.25em;
     gap: 0.5em;
 }
-.form-login>.form-login-note>.form-login-note-left {
+
+.form-login-inside>.form-login-note>.form-login-note-left {
     color: #51545F;
 }
-.form-login>.form-login-note>.form-login-note-right {
+
+.form-login-inside>.form-login-note>.form-login-note-left>span {
     color: #005487;
 }
-.form-login>.form-login-frame-btn{
+
+.form-login-inside>.form-login-frame-btn{
     padding: 1em;
 }
-.form-login>.form-login-frame-btn>.form-login-btn {
+.form-login-inside>.form-login-frame-btn>.form-login-btn {
     height: 2.5em;
     width: 13.5em;
     padding: 0.5em 1.5em;
