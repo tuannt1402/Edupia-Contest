@@ -329,7 +329,7 @@
 }
 
 
-
+/* nav-web */
 .nav-web {
     background-color: var(--background-color-blue);
     padding-left: 4em;
@@ -467,17 +467,17 @@
     color: var(--background-color-blue) !important;
 }
 
-.nav-web>.nav-web-content>.flex.nav-web-content-login {
+.nav-web>.nav-web-content>.nav-web-content-login {
     gap: 0.5em;
 }
 
-.nav-web>.nav-web-content>.flex.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-top {
+.nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-top {
     color: #FFF;
     font-size: 0.875em;
     font-weight: 600;
 }
 
-.nav-web>.nav-web-content>.flex.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
+.nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
     font-weight: 400;
     font-size: 0.75em;
     line-height: 2em;
@@ -628,17 +628,17 @@
     color: var(--background-color-blue) !important;
 }
 
-.nav-web-four>.nav-web-right>.nav-web-content>.flex.nav-web-content-login {
+.nav-web-four>.nav-web-right>.nav-web-content>.nav-web-content-login {
     gap: 0.5em;
 }
 
-.nav-web-four>.nav-web-right>.nav-web-content>.flex.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-top {
+.nav-web-four>.nav-web-right>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-top {
     color: #FFF;
     font-size: 0.875em;
     font-weight: 600;
 }
 
-.nav-web-four>.nav-web-right>.nav-web-content>.flex.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
+.nav-web-four>.nav-web-right>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
     font-weight: 400;
     font-size: 0.75em;
     line-height: 2em;
@@ -654,6 +654,312 @@
     height: 0.5em;
     margin-top: -0.4em;
 }
+/* end nav web */
+
+/* form đăng nhập */
+.form-login {
+    height: 22.625em;
+    width: 31.25em;
+    /* background: var(--color-white); */
+    background: var(--color-white);
+    border-radius: 0.75em;
+    border: #d4d4d4;
+}
+.form-login> .form-login-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #1f223017;
+    padding: 1em 1.5em 1em 1.5em;
+    align-items: center;
+}
+.form-login> .form-login-header> div {
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 1.625em;
+    color: #1F2230
+}
+.form-login>.form-login-account, .form-login-password {
+    padding: 1em 1.5em 0 1.5em;
+}
+.form-login> .form-login-account >.form-login-account-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #51545F;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.form-login> .form-login-password .form-login-account-header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #51545F;
+    padding-bottom: 1em;
+
+}
+.form-login> .form-login-account> input {
+    height: 3em;
+    width: 100%;
+    padding: 0.75em 1em;
+    gap: 0.625em;
+    border: 0.0625em solid #E3E4EC;
+    border-radius: 0.75em;
+}
+.form-login> .form-login-password> input {
+    height: 3em;
+    width: 100%;
+    padding: 0.75em 1em;
+    gap: 0.625em;
+    border: 0.0625em solid #E3E4EC;
+    border-radius: 0.75em;
+}
+.form-login>.form-login-note {
+    display: flex;
+    padding: 1em 1.5em 1em 1.5em;
+    font-weight: 600;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    gap: 0.5em;
+}
+.form-login>.form-login-note>.form-login-note-left {
+    color: #51545F;
+}
+.form-login>.form-login-note>.form-login-note-right {
+    color: #005487;
+}
+.form-login>.form-login-frame-btn{
+    padding: 1em;
+}
+.form-login>.form-login-frame-btn>.form-login-btn {
+    height: 2.5em;
+    width: 13.5em;
+    padding: 0.5em 1.5em;
+    background: #00CCCC;
+    border-radius: 0.5em;
+    border: initial;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+/* end form đăng nhập */
+
+
+/* nav-mobile-login-viewmobile */
+.nav-mobile-login-viewmobile {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame{
+    height: 100%;
+    width: 15em;
+    background: #005487;
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>svg{
+    margin: 1.5em 1.5em 1em 1.5em;
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content {
+    padding: 1.5em;
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-btn{
+    height: 2.5em;
+    width: 8.6875em;
+    background-color: var(--color-yellow);
+    color: var(--colo-NeutralColors);
+    border-radius: 0.5em;
+    border: inherit;
+    font-weight: 700;
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-cuocthi{
+    display: flex;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--color-white);
+    padding: 2em 0em 1em 0em;
+    gap: 0.5em;
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-cuocthi>.nav-mobile-login-viewmobile-content-texttintuc>.nav-mobile-login-viewmobile-content-tintuc-backgound {
+    background: #00CCCC;
+    height: 0.5em;
+    margin-top: -0.4em;
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-ontap, .nav-mobile-login-viewmobile-content-tuluyen, .nav-mobile-login-viewmobile-content-tintuc{
+    display: flex;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--color-white);
+    padding: 2em 0em 1em 0em;
+    gap: 0.5em;
+    opacity: 0.7;
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1em;
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-footer>.nav-mobile-login-viewmobile-content-footer-text>.nav-mobile-login-viewmobile-content-footer-texthotro{
+    height: 1.25em;
+    width: 9.625em;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    font-weight: var(--mobile-text-font-weight-400);
+    color: var(--color-white);
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-footer>.nav-mobile-login-viewmobile-content-footer-text>.nav-mobile-login-viewmobile-content-footer-textnumber{
+    height: 1.5em;
+    width: 6.1875em;
+    font-size: var(--size-16px);
+    line-height: 1.5em;
+    color: var(--color-yellow);
+    font-weight: var(--btn-font-weight);
+}
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen{
+    position: relative;
+}
+.nav-mobile-login-viewmobile-content-tintuc-textuluyen-framesapramat {
+    position: absolute;
+    left: 3.625em;
+    top: 1.0625em;
+    background: rgba(0, 204, 204, 0.2);
+    border-radius: 1.5em;
+    padding: 0.125em 0.5em;
+    gap: 0.625em;
+    height: 1.125em;
+}
+.flex.nav-mobile-login-viewmobile-content-tintuc-textuluyen-textsapramat {
+    font-weight: 700;
+    font-size: 0.625em;
+    line-height: 0.875em;
+    color: #00CCCC;
+}
+/* end nav-mobile-login-viewmobile */
+
+
+/* nav-mobile-logged-viewmobile */
+.nav-mobile-logged-viewmobile {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame{
+    height: 100%;
+    width: 15em;
+    background: #005487;
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>svg{
+    margin: 1.5em 1.5em 1em 1.5em;
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content {
+    padding: 1.5em;
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-btn{
+    height: 2.5em;
+    width: 8.6875em;
+    background-color: var(--color-yellow);
+    color: var(--colo-NeutralColors);
+    border-radius: 0.5em;
+    border: inherit;
+    font-weight: 700;
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-cuocthi{
+    display: flex;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--color-white);
+    padding: 2em 0em 1em 0em;
+    gap: 0.5em;
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-cuocthi>.nav-mobile-logged-viewmobile-content-texttintuc>.nav-mobile-logged-viewmobile-content-tintuc-backgound {
+    background: #00CCCC;
+    height: 0.5em;
+    margin-top: -0.4em;
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-ontap, .nav-mobile-logged-viewmobile-content-tuluyen, .nav-mobile-logged-viewmobile-content-tintuc{
+    display: flex;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--color-white);
+    padding: 2em 0em 1em 0em;
+    gap: 0.5em;
+    opacity: 0.7;
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1em;
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-footer>.nav-mobile-logged-viewmobile-content-footer-text>.nav-mobile-logged-viewmobile-content-footer-texthotro{
+    height: 1.25em;
+    width: 9.625em;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    font-weight: var(--mobile-text-font-weight-400);
+    color: var(--color-white);
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-footer>.nav-mobile-logged-viewmobile-content-footer-text>.nav-mobile-logged-viewmobile-content-footer-textnumber{
+    height: 1.5em;
+    width: 6.1875em;
+    font-size: var(--size-16px);
+    line-height: 1.5em;
+    color: var(--color-yellow);
+    font-weight: var(--btn-font-weight);
+}
+.nav-mobile-content-logged{
+    justify-content: flex-start !important;
+    gap: 0.5em;
+}
+.nav-mobile-content-logged-text-top {
+    font-weight: 600;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    color: #FFFFFF;
+}
+.nav-mobile-content-logged-text-bottom-thongtintaikhoan {
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 1em;
+    color: #E3E4EC;
+    margin-right: 0
+    .2em;
+}
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-tuluyen{
+    position: relative;
+}
+.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-framesapramat {
+    position: absolute;
+    left: 3.625em;
+    top: 1.0625em;
+    background: rgba(0, 204, 204, 0.2);
+    border-radius: 1.5em;
+    padding: 0.125em 0.5em;
+    gap: 0.625em;
+    height: 1.125em;
+}
+.flex.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-textsapramat {
+    font-weight: 700;
+    font-size: 0.625em;
+    line-height: 0.875em;
+    color: #00CCCC;
+}
+/* end nav-mobile-logged-viewmobile */
+
+
+
 
 .footer-container-mobile-inside {
     display: grid;
@@ -662,11 +968,12 @@
     justify-content: center;
 }
 
+
 .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-text {
     width: max-content;
 }
 @media screen and (max-width: 1500px) {
-    .nav-web>.nav-web-content>.flex.nav-web-content-login> .nav-web-content-login-text>.nav-web-content-login-text-bottom{
+    .nav-web>.nav-web-content>.nav-web-content-login> .nav-web-content-login-text>.nav-web-content-login-text-bottom{
         font-size: 0.55em;
     }
     .nav-web>.nav-web-content>.btn-login{
@@ -738,7 +1045,7 @@
 
 
 @media screen and (max-width: 1300px) {
-    .nav-web>.nav-web-content>.flex.nav-web-content-login> .nav-web-content-login-text>.nav-web-content-login-text-bottom{
+    .nav-web>.nav-web-content>.nav-web-content-login> .nav-web-content-login-text>.nav-web-content-login-text-bottom{
         font-size: 0.45em;
     }
     .nav-web>.nav-web-content>.btn-login{
