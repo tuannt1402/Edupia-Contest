@@ -329,6 +329,10 @@
     margin-left: var(--size-16px);
 }
 
+.nav-mobile-login>.nav-mobile-login-content {
+    flex: 1;
+}
+
 .nav-mobile-login>.nav-mobile-login-content-svg {
     margin-left: var(--size-16px);
 }
@@ -1100,7 +1104,8 @@
 }
 
 @media screen and (max-width: 800px) {
-    .footer-container-mobile-inside>.footer-mobile-location, .footer-container-mobile-inside>.footer-mobile-text {
+    .footer-container-mobile-inside>.footer-mobile-location, 
+    .footer-container-mobile-inside>.footer-mobile-text {
         margin-top: 0.5em;
     }
 
@@ -1118,10 +1123,6 @@
         display: flex;
     }
 
-    .choose-province-container>.nav-mobile-login>.nav-mobile-login-content {
-        flex: 1;
-    }
-
     .choose-province-container>.nav-web {
         display: none;
     }
@@ -1135,8 +1136,13 @@
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
         font-size: 0.6em;
     }
-
     /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+    .register-container>.nav-mobile-login {
+        display: flex;
+    }
+    /* End-register-web */
 
 }
 
@@ -1177,6 +1183,5 @@
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join {
         width: 8.3125em;
     }
-
     /* End-Edupia-choose-province */
 }
