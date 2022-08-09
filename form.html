@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="eduapia-contest.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fac00012f5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="include.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+<!-- form đăng nhập -->
+ <!-- <div class="form-login">
+    <div class="row">
+        <div class="col">
+            <div class="form-login-inside">
+                <div class="form-login-header">
+                    <div>Đăng nhập</div>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 11L1 0.999999M1 11L11 1" stroke="#1F2230" stroke-width="2" stroke-linecap="round"/>
+                    </svg>            
+                </div>
+                <div class="form-login-account">
+                    <div class="form-login-account-header">Tên đăng nhập / Số điện thoại</div>
+                    <input placeholder="Tên đăng nhập / Số điện thoại">
+                </div>
+                <div class="form-login-password">
+                    <div class="form-login-account-header">Mật khẩu</div>
+                    <input placeholder="Nhập mật khẩu">
+                </div>
+
+                    <div class="form-login-note">
+                        <div class="form-login-note-left">Quên mật khẩu?
+                            <span>Nhận mã xác thực gửi về số điện thoại để đăng nhập</span>
+                        </div>
+                    </div>
+
+                    <div class="flex form-login-frame-btn">
+                        <button class="form-login-btn">Đăng nhập</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  -->
+<!-- end form đăng nhập  -->
+
+
+
+<!-- form-chưa có thông tin -->
+<!-- <div class="form-noinfor">
+    <div class="row">
+        <div class="col">
+            <div class="form-noinfor-inside">
+                <div class="form-noinfor-inside-header">
+                    <div class="form-noinfor-inside-header-top">Xin chào 09764357821</div>
+                    <div class="form-noinfor-inside-header-bottom">Vui lòng hoàn thiện đầy đủ thông tin bên dưới để tham gia cuộc thi</div>
+                    <img src="images/OBJECTS.svg">
+                </div>
+                <div class="form-noinfor-inside-content">
+                    <div class="form-noinfor-inside-content-fullname">
+                        <input placeholder="Họ và tên học sinh">
+                        <div class="form-noinfor-inside-content-fullname-noti">Vui lòng nhập thông tin này</div>
+                    </div>
+                    <div class="form-noinfor-inside-content-conscious">
+                        <input value="Tỉnh Thái Bình">
+                    </div>
+                    <div class="form-noinfor-inside-content-district">
+                        Quận / Huyện
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.27925 11.5864C6.34444 10.7972 4.76264 8.64923 4.2548 7.55035C4.17393 7.37496 4.00267 6.92783 4.00029 6.83147C3.99315 6.62685 4.11922 6.42981 4.3214 6.33454C4.3999 6.29773 4.9125 6.18947 5.14085 6.15482C5.83541 6.05198 6.91413 5.99893 7.99879 6.00002C9.13697 5.99893 10.2668 6.05631 10.9543 6.17106C11.1398 6.20138 11.5668 6.29015 11.6357 6.31614C11.7642 6.36486 11.8653 6.45363 11.9283 6.56081C11.9771 6.64309 12.0032 6.73728 11.9997 6.83147C11.9973 6.92783 11.8463 7.31974 11.788 7.45399C11.336 8.51281 9.69714 10.7528 8.73379 11.5756C8.64697 11.6492 8.41386 11.8517 8.36629 11.8852C8.25925 11.9621 8.12961 12 7.99879 12C7.87748 12 7.75379 11.9664 7.65032 11.8971C7.5968 11.8614 7.35893 11.6546 7.27925 11.5864Z" fill="#51545F"/>
+                        </svg>
+                    </div>
+                    <div class="form-noinfor-inside-content-wards">
+                        Phường / Xã
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.27925 11.5864C6.34444 10.7972 4.76264 8.64923 4.2548 7.55035C4.17393 7.37496 4.00267 6.92783 4.00029 6.83147C3.99315 6.62685 4.11922 6.42981 4.3214 6.33454C4.3999 6.29773 4.9125 6.18947 5.14085 6.15482C5.83541 6.05198 6.91413 5.99893 7.99879 6.00002C9.13697 5.99893 10.2668 6.05631 10.9543 6.17106C11.1398 6.20138 11.5668 6.29015 11.6357 6.31614C11.7642 6.36486 11.8653 6.45363 11.9283 6.56081C11.9771 6.64309 12.0032 6.73728 11.9997 6.83147C11.9973 6.92783 11.8463 7.31974 11.788 7.45399C11.336 8.51281 9.69714 10.7528 8.73379 11.5756C8.64697 11.6492 8.41386 11.8517 8.36629 11.8852C8.25925 11.9621 8.12961 12 7.99879 12C7.87748 12 7.75379 11.9664 7.65032 11.8971C7.5968 11.8614 7.35893 11.6546 7.27925 11.5864Z" fill="#51545F"/>
+                        </svg>
+                    </div>
+                    <div class="form-noinfor-inside-content-school">
+                        Trường
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.27925 11.5864C6.34444 10.7972 4.76264 8.64923 4.2548 7.55035C4.17393 7.37496 4.00267 6.92783 4.00029 6.83147C3.99315 6.62685 4.11922 6.42981 4.3214 6.33454C4.3999 6.29773 4.9125 6.18947 5.14085 6.15482C5.83541 6.05198 6.91413 5.99893 7.99879 6.00002C9.13697 5.99893 10.2668 6.05631 10.9543 6.17106C11.1398 6.20138 11.5668 6.29015 11.6357 6.31614C11.7642 6.36486 11.8653 6.45363 11.9283 6.56081C11.9771 6.64309 12.0032 6.73728 11.9997 6.83147C11.9973 6.92783 11.8463 7.31974 11.788 7.45399C11.336 8.51281 9.69714 10.7528 8.73379 11.5756C8.64697 11.6492 8.41386 11.8517 8.36629 11.8852C8.25925 11.9621 8.12961 12 7.99879 12C7.87748 12 7.75379 11.9664 7.65032 11.8971C7.5968 11.8614 7.35893 11.6546 7.27925 11.5864Z" fill="#51545F"/>
+                        </svg>
+                    </div>
+                    <div class="form-noinfor-inside-content-grade">
+                        Khối lớp
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.27925 11.5864C6.34444 10.7972 4.76264 8.64923 4.2548 7.55035C4.17393 7.37496 4.00267 6.92783 4.00029 6.83147C3.99315 6.62685 4.11922 6.42981 4.3214 6.33454C4.3999 6.29773 4.9125 6.18947 5.14085 6.15482C5.83541 6.05198 6.91413 5.99893 7.99879 6.00002C9.13697 5.99893 10.2668 6.05631 10.9543 6.17106C11.1398 6.20138 11.5668 6.29015 11.6357 6.31614C11.7642 6.36486 11.8653 6.45363 11.9283 6.56081C11.9771 6.64309 12.0032 6.73728 11.9997 6.83147C11.9973 6.92783 11.8463 7.31974 11.788 7.45399C11.336 8.51281 9.69714 10.7528 8.73379 11.5756C8.64697 11.6492 8.41386 11.8517 8.36629 11.8852C8.25925 11.9621 8.12961 12 7.99879 12C7.87748 12 7.75379 11.9664 7.65032 11.8971C7.5968 11.8614 7.35893 11.6546 7.27925 11.5864Z" fill="#51545F"/>
+                        </svg>
+                    </div>
+                </div>
+                <input class="form-noinfor-inside-class" placeholder="Lớp">
+                <div class="form-noinfor-inside-btn">
+                    <div class="flex form-noinfor-inside-btn-back">Quay lại</div>
+                    <div class="flex form-noinfor-inside-btn-confirm">Xác nhận</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!--end form-chưa có thông tin -->
+
+
+
+
+<!-- form-notification -->
+    <!-- <div class="form-notification">
+        <div class="row">
+            <div class="col">
+                <div class="form-notification-inside">
+                    <div class="form-notification-inside-header">
+                        <div>Thông báo</div>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 11L1 0.999999M1 11L11 1" stroke="#1F2230" stroke-width="2" stroke-linecap="round"/>
+                        </svg>            
+                    </div>
+                    <div class="form-notification-inside-content">
+                        <div class="flex form-notification-inside-content-frame">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_i_9719_10647)">
+                                <circle cx="30" cy="30" r="30" fill="#3AB384"/>
+                                </g>
+                                <g filter="url(#filter1_d_9719_10647)">
+                                <path d="M17.333 30.0002L25.9895 38.6668L43.333 21.3335" stroke="white" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"/>
+                                </g>
+                                <defs>
+                                <filter id="filter0_i_9719_10647" x="0" y="0" width="60" height="62.6667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="2.66667"/>
+                                <feGaussianBlur stdDeviation="11"/>
+                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_9719_10647"/>
+                                </filter>
+                                <filter id="filter1_d_9719_10647" x="6.49967" y="11.1668" width="47.6667" height="39.0002" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="0.666667"/>
+                                <feGaussianBlur stdDeviation="2.66667"/>
+                                <feComposite in2="hardAlpha" operator="out"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_9719_10647"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_9719_10647" result="shape"/>
+                                </filter>
+                                </defs>
+                            </svg>
+                            <div class="form-notification-inside-content-frame-text">
+                                <div class="form-notification-inside-content-frame-text-top">Bạn đã đăng ký tham gia cuộc thi thành công</div>
+                                <div class="form-notification-inside-content-frame-text-bottom"><span>.</span>Bạn được tặng 60 ngày VIP để học tại edupia.vn</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex form-login-frame-btn">
+                        <button class="form-login-btn">Hoàn thành</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!--end form-notification -->
+
+
+
+
+
+<!-- Số điện thoại đã tham gia đúng cuộc thi này --1 -->
+<!-- <div class="form-noinfor">
+    <div class="row">
+        <div class="col">
+            <div class="form-noinfor-inside">
+                <div class="form-noinfor-inside-header">
+                    <div class="form-noinfor-inside-header-top">Đăng nhập cuộc thi</div>
+                    <div class="form-noinfor-inside-header-bottom">Số điện thoại 0973934891 đã đăng ký tham gia cuộc thi thành công. Vui lòng đăng nhập để tiếp tục</div>
+                    <img src="images/OBJECTS.svg">
+                </div>
+                <div class="form-noinfor-account">
+                    <div class="form-noinfor-account-header">Tên đăng nhập / Số điện</div>
+                    <input value="0973934891">
+                </div>
+                <div class="form-noinfor-password">
+                    <div class="form-noinfor-account-header">Mật khẩu</div>
+                    <input placeholder="Nhập mật khẩu">
+                </div>
+
+                    <div class="form-noinfor-note">
+                        <div class="form-noinfor-note-left">Quên mật khẩu?
+                            <span>Nhận mã xác thực gửi về số điện thoại để đăng nhập</span>
+                        </div>
+                    </div>
+                <div class="form-noinfor-inside-btn">
+                    <div class="flex form-noinfor-inside-btn-back">Quay lại</div>
+                    <div class="flex form-noinfor-inside-btn-confirm">Xác nhận</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!--end Số điện thoại đã tham gia đúng cuộc thi này--1 -->
+
+
+
+
+<!-- Số điện thoại đã tham gia đúng cuộc thi này --2 -->
+<!-- <div class="form-noinfor">
+    <div class="row">
+        <div class="col">
+            <div class="form-noinfor-inside">
+                <div class="form-noinfor-inside-header">
+                    <div class="form-noinfor-inside-header-top">Đăng nhập cuộc thi</div>
+                    <div class="form-noinfor-inside-header-bottom">Số điện thoại 0973934891 đã đăng ký tham gia cuộc thi thành công. Vui lòng đăng nhập để tiếp tục</div>
+                    <img src="images/OBJECTS.svg">
+                </div>
+                <div class="form-noinfor-account">
+                    <div class="form-noinfor-account-header">Tên đăng nhập / Số điện</div>
+                    <div class="form-noinfor-account-header-frame">
+                                            <input value="0973934891">
+                    <button>Gửi</button>
+                    </div>
+                </div>
+                <div class="form-noinfor-password">
+                    <div class="form-noinfor-account-header">Mã xác thực</div>
+                    <input placeholder="Nhập mã xác thực 4 số">
+                </div>
+
+                <div class="form-noinfor-inside-btn">
+                    <div class="flex form-noinfor-inside-btn-back">Quay lại</div>
+                    <div class="flex form-noinfor-inside-btn-confirm">Xác nhận</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!--end Số điện thoại đã tham gia đúng cuộc thi này--2 -->
+
+
+
+
+
+<!--Số điện thoại đã tham gia đúng cuộc thi này--3 -->
+<!-- <div class="form-noinfor">
+    <div class="row">
+        <div class="col">
+            <div class="form-noinfor-inside">
+                <div class="form-noinfor-inside-header">
+                    <div class="form-noinfor-inside-header-top">Đăng nhập cuộc thi</div>
+                    <div class="form-noinfor-inside-header-bottom">Số điện thoại 0973934891 đã đăng ký tham gia cuộc thi thành công. Vui lòng đăng nhập để tiếp tục</div>
+                    <img src="images/OBJECTS.svg">
+                </div>
+                <div class="form-noinfor-account">
+                    <div class="form-noinfor-account-header">Tên đăng nhập / Số điện</div>
+                    <div class="form-noinfor-account-header-frame-three">
+                    <input value="0973934891">
+                    <button>Gửi lại</button>
+                    </div>
+                    <p>Mã xác thực đã được gửi về số điện thoại của bạn.</p>
+                </div>
+                <div class="form-noinfor-password-three">
+                    <div class="form-noinfor-account-header">Mã xác thực</div>
+                    <input placeholder="Nhập mã xác thực 4 số">
+                    <p>Mã xác thực không đúng, vui lòng thử lại.</p>
+                </div>
+
+                <div class="form-noinfor-inside-btn">
+                    <div class="flex form-noinfor-inside-btn-back">Quay lại</div>
+                    <div class="flex form-noinfor-inside-btn-confirm">Xác nhận</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!--end Số điện thoại đã tham gia đúng cuộc thi này--3 -->
+
+
+
+
+<!-- Số điện thoại đã tham gia đúng cuộc thi khác -->
+<!-- <div class="form-noinfor">
+    <div class="row">
+        <div class="col">
+            <div class="form-noinfor-inside">
+                <div class="form-noinfor-inside-header">
+                        <div>Thông báo</div>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 11L1 0.999999M1 11L11 1" stroke="#1F2230" stroke-width="2" stroke-linecap="round"/>
+                        </svg>            
+                </div>
+                <div class="form-noinfor-content">
+                    <svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.1" cx="30" cy="30" r="30" fill="#FF9F10"/>
+                        <path d="M22.1677 16.1955C25.7511 9.98881 34.7097 9.9888 38.2931 16.1955L47.6156 32.3425C51.199 38.5492 46.7197 46.3075 39.5529 46.3075H20.9079C13.7411 46.3075 9.26178 38.5492 12.8452 32.3425L22.1677 16.1955Z" fill="#FF9F10"/>
+                        <rect x="28.4551" y="19.1909" width="3.1554" height="14.5937" rx="1.5777" fill="white"/>
+                        <rect x="28.4551" y="35.3628" width="3.1554" height="3.1554" rx="1.5777" fill="white"/>
+                    </svg>
+                    <div class="form-noinfor-content-text">
+                        <div class="form-noinfor-content-text-top">Đăng ký không thành công</div>
+                        <div class="form-noinfor-content-text-bottom">Số điện thoại này đã tham gia cuộc thi ở tỉnh Vĩnh Phúc.<br>
+                            Vui lòng đăng nhập để được điều hướng về cuộc thi.</div>
+                    </div>                        
+                </div>
+                <div class="form-noinfor-account">
+                    <div class="form-noinfor-account-header">Tên đăng nhập / Số điện</div>
+                    <input value="0973934891">
+                </div>
+                <div class="form-noinfor-password">
+                    <div class="form-noinfor-account-header">Mật khẩu</div>
+                    <input placeholder="Nhập mật khẩu">
+                </div>
+
+                    <div class="form-noinfor-note">
+                        <div class="form-noinfor-note-left">Quên mật khẩu?
+                            <span>Nhận mã xác thực gửi về số điện thoại để đăng nhập</span>
+                        </div>
+                    </div>
+                <div class="flex form-noinfor-inside-btn-three">
+                    <div class="flex form-noinfor-inside-btn-confirm">Xác nhận</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!--end Số điện thoại đã tham gia đúng cuộc thi khác -->
+
+
+
+
+
+<!-- Số điện thoại chưa tham gia cuộc thi nào nhưng số này đã có tài khoản trên hệ thống -->
+<!-- <div class="form-noinfor">
+    <div class="row">
+        <div class="col">
+            <div class="form-noinfor-inside">
+                <div class="form-noinfor-inside-header">
+                        <div>Thông báo</div>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 11L1 0.999999M1 11L11 1" stroke="#1F2230" stroke-width="2" stroke-linecap="round"/>
+                        </svg>           
+                </div>
+                <div class="form-noinfor-content">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_i_9719_10647)">
+                        <circle cx="30" cy="30" r="30" fill="#3AB384"/>
+                        </g>
+                        <g filter="url(#filter1_d_9719_10647)">
+                        <path d="M17.333 30.0002L25.9895 38.6668L43.333 21.3335" stroke="white" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"/>
+                        </g>
+                        <defs>
+                        <filter id="filter0_i_9719_10647" x="0" y="0" width="60" height="62.6667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="2.66667"/>
+                        <feGaussianBlur stdDeviation="11"/>
+                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+                        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_9719_10647"/>
+                        </filter>
+                        <filter id="filter1_d_9719_10647" x="6.49967" y="11.1668" width="47.6667" height="39.0002" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="0.666667"/>
+                        <feGaussianBlur stdDeviation="2.66667"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_9719_10647"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_9719_10647" result="shape"/>
+                        </filter>
+                        </defs>
+                    </svg>
+                    <div class="form-noinfor-content-text-dathamgia">
+                        <div class="form-noinfor-content-text-top">Bạn đã đăng ký tham gia cuộc thi thành công</div>
+                        <div class="form-noinfor-content-text-center"><span>.</span>Bạn được tặng 60 ngày VIP để học tại edupia.vn</div>
+                        <div class="form-noinfor-content-text-bottom"><span>.</span>Vui lòng đăng nhập vào tài khoản của bạn</div>
+                    </div>                        
+                </div>
+                <div class="form-noinfor-account">
+                    <div class="form-noinfor-account-header">Tên đăng nhập / Số điện</div>
+                    <input value="0973934891">
+                </div>
+                <div class="form-noinfor-password">
+                    <div class="form-noinfor-account-header">Mật khẩu</div>
+                    <input placeholder="Nhập mật khẩu">
+                </div>
+
+                    <div class="form-noinfor-note">
+                        <div class="form-noinfor-note-left">Quên mật khẩu?
+                            <span>Nhận mã xác thực gửi về số điện thoại để đăng nhập</span>
+                        </div>
+                    </div>
+                <div class="flex form-noinfor-inside-btn-three">
+                    <div class="flex form-noinfor-inside-btn-confirm">Xác nhận</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!--end Số điện thoại chưa tham gia cuộc thi nào nhưng số này đã có tài khoản trên hệ thống -->
+
+
+
+
+
+<!-- Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống -->
+<div class="form-noinfor">
+    <div class="row">
+        <div class="col">
+            <div class="form-noinfor-inside">
+                <div class="form-noinfor-inside-header">
+                        <div>Thông báo</div>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 11L1 0.999999M1 11L11 1" stroke="#1F2230" stroke-width="2" stroke-linecap="round"/>
+                        </svg>           
+                </div>
+                <div class="form-noinfor-content">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_i_9719_10647)">
+                        <circle cx="30" cy="30" r="30" fill="#3AB384"/>
+                        </g>
+                        <g filter="url(#filter1_d_9719_10647)">
+                        <path d="M17.333 30.0002L25.9895 38.6668L43.333 21.3335" stroke="white" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"/>
+                        </g>
+                        <defs>
+                        <filter id="filter0_i_9719_10647" x="0" y="0" width="60" height="62.6667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="2.66667"/>
+                        <feGaussianBlur stdDeviation="11"/>
+                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+                        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_9719_10647"/>
+                        </filter>
+                        <filter id="filter1_d_9719_10647" x="6.49967" y="11.1668" width="47.6667" height="39.0002" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="0.666667"/>
+                        <feGaussianBlur stdDeviation="2.66667"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_9719_10647"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_9719_10647" result="shape"/>
+                        </filter>
+                        </defs>
+                    </svg>
+                    <div class="form-noinfor-content-text-dathamgia">
+                        <div class="form-noinfor-content-text-top">Bạn đã đăng ký tham gia cuộc thi thành công</div>
+                        <div class="form-noinfor-content-text-center"><span>.</span>Bạn được tặng 60 ngày VIP để học tại edupia.vn</div>
+                        <div class="form-noinfor-content-text-bottom"><span>.</span>Vui lòng ghi nhớ thông tin tài khoản để sử dụng</div>
+                    </div>                        
+                </div>
+                <div class="form-noinfor-notification">
+                    <div class="form-noinfor-notification-top">
+                        <div>Tài khoản:</div>
+                        <div>0973934891</div>
+                    </div>
+                    <div class="form-noinfor-notification-bottom">
+                        <div>Mật khẩu</div>
+                        <div>123456@</div>
+                    </div>
+                </div>
+                <div class="flex form-noinfor-inside-btn-three">
+                    <div class="flex form-noinfor-inside-btn-confirm">Hoàn thành</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--end Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống -->
+</body>
+
+</html>
