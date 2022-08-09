@@ -769,6 +769,14 @@
     color: #FFFFFF;
     font-weight: 700;
 }
+.form-login-btn {
+    padding: 0.5em 1.5em;
+    background: #00CCCC;
+    border-radius: 0.5em;
+    border: initial;
+    color: #FFFFFF;
+    font-weight: 700;
+}
 
 /* end form đăng nhập */
 
@@ -866,8 +874,7 @@
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen {
     position: relative;
 }
-
-.nav-mobile-login-viewmobile-content-tintuc-textuluyen-framesapramat {
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen>.nav-mobile-login-viewmobile-content-tintuc-textuluyen-framesapramat {
     position: absolute;
     left: 3.625em;
     top: 1.0625em;
@@ -875,10 +882,9 @@
     border-radius: 1.5em;
     padding: 0.125em 0.5em;
     gap: 0.625em;
-    height: 1.125em;
+    height: 1.5em;
 }
-
-.flex.nav-mobile-login-viewmobile-content-tintuc-textuluyen-textsapramat {
+.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen>.flex.nav-mobile-login-viewmobile-content-tintuc-textuluyen-textsapramat {
     font-weight: 700;
     font-size: 0.625em;
     line-height: 0.875em;
@@ -1001,8 +1007,7 @@
 .nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-tuluyen {
     position: relative;
 }
-
-.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-framesapramat {
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-tuluyen>.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-framesapramat {
     position: absolute;
     left: 3.625em;
     top: 1.0625em;
@@ -1010,10 +1015,9 @@
     border-radius: 1.5em;
     padding: 0.125em 0.5em;
     gap: 0.625em;
-    height: 1.125em;
+    height: 1.5em;
 }
-
-.flex.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-textsapramat {
+.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-tuluyen>.flex.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-textsapramat {
     font-weight: 700;
     font-size: 0.625em;
     line-height: 0.875em;
@@ -1027,6 +1031,7 @@
     position: absolute;
     background: rgba(0, 0, 0, 0.8);
     height: 100%;
+    width: 100%;
     top: 0;
     z-index: 1;
 }
@@ -1045,12 +1050,20 @@
     border: #d4d4d4;
     height: 100%;
 }
-
+.form-noinfor-inside{
+    position: relative;
+}
 .form-noinfor-inside>.form-noinfor-inside-header>.form-noinfor-inside-header-top {
     font-weight: 700;
     font-size: 1.5em;
     line-height: 2em;
     color: #1F2230;
+    padding-top: 1em;
+}
+.form-noinfor-inside>.form-noinfor-inside-header>img{
+    position: absolute;
+    right: -8.8%;
+    top: -1em;
 }
 
 .form-noinfor-inside>.form-noinfor-inside-header>.form-noinfor-inside-header-bottom {
@@ -1059,6 +1072,7 @@
     line-height: 1.5em;
     color: #1F2230;
     opacity: 0.9;
+    padding-bottom: 1.5em;
 }
 
 .form-noinfor-inside>.form-noinfor-inside-content {
@@ -1093,6 +1107,7 @@
     border: 0.0625em solid #CDCED6;
     color: #1F2230;
     background-color: #F3F4F5;
+    font-weight: 400;
 }
 
 .form-noinfor-inside>.form-noinfor-inside-content>.form-noinfor-inside-content-district,
@@ -1145,9 +1160,6 @@
 }
 
 .form-noinfor-inside>.form-noinfor-inside-btn {
-    display: grid;
-    grid-template-columns: 30% 65%;
-    gap: 5%;
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -1157,8 +1169,7 @@
 
 /* form-notification */
 .form-notification {
-    /* background: var(--color-white); */
-    background: #36BFC7;
+    background: var(--color-white);
     border-radius: 0.75em;
     border: #d4d4d4;
     height: 100%;
@@ -1167,7 +1178,6 @@
 .form-notification-inside>.form-notification-inside-header {
     display: flex;
     justify-content: space-between;
-    /* border-bottom: 1px solid #1f223017; */
     padding: 1em;
     align-items: center;
 }
@@ -1189,21 +1199,287 @@
     padding: 1em;
     justify-content: flex-start !important;
 }
-
-.form-notification-inside-content-frame-text-top {
+.form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame>.form-notification-inside-content-frame-text>.form-notification-inside-content-frame-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
 }
-
-.form-notification-inside-content-frame-text-bottom {
+.form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame>.form-notification-inside-content-frame-text>.form-notification-inside-content-frame-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
     color: #1F2230;
+    display: flex;
+    align-items: center;
+}
+.form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame>.form-notification-inside-content-frame-text>.form-notification-inside-content-frame-text-bottom>span {
+    width: 0.9375em;
+    height: 1.25em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame>.form-notification-inside-content-frame-text {
+    margin-left: 1em;
 }
 
 /* end form-notification */
+
+/* end form-notification */
+
+
+/*  Số điện thoại đã tham gia đúng cuộc thi này --1  */
+
+.form-noinfor-inside>.form-login-account,
+.form-login-password {
+    padding: 1em 1.5em 0 1.5em;
+}
+.form-noinfor-inside> .form-noinfor-account >.form-noinfor-account-header {
+    font-weight: 500;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    color: #51545F;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.form-noinfor-inside> .form-noinfor-password> .form-noinfor-account-header{
+    font-weight: 500;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    color: #51545F;
+    padding: 1em 0em;
+
+}
+
+.form-noinfor-inside>.form-noinfor-account>input {
+    height: 3em;
+    width: 100%;
+    padding: var(--size-12px) 1em;
+    gap: 0.625em;
+    border: 0.0625em solid #E3E4EC;
+    border-radius: var(--size-12px);
+    font-weight: 400;
+    background: #F3F4F5;
+}
+.form-noinfor-inside>.form-noinfor-password>input {
+    height: 3em;
+    width: 100%;
+    padding: var(--size-12px) 1em;
+    gap: 0.625em;
+    border: 0.0625em solid #E3E4EC;
+    border-radius: var(--size-12px);
+}
+.form-noinfor-inside>.form-noinfor-note{
+    display: flex;
+    padding: 1em 0em;
+    font-weight: 600;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    gap: 0.5em;
+}
+.form-noinfor-inside>.form-noinfor-note>.form-noinfor-note-left {
+    color: #51545F;
+}
+.form-noinfor-inside>.form-noinfor-note>.form-noinfor-note-left>span {
+    color: #005487;
+}
+ /*end Số điện thoại đã tham gia đúng cuộc thi này --1  */
+
+
+
+ /* Số điện thoại đã tham gia đúng cuộc thi này --2 */
+ .form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame>input {
+    height: 3em;
+    width: 100%;
+    padding: 1em 6em 1em 1em;
+    gap: 0.625em;
+    border: 0.0625em solid #E3E4EC;
+    border-radius: var(--size-12px);
+    font-weight: 400;
+    background: #F3F4F5;
+}
+.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame{
+    position: relative;
+}
+.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame>button {
+    position: absolute;
+    right: 1em;
+    top: 0.7em;
+    padding: 0.25em 1em;
+    background: #F9D742;
+    border-radius: 0.5em;
+    border: none;
+    font-weight: 700;
+    font-size: 0.875em;
+    line-height: 1.25em;
+}
+/* end Số điện thoại đã tham gia đúng cuộc thi này --2 */
+
+
+
+/* Số điện thoại đã tham gia đúng cuộc thi này --3 */
+.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame-three>input {
+    height: 3em;
+    width: 100%;
+    padding: 1em 6em 1em 1em;
+    gap: 0.625em;
+    border: 0.0625em solid #E3E4EC;
+    border-radius: var(--size-12px);
+    font-weight: 400;
+    background: #F3F4F5;
+}
+.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame-three{
+    position: relative;
+}
+.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame-three>button {
+    position: absolute;
+    right: 1em;
+    top: 0.7em;
+    padding: 0.25em 1em;
+    background: #A3A6B1;
+    border-radius: 0.5em;
+    border: none;
+    font-weight: 700;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    color: var(--color-white);
+}
+.form-noinfor-inside>.form-noinfor-account>p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #015488;
+    padding: 0.5em 0;
+}
+.form-noinfor-inside>.form-noinfor-password-three>input {
+    height: 3em;
+    width: 100%;
+    padding: var(--size-12px) 1em;
+    gap: 0.625em;
+    border: 0.0625em solid #DD3448;
+    border-radius: var(--size-12px);
+}
+.form-noinfor-inside> .form-noinfor-password-three> .form-noinfor-account-header{
+    font-weight: 500;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    color: #51545F;
+    padding: 1em 0em;
+
+}
+.form-noinfor-inside> .form-noinfor-password-three> p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #DD3448;
+}
+/* Số điện thoại đã tham gia đúng cuộc thi này --3 */
+
+
+ /* Số điện thoại đã tham gia đúng cuộc thi khác */
+
+.form-noinfor-inside>.form-noinfor-inside-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #1f223017;
+    padding: 1em 1em;
+    align-items: center;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+.form-noinfor-inside>.form-noinfor-content{
+    display: flex;
+    align-items: center;
+}
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text {
+    padding: 1.5em 1em;
+}
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text>.form-noinfor-content-text-top {
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #1F2230;
+}
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text>.form-noinfor-content-text-bottom {
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    color: #51545F;
+}
+.form-noinfor-inside>.form-noinfor-inside-header>div {
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 1.625em;
+    color: #1F2230
+}
+.form-noinfor-inside>.form-noinfor-inside-btn-three {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.form-noinfor-inside>.form-noinfor-inside-btn-three>.form-noinfor-inside-btn-confirm {
+    padding: 0.5em 4em;
+    gap: 1em;
+    background: #00CCCC;
+    border-radius: 0.5em;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #FFFFFF;
+}
+ /*end Số điện thoại đã tham gia đúng cuộc thi khác */
+
+
+
+
+ /* Số điện thoại chưa tham gia cuộc thi nào nhưng số này đã có tài khoản trên hệ thống */
+ .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia {
+    padding: 1.5em 1em;
+}
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-top {
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #1F2230;
+}
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-center {
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    color: #1F2230;
+    display: flex;
+    padding: 0.5em 0;
+}
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-center>span{
+    width: 1.5em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-bottom {
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    color: #005487;
+    display: flex;
+}
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-bottom>span{
+    width: 1.5em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+ /*end Số điện thoại chưa tham gia cuộc thi nào nhưng số này đã có tài khoản trên hệ thống */
+
+
+
+ /* Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống  */
+ .form-noinfor-inside>.form-noinfor-notification {
+    padding: 12px 20px;
+    border: 1px solid #E3E4EC;
+    border-radius: 8px;
+    background: #F6F7F8;
+}
+/* end Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống */
 
 .footer-container-mobile-inside {
     display: grid;
@@ -1211,6 +1487,8 @@
     grid-gap: var(--size-32px);
     justify-content: center;
 }
+
+
 
 .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-text {
     width: max-content;
