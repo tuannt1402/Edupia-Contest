@@ -769,6 +769,7 @@
     color: #FFFFFF;
     font-weight: 700;
 }
+
 .form-login-btn {
     padding: 0.5em 1.5em;
     background: #00CCCC;
@@ -874,6 +875,7 @@
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen {
     position: relative;
 }
+
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen>.nav-mobile-login-viewmobile-content-tintuc-textuluyen-framesapramat {
     position: absolute;
     left: 3.625em;
@@ -884,6 +886,7 @@
     gap: 0.625em;
     height: 1.5em;
 }
+
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen>.flex.nav-mobile-login-viewmobile-content-tintuc-textuluyen-textsapramat {
     font-weight: 700;
     font-size: 0.625em;
@@ -1007,6 +1010,7 @@
 .nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-tuluyen {
     position: relative;
 }
+
 .nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-tuluyen>.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-framesapramat {
     position: absolute;
     left: 3.625em;
@@ -1017,6 +1021,7 @@
     gap: 0.625em;
     height: 1.5em;
 }
+
 .nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-tuluyen>.flex.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-textsapramat {
     font-weight: 700;
     font-size: 0.625em;
@@ -1050,9 +1055,11 @@
     border: #d4d4d4;
     height: 100%;
 }
-.form-noinfor-inside{
+
+.form-noinfor-inside {
     position: relative;
 }
+
 .form-noinfor-inside>.form-noinfor-inside-header>.form-noinfor-inside-header-top {
     font-weight: 700;
     font-size: 1.5em;
@@ -1060,7 +1067,8 @@
     color: #1F2230;
     padding-top: 1em;
 }
-.form-noinfor-inside>.form-noinfor-inside-header>img{
+
+.form-noinfor-inside>.form-noinfor-inside-header>img {
     position: absolute;
     right: -8.8%;
     top: -1em;
@@ -1199,11 +1207,13 @@
     padding: 1em;
     justify-content: flex-start !important;
 }
+
 .form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame>.form-notification-inside-content-frame-text>.form-notification-inside-content-frame-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
 }
+
 .form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame>.form-notification-inside-content-frame-text>.form-notification-inside-content-frame-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
@@ -1212,6 +1222,7 @@
     display: flex;
     align-items: center;
 }
+
 .form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame>.form-notification-inside-content-frame-text>.form-notification-inside-content-frame-text-bottom>span {
     width: 0.9375em;
     height: 1.25em;
@@ -1219,6 +1230,7 @@
     display: flex;
     justify-content: center;
 }
+
 .form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame>.form-notification-inside-content-frame-text {
     margin-left: 1em;
 }
@@ -1234,7 +1246,8 @@
 .form-login-password {
     padding: 1em 1.5em 0 1.5em;
 }
-.form-noinfor-inside> .form-noinfor-account >.form-noinfor-account-header {
+
+.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header {
     font-weight: 500;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1242,7 +1255,8 @@
     padding-bottom: 1em;
     padding-top: 1em;
 }
-.form-noinfor-inside> .form-noinfor-password> .form-noinfor-account-header{
+
+.form-noinfor-inside>.form-noinfor-password>.form-noinfor-account-header {
     font-weight: 500;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1261,6 +1275,7 @@
     font-weight: 400;
     background: #F3F4F5;
 }
+
 .form-noinfor-inside>.form-noinfor-password>input {
     height: 3em;
     width: 100%;
@@ -1269,7 +1284,8 @@
     border: 0.0625em solid #E3E4EC;
     border-radius: var(--size-12px);
 }
-.form-noinfor-inside>.form-noinfor-note{
+
+.form-noinfor-inside>.form-noinfor-note {
     display: flex;
     padding: 1em 0em;
     font-weight: 600;
@@ -1277,18 +1293,21 @@
     line-height: 1.25em;
     gap: 0.5em;
 }
+
 .form-noinfor-inside>.form-noinfor-note>.form-noinfor-note-left {
     color: #51545F;
 }
+
 .form-noinfor-inside>.form-noinfor-note>.form-noinfor-note-left>span {
     color: #005487;
 }
- /*end Số điện thoại đã tham gia đúng cuộc thi này --1  */
+
+/*end Số điện thoại đã tham gia đúng cuộc thi này --1  */
 
 
 
- /* Số điện thoại đã tham gia đúng cuộc thi này --2 */
- .form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame>input {
+/* Số điện thoại đã tham gia đúng cuộc thi này --2 */
+.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame>input {
     height: 3em;
     width: 100%;
     padding: 1em 6em 1em 1em;
@@ -1298,9 +1317,11 @@
     font-weight: 400;
     background: #F3F4F5;
 }
-.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame{
+
+.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame {
     position: relative;
 }
+
 .form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame>button {
     position: absolute;
     right: 1em;
@@ -1313,6 +1334,7 @@
     font-size: 0.875em;
     line-height: 1.25em;
 }
+
 /* end Số điện thoại đã tham gia đúng cuộc thi này --2 */
 
 
@@ -1328,9 +1350,11 @@
     font-weight: 400;
     background: #F3F4F5;
 }
-.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame-three{
+
+.form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame-three {
     position: relative;
 }
+
 .form-noinfor-inside>.form-noinfor-account>.form-noinfor-account-header-frame-three>button {
     position: absolute;
     right: 1em;
@@ -1344,6 +1368,7 @@
     line-height: 1.5em;
     color: var(--color-white);
 }
+
 .form-noinfor-inside>.form-noinfor-account>p {
     font-weight: 600;
     font-size: 14px;
@@ -1351,6 +1376,7 @@
     color: #015488;
     padding: 0.5em 0;
 }
+
 .form-noinfor-inside>.form-noinfor-password-three>input {
     height: 3em;
     width: 100%;
@@ -1359,7 +1385,8 @@
     border: 0.0625em solid #DD3448;
     border-radius: var(--size-12px);
 }
-.form-noinfor-inside> .form-noinfor-password-three> .form-noinfor-account-header{
+
+.form-noinfor-inside>.form-noinfor-password-three>.form-noinfor-account-header {
     font-weight: 500;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1367,16 +1394,18 @@
     padding: 1em 0em;
 
 }
-.form-noinfor-inside> .form-noinfor-password-three> p {
+
+.form-noinfor-inside>.form-noinfor-password-three>p {
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     color: #DD3448;
 }
+
 /* Số điện thoại đã tham gia đúng cuộc thi này --3 */
 
 
- /* Số điện thoại đã tham gia đúng cuộc thi khác */
+/* Số điện thoại đã tham gia đúng cuộc thi khác */
 
 .form-noinfor-inside>.form-noinfor-inside-header {
     display: flex;
@@ -1387,35 +1416,42 @@
     margin-left: -1em;
     margin-right: -1em;
 }
-.form-noinfor-inside>.form-noinfor-content{
+
+.form-noinfor-inside>.form-noinfor-content {
     display: flex;
     align-items: center;
 }
+
 .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text {
     padding: 1.5em 1em;
 }
+
 .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text>.form-noinfor-content-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
     color: #1F2230;
 }
+
 .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text>.form-noinfor-content-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
     color: #51545F;
 }
+
 .form-noinfor-inside>.form-noinfor-inside-header>div {
     font-weight: 700;
     font-size: 1.125em;
     line-height: 1.625em;
     color: #1F2230
 }
+
 .form-noinfor-inside>.form-noinfor-inside-btn-three {
     padding-top: 1em;
     padding-bottom: 2em;
 }
+
 .form-noinfor-inside>.form-noinfor-inside-btn-three>.form-noinfor-inside-btn-confirm {
     padding: 0.5em 4em;
     gap: 1em;
@@ -1426,21 +1462,24 @@
     line-height: 1.5em;
     color: #FFFFFF;
 }
- /*end Số điện thoại đã tham gia đúng cuộc thi khác */
+
+/*end Số điện thoại đã tham gia đúng cuộc thi khác */
 
 
 
 
- /* Số điện thoại chưa tham gia cuộc thi nào nhưng số này đã có tài khoản trên hệ thống */
- .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia {
+/* Số điện thoại chưa tham gia cuộc thi nào nhưng số này đã có tài khoản trên hệ thống */
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia {
     padding: 1.5em 1em;
 }
+
 .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
     color: #1F2230;
 }
+
 .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-center {
     font-weight: 400;
     font-size: 0.875em;
@@ -1449,12 +1488,14 @@
     display: flex;
     padding: 0.5em 0;
 }
-.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-center>span{
+
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-center>span {
     width: 1.5em;
     font-weight: 900;
     display: flex;
     justify-content: center;
 }
+
 .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
@@ -1462,23 +1503,26 @@
     color: #005487;
     display: flex;
 }
-.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-bottom>span{
+
+.form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text-dathamgia>.form-noinfor-content-text-bottom>span {
     width: 1.5em;
     font-weight: 900;
     display: flex;
     justify-content: center;
 }
- /*end Số điện thoại chưa tham gia cuộc thi nào nhưng số này đã có tài khoản trên hệ thống */
+
+/*end Số điện thoại chưa tham gia cuộc thi nào nhưng số này đã có tài khoản trên hệ thống */
 
 
 
- /* Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống  */
- .form-noinfor-inside>.form-noinfor-notification {
+/* Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống  */
+.form-noinfor-inside>.form-noinfor-notification {
     padding: 12px 20px;
     border: 1px solid #E3E4EC;
     border-radius: 8px;
     background: #F6F7F8;
 }
+
 /* end Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống */
 
 .footer-container-mobile-inside {
@@ -1544,6 +1588,107 @@
     right: -3%;
     top: -17%;
 }
+
+/* Begin-form-ranking */
+.ranking {
+    background: rgba(54, 191, 199, 0.05);
+}
+
+.ranking>.ranking-header {
+    font-size: 2.5em;
+    font-weight: var(--btn-font-weight-700);
+    color: var(--background-color-blue);
+    padding-top: 1em;
+}
+
+.ranking>.ranking-table {
+    background-color: var(--color-white);
+    border: thin solid #E0E0E0;
+    border-radius: var(--size-16px);
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.ranking>.ranking-table-select>.form-select {
+    height: 2.5em;
+    width: 12.5625em;
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--primary-font-weight-600);
+    color: var(--background-color-blue);
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.ranking>.ranking-table-select>.form-select>.option-other-round {
+    color: black;
+}
+
+.ranking>.ranking-table>table {
+    margin-bottom: 0;
+}
+
+.ranking>.ranking-table>table>thead {
+    height: 4em;
+    vertical-align: middle;
+}
+
+.ranking>.ranking-table>table>tbody>.last-tr-table {
+    border-bottom: hidden;
+}
+
+.ranking>.ranking-table>table>thead>tr>.th-header {
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--mobile-text-font-weight-400);
+}
+
+.ranking>.ranking-table>table>tbody>tr>td>.ranking-table-td-text {
+    height: max-content;
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--primary-font-weight-600);
+    margin-top: 0.5em;
+    justify-content: flex-start;
+}
+
+.ranking>.ranking-table>table>tbody>tr>td>.table-td-number {
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+.ranking>.ranking-table>table>tbody>tr>td>.ranking-table-td-text>.ranking-table-td-score {
+    height: var(--font-size-28px);
+    width: 3.75em;
+    color: var(--color-white);
+    background-color: #00CCCC;
+    border-radius: 3px;
+}
+
+.ranking>.ranking-table>table>tbody>tr>td>.ranking-table-td-text>.ranking-table-td-time-done {
+    height: var(--font-size-28px);
+    width: 5.625em;
+    background-color: #E7FEFF;
+    border-radius: 3px;
+}
+
+/* End-form-ranking */
+
+/* Begin-form-ranking-non-date */
+.ranking>.non-date-table>.table>tbody>tr {
+    height: 50em;
+    border-bottom: hidden;
+}
+
+.ranking>.non-date-table>.table>tbody>tr>.th-non-data {
+    position: absolute;
+    top: 9%;
+    left: 44%;
+    border-bottom: hidden;
+}
+
+.ranking>.non-date-table>.table>tbody>tr>.th-non-data>.text-th-non-data {
+    text-align: center;
+    font-weight: var(--mobile-text-font-weight-400);
+}
+
+/* End-form-ranking-non-date */
 
 /* Begin-Edupia-choose-province */
 .choose-province-container>.choose-province-cover-pop-up {
@@ -1684,6 +1829,10 @@
 .register-container>.register-contest-rules {
     background-color: rgba(54, 191, 199, 0.05);
     margin-top: 0.5em;
+}
+
+.register-container>.rules-for-mobile-ranking {
+    margin-top: 0;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-header {
@@ -2042,6 +2191,81 @@
 
 /* End-register-mobile */
 
+/* Begin-mobile-ranking */
+.register-container>.ranking>.ranking-table-mobile {
+    background-color: #F3F4F5;
+}
+
+.register-container>.ranking>.other-number {
+    background-color: var(--color-white);
+}
+
+.register-container>.ranking>.first-number {
+    background-color:var(--color-white);
+}
+
+.register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-content {
+    border: 1px solid #E3E4EC;
+    border-radius: var(--size-16px);
+    margin-top: var(--size-16px);
+    margin-bottom: var(--size-16px);
+}
+
+.register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-content>.ranking-table-mobile-inside-content-text {
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--mobile-text-font-weight-400);
+    color: #7D808E;
+    margin-top: var(--size-16px);
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content: space-between;
+}
+
+.register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-content>.content-text-last-special {
+    margin-bottom: var(--size-16px);
+}
+
+.register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-content>.ranking-table-mobile-inside-content-text>.ranking-table-mobile-inside-content-text-second {
+    font-weight: 500;
+    color: #1F2230;
+}
+
+.register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-content>.ranking-table-mobile-inside-content-text>.number-second-score {
+    height: var(--font-size-28px);
+    width: 3.75em;
+    color: var(--color-white);
+    background-color: #00CCCC;
+    border-radius: 3px;
+}
+
+.register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-content>.ranking-table-mobile-inside-content-text>.number-third-score {
+    height: var(--font-size-28px);
+    width: 5.625em;
+    background-color:#E7FEFF;
+    border-radius: 3px;
+}
+
+.register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-header {
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--primary-font-weight-600);
+    justify-content: flex-start;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.register-container>.ranking>.first-number>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-header {
+    margin-left: 0;
+}
+
+.register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-header>.ranking-table-mobile-inside-header-text {
+    margin-left: var(--size-16px);
+}
+
+.register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-header>.ranking-table-mobile-inside-header-text>.ranking-table-mobile-inside-header-text-scholl {
+    font-weight: var(--mobile-text-font-weight-400);
+}
+/* End-mobile-ranking */
+
 @media screen and (max-width: 1700px) {
 
     /* Begin-register-mobile */
@@ -2209,6 +2433,7 @@
     .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
         margin-top: 3em;
     }
+
     /* End-register-web */
 }
 
@@ -2268,6 +2493,7 @@
     .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
         margin-top: 4em;
     }
+
     /* End-register-web */
 }
 
@@ -2288,6 +2514,10 @@
 
     .nav-web>.nav-web-content>.nav-web-content-menu {
         gap: 0 !important;
+    }
+
+    .ranking>.ranking-table>table>tbody>tr>td>.ranking-table-td-text {
+        font-size: var(--size-12px);
     }
 
     /* Begin-Edupia-choose-province */
@@ -2355,6 +2585,7 @@
     .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
         margin-top: 1em;
     }
+
     /* End-register-web */
 }
 
@@ -2422,6 +2653,7 @@
     .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
         margin-top: 2.5em;
     }
+
     /* End-register-web */
 }
 
@@ -2587,8 +2819,41 @@
     .register-container>.register-contest-rules>.register-contest-result {
         display: block;
     }
+
     /* End-register-web */
 
+    /* Begin-form-ranking */
+    .ranking-table {
+        display: none;
+    }
+
+    .ranking>.ranking-header {
+        font-size: var(--font-size-24px);
+    }
+
+    /* End-form-ranking */
+
+    /* Begin-mobile-ranking */
+    .register-container>.ranking>.ranking-table-mobile {
+        display: block;
+    }
+
+    .register-container>.ranking>.non-active {
+        display: none;
+    }
+
+    .register-container>.ranking-button-mobile {
+        display: flex;   
+        margin-bottom: var(--size-16px);
+    }
+
+    .register-container>.ranking-button-mobile>.btn-join {
+        font-size: var(--primary-font-size-14px);
+        font-weight: var(--primary-font-weight-600);
+        color: #1F2230;
+        background-color: #F9D742;
+    }
+    /* End-mobile-ranking */
 }
 
 @media screen and (max-width: 700px) {
