@@ -415,15 +415,16 @@
 .nav-web>.nav-web-content {
     display: grid;
     grid-template-columns: 15% 72.5% 12.5%;
-    padding: 1em 0em;
     align-items: center;
     border-top: 0.03125em solid rgba(0, 204, 204, 0.2);
+    padding: 1em 0;
 }
 
 .nav-web>.nav-web-content>.nav-web-content-menu {
     list-style-type: none;
-    gap: 6%;
+    gap: 4%;
     margin-top: 0.5em;
+    justify-content: flex-start !important;
 }
 
 .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi {
@@ -432,8 +433,12 @@
     gap: 4%;
     font-weight: 600;
     color: var(--color-white);
+    font-size: 1em;
+    line-height: 1.5em;
 }
-
+.nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom>.nav-web-content-login-text-bottom-thongtintaikhoan {
+    width: 9em;
+}
 .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia {
     height: 1.5em;
     width: 11.3125em;
@@ -441,6 +446,7 @@
     font-weight: 400;
     color: var(--color-white);
     opacity: 0.7;
+    
 }
 
 .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-tuluyen {
@@ -1042,7 +1048,7 @@
 }
 
 .form-login {
-    margin-top: 50%;
+    margin-top: 25%;
 }
 
 /* end mobile-form-login */
@@ -1186,8 +1192,12 @@
 .form-notification-inside>.form-notification-inside-header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 1em ;
     align-items: center;
+    border-bottom: 1px solid #1f223017;
+    margin-left: -1em;
+    margin-right: -1em;
+    
 }
 
 .form-notification-inside>.form-notification-inside-header>div {
@@ -1198,9 +1208,7 @@
 }
 
 .form-notification-inside>.form-notification-inside-content {
-    border-top: 1px solid #1f223017;
-    margin-left: -1em;
-    margin-right: -1em;
+padding: 2em 0;
 }
 
 .form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame {
@@ -1448,7 +1456,7 @@
 }
 
 .form-noinfor-inside>.form-noinfor-inside-btn-three {
-    padding-top: 1em;
+    padding-top: 2em;
     padding-bottom: 2em;
 }
 
@@ -1515,15 +1523,57 @@
 
 
 
-/* Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống  */
-.form-noinfor-inside>.form-noinfor-notification {
-    padding: 12px 20px;
-    border: 1px solid #E3E4EC;
-    border-radius: 8px;
+ /* Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống  */
+ .form-noinfor-inside>.form-noinfor-notification {
+    padding: 0.75em 1.25em;
+    border: 0.0625em solid #E3E4EC;
+    border-radius: 0.5em;
     background: #F6F7F8;
 }
+.form-noinfor-inside>.form-noinfor-notification>.form-noinfor-notification-top,.form-noinfor-notification-bottom{
+    display: flex;
+    justify-content: space-between;
 
+}
+.form-noinfor-inside>.form-noinfor-notification>.form-noinfor-notification-top>.form-noinfor-notification-top-text {
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #7D808E;
+    padding-bottom: 1em;
+}
+.form-noinfor-inside>.form-noinfor-notification>.form-noinfor-notification-bottom>.form-noinfor-notification-bottom-text {
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #7D808E;
+}
 /* end Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống */
+
+
+
+/* Thông báo 1 */
+.form-notification-inside>.form-notification-inside-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F2230;
+}
+.form-notification-inside>.form-notification-inside-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1F2230;
+}
+.form-notification-inside>.form-login-frame-btn {
+    padding: 2em 0;
+}
+/* end thông báo 1 */
+
+
+
+
+
 
 .footer-container-mobile-inside {
     display: grid;
@@ -1827,8 +1877,7 @@
 }
 
 .register-container>.register-contest-rules {
-    background-color: rgba(54, 191, 199, 0.05);
-    margin-top: 0.5em;
+    background-color: #EFEFEF;
 }
 
 .register-container>.rules-for-mobile-ranking {
@@ -2265,6 +2314,91 @@
     font-weight: var(--mobile-text-font-weight-400);
 }
 /* End-mobile-ranking */
+
+
+
+
+/* Contest-ttcn */
+.form-information {
+    padding: 0.75em 0;
+    border: 1px solid #E3E4EC;
+    border-radius: 1em;
+    background: #F6F7F8;
+}
+.form-information-inside>.form-information-phone,.form-information-phone,.form-information-city,.form-information-district,.form-information-ward,.form-information-school,.form-information-unit,.form-information-class {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0 0;
+
+}
+.form-information-inside>.form-information-phone>.form-information-phone-head{
+    color: #7D808E;
+}
+.form-information-inside>.form-information-city>.form-information-city-head{
+    color: #7D808E;
+}
+.form-information-inside>.form-information-district>.form-information-district-head{
+    color: #7D808E;
+}
+.form-information-inside>.form-information-ward>.form-information-ward-head{
+    color: #7D808E;
+}
+.form-information-inside>.form-information-school>.form-information-school-head{
+    color: #7D808E;
+}
+.form-information-inside>.form-information-unit>.form-information-unit-head{
+    color: #7D808E;
+}
+.form-information-inside>.form-information-class>.form-information-class-head{
+    color: #7D808E;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-header {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #005487;
+    padding: 1em 0;
+    position: relative;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content {
+    padding: 32px 16px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content>.register-contest-rules-ttcn-content-textfullname {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515861;
+    padding: 0.5em 0;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content>.register-contest-rules-ttcn-content-fullname{
+    border: 1px solid #CDCED6;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content>.register-contest-rules-ttcn-content-textdate {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515861;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content>.register-contest-rules-ttcn-content-date {
+    border: 1px solid #CDCED6;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px 16px;
+    opacity: 0.7;
+}
+/* End Contest-ttcn */
+
 
 @media screen and (max-width: 1700px) {
 
