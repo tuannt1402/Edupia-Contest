@@ -701,34 +701,20 @@
 .form-login-password {
     padding: 1em 1.5em 0 1.5em;
 }
-<<<<<<< HEAD
-.form-login-inside> .form-login-account >.form-login-account-header {
+
+.form-login-inside>.form-login-account>.form-login-account-header {
     font-weight: 500;
     font-size: 0.875em;
     line-height: 1.25em;
-=======
-
-.form-login-inside>.form-login-account>.form-login-account-header {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
->>>>>>> 646da850ad31e43154576b55a5dc9ac37d8239e2
     color: #51545F;
     padding-bottom: 1em;
     padding-top: 1em;
 }
-<<<<<<< HEAD
-.form-login-inside> .form-login-password .form-login-account-header{
+
+.form-login-inside>.form-login-password .form-login-account-header {
     font-weight: 500;
     font-size: 0.875em;
     line-height: 1.25em;
-=======
-
-.form-login-inside>.form-login-password .form-login-account-header {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
->>>>>>> 646da850ad31e43154576b55a5dc9ac37d8239e2
     color: #51545F;
     padding-bottom: 1em;
 
@@ -769,13 +755,8 @@
     color: #005487;
 }
 
-<<<<<<< HEAD
-.form-login-inside>.form-login-frame-btn{
-    padding: 2em;
-=======
 .form-login-inside>.form-login-frame-btn {
-    padding: 1em;
->>>>>>> 646da850ad31e43154576b55a5dc9ac37d8239e2
+    padding: 2em;
 }
 
 .form-login-inside>.form-login-frame-btn>.form-login-btn {
@@ -885,12 +866,8 @@
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen {
     position: relative;
 }
-<<<<<<< HEAD
-.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen>.nav-mobile-login-viewmobile-content-tintuc-textuluyen-framesapramat {
-=======
 
 .nav-mobile-login-viewmobile-content-tintuc-textuluyen-framesapramat {
->>>>>>> 646da850ad31e43154576b55a5dc9ac37d8239e2
     position: absolute;
     left: 3.625em;
     top: 1.0625em;
@@ -900,12 +877,8 @@
     gap: 0.625em;
     height: 1.125em;
 }
-<<<<<<< HEAD
-.nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen>.flex.nav-mobile-login-viewmobile-content-tintuc-textuluyen-textsapramat {
-=======
 
 .flex.nav-mobile-login-viewmobile-content-tintuc-textuluyen-textsapramat {
->>>>>>> 646da850ad31e43154576b55a5dc9ac37d8239e2
     font-weight: 700;
     font-size: 0.625em;
     line-height: 0.875em;
@@ -1028,12 +1001,8 @@
 .nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-tuluyen {
     position: relative;
 }
-<<<<<<< HEAD
-.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-tuluyen>.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-framesapramat {
-=======
 
 .nav-mobile-logged-viewmobile-content-tintuc-textuluyen-framesapramat {
->>>>>>> 646da850ad31e43154576b55a5dc9ac37d8239e2
     position: absolute;
     left: 3.625em;
     top: 1.0625em;
@@ -1043,12 +1012,8 @@
     gap: 0.625em;
     height: 1.125em;
 }
-<<<<<<< HEAD
-.nav-mobile-logged-viewmobile>.nav-mobile-logged-viewmobile-frame>.nav-mobile-logged-viewmobile-content>.nav-mobile-logged-viewmobile-content-tuluyen>.flex.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-textsapramat {
-=======
 
 .flex.nav-mobile-logged-viewmobile-content-tintuc-textuluyen-textsapramat {
->>>>>>> 646da850ad31e43154576b55a5dc9ac37d8239e2
     font-weight: 700;
     font-size: 0.625em;
     line-height: 0.875em;
@@ -1065,6 +1030,7 @@
     top: 0;
     z-index: 1;
 }
+
 .form-login {
     margin-top: 50%;
 }
@@ -1079,12 +1045,14 @@
     border: #d4d4d4;
     height: 100%;
 }
+
 .form-noinfor-inside>.form-noinfor-inside-header>.form-noinfor-inside-header-top {
     font-weight: 700;
     font-size: 1.5em;
     line-height: 2em;
     color: #1F2230;
 }
+
 .form-noinfor-inside>.form-noinfor-inside-header>.form-noinfor-inside-header-bottom {
     font-weight: 400;
     font-size: 1em;
@@ -1100,14 +1068,16 @@
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
-.form-noinfor-inside>.form-noinfor-inside-content >.form-noinfor-inside-content-fullname>input {
+
+.form-noinfor-inside>.form-noinfor-inside-content>.form-noinfor-inside-content-fullname>input {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
     border: 0.0625em solid #DD3448;
     color: #A3A6B1;
 }
-.form-noinfor-inside>.form-noinfor-inside-content >.form-noinfor-inside-content-fullname>.form-noinfor-inside-content-fullname-noti {
+
+.form-noinfor-inside>.form-noinfor-inside-content>.form-noinfor-inside-content-fullname>.form-noinfor-inside-content-fullname-noti {
     font-weight: 400;
     font-size: 0.75em;
     line-height: 1em;
@@ -1115,7 +1085,8 @@
     padding-top: 0.5em;
     padding-bottom: 1em;
 }
-.form-noinfor-inside>.form-noinfor-inside-content >.form-noinfor-inside-content-conscious>input {
+
+.form-noinfor-inside>.form-noinfor-inside-content>.form-noinfor-inside-content-conscious>input {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
@@ -1123,7 +1094,11 @@
     color: #1F2230;
     background-color: #F3F4F5;
 }
-.form-noinfor-inside>.form-noinfor-inside-content >.form-noinfor-inside-content-district, .form-noinfor-inside-content-wards, .form-noinfor-inside-content-school, .form-noinfor-inside-content-grade{
+
+.form-noinfor-inside>.form-noinfor-inside-content>.form-noinfor-inside-content-district,
+.form-noinfor-inside-content-wards,
+.form-noinfor-inside-content-school,
+.form-noinfor-inside-content-grade {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
@@ -1134,7 +1109,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.form-noinfor-inside>.form-noinfor-inside-class{
+
+.form-noinfor-inside>.form-noinfor-inside-class {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
@@ -1145,6 +1121,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .form-noinfor-inside>.form-noinfor-inside-btn>.form-noinfor-inside-btn-back {
     padding: 0.5em 2em;
     gap: 1em;
@@ -1155,6 +1132,7 @@
     line-height: 1.5em;
     color: #51545F;
 }
+
 .form-noinfor-inside>.form-noinfor-inside-btn>.form-noinfor-inside-btn-confirm {
     padding: 0.5em 2em;
     gap: 1em;
@@ -1165,6 +1143,7 @@
     line-height: 1.5em;
     color: #FFFFFF;
 }
+
 .form-noinfor-inside>.form-noinfor-inside-btn {
     display: grid;
     grid-template-columns: 30% 65%;
@@ -1172,6 +1151,7 @@
     padding-top: 2em;
     padding-bottom: 2em;
 }
+
 /* end form -noinfor */
 
 
@@ -1183,41 +1163,47 @@
     border: #d4d4d4;
     height: 100%;
 }
-.form-notification-inside> .form-notification-inside-header {
+
+.form-notification-inside>.form-notification-inside-header {
     display: flex;
     justify-content: space-between;
     /* border-bottom: 1px solid #1f223017; */
     padding: 1em;
     align-items: center;
 }
-.form-notification-inside> .form-notification-inside-header >div {
+
+.form-notification-inside>.form-notification-inside-header>div {
     font-weight: 700;
     font-size: 1.125em;
     line-height: 1.625em;
     color: #1F2230;
 }
-.form-notification-inside> .form-notification-inside-content {
+
+.form-notification-inside>.form-notification-inside-content {
     border-top: 1px solid #1f223017;
     margin-left: -1em;
     margin-right: -1em;
 }
-.form-notification-inside> .form-notification-inside-content>.form-notification-inside-content-frame{
+
+.form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame {
     padding: 1em;
     justify-content: flex-start !important;
 }
+
 .form-notification-inside-content-frame-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
 }
+
 .form-notification-inside-content-frame-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
     color: #1F2230;
 }
-/* end form-notification */
 
+/* end form-notification */
 
 .footer-container-mobile-inside {
     display: grid;
@@ -1226,9 +1212,12 @@
     justify-content: center;
 }
 
-
 .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-text {
     width: max-content;
+}
+
+.footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-img>img {
+    width: 90%;
 }
 
 /* Begin-form-nhap-sdt  */
@@ -1276,322 +1265,6 @@
     position: absolute;
     right: -3%;
     top: -17%;
-}
-
-
-
-
-/* End-form-nhap-sdt */
-
-/* Begin-register-mobile */
-.register-container {
-    background-color: var(--color-white);
-}
-
-.register-container>.register-information {
-    background-color: var(--background-color-blue);
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    grid-gap: 3em;
-    padding: 0 4em 3em 9em;
-    margin-top: var(--size-32px)
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header {
-    justify-content: flex-start;
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-img>img {
-    height: 10em;
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-content {
-    color: var(--color-yellow-F9D742);
-    font-size: 2.5em;
-    font-weight: var(--btn-font-weight-700);
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.header-content-special-text {
-    font-size: 3.5em;
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content {
-    color: var(--color-white);
-    font-size: 1.5em;
-    font-weight: var(--mobile-text-font-weight-400);
-    margin-top: var(--size-32px);
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content>.register-information-inside-content-special-text {
-    color: var(--color-yellow-F9D742);
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content>p {
-    margin-top: var(--size-32px)
-}
-
-.register-container>.register-contest-introduction {
-    background-color: var(--color-white);
-}
-
-.register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
-    margin-top: var(--size-32px);
-}
-
-.register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content {
-    margin-top: var(--size-32px);
-}
-
-.register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-header {
-    color: var(--background-color-blue);
-    font-size: var(--font-size-28px);
-    font-weight: var(--btn-font-weight-700);
-}
-
-.register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-information>p {
-    font-size: var(--primary-font-size-14px);
-    font-weight: var(--mobile-text-font-weight-500);
-}
-
-.register-container>.register-contest-rules {
-    background-color: rgba(54, 191, 199, 0.05);
-    margin-top: 0.5em;
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-header {
-    padding-top: var(--size-32px);
-    padding-bottom: var(--size-32px);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-header>.register-contest-rules-header-text {
-    color: var(--background-color-blue);
-    font-size: var(--font-size-28px);
-    font-weight: var(--btn-font-weight-700);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-header>p {
-    font-size: var(--primary-font-size-14px);
-    font-weight: var(--mobile-text-font-weight-500);
-    margin-top: var(--size-16px);
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-header>.register-contest-rules-header-input>.primary-location-radius {
-    width: 9em;
-    font-weight: var(--mobile-text-font-weight-400);
-    margin-top: var(--size-16px);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form {
-    background-color: var(--color-white);
-    border: thin solid #E0E0E0;
-}
-
-.register-container>.register-contest-rules>.form-rounds {
-    margin-top: var(--size-32px);
-}
-
-.register-container>.register-contest-rules>.spcial-contest-rules-header {
-    padding-bottom: 0;
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside {
-    padding-top: var(--size-16px);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header {
-    justify-content: flex-start;
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content {
-    margin-left: var(--size-16px);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.register-form-inside-header-content-text {
-    color: var(--color-blue-0AB5DB);
-    font-size: var(--font-size-24px);
-    font-weight: var(--btn-font-weight-700);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.register-form-inside-header-content-status {
-    color: #3AB384;
-    font-weight: var(--mobile-text-font-weight-400);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-img {
-    margin-top: var(--size-16px);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content {
-    margin-top: var(--size-16px);
-    justify-content: flex-start;
-    align-items: baseline;
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content>.register-contest-rules-register-form-inside-content-text {
-    font-size: var(--primary-font-size-14px);
-    font-weight: var(--mobile-text-font-weight-500);
-    margin-left: 0.5em;
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content>.form-rounds-last-text {
-    margin-bottom: var(--size-16px);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content>.content-text-special {
-    font-size: var(--size-16px);
-    margin-left: 0;
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content>.register-contest-rules-register-form-inside-content-text>span {
-    font-weight: var(--btn-font-weight-700);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-btn>.btn-register {
-    width: 100%;
-    margin-top: var(--size-16px);
-    margin-bottom: var(--size-16px);
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.round-scholl {
-    color: #51545F;
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.round-second {
-    color: #225383;
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.round-third {
-    color: #3CA90A;
-}
-
-.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.round-final {
-    color: #FFA425;
-}
-
-.register-container>.register-contest-rules>.register-contest-result {
-    margin-top: var(--size-16px);
-}
-
-.register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside {
-    background-color: var(--color-white);
-    padding-bottom: 0.3em;
-    border-radius: 0.5em;
-}
-
-.register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside>.register-contest-result-inside-img>img {
-    width: -webkit-fill-available;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-}
-
-.register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside>.register-contest-result-inside-content {
-    font-weight: var(--btn-font-weight-700);
-    margin-top: var(--size-16px);
-    padding-left: var(--size-16px);
-    padding-right: var(--size-16px);
-}
-
-.register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside>.register-contest-result-inside-date {
-    color: #51545F;
-    font-size: var(--primary-font-size-14px);
-    font-weight: var(--mobile-text-font-weight-400);
-    margin-top: var(--size-16px);
-    margin-bottom: var(--size-16px);
-    padding-left: var(--size-16px);
-    padding-right: var(--size-16px);
-}
-
-.register-container>.register-contest-rules>.register-contest-footer {
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside {
-    margin-top: 3em;
-    margin-bottom: var(--size-16px);
-}
-
-.register-container>.nav-web {
-    padding-left: 10em;
-    padding-right: 11em;
-}
-
-.register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-text,
-.register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-number {
-    font-size: 1.5em;
-}
-
-.register-container>.nav-web>.nav-web-content {
-    font-size: 1.5em;
-    grid-template-columns: 15% 71.5% 13.5%;
-}
-
-.register-container>.nav-web>.nav-web-content>.nav-web-content-menu {
-    gap: 4%;
-}
-
-.register-container>.nav-web>.nav-web-content>.btn-login {
-    margin-left: 0;
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col {
-    font-size: 1.5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
-    margin-top: 4em;
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-img {
-    top: -4%;
-    right: -5%;
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-img>img {
-    height: 5.25em;
-    width: 9em;
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.register-contest-rules-register-form-inside-btn {
-    margin-top: 1em;
-}
-
-.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content {
-    margin-top: var(--size-32px);
-}
-
-/* End-register-mobile */
-
-
-@media screen and (max-width: 1500px) {
-    .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
-        font-size: 0.55em;
-    }
-
-    .nav-web>.nav-web-content>.btn-login {
-        margin-left: var(--size-32px);
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .nav-web>.nav-web-content>.btn-login {
-        margin-left: 1em;
-    }
-
-    .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
-        margin-left: 0;
-    }
-}
-
-.footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-img>img {
-    width: 90%;
 }
 
 /* Begin-Edupia-choose-province */
@@ -1645,6 +1318,514 @@
 /* End-Edupia-choose-province */
 
 
+/* End-form-nhap-sdt */
+
+/* Begin-register-mobile */
+.register-container {
+    background-color: var(--color-white);
+}
+
+.register-container>.register-information {
+    background-color: var(--background-color-blue);
+    padding-top: 3em;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 3em;
+    padding: 0 4em 3em 9em;
+    margin-top: var(--size-32px)
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header {
+    justify-content: flex-start;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-img>img {
+    height: 10em;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-content {
+    color: var(--color-yellow-F9D742);
+    font-size: 2.5em;
+    font-weight: var(--btn-font-weight-700);
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.header-content-special-text {
+    font-size: 2.5em;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content {
+    color: var(--color-white);
+    font-size: 1.3em;
+    font-weight: var(--mobile-text-font-weight-400);
+    margin-top: var(--size-32px);
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content>.register-information-inside-content-special-text {
+    color: var(--color-yellow-F9D742);
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content>p {
+    margin-top: var(--size-32px)
+}
+
+.register-container>.register-contest-introduction {
+    background-color: var(--color-white);
+    padding-left: 15em;
+    padding-right: 20em;
+}
+
+.register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+    font-size: 1.5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    gap: 5em;
+}
+
+.register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-header {
+    color: var(--background-color-blue);
+    font-size: 2.5em;
+    font-weight: var(--btn-font-weight-700);
+}
+
+.register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-information {
+    margin-top: var(--size-16px);
+}
+
+.register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-information>p {
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--mobile-text-font-weight-500);
+}
+
+.register-container>.rules-for-mobile {
+    display: none;
+}
+
+.register-container>.register-contest-rules {
+    background-color: rgba(54, 191, 199, 0.05);
+    margin-top: 0.5em;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-header {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-header>.register-contest-rules-header-text {
+    color: var(--background-color-blue);
+    font-size: 2.5em;
+    font-weight: var(--btn-font-weight-700);
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-header>p {
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--mobile-text-font-weight-500);
+    margin-top: var(--size-16px);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-header>.register-contest-rules-header-input>.primary-location-radius {
+    width: 9em;
+    font-size: 1.5em;
+    font-weight: var(--mobile-text-font-weight-400);
+    margin-top: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form {
+    background-color: var(--color-white);
+    border: thin solid #E0E0E0;
+}
+
+.register-container>.register-contest-rules>.form-rounds {
+    margin-top: var(--size-32px);
+}
+
+.register-container>.register-contest-rules>.spcial-contest-rules-header {
+    padding-bottom: 0;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside {
+    padding-top: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header {
+    justify-content: flex-start;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content {
+    margin-left: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.register-form-inside-header-content-text {
+    color: var(--color-blue-0AB5DB);
+    font-size: var(--font-size-24px);
+    font-weight: var(--btn-font-weight-700);
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.register-form-inside-header-content-status {
+    color: #3AB384;
+    font-weight: var(--mobile-text-font-weight-400);
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-img {
+    margin-top: 0.5em;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content {
+    margin-top: var(--size-16px);
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content>.register-contest-rules-register-form-inside-content-text {
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--mobile-text-font-weight-500);
+    margin-left: 0.5em;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content>.form-rounds-last-text {
+    margin-bottom: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content>.content-text-special {
+    font-size: var(--size-16px);
+    margin-left: 0;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content>.register-contest-rules-register-form-inside-content-text>span {
+    font-weight: var(--btn-font-weight-700);
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-btn>.btn-register {
+    width: 100%;
+    margin-top: var(--size-16px);
+    margin-bottom: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.round-scholl {
+    color: #51545F;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.round-second {
+    color: #225383;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.round-third {
+    color: #3CA90A;
+}
+
+.register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-form-inside-header-content>.round-final {
+    color: #FFA425;
+}
+
+.register-container>.register-contest-rules>.register-contest-result {
+    margin-top: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
+    height: 400px;
+}
+
+.register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside {
+    height: 100%;
+}
+
+.register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside {
+    background-color: var(--color-white);
+    padding-bottom: 0.3em;
+    border-radius: 0.5em;
+}
+
+.register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside>.register-contest-result-inside-img>img {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside>.register-contest-result-inside-content {
+    font-weight: var(--btn-font-weight-700);
+    margin-top: var(--size-16px);
+    padding-left: var(--size-16px);
+    padding-right: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside>.register-contest-result-inside-date {
+    color: #51545F;
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--mobile-text-font-weight-400);
+    margin-top: var(--size-16px);
+    margin-bottom: var(--size-16px);
+    padding-left: var(--size-16px);
+    padding-right: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-result-laptop {
+    display: grid;
+    grid-template-columns: 33em 19em 19em;
+    grid-gap: 1em;
+    justify-content: center;
+}
+
+.register-container>.register-contest-rules>.register-contest-result-laptop {
+    margin-top: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside {
+    background-color: var(--color-white);
+    padding-bottom: 0.3em;
+    border-radius: 0.5em;
+}
+
+.register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-img>img {
+    width: 100%;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-content {
+    font-weight: var(--btn-font-weight-700);
+    margin-top: var(--size-16px);
+    padding-left: var(--size-16px);
+    padding-right: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.result-inside-special {
+    margin-top: 2em;
+}
+
+.register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+    color: #51545F;
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--mobile-text-font-weight-400);
+    margin-top: 6em;
+    margin-bottom: var(--size-16px);
+    padding-left: var(--size-16px);
+    padding-right: var(--size-16px);
+}
+
+.register-container>.register-contest-rules>.register-contest-footer {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside {
+    margin-bottom: var(--size-16px);
+}
+
+.register-container>.nav-web {
+    padding-left: 10em;
+    padding-right: 11em;
+}
+
+.register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-text,
+.register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-number {
+    font-size: 1.3em;
+}
+
+.register-container>.nav-web>.nav-web-content {
+    font-size: 1.2em;
+    grid-template-columns: 15% 71.5% 13.5%;
+}
+
+.register-container>.nav-web>.nav-web-content>.nav-web-content-menu {
+    gap: 4%;
+}
+
+.register-container>.nav-web>.nav-web-content>.btn-login {
+    margin-left: 0;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col {
+    font-size: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
+    margin-top: 4em;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-img {
+    top: -4%;
+    right: -5%;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-img>img {
+    height: 5.25em;
+    width: 9em;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.register-contest-rules-register-form-inside-btn {
+    margin-top: 1em;
+}
+
+.register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content {
+    margin-top: var(--size-32px);
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form {
+    height: 17.875em;
+    width: 78%;
+    margin-left: 11em;
+    margin-right: 12em;
+    border-radius: 0.5em;
+}
+
+.register-container>.rules-for-laptop>.form-laptop-round-second {
+    margin-top: var(--size-16px);
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside {
+    justify-content: flex-start;
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside {
+    padding-top: 0;
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3em;
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.special-header-laptop {
+    height: 15em;
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.rules-for-laptop-cover-content>.register-form-inside-header-content {
+    margin-left: var(--size-16px);
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.rules-for-laptop-cover-content>.register-form-inside-header-content>.register-form-inside-header-content-text {
+    color: var(--color-blue-0AB5DB);
+    font-size: var(--font-size-24px);
+    font-weight: var(--btn-font-weight-700);
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.rules-for-laptop-cover-content>.register-form-inside-header-content>.round-third-laptop {
+    color: var(--background-color-blue);
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.rules-for-laptop-cover-content>.register-form-inside-header-content>.round-four-laptop {
+    color: #3CA90A;
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.rules-for-laptop-cover-content>.register-form-inside-header-content>.round-final-laptop {
+    color: #FFA425;
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.rules-for-laptop-cover-content>.register-form-inside-header-content>.register-form-inside-header-content-status {
+    color: #3AB384;
+    font-weight: var(--mobile-text-font-weight-400);
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.rules-for-laptop-cover-content>.register-form-inside-header-content>.round-scholl {
+    color: black;
+    font-weight: var(--mobile-text-font-weight-400);
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content {
+    align-items: flex-end;
+    margin-top: var(--size-16px);
+    margin-bottom: 6em;
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.round-scholl-content-laptop {
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.round-scholl-third-content-laptop {
+    align-items: end;
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content>.register-contest-rules-register-form-inside-content-text {
+    font-weight: 500;
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.round-scholl-content-laptop>.register-contest-rules-register-form-inside-content-text {
+    font-weight: 500;
+    margin-top: 0.7em;
+    margin-left: 0.2em;
+}
+
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content>.register-contest-rules-register-form-inside-content-text>span {
+    font-weight: var(--btn-font-weight-700);
+}
+
+.register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-btn>.btn-register {
+    width: 21.125em;
+}
+
+/* End-register-mobile */
+
+@media screen and (max-width: 1700px) {
+
+    /* Begin-register-mobile */
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+        gap: 3em;
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+        font-size: 1.3em;
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-header {
+        font-size: 2em;
+    }
+
+    /* End-register-mobile */
+}
+
+
+@media screen and (max-width: 1500px) {
+    .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
+        font-size: 0.55em;
+    }
+
+    .nav-web>.nav-web-content>.btn-login {
+        margin-left: var(--size-32px);
+    }
+
+    /* Begin-register-web */
+    .register-container>.nav-web>.nav-web-content {
+        font-size: var(--size-16px);
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+        font-size: 1.2em;
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-header {
+        font-size: 1.5em;
+    }
+
+    /* End-register-web */
+}
+
+@media screen and (max-width: 1400px) {
+    .nav-web>.nav-web-content>.btn-login {
+        margin-left: 1em;
+    }
+
+    .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
+        margin-left: 0;
+    }
+
+    /* Begin-register-web */
+    .register-container>.register-contest-introduction {
+        padding-left: 11em;
+        padding-right: 9em;
+    }
+
+    /* End-register-web */
+}
+
 @media screen and (max-width: 1300px) {
     .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
         font-size: 0.45em;
@@ -1662,6 +1843,26 @@
     }
 
     /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.header-content-special-text {
+        font-size: 2em;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content {
+        font-size: 1.2em;
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+        font-size: 1em;
+    }
+
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content {
+        align-items: center;
+    }
+
+    /* End-register-web */
 
 }
 
@@ -1684,6 +1885,68 @@
     }
 
     /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+    .register-container>.nav-web {
+        padding-left: 7em;
+        padding-right: 8em;
+    }
+
+    .register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-text,
+    .register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-number {
+        font-size: var(--size-16px);
+    }
+
+    /* .register-container>.nav-web>.nav-web-content {
+        font-size: ;
+    } */
+
+    .register-container>.register-information>.row>.col>.register-information-inside {
+        font-size: 0.8em;
+    }
+
+    .register-container>.nav-web>.nav-web-content {
+        grid-template-columns: 15% 68.5% 21.5%;
+    }
+
+    .register-container>.nav-web>.nav-web-content>.btn-login {
+        margin-left: var(--size-16px);
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop {
+        display: grid;
+        grid-template-columns: 27em 16.875em 16.875em;
+        grid-gap: 1em;
+        justify-content: center;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
+        height: 320px;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.result-inside-special {
+        margin-top: 1em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 3em;
+    }
+    /* End-register-web */
+}
+
+@media screen and (max-width: 1150px) {
+
+    /* Begin-register-web */
+    .register-container>.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen-framesapramat {
+        right: -1em;
+        top: -1.5em;
+    }
+
+    .register-container>.nav-web>.nav-web-content {
+        grid-template-columns: 15% 63.5% 21.5%;
+    }
+
+    /* End-register-web */
 }
 
 @media screen and (max-width: 1100px) {
@@ -1711,6 +1974,23 @@
     }
 
     /* End-Edupia-choose-province */
+    /* Begin-register-web */
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content {
+        font-size: 0.8em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop {
+        grid-template-columns: 26em 15em 15em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
+        height: 310px;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 4em;
+    }
+    /* End-register-web */
 }
 
 @media screen and (max-width: 1000px) {
@@ -1753,6 +2033,51 @@
     }
 
     /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+    .register-container>.nav-web {
+        padding-left: 3em;
+        padding-right: 0;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside {
+        padding: 0 2em 1.5em 5em;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header>.form-input-phone-number-header-content {
+        font-size: var(--size-16px);
+    }
+
+    .register-container>.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen-framesapramat {
+        right: 2em;
+        top: -1em;
+    }
+
+    .register-container>.register-contest-introduction {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form {
+        height: 17.875em;
+        width: 78%;
+        margin-left: 5em;
+        margin-right: 12em;
+        border-radius: 0.5em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop {
+        grid-template-columns: 22em 13em 13em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
+        height: 270px;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 1em;
+    }
+    /* End-register-web */
 }
 
 @media screen and (max-width: 900px) {
@@ -1777,6 +2102,49 @@
     }
 
     /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+    .register-container>.register-information>.row>.col>.register-information-inside {
+        font-size: 0.6em;
+    }
+
+    .form-input-phone-number-inside>.row>.col>.form-input-phone-number-header>.form-input-phone-number-header-content {
+        font-size: 0.75em;
+    }
+
+    .register-container>.register-contest-introduction {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-btn>.btn-register {
+        width: 16.125em;
+    }
+
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.rules-for-laptop-cover-content {
+        font-size: 0.8em;
+    }
+
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content {
+        font-size: 0.7em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-content {
+        font-size: 0.8em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop {
+        grid-template-columns: 20em 12em 12em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
+        height: 240px;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 2.5em;
+    }
+    /* End-register-web */
 }
 
 @media screen and (max-width: 800px) {
@@ -1827,6 +2195,7 @@
 
     .register-container>.register-information>.row>.col>.register-information-inside {
         display: block;
+        font-size: var(--size-16px);
         padding: 0;
     }
 
@@ -1856,6 +2225,10 @@
         padding-left: 0;
     }
 
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside {
+        margin-top: 12%;
+    }
+
     .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col {
         font-size: unset;
         padding-left: var(--size-16px);
@@ -1882,6 +2255,59 @@
 
     .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content {
         margin-top: var(--size-16px);
+    }
+
+    .register-container>.register-contest-introduction {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+        display: block;
+        margin-top: var(--size-32px);
+        gap: unset;
+        font-size: var(--primary-font-size-14px);
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content {
+        margin-top: var(--size-32px);
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-header {
+        font-size: var(--font-size-28px);
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-header {
+        padding-top: var(--size-32px);
+        padding-bottom: var(--size-32px);
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-header>.register-contest-rules-header-text {
+        font-size: var(--font-size-28px);
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-header>.register-contest-rules-header-input>.primary-location-radius {
+        font-size: var(--size-16px);
+    }
+
+    .register-container>.rules-for-mobile {
+        display: block;
+    }
+
+    .register-container>.rules-for-laptop {
+        display: none;
+    }
+
+    .register-container>.register-information {
+        padding-top: 0;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside>.register-contest-result-inside-img>img {
+        width: -webkit-fill-available;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result {
+        display: block;
     }
     /* End-register-web */
 
