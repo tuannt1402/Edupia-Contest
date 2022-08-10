@@ -422,6 +422,7 @@
     align-items: center;
     border-top: 0.03125em solid rgba(0, 204, 204, 0.2);
     padding: 1em 0;
+    font-size: 1.2em;
 }
 
 .nav-web>.nav-web-content>.nav-web-content-menu {
@@ -440,7 +441,13 @@
     font-size: 1em;
     line-height: 1.5em;
 }
+<<<<<<< HEAD
 
+=======
+.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi{
+    width: 4em;
+}
+>>>>>>> dfc2f4eae641f7305a7201d892e58b375de7af7f
 .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom>.nav-web-content-login-text-bottom-thongtintaikhoan {
     width: 9em;
 }
@@ -453,6 +460,9 @@
     color: var(--color-white);
     opacity: 0.7;
 
+}
+.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia-nav-web-content-menu-textontapcungedupia{
+    width: 8.8em;
 }
 
 .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-tuluyen {
@@ -589,6 +599,7 @@
     padding: 1em 0em;
     align-items: center;
     border-top: 0.03125em solid rgba(0, 204, 204, 0.2);
+    font-size: 1.2em;
 }
 
 .nav-web-four>.nav-web-right>.nav-web-content>.nav-web-content-menu {
@@ -618,7 +629,7 @@
 
 .nav-web-four>.nav-web-right>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-tuluyen {
     height: 1.5em;
-    width: 5.5625em;
+    width: 10.5625em;
     gap: 4%;
     font-weight: 400;
     color: var(--color-white);
@@ -1009,6 +1020,7 @@
     font-size: 0.875em;
     line-height: 1.25em;
     color: #FFFFFF;
+    margin-bottom: 0.5em;
 }
 
 .nav-mobile-content-logged-text-bottom-thongtintaikhoan {
@@ -1421,9 +1433,12 @@
 
 /* Số điện thoại đã tham gia đúng cuộc thi khác */
 
-.form-noinfor-inside>.form-noinfor-inside-header {
+.form-noinfor>.row>.col>.form-noinfor-inside>.form-noinfor-inside-header{
     display: flex;
     justify-content: space-between;
+
+}
+.form-noinfor-inside>.form-noinfor-inside-header {
     border-bottom: 1px solid #1f223017;
     padding: 1em 1em;
     align-items: center;
@@ -1434,6 +1449,7 @@
 .form-noinfor-inside>.form-noinfor-content {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text {
@@ -2124,7 +2140,7 @@
 }
 
 .register-container>.nav-web>.nav-web-content>.nav-web-content-menu {
-    gap: 4%;
+    gap: 1%;
 }
 
 .register-container>.nav-web>.nav-web-content>.btn-login {
@@ -2402,30 +2418,46 @@
     padding: 1em 0;
     position: relative;
 }
+<<<<<<< HEAD
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content {
+=======
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile {
+>>>>>>> dfc2f4eae641f7305a7201d892e58b375de7af7f
     padding: 32px 16px;
     background: #FFFFFF;
     border-radius: 12px;
 }
+<<<<<<< HEAD
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content>.register-contest-rules-ttcn-content-textfullname {
+=======
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text {
+>>>>>>> dfc2f4eae641f7305a7201d892e58b375de7af7f
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #515861;
     padding: 0.5em 0;
 }
+<<<<<<< HEAD
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content>.register-contest-rules-ttcn-content-fullname {
+=======
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-input{
+>>>>>>> dfc2f4eae641f7305a7201d892e58b375de7af7f
     border: 1px solid #CDCED6;
     border-radius: 8px;
     padding: 12px 16px;
     width: 100%;
     margin-bottom: 1.5em;
 }
+<<<<<<< HEAD
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content>.register-contest-rules-ttcn-content-textdate {
+=======
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-head {
+>>>>>>> dfc2f4eae641f7305a7201d892e58b375de7af7f
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -2433,14 +2465,19 @@
     margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
+<<<<<<< HEAD
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content>.register-contest-rules-ttcn-content-date {
+=======
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-frame {
+>>>>>>> dfc2f4eae641f7305a7201d892e58b375de7af7f
     border: 1px solid #CDCED6;
     border-radius: 8px;
     width: 100%;
     padding: 12px 16px;
     opacity: 0.7;
 }
+<<<<<<< HEAD
 
 /* End Contest-ttcn */
 
@@ -2616,7 +2653,354 @@
 
 /* End-round-of-exams */
 
+=======
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh {
+    padding: 1em 0;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515861;
+    margin-bottom: 0.5em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame{
+    display: flex;
+    gap: 3%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,.register-contest-rules-ttcn-content-gioitinh-female {
+    padding: 10px 8px;
+    border: 1px solid #CDCED6;
+    border-radius: 10px;
+    width: 35%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked{
+    background-color: #00CCCC;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked{
+    background-color: #00CCCC;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-btn {
+    padding: 8px 32px;
+    background: #00CCCC;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
 
+/* web */
+
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web {
+    padding: 32px 16px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 10% 40% 40%;
+    gap: 2%;
+    justify-content: center;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515861;
+    padding: 0.5em 0;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-input{
+    border: 1px solid #CDCED6;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 100%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-head {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515861;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-frame {
+    border: 1px solid #CDCED6;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px 16px;
+    opacity: 0.7;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh {
+    padding: 1em 0;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515861;
+    margin-bottom: 0.5em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame{
+    display: flex;
+    gap: 3%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,.register-contest-rules-ttcn-content-gioitinh-female {
+    padding: 10px 8px;
+    border: 1px solid #CDCED6;
+    border-radius: 10px;
+    width: 35%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked{
+    background-color: #00CCCC;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked{
+    background-color: #00CCCC;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn {
+    padding: 8px 32px;
+    background: #00CCCC;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 65%;
+}
+.register-contest-rules-ttcn-content-web>.form-information>.row>.col>.form-information-inside>.form-information-phone, .form-information-phone, .form-information-city, .form-information-district, .form-information-ward, .form-information-school, .form-information-unit, .form-information-class {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0 0;
+}
+/* End Contest-ttcn */
+
+/* Thông tin cá nhân đầy đủ */
+.form-noinfor-inside>.form-noinfor-inside-header{
+    display: flex;
+    gap: 1em;
+}
+.form-noinfor-inside-ttcn>.form-noinfor-inside-header>.form-noinfor-inside-header-text>.form-noinfor-inside-header-text-bottom {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    gap: 1em;
+}
+.form-noinfor {
+    background: var(--color-white);
+    border-radius: 0.75em;
+    border: #d4d4d4;
+    height: 100%;
+}
+.form-noinfor-inside-ttcn>.form-noinfor-inside-header {
+    display: flex;
+    gap: 1em;
+    padding: 1em 0;
+}
+.form-noinfor-inside-ttcn>.form-noinfor-inside-header>.form-noinfor-inside-header-text>.form-noinfor-inside-header-text-top{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1F2230;
+}
+.form-noinfor-inside-ttcn {
+    position: relative;
+}
+.form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
+    position: absolute;
+    right: -8.8%;
+    top: -1em;
+}
+.form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    padding: 1em 0;
+}
+.form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>.form-noinfor-inside-ttcn-content-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F2230;
+}
+.form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>.form-noinfor-inside-ttcn-content-text>span{
+    color: #00CCCC;
+    font-weight: 500;
+}
+.form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-footer {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    padding-bottom: 2em;
+}
+.form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-footer>.form-noinfor-inside-ttcn-footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F2230;
+}
+/* End thông tin cá nhân đầy đủ */
+>>>>>>> dfc2f4eae641f7305a7201d892e58b375de7af7f
+
+
+/* News-Detail */
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header{
+    position: relative;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>img{
+    width: 100%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content{
+    padding: 16px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    position: absolute;
+    top: 65%;
+    left: 1em;
+    right: 1em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content>button {
+    background: #36BFC7;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 8px 24px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    gap: 1em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content>.register-contest-rules-News-mobile-header-content-text {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1F2230;
+    padding: 1em 0;
+    
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content>.register-contest-rules-News-mobile-header-content-bottom {
+    display: flex;
+    gap: 0.5em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #51545F;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content {
+    padding-top: 8em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #51545F;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>img{
+    width: 100%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>.register-contest-rules-News-mobile-content-textone{
+    padding: 0.5em 0;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>.register-contest-rules-News-mobile-content-texttwo>.register-contest-rules-News-mobile-content-texttwo-top,.register-contest-rules-News-mobile-content-texttwo-center,.register-contest-rules-News-mobile-content-texttwo-bottom{
+    padding: 1em 0;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>.register-contest-rules-News-mobile-content-textthree>.register-contest-rules-News-mobile-content-textthree-top,.register-contest-rules-News-mobile-content-textthree-center,.register-contest-rules-News-mobile-content-textthree-bottom{
+    padding: 1em 0;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>.register-contest-rules-News-web-content-texttwo>.register-contest-rules-News-web-content-texttwo-top,.register-contest-rules-News-web-content-texttwo-center,.register-contest-rules-News-web-content-texttwo-bottom{
+    padding: 1em 0;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>.register-contest-rules-News-web-content-textthree>.register-contest-rules-News-web-content-textthree-top,.register-contest-rules-News-web-content-textthree-center,.register-contest-rules-News-web-content-textthree-bottom{
+    padding: 1em 0;
+}
+/* web */
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+    position: relative;
+    padding: 0 10em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>img{
+    width: 100%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content{
+    padding: 16px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 2em;
+    left: 12em;
+    right: 12em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>button {
+    background: #36BFC7;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 8px 24px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    gap: 1em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>.register-contest-rules-News-web-header-content-text {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #1F2230;
+    padding: 1em 0;
+    
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>.register-contest-rules-News-web-header-content-bottom {
+    display: flex;
+    gap: 0.5em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #51545F;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content {
+    padding-left: 15em;
+    padding-right: 15em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #51545F;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>img{
+    width: 100%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>.register-contest-rules-News-web-content-textone,.register-contest-rules-News-web-content-texttwo,.register-contest-rules-News-web-content-textthree{
+    padding: 2em 0;
+}
+
+/*end News-Detail */
 @media screen and (max-width: 1700px) {
 
     /* Begin-register-mobile */
@@ -2637,14 +3021,16 @@
 
 
 @media screen and (max-width: 1500px) {
-    .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
-        font-size: 0.55em;
-    }
-
+    
     .nav-web>.nav-web-content>.btn-login {
         margin-left: var(--size-32px);
     }
-
+    .nav-web>.nav-web-content{
+        font-size: 1em;
+    }
+    .nav-web-four>.nav-web-right>.nav-web-content {
+        font-size: 1em;
+    }
     /* Begin-register-web */
     .register-container>.nav-web>.nav-web-content {
         font-size: var(--size-16px);
@@ -2662,6 +3048,18 @@
 }
 
 @media screen and (max-width: 1400px) {
+    /* news-detail */
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+        padding: 0 5em;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content{
+        left: 7em;
+        right: 7em;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content{
+        padding: 0 8em;
+    }
+    /* end-new detail */
     .nav-web>.nav-web-content>.btn-login {
         margin-left: 1em;
     }
@@ -2691,9 +3089,12 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
-        font-size: 0.45em;
+    /* news-detail */
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+        padding: 0 4em;
+
     }
+    /* end news-detail */
 
     .nav-web>.nav-web-content>.btn-login {
         margin-left: 0;
@@ -2740,6 +3141,30 @@
 }
 
 @media screen and (max-width: 1220px) {
+
+    /* Thông tin cá nhân */
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center {
+    margin-left: 2.5em;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn{
+        margin-right: 40%;
+        margin-left: 2.5em;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content{
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+        padding: 0 2em;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content{
+        padding: 0 4em;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content{
+        left: 6em;
+        right: 6em;
+    }
+    /* end thông tin cá nhân */
     .nav-web>.nav-web-content>.btn-login {
         font-size: 0.9em;
     }
@@ -2747,7 +3172,9 @@
     .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
         font-size: 0.9em;
     }
-
+    .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi, .nav-web-content-menu-textontapcungedupia, .nav-web-content-menu-textuluyen, .nav-web-content-menu-textintuc{
+        font-size: 0.8em;
+    }
     /* Begin-Edupia-choose-province */
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
         left: 15%;
@@ -2821,15 +3248,27 @@
 }
 
 @media screen and (max-width: 1150px) {
-
+    /* new detail */
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+        padding: 0;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content{
+        left: 2em;
+        right: 2em;
+        bottom: 0;
+    }
+    /* end new detail */
     /* Begin-register-web */
     .register-container>.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen-framesapramat {
         right: -1em;
-        top: -1.5em;
+        top: -1em;
     }
 
     .register-container>.nav-web>.nav-web-content {
         grid-template-columns: 15% 63.5% 21.5%;
+    }
+    .nav-web>.nav-web-content {
+        grid-template-columns: 15% 63.5% 21.5% !important;
     }
 
     /* End-register-web */
@@ -2895,7 +3334,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-
     .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi,
     .nav-web-content-menu-textontapcungedupia,
     .nav-web-content-menu-textuluye,
@@ -2941,6 +3379,10 @@
 
     /* Begin-register-web */
     .register-container>.nav-web {
+        padding-left: 3em;
+        padding-right: 0;
+    }
+    .nav-web {
         padding-left: 3em;
         padding-right: 0;
     }
@@ -3000,6 +3442,18 @@
 }
 
 @media screen and (max-width: 900px) {
+    /* news-detail */
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content{
+        left: 2em;
+        right: 2em;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>.register-contest-rules-News-web-header-content-text{
+        font-size: 20px;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+        padding: 0;
+    }
+    /* end new detail */
     .nav-web>.nav-web-content>.btn-login {
         font-size: 0.8em;
     }
@@ -3007,6 +3461,11 @@
     .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
         font-size: 0.8em;
     }
+    /* Thông tin cá nhân */
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn{
+        margin-right: 30%;
+    }
+    /*end Thông tin cá nhân */
 
     /* Begin-Edupia-choose-province */
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
@@ -3081,7 +3540,22 @@
 }
 
 @media screen and (max-width: 800px) {
-
+    /* news detail */
+    .register-container>.register-contest-rules>.register-contest-rules-News-web{
+        display: none;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-mobile{
+        display: block;
+    }
+    /* end news detail */
+    /* thông tin cá nhân */
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile{
+        display: block;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web{
+        display: none;
+    }
+    /* end thông tin cá nhân */
     .footer-container-mobile-inside>.footer-mobile-location,
     .footer-container-mobile-inside>.footer-mobile-text {
         margin-top: 0.5em;
