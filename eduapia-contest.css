@@ -445,7 +445,6 @@
 .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi {
     width: 4em;
 }
-
 .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom>.nav-web-content-login-text-bottom-thongtintaikhoan {
     width: 9em;
 }
@@ -1093,7 +1092,7 @@
 
 .form-noinfor-inside>.form-noinfor-inside-header>img {
     position: absolute;
-    right: -8.8%;
+    right: -1.8%;
     top: -1em;
 }
 
@@ -1243,6 +1242,7 @@
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
+    padding-bottom: 0.5em;
 }
 
 .form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame>.form-notification-inside-content-frame-text>.form-notification-inside-content-frame-text-bottom {
@@ -1465,6 +1465,7 @@
     font-size: 1em;
     line-height: 1.5em;
     color: #1F2230;
+    padding-bottom: 0.5em;
 }
 
 .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text>.form-noinfor-content-text-bottom {
@@ -2144,7 +2145,7 @@
 }
 
 .register-container>.nav-web>.nav-web-content>.nav-web-content-menu {
-    gap: 4%;
+    gap: 2%;
 }
 
 .register-container>.nav-web>.nav-web-content>.btn-login {
@@ -2469,40 +2470,54 @@
     color: #515861;
     margin-bottom: 0.5em;
 }
-
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame{
     display: flex;
     gap: 3%;
 }
-
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,
-.register-contest-rules-ttcn-content-gioitinh-female {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,.register-contest-rules-ttcn-content-gioitinh-female {
     padding: 10px 8px;
     border: 1px solid #CDCED6;
     border-radius: 10px;
     width: 35%;
+    background-color: #FFFFFF;
 }
-
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-date{
+    padding-top: 1em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-input{
+    border: 1px solid #CDCED6;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 100%;    
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-frame{
+    border: 1px solid #CDCED6;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 100%;    
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale {
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    margin-right: 0.5em;
 }
-
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked{
     background-color: #00CCCC;
 }
-
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale{
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    margin-right: 0.5em;
 }
-
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked{
     background-color: #00CCCC;
 }
-
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-btn {
     padding: 8px 32px;
     background: #00CCCC;
@@ -2526,7 +2541,6 @@
     gap: 2%;
     justify-content: center;
 }
-
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text {
     font-weight: 400;
     font-size: 14px;
@@ -2541,7 +2555,6 @@
     padding: 12px 16px;
     width: 100%;
 }
-
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-head {
     font-weight: 400;
     font-size: 14px;
@@ -2550,7 +2563,6 @@
     margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
-
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-frame {
     border: 1px solid #CDCED6;
     border-radius: 8px;
@@ -2558,11 +2570,9 @@
     padding: 12px 16px;
     opacity: 0.7;
 }
-
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh {
     padding: 1em 0;
 }
-
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
     font-weight: 400;
     font-size: 14px;
@@ -2570,21 +2580,17 @@
     color: #515861;
     margin-bottom: 0.5em;
 }
-
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame{
     display: flex;
     gap: 3%;
 }
-
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,
-.register-contest-rules-ttcn-content-gioitinh-female {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,.register-contest-rules-ttcn-content-gioitinh-female {
     padding: 10px 8px;
     border: 1px solid #CDCED6;
     border-radius: 10px;
     width: 35%;
 }
-
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale{
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -2603,7 +2609,6 @@
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked {
     background-color: #00CCCC;
 }
-
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn {
     padding: 8px 32px;
     background: #00CCCC;
@@ -2631,7 +2636,6 @@
     justify-content: space-between;
     padding: 1em 0 0;
 }
-
 /* End Contest-ttcn */
 
 /* Thông tin cá nhân đầy đủ */
@@ -2640,7 +2644,6 @@
     gap: 1em;
     justify-content: space-between;
 }
-
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header>.form-noinfor-inside-header-text>.form-noinfor-inside-header-text-bottom {
     font-weight: 400;
     font-size: 14px;
@@ -2648,14 +2651,12 @@
     display: flex;
     gap: 1em;
 }
-
 .form-noinfor {
     background: var(--color-white);
     border-radius: 0.75em;
     border: #d4d4d4;
     height: 100%;
 }
-
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header {
     display: flex;
     gap: 1em;
@@ -2675,7 +2676,7 @@
 
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
     position: absolute;
-    right: -8.8%;
+    right: -1.8%;
     top: -1em;
 }
 
@@ -3158,7 +3159,7 @@
 
 @media screen and (max-width: 1300px) {
     .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
-        font-size: 0.45em;
+        font-size: 0.55em;
     }
 
     /* end news-detail */
@@ -3242,6 +3243,7 @@
         font-size: 0.9em;
     }
 
+
     .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
         font-size: 0.9em;
     }
@@ -3266,8 +3268,8 @@
 
     /* Begin-register-web */
     .register-container>.nav-web {
-        padding-left: 7em;
-        padding-right: 8em;
+        padding-left: 6em;
+        padding-right: 6em;
     }
 
     .register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-text,
@@ -3347,7 +3349,7 @@
     /* Begin-register-web */
     .register-container>.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen-framesapramat {
         right: -1em;
-        top: -1.5em;
+        top: -1em;
     }
 
     .register-container>.nav-web>.nav-web-content {
@@ -3429,6 +3431,7 @@
     .nav-web-content-menu-textintuc {
         font-size: 0.8em;
     }
+
 
     .nav-web-four>.nav-web-right>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi,
     .nav-web-content-menu-textontapcungedupia,
