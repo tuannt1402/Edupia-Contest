@@ -441,9 +441,11 @@
     font-size: 1em;
     line-height: 1.5em;
 }
-.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi{
+
+.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi {
     width: 4em;
 }
+
 .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom>.nav-web-content-login-text-bottom-thongtintaikhoan {
     width: 9em;
 }
@@ -457,7 +459,8 @@
     opacity: 0.7;
 
 }
-.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia-nav-web-content-menu-textontapcungedupia{
+
+.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia-nav-web-content-menu-textontapcungedupia {
     width: 8.8em;
 }
 
@@ -1109,9 +1112,11 @@
     grid-template-columns: 48% 48%;
     margin-bottom: 1.5em;
 }
-.form-noinfor-inside-content-fullname{
+
+.form-noinfor-inside-content-fullname {
     padding-top: 2em;
 }
+
 .form-noinfor-inside>.form-noinfor-inside-content-fullname>input {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
@@ -1210,12 +1215,12 @@
 .form-notification>.row>.col>.form-notification-inside>.form-notification-inside-header {
     display: flex;
     justify-content: space-between;
-    padding: 1em ;
+    padding: 1em;
     align-items: center;
     border-bottom: 1px solid #1f223017;
     margin-left: -1em;
     margin-right: -1em;
-    
+
 }
 
 
@@ -1227,7 +1232,7 @@
 }
 
 .form-notification-inside>.form-notification-inside-content {
-padding: 2em 0;
+    padding: 2em 0;
 }
 
 .form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame {
@@ -1433,9 +1438,10 @@ padding: 2em 0;
 
 /* Số điện thoại đã tham gia đúng cuộc thi khác */
 
-.form-noinfor>.row>.col>.form-noinfor-inside>.form-noinfor-inside-header{
+.form-noinfor>.row>.col>.form-noinfor-inside>.form-noinfor-inside-header {
     display: block;
 }
+
 .form-noinfor-inside>.form-noinfor-inside-header {
     border-bottom: 1px solid #1f223017;
     padding: 1em 1em;
@@ -1543,18 +1549,21 @@ padding: 2em 0;
 
 
 
- /* Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống  */
- .form-noinfor-inside>.form-noinfor-notification {
+/* Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống  */
+.form-noinfor-inside>.form-noinfor-notification {
     padding: 0.75em 1.25em;
     border: 0.0625em solid #E3E4EC;
     border-radius: 0.5em;
     background: #F6F7F8;
 }
-.form-noinfor-inside>.form-noinfor-notification>.form-noinfor-notification-top,.form-noinfor-notification-bottom{
+
+.form-noinfor-inside>.form-noinfor-notification>.form-noinfor-notification-top,
+.form-noinfor-notification-bottom {
     display: flex;
     justify-content: space-between;
 
 }
+
 .form-noinfor-inside>.form-noinfor-notification>.form-noinfor-notification-top>.form-noinfor-notification-top-text {
     font-weight: 400;
     font-size: 1em;
@@ -1562,12 +1571,14 @@ padding: 2em 0;
     color: #7D808E;
     padding-bottom: 1em;
 }
+
 .form-noinfor-inside>.form-noinfor-notification>.form-noinfor-notification-bottom>.form-noinfor-notification-bottom-text {
     font-weight: 400;
     font-size: 1em;
     line-height: 1.5em;
     color: #7D808E;
 }
+
 /* end Số điện thoại chưa tham gia cuộc thi nào và không có tài khoản trên hệ thống */
 
 
@@ -1579,15 +1590,18 @@ padding: 2em 0;
     line-height: 24px;
     color: #1F2230;
 }
+
 .form-notification-inside>.form-notification-inside-description {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #1F2230;
 }
+
 .form-notification-inside>.form-login-frame-btn {
     padding: 2em 0;
 }
+
 /* end thông báo 1 */
 
 
@@ -1840,7 +1854,7 @@ padding: 2em 0;
 }
 
 .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-img>img {
-    height: 10em;
+    height: 9em;
 }
 
 .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-content {
@@ -1850,12 +1864,12 @@ padding: 2em 0;
 }
 
 .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.header-content-special-text {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content {
     color: var(--color-white);
-    font-size: 1.3em;
+    font-size: 1.05em;
     font-weight: var(--mobile-text-font-weight-400);
     margin-top: var(--size-32px);
 }
@@ -2000,7 +2014,7 @@ padding: 2em 0;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-btn>.btn-register {
-    width: 100%;
+    width: 21.125em;
     margin-top: var(--size-16px);
     margin-bottom: var(--size-16px);
 }
@@ -2337,6 +2351,7 @@ padding: 2em 0;
 .register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-header>.ranking-table-mobile-inside-header-text>.ranking-table-mobile-inside-header-text-scholl {
     font-weight: var(--mobile-text-font-weight-400);
 }
+
 /* End-mobile-ranking */
 
 
@@ -2358,8 +2373,8 @@ padding: 2em 0;
 .form-information-school,
 .form-information-unit,
 .form-information-class {
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 1em;
     line-height: 24px;
     display: flex;
     justify-content: space-between;
@@ -2442,9 +2457,11 @@ padding: 2em 0;
     padding: 12px 16px;
     opacity: 0.7;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh {
     padding: 1em 0;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
     font-weight: 400;
     font-size: 14px;
@@ -2452,32 +2469,40 @@ padding: 2em 0;
     color: #515861;
     margin-bottom: 0.5em;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame {
     display: flex;
     gap: 3%;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,.register-contest-rules-ttcn-content-gioitinh-female {
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,
+.register-contest-rules-ttcn-content-gioitinh-female {
     padding: 10px 8px;
     border: 1px solid #CDCED6;
     border-radius: 10px;
     width: 35%;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale {
     border-radius: 50%;
     width: 20px;
     height: 20px;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked {
     background-color: #00CCCC;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale {
     border-radius: 50%;
     width: 20px;
     height: 20px;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked {
     background-color: #00CCCC;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-btn {
     padding: 8px 32px;
     background: #00CCCC;
@@ -2501,6 +2526,7 @@ padding: 2em 0;
     gap: 2%;
     justify-content: center;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text {
     font-weight: 400;
     font-size: 14px;
@@ -2508,12 +2534,14 @@ padding: 2em 0;
     color: #515861;
     padding: 0.5em 0;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-input{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-input {
     border: 1px solid #CDCED6;
     border-radius: 8px;
     padding: 12px 16px;
     width: 100%;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-head {
     font-weight: 400;
     font-size: 14px;
@@ -2522,6 +2550,7 @@ padding: 2em 0;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-frame {
     border: 1px solid #CDCED6;
     border-radius: 8px;
@@ -2529,9 +2558,11 @@ padding: 2em 0;
     padding: 12px 16px;
     opacity: 0.7;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh {
     padding: 1em 0;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
     font-weight: 400;
     font-size: 14px;
@@ -2539,32 +2570,40 @@ padding: 2em 0;
     color: #515861;
     margin-bottom: 0.5em;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame {
     display: flex;
     gap: 3%;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,.register-contest-rules-ttcn-content-gioitinh-female {
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,
+.register-contest-rules-ttcn-content-gioitinh-female {
     padding: 10px 8px;
     border: 1px solid #CDCED6;
     border-radius: 10px;
     width: 35%;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale {
     border-radius: 50%;
     width: 20px;
     height: 20px;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked {
     background-color: #00CCCC;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale {
     border-radius: 50%;
     width: 20px;
     height: 20px;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked {
     background-color: #00CCCC;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn {
     padding: 8px 32px;
     background: #00CCCC;
@@ -2576,22 +2615,32 @@ padding: 2em 0;
     line-height: 24px;
     margin-right: 65%;
 }
-.register-contest-rules-ttcn-content-web>.form-information>.row>.col>.form-information-inside>.form-information-phone, .form-information-phone, .form-information-city, .form-information-district, .form-information-ward, .form-information-school, .form-information-unit, .form-information-class {
-    font-weight: 400;
-    font-size: 16px;
+
+.register-contest-rules-ttcn-content-web>.form-information>.row>.col>.form-information-inside>.form-information-phone,
+.form-information-phone,
+.form-information-city,
+.form-information-district,
+.form-information-ward,
+.form-information-school,
+.form-information-unit,
+.form-information-class {
+    font-weight: 500;
+    font-size: 1em;
     line-height: 24px;
     display: flex;
     justify-content: space-between;
     padding: 1em 0 0;
 }
+
 /* End Contest-ttcn */
 
 /* Thông tin cá nhân đầy đủ */
-.form-noinfor-inside>.form-noinfor-inside-header{
+.form-noinfor-inside>.form-noinfor-inside-header {
     display: flex;
     gap: 1em;
     justify-content: space-between;
 }
+
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header>.form-noinfor-inside-header-text>.form-noinfor-inside-header-text-bottom {
     font-weight: 400;
     font-size: 14px;
@@ -2599,70 +2648,87 @@ padding: 2em 0;
     display: flex;
     gap: 1em;
 }
+
 .form-noinfor {
     background: var(--color-white);
     border-radius: 0.75em;
     border: #d4d4d4;
     height: 100%;
 }
+
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header {
     display: flex;
     gap: 1em;
     padding: 1em 0;
 }
-.form-noinfor-inside-ttcn>.form-noinfor-inside-header>.form-noinfor-inside-header-text>.form-noinfor-inside-header-text-top{
+
+.form-noinfor-inside-ttcn>.form-noinfor-inside-header>.form-noinfor-inside-header-text>.form-noinfor-inside-header-text-top {
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
     color: #1F2230;
 }
+
 .form-noinfor-inside-ttcn {
     position: relative;
 }
+
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
     position: absolute;
     right: -8.8%;
     top: -1em;
 }
+
 .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content {
     display: flex;
     gap: 1em;
     align-items: center;
     padding: 1em 0;
 }
+
+.form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>svg {
+    width: 40px;
+}
+
 .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>.form-noinfor-inside-ttcn-content-text {
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 1em;
     line-height: 24px;
     color: #1F2230;
 }
-.form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>.form-noinfor-inside-ttcn-content-text>span{
+
+.form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>.form-noinfor-inside-ttcn-content-text>span {
     color: #00CCCC;
     font-weight: 500;
 }
+
 .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-footer {
     display: flex;
     gap: 1em;
     align-items: center;
     padding-bottom: 2em;
 }
+
 .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-footer>.form-noinfor-inside-ttcn-footer-text {
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 1em;
     line-height: 24px;
     color: #1F2230;
 }
+
 /* End thông tin cá nhân đầy đủ */
 
 
 /* News-Detail */
-.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header{
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header {
     position: relative;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>img{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>img {
     width: 100%;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content {
     padding: 16px;
     background: #FFFFFF;
     border-radius: 12px;
@@ -2671,6 +2737,7 @@ padding: 2em 0;
     left: 1em;
     right: 1em;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content>button {
     background: #36BFC7;
     border-radius: 30px;
@@ -2685,14 +2752,16 @@ padding: 2em 0;
     color: #FFFFFF;
     gap: 1em;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content>.register-contest-rules-News-mobile-header-content-text {
     font-weight: 700;
     font-size: 17px;
     line-height: 26px;
     color: #1F2230;
     padding: 1em 0;
-    
+
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content>.register-contest-rules-News-mobile-header-content-bottom {
     display: flex;
     gap: 0.5em;
@@ -2701,6 +2770,7 @@ padding: 2em 0;
     line-height: 20px;
     color: #51545F;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content {
     padding-top: 8em;
     font-weight: 400;
@@ -2708,33 +2778,50 @@ padding: 2em 0;
     line-height: 24px;
     color: #51545F;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>img{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>img {
     width: 100%;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>.register-contest-rules-News-mobile-content-textone{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>.register-contest-rules-News-mobile-content-textone {
     padding: 0.5em 0;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>.register-contest-rules-News-mobile-content-texttwo>.register-contest-rules-News-mobile-content-texttwo-top,.register-contest-rules-News-mobile-content-texttwo-center,.register-contest-rules-News-mobile-content-texttwo-bottom{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>.register-contest-rules-News-mobile-content-texttwo>.register-contest-rules-News-mobile-content-texttwo-top,
+.register-contest-rules-News-mobile-content-texttwo-center,
+.register-contest-rules-News-mobile-content-texttwo-bottom {
     padding: 1em 0;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>.register-contest-rules-News-mobile-content-textthree>.register-contest-rules-News-mobile-content-textthree-top,.register-contest-rules-News-mobile-content-textthree-center,.register-contest-rules-News-mobile-content-textthree-bottom{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-content>.row>.col>.register-contest-rules-News-mobile-content-textthree>.register-contest-rules-News-mobile-content-textthree-top,
+.register-contest-rules-News-mobile-content-textthree-center,
+.register-contest-rules-News-mobile-content-textthree-bottom {
     padding: 1em 0;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>.register-contest-rules-News-web-content-texttwo>.register-contest-rules-News-web-content-texttwo-top,.register-contest-rules-News-web-content-texttwo-center,.register-contest-rules-News-web-content-texttwo-bottom{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>.register-contest-rules-News-web-content-texttwo>.register-contest-rules-News-web-content-texttwo-top,
+.register-contest-rules-News-web-content-texttwo-center,
+.register-contest-rules-News-web-content-texttwo-bottom {
     padding: 1em 0;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>.register-contest-rules-News-web-content-textthree>.register-contest-rules-News-web-content-textthree-top,.register-contest-rules-News-web-content-textthree-center,.register-contest-rules-News-web-content-textthree-bottom{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>.register-contest-rules-News-web-content-textthree>.register-contest-rules-News-web-content-textthree-top,
+.register-contest-rules-News-web-content-textthree-center,
+.register-contest-rules-News-web-content-textthree-bottom {
     padding: 1em 0;
 }
+
 /* web */
-.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
     position: relative;
     padding: 0 10em;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>img{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>img {
     width: 100%;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content {
     padding: 16px;
     background: #FFFFFF;
     border-radius: 12px;
@@ -2743,6 +2830,7 @@ padding: 2em 0;
     left: 12em;
     right: 12em;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>button {
     background: #36BFC7;
     border-radius: 30px;
@@ -2757,14 +2845,16 @@ padding: 2em 0;
     color: #FFFFFF;
     gap: 1em;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>.register-contest-rules-News-web-header-content-text {
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
     color: #1F2230;
     padding: 1em 0;
-    
+
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>.register-contest-rules-News-web-header-content-bottom {
     display: flex;
     gap: 0.5em;
@@ -2773,6 +2863,7 @@ padding: 2em 0;
     line-height: 20px;
     color: #51545F;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content {
     padding-left: 15em;
     padding-right: 15em;
@@ -2781,10 +2872,14 @@ padding: 2em 0;
     line-height: 24px;
     color: #51545F;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>img{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>img {
     width: 100%;
 }
-.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>.register-contest-rules-News-web-content-textone,.register-contest-rules-News-web-content-texttwo,.register-contest-rules-News-web-content-textthree{
+
+.register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content>.row>.col>.register-contest-rules-News-web-content-textone,
+.register-contest-rules-News-web-content-texttwo,
+.register-contest-rules-News-web-content-textthree {
     padding: 2em 0;
 }
 
@@ -2991,12 +3086,15 @@ padding: 2em 0;
     .nav-web>.nav-web-content>.btn-login {
         margin-left: var(--size-32px);
     }
-    .nav-web>.nav-web-content{
+
+    .nav-web>.nav-web-content {
         font-size: 1em;
     }
+
     .nav-web-four>.nav-web-right>.nav-web-content {
         font-size: 1em;
     }
+
     /* Begin-register-web */
     .register-container>.nav-web>.nav-web-content {
         font-size: var(--size-16px);
@@ -3014,17 +3112,21 @@ padding: 2em 0;
 }
 
 @media screen and (max-width: 1400px) {
+
     /* news-detail */
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
         padding: 0 5em;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content{
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content {
         left: 7em;
         right: 7em;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content{
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content {
         padding: 0 8em;
     }
+
     /* end-new detail */
     .nav-web>.nav-web-content>.btn-login {
         margin-left: 1em;
@@ -3058,6 +3160,7 @@ padding: 2em 0;
     .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
         font-size: 0.45em;
     }
+
     /* end news-detail */
 
     .nav-web>.nav-web-content>.btn-login {
@@ -3079,16 +3182,16 @@ padding: 2em 0;
         font-size: 2em;
     }
 
-    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content {
-        font-size: 1.2em;
-    }
-
     .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
         font-size: 1em;
     }
 
     .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content {
         align-items: center;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content {
+        font-size: 1em;
     }
 
     /* End-register-web */
@@ -3108,26 +3211,32 @@ padding: 2em 0;
 
     /* Thông tin cá nhân */
     .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center {
-    margin-left: 2.5em;
+        margin-left: 2.5em;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn{
+
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn {
         margin-right: 40%;
         margin-left: 2.5em;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content{
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content {
         padding-left: 10em;
         padding-right: 10em;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
         padding: 0 2em;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content{
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content {
         padding: 0 4em;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content{
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content {
         left: 6em;
         right: 6em;
     }
+
     /* end thông tin cá nhân */
     .nav-web>.nav-web-content>.btn-login {
         font-size: 0.9em;
@@ -3136,9 +3245,14 @@ padding: 2em 0;
     .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
         font-size: 0.9em;
     }
-    .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi, .nav-web-content-menu-textontapcungedupia, .nav-web-content-menu-textuluyen, .nav-web-content-menu-textintuc{
+
+    .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi,
+    .nav-web-content-menu-textontapcungedupia,
+    .nav-web-content-menu-textuluyen,
+    .nav-web-content-menu-textintuc {
         font-size: 0.8em;
     }
+
     /* Begin-Edupia-choose-province */
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
         left: 15%;
@@ -3166,7 +3280,7 @@ padding: 2em 0;
     } */
 
     .register-container>.register-information>.row>.col>.register-information-inside {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     .register-container>.nav-web>.nav-web-content {
@@ -3208,19 +3322,27 @@ padding: 2em 0;
     .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number>.inside-topic-number-content>.inside-topic-number-content-text {
         font-size: var(--size-16px);
     }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn {
+        font-size: 0.8em;
+    }
+
     /* End-round-of-exams */
 }
 
 @media screen and (max-width: 1150px) {
+
     /* new detail */
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
         padding: 0;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content{
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content {
         left: 2em;
         right: 2em;
         bottom: 0;
     }
+
     /* end new detail */
     /* Begin-register-web */
     .register-container>.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen-framesapramat {
@@ -3231,6 +3353,7 @@ padding: 2em 0;
     .register-container>.nav-web>.nav-web-content {
         grid-template-columns: 15% 63.5% 21.5%;
     }
+
     .nav-web>.nav-web-content {
         grid-template-columns: 15% 63.5% 21.5% !important;
     }
@@ -3294,6 +3417,7 @@ padding: 2em 0;
     .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number {
         font-size: 0.8em
     }
+
     /* End-round-of-exams */
 }
 
@@ -3347,6 +3471,7 @@ padding: 2em 0;
         padding-left: 3em;
         padding-right: 0;
     }
+
     .nav-web {
         padding-left: 3em;
         padding-right: 0;
@@ -3403,21 +3528,31 @@ padding: 2em 0;
         font-size: 0.9em;
     }
 
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
+        width: 9em;
+        right: -5.8%;
+        top: -1em;
+    }
+
     /* End-round-of-exams */
 }
 
 @media screen and (max-width: 900px) {
+
     /* news-detail */
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content{
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content {
         left: 2em;
         right: 2em;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>.register-contest-rules-News-web-header-content-text{
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>.register-contest-rules-News-web-header-content-text {
         font-size: 20px;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header{
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
         padding: 0;
     }
+
     /* end new detail */
     .nav-web>.nav-web-content>.btn-login {
         font-size: 0.8em;
@@ -3426,10 +3561,12 @@ padding: 2em 0;
     .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
         font-size: 0.8em;
     }
+
     /* Thông tin cá nhân */
-    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn{
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn {
         margin-right: 30%;
     }
+
     /*end Thông tin cá nhân */
 
     /* Begin-Edupia-choose-province */
@@ -3448,7 +3585,7 @@ padding: 2em 0;
 
     /* Begin-register-web */
     .register-container>.register-information>.row>.col>.register-information-inside {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 
     .form-input-phone-number-inside>.row>.col>.form-input-phone-number-header>.form-input-phone-number-header-content {
@@ -3501,25 +3638,43 @@ padding: 2em 0;
         font-size: 0.8em;
     }
 
+
     /* End-round-of-exams */
 }
 
 @media screen and (max-width: 800px) {
+    .form-information-inside>.form-information-phone,
+    .form-information-phone,
+    .form-information-city,
+    .form-information-district,
+    .form-information-ward,
+    .form-information-school,
+    .form-information-unit,
+    .form-information-class,
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>.form-noinfor-inside-ttcn-content-text,
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-footer>.form-noinfor-inside-ttcn-footer-text {
+        font-weight: 500;
+    }
+
     /* news detail */
-    .register-container>.register-contest-rules>.register-contest-rules-News-web{
+    .register-container>.register-contest-rules>.register-contest-rules-News-web {
         display: none;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-News-mobile{
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-mobile {
         display: block;
     }
+
     /* end news detail */
     /* thông tin cá nhân */
-    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile{
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile {
         display: block;
     }
-    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web{
+
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web {
         display: none;
     }
+
     /* end thông tin cá nhân */
     .footer-container-mobile-inside>.footer-mobile-location,
     .footer-container-mobile-inside>.footer-mobile-text {
@@ -3682,6 +3837,9 @@ padding: 2em 0;
         display: block;
     }
 
+    .register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-btn>.btn-register {
+        width: 100%;
+    }
     /* End-register-web */
 
     /* Begin-form-ranking */
@@ -3705,7 +3863,7 @@ padding: 2em 0;
     }
 
     .register-container>.ranking-button-mobile {
-        display: flex;   
+        display: flex;
         margin-bottom: var(--size-16px);
     }
 
@@ -3719,6 +3877,7 @@ padding: 2em 0;
     .register-container>.round-of-exams {
         padding-bottom: 0;
     }
+
     /* End-mobile-ranking */
 
     /* Begin-round-of-exams  */
@@ -3827,6 +3986,11 @@ padding: 2em 0;
         left: 0%;
         background-color: var(--color-blue-0AB5DB);
     }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>svg {
+        width: 26px;
+    }
+
     /* End-round-of-exams  */
 
 }
