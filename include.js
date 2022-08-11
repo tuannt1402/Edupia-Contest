@@ -30,16 +30,36 @@ function includeHTML() {
 $(document).ready(function () {
   // Bấm vào đăng nhập thì hiện ra khung 
   let navMobile = $('.nav-mobile-login-viewmobile');
-  $('.btn-login-form-choose-province').on('click', function openNav(e) {
+
+  function letCloseNav(e) {
+    $('.nav-mobile-login-viewmobile-frame').find('svg').first().on('click', function () {
+      navMobile.css({
+        right: '100%'
+      })
+      $('body').removeClass('no-scroll');
+      $('.nav-mobile-login').removeClass('opacity-background');
+      $('.choose-province-cover-pop-up').removeClass('opacity-background');
+    })
+
+    $('.nav-mobile-login-viewmobile-frame-right').on('click',function() {
+      $('body').removeClass('no-scroll');
+      $('.nav-mobile-login').removeClass('opacity-background');
+      $('.choose-province-cover-pop-up').removeClass('opacity-background');
+      navMobile.css({
+        right: '100%'
+      })
+    })
+  }
+
+  $('.list-login-form-choose-province').on('click', function openNav(e) {
     navMobile.css({
       right: '0%'
     })
-    letOutNav(e);
+    $('body').addClass('no-scroll');
+    $('.nav-mobile-login').addClass('opacity-background');
+    $('.choose-province-cover-pop-up').addClass('opacity-background');
+    letCloseNav(e);
   })
 });
 
-function letOutNav(e) {
-  console.log(e);
-  $('.nav-mobile-login-viewmobile-frame').find('svg').first()
 
-}

@@ -67,9 +67,14 @@
 .no-scroll {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: rgba(0, 0, 0, 0.8);
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.opacity-background {
+    opacity: 0.1;
+    border-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .btn-border-radius {
@@ -841,18 +846,18 @@
 .nav-mobile-login-viewmobile {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: 1;
     top: 0;
-    background: rgba(0, 0, 0, 0.8);
     display: flex;
+    overflow: hidden;
 }
-.nav-mobile-login-viewmobile-frame-rigth{
+.nav-mobile-login-viewmobile-frame-right{
     width: 60%;
 }
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame {
     height: 100%;
-    width: 40%;
+    width: 100%;
     background: #005487;
 }
 
@@ -937,7 +942,8 @@
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-tuluyen>.nav-mobile-login-viewmobile-content-tintuc-textuluyen-framesapramat {
     position: absolute;
     left: 3.625em;
-    top: 1.0625em;
+    top: 0.7625em;
+    color: var(--btn-background-color-blue);
     background: rgba(0, 204, 204, 0.2);
     border-radius: 1.5em;
     padding: 0.125em 0.5em;
@@ -3369,10 +3375,6 @@
     .register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-number {
         font-size: var(--size-16px);
     }
-
-    /* .register-container>.nav-web>.nav-web-content {
-        font-size: ;
-    } */
 
     .register-container>.register-information>.row>.col>.register-information-inside {
         font-size: 0.9em;
