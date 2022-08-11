@@ -9,10 +9,10 @@ function includeHTML() {
     if (file) {
       /* Make an HTTP request using the attribute value as the file name: */
       xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
+      xhttp.onreadystatechange = function () {
         if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+          if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
           /* Remove the attribute, and call this function once more: */
           elmnt.removeAttribute("include-html");
           includeHTML();
@@ -24,4 +24,22 @@ function includeHTML() {
       return;
     }
   }
+}
+
+
+$(document).ready(function () {
+  // Bấm vào đăng nhập thì hiện ra khung 
+  let navMobile = $('.nav-mobile-login-viewmobile');
+  $('.btn-login-form-choose-province').on('click', function openNav(e) {
+    navMobile.css({
+      right: '0%'
+    })
+    letOutNav(e);
+  })
+});
+
+function letOutNav(e) {
+  console.log(e);
+  $('.nav-mobile-login-viewmobile-frame').find('svg').first()
+
 }

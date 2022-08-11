@@ -56,8 +56,20 @@
     transform: rotate(-90deg);
 }
 
+.transition {
+    transition: right 0.1s;
+}
+
 .non-active {
     display: none;
+}
+
+.no-scroll {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
 }
 
 .btn-border-radius {
@@ -1822,6 +1834,10 @@
 
 .choose-province-container>.footer-container-mobile {
     margin-top: 3em;
+}
+
+.choose-province-container>.nav-mobile-login-viewmobile {
+    right: 100%;
 }
 
 /* End-Edupia-choose-province */
