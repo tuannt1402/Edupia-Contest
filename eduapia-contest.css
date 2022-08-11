@@ -2484,7 +2484,8 @@
     border-radius: 10px;
     width: 35%;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale{
+
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale {
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -3061,6 +3062,53 @@
 
 /* End-round-of-exams */
 
+/* Begin-contest-news */
+.contest-news>.register-contest-rules {
+    background-color: #EFEFEF;
+}
+
+.contest-news>.register-contest-rules>.ranking {
+    background-color: inherit;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-top: 4em;
+    justify-content: flex-start;
+    align-items: unset;
+}
+
+.contest-news>.register-contest-rules>.ranking>.ranking-header {
+    padding-top: 0;
+}
+
+.contest-news>.register-contest-rules>.ranking>.cover-select {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.contest-news>.register-contest-rules>.ranking>.cover-select>.ranking-table-select>select {
+    height: 3em;
+    width: 12.5625em;
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--primary-font-weight-600);
+    color: var(--background-color-blue);
+}
+
+.contest-news>.register-contest-rules>.ranking>.cover-select>.first-select {
+    margin-right: var(--size-16px);
+}
+
+.contest-news>.register-contest-rules>.register-contest-result-laptop {
+    margin-top: 0;
+    padding-top: var(--size-16px);
+}
+
+.contest-news>.register-contest-rules>.special-result {
+    grid-template-columns: 17.5em 17.5em 17.5em 17.5em;
+}
+/* End-contest-news */
+
+
+
 /*end News-Detail */
 @media screen and (max-width: 1700px) {
 
@@ -3332,6 +3380,17 @@
     }
 
     /* End-round-of-exams */
+
+    /* Begin-contest-news */
+    .contest-news>.register-contest-rules>.ranking {
+        margin-left: 6.5em;
+        margin-right: 7.8em;
+    }
+
+    .contest-news>.register-contest-rules>.special-result {
+        grid-template-columns: 15em 15em 15em 15em;
+    }
+    /* End-contest-news */
 }
 
 @media screen and (max-width: 1150px) {
@@ -3420,6 +3479,14 @@
 
     .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number {
         font-size: 0.8em
+    }
+
+    .contest-news>.register-contest-rules>.special-result {
+        grid-template-columns: 13.7em 13.7em 13.7em 13.7em;
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 2em;
     }
 
     /* End-round-of-exams */
@@ -3540,6 +3607,25 @@
     }
 
     /* End-round-of-exams */
+
+    /* Begin-contest-news */
+    .contest-news>.register-contest-rules>.ranking {
+        margin-left: 3em;
+        margin-right: 2.2em;
+    }
+
+    .contest-news>.register-contest-rules>.special-result {
+        grid-template-columns: 11.7em 11.7em 11.7em 11.7em;
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.result-inside-special {
+        font-size: 0.8em;
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 2em;
+    }
+    /* End-contest-news */
 }
 
 @media screen and (max-width: 900px) {
@@ -3643,11 +3729,19 @@
         font-size: 0.8em;
     }
 
+    .contest-news>.register-contest-rules>.special-result {
+        grid-template-columns: 10.7em 10.7em 10.7em 10.7em;
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 1em;
+    }
 
     /* End-round-of-exams */
 }
 
 @media screen and (max-width: 800px) {
+
     .form-information-inside>.form-information-phone,
     .form-information-phone,
     .form-information-city,
@@ -3845,6 +3939,7 @@
     .register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-btn>.btn-register {
         width: 100%;
     }
+
     /* End-register-web */
 
     /* Begin-form-ranking */
@@ -3998,6 +4093,42 @@
 
     /* End-round-of-exams  */
 
+    /* Begin-contest-news */
+    .contest-news>.register-contest-rules>.ranking {
+        display: block;
+        margin: 0;
+        padding-top: 2em;
+    }
+    
+    .contest-news>.register-contest-rules>.ranking>.ranking-header {
+        display: flex;
+        justify-content: center;
+        font-size: var(--font-size-28px);
+        font-weight: var(--btn-font-weight-700);
+        margin-bottom: 0.7em;
+    }
+
+    .contest-news>.register-contest-rules>.ranking>.cover-select {
+        justify-content: center;
+    }
+
+    .contest-news>.register-contest-rules>.ranking>.cover-select>.second-select>select {
+        width: 12em;
+    }
+
+    .contest-news>.rules-for-laptop {
+        display: block;
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result {
+        margin-top: 0;
+        padding-top: var(--size-16px);
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result-laptop {
+        display: none;
+    }
+    /* End-contest-news */
 }
 
 @media screen and (max-width: 700px) {
