@@ -815,6 +815,27 @@
 
 /* end form đăng nhập */
 
+/* form-login-full */
+.form-login-full>.form-login {
+    margin-top: 25%;
+}
+.form-login-full>.form-login>.row>.col>.form-login-inside>.form-login-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #1f223017;
+    padding: 1em 1.5em 1em 1.5em;
+    align-items: center;
+}
+.form-login-full>.form-login>.row>.col>.form-login-inside>.form-login-header>div {
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 1.625em;
+    color: #1F2230;
+}
+.form-login-full>.form-login>.row>.col>.form-login-inside>.form-login-account, .form-login-password {
+    padding: 1em 1.5em 0 1.5em;
+}
+/* end form-login-full */
 
 /* nav-mobile-login-viewmobile */
 .nav-mobile-login-viewmobile {
@@ -824,11 +845,14 @@
     z-index: 1;
     top: 0;
     background: rgba(0, 0, 0, 0.8);
+    display: flex;
 }
-
+.nav-mobile-login-viewmobile-frame-rigth{
+    width: 60%;
+}
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame {
     height: 100%;
-    width: 15em;
+    width: 40%;
     background: #005487;
 }
 
@@ -1192,6 +1216,7 @@
     line-height: 1.5em;
     color: #51545F;
     width: 28%;
+    border: none;
 }
 
 .form-noinfor-inside>.form-noinfor-inside-btn>.form-noinfor-inside-btn-confirm {
@@ -1204,6 +1229,7 @@
     line-height: 1.5em;
     color: #FFFFFF;
     width: 67%;
+    border: none;
 }
 
 .form-noinfor-inside>.form-noinfor-inside-btn {
@@ -1509,6 +1535,7 @@
     font-size: 1em;
     line-height: 1.5em;
     color: #FFFFFF;
+    border: none;
 }
 
 /*end Số điện thoại đã tham gia đúng cuộc thi khác */
