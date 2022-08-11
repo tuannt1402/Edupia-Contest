@@ -1090,7 +1090,7 @@
 
 .form-noinfor-inside>.form-noinfor-inside-header>img {
     position: absolute;
-    right: -8.8%;
+    right: -1.8%;
     top: -1em;
 }
 
@@ -1238,6 +1238,7 @@ padding: 2em 0;
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
+    padding-bottom: 0.5em;
 }
 
 .form-notification-inside>.form-notification-inside-content>.form-notification-inside-content-frame>.form-notification-inside-content-frame-text>.form-notification-inside-content-frame-text-bottom {
@@ -1459,6 +1460,7 @@ padding: 2em 0;
     font-size: 1em;
     line-height: 1.5em;
     color: #1F2230;
+    padding-bottom: 0.5em;
 }
 
 .form-noinfor-inside>.form-noinfor-content>.form-noinfor-content-text>.form-noinfor-content-text-bottom {
@@ -2130,7 +2132,7 @@ padding: 2em 0;
 }
 
 .register-container>.nav-web>.nav-web-content>.nav-web-content-menu {
-    gap: 4%;
+    gap: 2%;
 }
 
 .register-container>.nav-web>.nav-web-content>.btn-login {
@@ -2461,11 +2463,32 @@ padding: 2em 0;
     border: 1px solid #CDCED6;
     border-radius: 10px;
     width: 35%;
+    background-color: #FFFFFF;
 }
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale{
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-date{
+    padding-top: 1em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-input{
+    border: 1px solid #CDCED6;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 100%;    
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-frame{
+    border: 1px solid #CDCED6;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 100%;    
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale {
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    margin-right: 0.5em;
 }
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked{
     background-color: #00CCCC;
@@ -2474,6 +2497,7 @@ padding: 2em 0;
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    margin-right: 0.5em;
 }
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked{
     background-color: #00CCCC;
@@ -2621,7 +2645,7 @@ padding: 2em 0;
 }
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
     position: absolute;
-    right: -8.8%;
+    right: -1.8%;
     top: -1em;
 }
 .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content {
@@ -3056,7 +3080,7 @@ padding: 2em 0;
 
 @media screen and (max-width: 1300px) {
     .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
-        font-size: 0.45em;
+        font-size: 0.55em;
     }
     /* end news-detail */
 
@@ -3133,6 +3157,7 @@ padding: 2em 0;
         font-size: 0.9em;
     }
 
+
     .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
         font-size: 0.9em;
     }
@@ -3152,8 +3177,8 @@ padding: 2em 0;
 
     /* Begin-register-web */
     .register-container>.nav-web {
-        padding-left: 7em;
-        padding-right: 8em;
+        padding-left: 6em;
+        padding-right: 6em;
     }
 
     .register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-text,
@@ -3225,7 +3250,7 @@ padding: 2em 0;
     /* Begin-register-web */
     .register-container>.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen-framesapramat {
         right: -1em;
-        top: -1.5em;
+        top: -1em;
     }
 
     .register-container>.nav-web>.nav-web-content {
@@ -3305,6 +3330,7 @@ padding: 2em 0;
     .nav-web-content-menu-textintuc {
         font-size: 0.8em;
     }
+
 
     .nav-web-four>.nav-web-right>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi,
     .nav-web-content-menu-textontapcungedupia,
