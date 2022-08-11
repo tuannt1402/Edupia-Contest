@@ -1403,8 +1403,8 @@
 
 .form-noinfor-inside>.form-noinfor-account>p {
     font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.875em;
+    line-height: 1.25em;
     color: #015488;
     padding: 0.5em 0;
 }
@@ -1429,8 +1429,8 @@
 
 .form-noinfor-inside>.form-noinfor-password-three>p {
     font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.75em;
+    line-height: 1em;
     color: #DD3448;
 }
 
@@ -1588,15 +1588,15 @@
 /* Thông báo 1 */
 .form-notification-inside>.form-notification-inside-title {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1em;
+    line-height: 1.5em;
     color: #1F2230;
 }
 
 .form-notification-inside>.form-notification-inside-description {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.875em;
+    line-height: 1.25em;
     color: #1F2230;
 }
 
@@ -2377,7 +2377,7 @@
 .form-information-class {
     font-weight: 500;
     font-size: 1em;
-    line-height: 24px;
+    line-height: 1.5em;
     display: flex;
     justify-content: space-between;
     padding: 0.5em 0 0;
@@ -2414,30 +2414,30 @@
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-header {
     font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 1.75em;
+    line-height: 2.25em;
     color: #005487;
     padding: 1em 0;
     position: relative;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content {
-    padding: 32px 16px;
+    padding: 2em 1em;
     background: #FFFFFF;
-    border-radius: 12px;
+    border-radius: 0.75em;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content>.register-contest-rules-ttcn-content-textfullname {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.875em;
+    line-height: 1.25em;
     color: #515861;
     padding: 0.5em 0;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content>.register-contest-rules-ttcn-content-fullname {
     border: 1px solid #CDCED6;
-    border-radius: 8px;
+    border-radius: 0.5em;
     padding: 12px 16px;
     width: 100%;
     margin-bottom: 1.5em;
