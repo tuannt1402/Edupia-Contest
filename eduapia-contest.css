@@ -1211,7 +1211,6 @@
 }
 
 .form-noinfor-inside>.form-noinfor-inside-btn>.form-noinfor-inside-btn-back {
-    padding: 0.5em 2em;
     gap: 1em;
     background: #ECEDF1;
     border-radius: 0.5em;
@@ -2613,7 +2612,7 @@
     grid-template-columns: 10% 40% 40%;
     gap: 2%;
     justify-content: center;
-    margin: 0 2em;
+    margin: 0 10em;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text {
@@ -3381,6 +3380,9 @@
 
 
 @media screen and (max-width: 1500px) {
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web{
+        margin: 0 5em;
+    }
     .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
         font-size: 0.55em;
     }
@@ -3528,6 +3530,9 @@
 
 @media screen and (max-width: 1220px) {
 
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web{
+        margin: 0 2em;
+    }
     /* Thông tin cá nhân */
     .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center {
         margin-left: 2.5em;
