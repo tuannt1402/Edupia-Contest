@@ -310,9 +310,9 @@
 
 .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 31% 31%;
     grid-gap: var(--size-16px);
-    justify-items: center;
+    justify-items: flex-start;
     color: var(--color-white);
     font-size: var(--primary-font-size-14px);
     font-weight: var(--primary-font-weight-600);
