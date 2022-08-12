@@ -2239,9 +2239,8 @@
 
 .register-container>.rules-for-laptop>.register-contest-rules-register-form {
     height: 17.875em;
-    width: 78%;
-    margin-left: 11em;
-    margin-right: 12em;
+    width: 92%;
+    margin-left: 5em;
     border-radius: 0.5em;
 }
 
@@ -2960,7 +2959,7 @@
 
 .round-of-exams>.row>.col>.round-of-header {
     display: grid;
-    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-columns: 25% 24% 24% 24%;
     grid-gap: 1em;
     margin-top: 2em;
     margin-left: 4.5em;
@@ -3217,6 +3216,16 @@
     }
 
     /* End-register-web */
+
+    /* Begin-ranking-web */
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form {
+        width: 88%;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header {
+        grid-template-columns: 24% 24% 24% 24%;
+    }
+    /* End-ranking-web */
 }
 
 @media screen and (max-width: 1400px) {
@@ -3637,9 +3646,8 @@
 
     .register-container>.rules-for-laptop>.register-contest-rules-register-form {
         height: 17.875em;
-        width: 78%;
+        width: 82%;
         margin-left: 5em;
-        margin-right: 12em;
         border-radius: 0.5em;
     }
 
