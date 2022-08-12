@@ -1133,8 +1133,8 @@
 
 .form-noinfor-inside>.form-noinfor-inside-header>img {
     position: absolute;
-    right: -1.8%;
-    top: -1em;
+    right: -4.8%;
+    top: -2em;
 }
 
 .form-noinfor-inside>.form-noinfor-inside-header>.form-noinfor-inside-header-bottom {
@@ -1149,7 +1149,7 @@
 .form-noinfor-inside>.form-noinfor-inside-content {
     gap: 1em;
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 48.7% 48.7%;
     margin-bottom: 1.5em;
 }
 
@@ -2764,8 +2764,8 @@
 
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
     position: absolute;
-    right: -1.8%;
-    top: -1em;
+    right: -4.8%;
+    top: -2em;
 }
 
 .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content {
