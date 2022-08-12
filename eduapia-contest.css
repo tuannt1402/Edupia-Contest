@@ -1133,8 +1133,8 @@
 
 .form-noinfor-inside>.form-noinfor-inside-header>img {
     position: absolute;
-    right: -1.8%;
-    top: -1em;
+    right: -4.8%;
+    top: -2em;
 }
 
 .form-noinfor-inside>.form-noinfor-inside-header>.form-noinfor-inside-header-bottom {
@@ -1149,7 +1149,7 @@
 .form-noinfor-inside>.form-noinfor-inside-content {
     gap: 1em;
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 48.7% 48.7%;
     margin-bottom: 1.5em;
 }
 
@@ -2613,6 +2613,7 @@
     grid-template-columns: 10% 40% 40%;
     gap: 2%;
     justify-content: center;
+    margin: 0 2em;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text {
@@ -2763,8 +2764,8 @@
 
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
     position: absolute;
-    right: -1.8%;
-    top: -1em;
+    right: -4.8%;
+    top: -2em;
 }
 
 .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content {
@@ -3788,6 +3789,9 @@
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-comingsoon,
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
         font-size: var(--size-12px);
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web{
+        margin: 0!important;
     }
 
     /* End-Edupia-choose-province */
