@@ -3286,11 +3286,116 @@
     grid-template-columns: 17.5em 17.5em 17.5em 17.5em;
 }
 
-/* End-contest-news */
+/* btn-web game */
+.btn-white {
+    width: 140px;
+    height: 48px;
+    left: 1853px;
+    top: 64px;
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+.btn-36C0C8 {
+    background: #36C0C8;
+    border-radius: 24px;
+    width: 220px;
+    height: 56px;
+    left: 1843px;
+    top: 152px;
+    padding: 14px 40px;
+}
+.btn-C7C7C77 {
+    width: 220px;
+    height: 56px;
+    left: 1843px;
+    top: 228px;
+    background: #C7C7C7;
+    border-radius: 24px;
+}
+.circle-frame{
+    gap: 1em;
+}
+.circle-white {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #A9A9A9;
+    border-radius: 15px;
+    padding: 7px 2px;
+}
 
+.circle-04B431 {
+    width: 30px;
+    height: 30px;
+    background: #04B431;
+    border-radius: 15px;
+    padding: 7px 2px;
+}
+.circle-EC1212 {
+    padding: 7px 2px;
+    width: 30px;
+    height: 30px;
+    background: #EC1212;
+    border-radius: 15px;
+}
+.circle-0083CE {
+    padding: 7px 2px;
+    width: 30px;
+    height: 30px;
+    background: #0083CE;
+    border-radius: 15px;
+}
+.circle-frame-text{
+    gap: 1em;
+}
+.circle-white-text {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #A9A9A9;
+    border-radius: 15px;
+    padding: 7px 2px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #48484A;
+}
+.circle-04B431-text {
+    width: 30px;
+    height: 30px;
+    background: #04B431;
+    border-radius: 15px;
+    padding: 7px 2px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--color-white);
+}
+.circle-EC1212-text {
+    padding: 7px 2px;
+    width: 30px;
+    height: 30px;
+    background: #EC1212;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--color-white);
 
+}
+.circle-0083CE-text {
+    padding: 7px 2px;
+    width: 30px;
+    height: 30px;
+    background: #0083CE;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--color-white);
 
-/*end News-Detail */
+}
+/*end btn-web game */
 @media screen and (max-width: 1700px) {
 
     /* Begin-register-mobile */
