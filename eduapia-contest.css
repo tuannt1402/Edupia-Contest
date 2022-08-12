@@ -173,8 +173,11 @@
     border-radius: var(--btn-border-radius-05em);
     background-color: white;
     position: absolute;
-    top: 24%;
-    left: 21%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .pop-up-inside>.row>.col>.pop-up-inside-header>img {
@@ -1846,11 +1849,6 @@
     margin-left: 0;
 }
 
-.choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
-    top: 27%;
-    left: 27%;
-}
-
 .choose-province-container>.pop-up-line-second {
     margin-top: var(--size-16px);
 }
@@ -3217,14 +3215,6 @@
         font-size: 1em;
     }
 
-    /* Begin-Edupia-choose-province */
-    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
-        font-size: 1.3em;
-        left: 19%;
-    }
-
-    /* End-Edupia-choose-province */
-
     /* Begin-register-web */
     .register-container>.nav-web>.nav-web-content {
         font-size: var(--size-16px);
@@ -3405,7 +3395,6 @@
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
         height: 40px;
         font-size: 1em;
-        left: 15%;
     }
 
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-content {
@@ -3769,7 +3758,6 @@
         width: 110px;
         height: 24px;
         font-size: 12px;
-        left: 24%;
     }
 
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-comingsoon,
@@ -4254,7 +4242,6 @@
         width: 178px;
         height: 50px;
         font-size: var(--font-size-24px);
-        left: 22%;
     }
 
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-content,
