@@ -2613,6 +2613,7 @@
     grid-template-columns: 10% 40% 40%;
     gap: 2%;
     justify-content: center;
+    margin: 0 2em;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text {
@@ -3788,6 +3789,9 @@
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-comingsoon,
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
         font-size: var(--size-12px);
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web{
+        margin: 0!important;
     }
 
     /* End-Edupia-choose-province */
