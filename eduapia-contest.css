@@ -1649,19 +1649,12 @@
 
 /* end thông báo 1 */
 
-
-
-
-
-
 .footer-container-mobile-inside {
     display: grid;
     grid-template-columns: 22% 20% 12% 27%;
     grid-gap: var(--size-32px);
     justify-content: center;
 }
-
-
 
 .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode>.hotline-qrcode-content>.hotline-qrcode-content-text {
     width: max-content;
@@ -1905,9 +1898,24 @@
 }
 
 .web-game-container>.web-game-content>.web-game-test {
-    background-color:#F1F5F8;
     height: 100%;
     width: 75%;
+    font-size: 20px;
+    background-color:#F1F5F8;
+    color: black;
+}
+
+.web-game-container>.web-game-content>.web-game-test>.web-game-test-header {
+    margin: 4%;
+    justify-content: flex-start;
+}
+
+.web-game-container>.web-game-content>.web-game-test>.web-game-test-header>.web-game-test-header-text {
+    font-weight: var(--btn-font-weight-700);
+}
+
+.web-game-container>.web-game-content>.web-game-test>.web-game-test-header>.web-game-test-header-icon {
+
 }
 
 /* End-web-games-nav */
@@ -1974,9 +1982,6 @@
 }
 
 /* End-Edupia-choose-province */
-
-
-/* End-form-nhap-sdt */
 
 /* Begin-register-mobile */
 .register-container {
@@ -2190,14 +2195,6 @@
     margin-top: var(--size-16px);
 }
 
-.register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
-    height: 400px;
-}
-
-.register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside {
-    height: 100%;
-}
-
 .register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside {
     background-color: var(--color-white);
     padding-bottom: 0.3em;
@@ -2228,16 +2225,14 @@
 
 .register-container>.register-contest-rules>.register-contest-result-laptop {
     display: grid;
-    grid-template-columns: 33em 19em 19em;
+    grid-template-columns: 44% 25% 25%;
     grid-gap: 1em;
-    justify-content: center;
-}
-
-.register-container>.register-contest-rules>.register-contest-result-laptop {
-    margin-top: var(--size-16px);
+    margin-left: 5.5em;
+    margin-top: 2em;
 }
 
 .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside {
+    height: 100%;
     background-color: var(--color-white);
     padding-bottom: 0.3em;
     border-radius: 0.5em;
@@ -2264,7 +2259,7 @@
     color: #51545F;
     font-size: var(--primary-font-size-14px);
     font-weight: var(--mobile-text-font-weight-400);
-    margin-top: 6em;
+    margin-top: 10em;
     margin-bottom: var(--size-16px);
     padding-left: var(--size-16px);
     padding-right: var(--size-16px);
@@ -3286,7 +3281,7 @@
 }
 
 .contest-news>.register-contest-rules>.special-result {
-    grid-template-columns: 17.5em 17.5em 17.5em 17.5em;
+    grid-template-columns: 23.2% 23.2% 23.2% 23.2%;
 }
 
 /* btn-web game */
@@ -3446,6 +3441,16 @@
     }
 
     /* End-register-mobile */
+
+    /* Begin-ranking-web */
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside {
+        height: 97%;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+
+    }
+    /* End-ranking-web */
 }
 
 
@@ -3483,7 +3488,7 @@
 
     /* Begin-ranking-web */
     .register-container>.rules-for-laptop>.register-contest-rules-register-form {
-        width: 88%;
+        width: 91%;
     }
 
     .round-of-exams>.row>.col>.round-of-header {
@@ -3690,13 +3695,13 @@
 
     .register-container>.register-contest-rules>.register-contest-result-laptop {
         display: grid;
-        grid-template-columns: 27em 16.875em 16.875em;
+        grid-template-columns: 44% 25% 25%;
         grid-gap: 1em;
         justify-content: center;
     }
 
     .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
-        height: 320px;
+        height: 22em;
     }
 
     .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.result-inside-special {
@@ -3733,7 +3738,7 @@
     }
 
     .contest-news>.register-contest-rules>.special-result {
-        grid-template-columns: 15em 15em 15em 15em;
+        grid-template-columns: 23.2% 23.2% 23.2% 23.2%;
     }
 
     /* End-contest-news */
@@ -3797,7 +3802,8 @@
     }
 
     .register-container>.register-contest-rules>.register-contest-result-laptop {
-        grid-template-columns: 26em 15em 15em;
+        grid-template-columns: 42% 23% 23%;
+        margin-left: 4.5em;
     }
 
     .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
@@ -3824,7 +3830,7 @@
     }
 
     .contest-news>.register-contest-rules>.special-result {
-        grid-template-columns: 13.7em 13.7em 13.7em 13.7em;
+        grid-template-columns: 21.5% 21.5% 21.5% 21.5%;
     }
 
     .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
@@ -3917,11 +3923,12 @@
     }
 
     .register-container>.register-contest-rules>.register-contest-result-laptop {
-        grid-template-columns: 22em 13em 13em;
+        grid-template-columns: 37% 20% 20%;
+        margin-left: 0;
     }
 
     .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
-        height: 270px;
+        height: 18em;
     }
 
     .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
@@ -3956,7 +3963,7 @@
     }
 
     .contest-news>.register-contest-rules>.special-result {
-        grid-template-columns: 11.7em 11.7em 11.7em 11.7em;
+        grid-template-columns: 18.7% 18.7% 18.7% 18.7%;
     }
 
     .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.result-inside-special {
