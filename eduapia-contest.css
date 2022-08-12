@@ -1819,6 +1819,96 @@
 
 /* End-form-ranking-non-date */
 
+/* Begin-web-games-nav */
+.web-game-container {
+    background-color: pink;
+    color: var(--color-white);
+}
+
+.web-game-container>.web-game-nav {
+    background-color:#1B7ECA;
+    height: 9%;
+    margin-bottom: 1%;
+    justify-content: flex-start;
+}
+
+.web-game-container>.web-game-nav>.web-game-nav-inside-icon {
+    margin-left: 2%;
+}
+
+.web-game-container>.web-game-nav>.web-game-nav-inside-back,
+.web-game-container>.web-game-nav>.web-game-nav-inside-content {
+    font-size: var(--font-size-18px);
+    font-weight: var(--btn-font-weight-700);
+}
+
+.web-game-container>.web-game-nav>.web-game-nav-inside-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.web-game-container>.web-game-content {
+    background-color: red;
+    height:90%;
+}
+
+.web-game-container>.web-game-content>.web-game-content-times {
+    background-color: yellow;
+    height: 100%;
+    width: 24%;
+    margin-right: 1%;
+}
+
+.web-game-container>.web-game-content>.web-game-content-times>.web-game-content-times-text {
+    font-size: var(--font-size-18px);
+    font-weight: var(--btn-font-weight-700);
+    color: #0083CE;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.web-game-container>.web-game-content>.web-game-content-times>.web-game-content-times-number {
+    font-size: 48px;
+    font-weight: var(--btn-font-weight-700);
+    color: #FFA425;
+    text-align: center;
+}
+
+.web-game-container>.web-game-content>.web-game-content-times>.web-game-content-times-answer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap:1%;
+    padding-left: 5%;
+}
+
+.web-game-container>.web-game-content>.web-game-content-times>.web-game-content-times-answer>.web-game-content-times-answer-img {
+    aspect-ratio: 1;
+}
+
+.web-game-container>.web-game-content>.web-game-content-times>.web-game-content-times-answer>.web-game-content-times-answer-img>.web-game-content-times-answer-img-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    font-weight: var(--mobile-text-font-weight-500);
+}
+
+.web-game-container>.web-game-content>.web-game-test {
+    background-color: black;
+    height: 100%;
+    width: 75%;
+}
+
+/* End-web-games-nav */
+
 /* Begin-Edupia-choose-province */
 .choose-province-container>.choose-province-cover-pop-up {
     display: grid;
@@ -2573,6 +2663,7 @@
     font-size: 16px;
     line-height: 24px;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text {
     font-weight: 400;
     font-size: 14px;
@@ -2580,6 +2671,7 @@
     color: #515861;
     padding: 0.5em 0;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-input {
     border: 1px solid #CDCED6;
     border-radius: 8px;
@@ -2587,6 +2679,7 @@
     width: 100%;
     margin-bottom: 2em;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-head {
     font-weight: 400;
     font-size: 14px;
@@ -2595,6 +2688,7 @@
     margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
+
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-frame {
     border: 1px solid #CDCED6;
     border-radius: 8px;
@@ -2602,6 +2696,7 @@
     padding: 12px 16px;
     opacity: 0.7;
 }
+
 /* web */
 
 
@@ -3255,6 +3350,7 @@
     .round-of-exams>.row>.col>.round-of-header {
         grid-template-columns: 24% 24% 24% 24%;
     }
+
     /* End-ranking-web */
 }
 
@@ -3416,7 +3512,7 @@
 
     .choose-province-container>.choose-province-cover-pop-up {
         padding-left: 4em;
-        grid-gap:0;
+        grid-gap: 0;
     }
 
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
@@ -3759,7 +3855,7 @@
     .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
         font-size: 0.8em;
     }
-    
+
     /* Thông tin cá nhân */
     .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn {
         margin-right: 30%;
@@ -3768,14 +3864,14 @@
     /*end Thông tin cá nhân */
 
     /* Begin-Edupia-choose-province */
-    .choose-province-container>.nav-web{
+    .choose-province-container>.nav-web {
         padding-left: 4em;
         padding-right: 5em;
     }
 
-    .choose-province-container>.choose-province-cover-pop-up{
+    .choose-province-container>.choose-province-cover-pop-up {
         grid-template-columns: 32% 32% 32%;
-        grid-gap:0;
+        grid-gap: 0;
         padding-left: 3em;
         padding-right: 2em
     }
@@ -3790,8 +3886,9 @@
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
         font-size: var(--size-12px);
     }
-    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web{
-        margin: 0!important;
+
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web {
+        margin: 0 !important;
     }
 
     /* End-Edupia-choose-province */
@@ -3909,6 +4006,10 @@
 
     .footer-container-mobile>.row>.col>.footer-container-mobile-inside>.footer-mobile-location>.location-content {
         justify-content: flex-start;
+    }
+
+    .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode {
+        grid-template-columns: 50% 50%;
     }
 
     /* Begin-Edupia-choose-province */

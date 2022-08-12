@@ -76,6 +76,20 @@ $(document).ready(function () {
       isClicked = true;
     }
   })
+
+  $(window).on('resize', function changeResize(e) {
+    resizeWindow();
+  })
+  // Thay đổi kích cỡ của web games
+  function resizeWindow() {
+    let resizePixed = (window.innerWidth / 16 * 9) 
+
+    $('.web-game-container').css({
+      height: resizePixed + 'px'
+    })
+
+  }
+  resizeWindow();
 });
 
 
