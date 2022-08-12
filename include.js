@@ -28,7 +28,7 @@ function includeHTML() {
 
 
 $(document).ready(function () {
-  // Bấm vào đăng nhập thì hiện ra khung 
+  // Bấm vào đăng nhập thì hiện ra khung ben trang chooseprovince mobile
   let navMobile = $('.nav-mobile-login-viewmobile');
 
   function letCloseNav(e) {
@@ -41,7 +41,7 @@ $(document).ready(function () {
       $('.choose-province-cover-pop-up').removeClass('opacity-background');
     })
 
-    $('.nav-mobile-login-viewmobile-frame-right').on('click',function() {
+    $('.nav-mobile-login-viewmobile-frame-right').on('click', function () {
       $('body').removeClass('no-scroll');
       $('.nav-mobile-login').removeClass('opacity-background');
       $('.choose-province-cover-pop-up').removeClass('opacity-background');
@@ -59,6 +59,22 @@ $(document).ready(function () {
     $('.nav-mobile-login').addClass('opacity-background');
     $('.choose-province-cover-pop-up').addClass('opacity-background');
     letCloseNav(e);
+  })
+
+  // Bấm vào xem thêm thì hiện ra thêm 7 xếp hạng bên bảng xếp hạng mobile
+  let isClicked = true;
+  $('.btn-join-ranking').on('click', function openMoreListRanking() {
+    if (isClicked) {
+      $('.other-number').each(function (index, elements) {
+        $(elements).slideDown();
+      })
+      return isClicked = !isClicked;
+    } else {
+      $('.other-number').each(function (index, elements) {
+        $(elements).slideUp();
+      })
+      isClicked = true;
+    }
   })
 });
 
