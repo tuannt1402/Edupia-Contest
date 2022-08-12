@@ -2515,11 +2515,11 @@
     opacity: 0.7;
 }
 
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh {
     padding: 1em 0;
 }
 
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -2527,42 +2527,43 @@
     margin-bottom: 0.5em;
 }
 
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame {
     display: flex;
     gap: 3%;
 }
 
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male,
 .register-contest-rules-ttcn-content-gioitinh-female {
     padding: 10px 8px;
     border: 1px solid #CDCED6;
     border-radius: 10px;
     width: 35%;
+    background-color: var(--color-white);
 }
 
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale {
     border-radius: 50%;
     width: 20px;
     height: 20px;
     margin-right: 0.5em;
 }
 
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-male>#checkboxmale:checked {
     background-color: #00CCCC;
 }
 
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale {
     border-radius: 50%;
     width: 20px;
     height: 20px;
     margin-right: 0.5em;
 }
 
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>.register-contest-rules-ttcn-content-gioitinh-female>#checkboxfemale:checked {
     background-color: #00CCCC;
 }
 
-.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.register-contest-rules-ttcn-content-btn {
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-btn {
     padding: 8px 32px;
     background: #00CCCC;
     border-radius: 8px;
@@ -2572,7 +2573,35 @@
     font-size: 16px;
     line-height: 24px;
 }
-
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515861;
+    padding: 0.5em 0;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-input {
+    border: 1px solid #CDCED6;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 100%;
+    margin-bottom: 2em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-head {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515861;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-frame {
+    border: 1px solid #CDCED6;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px 16px;
+    opacity: 0.7;
+}
 /* web */
 
 
