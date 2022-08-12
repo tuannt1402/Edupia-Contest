@@ -3330,7 +3330,36 @@
     border: none;
     background: none;
 }
-
+.btn-speak {
+    width: 184px;
+    height: 64px;
+    left: 20px;
+    top: 20px;
+    background: #E2E5EA;
+    border-radius: 8px;
+    padding: 8px 12px;
+    gap: 0.5em;
+    color: #4DA1F3;
+}
+.btn-speak>div>button{
+    border: none;
+    background: none;
+}
+.btn-speak-stop {
+    width: 184px;
+    height: 64px;
+    left: 20px;
+    top: 20px;
+    background: #E2E5EA;
+    border-radius: 8px;
+    padding: 8px 12px;
+    gap: 0.5em;
+    color: #EC1212;
+}
+.btn-speak-stop>div>button{
+    border: none;
+    background: none;
+}
 /*end btn-web game */
 @media screen and (max-width: 1700px) {
 
