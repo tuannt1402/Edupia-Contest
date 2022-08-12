@@ -824,22 +824,27 @@
 .form-login-full>.form-login {
     margin-top: 25%;
 }
-.form-login-full>.form-login>.row>.col>.form-login-inside>.form-login-header{
+
+.form-login-full>.form-login>.row>.col>.form-login-inside>.form-login-header {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #1f223017;
     padding: 1em 1.5em 1em 1.5em;
     align-items: center;
 }
+
 .form-login-full>.form-login>.row>.col>.form-login-inside>.form-login-header>div {
     font-weight: 700;
     font-size: 1.125em;
     line-height: 1.625em;
     color: #1F2230;
 }
-.form-login-full>.form-login>.row>.col>.form-login-inside>.form-login-account, .form-login-password {
+
+.form-login-full>.form-login>.row>.col>.form-login-inside>.form-login-account,
+.form-login-password {
     padding: 1em 1.5em 0 1.5em;
 }
+
 /* end form-login-full */
 
 /* nav-mobile-login-viewmobile */
@@ -852,9 +857,11 @@
     display: flex;
     overflow: hidden;
 }
-.nav-mobile-login-viewmobile-frame-right{
+
+.nav-mobile-login-viewmobile-frame-right {
     width: 60%;
 }
+
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame {
     height: 100%;
     width: 100%;
@@ -1824,10 +1831,24 @@
 /* Begin-Edupia-choose-province */
 .choose-province-container>.choose-province-cover-pop-up {
     display: grid;
-    grid-template-columns: 32% 32% 32%;
+    grid-template-columns: 30% 30% 30%;
     grid-gap: 1em;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 9em;
+    padding-right: 2em;
+}
+
+.choose-province-container>.nav-web {
+    padding-left: 9.5em;
+    padding-right: 8em;
+}
+
+.choose-province-container>.nav-web>.nav-web-content>.btn-login {
+    margin-left: 0;
+}
+
+.choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+    top: 27%;
+    left: 27%;
 }
 
 .choose-province-container>.pop-up-line-second {
@@ -1835,7 +1856,7 @@
 }
 
 .choose-province-container>.choose-province-content {
-    height: 4em;
+    height: 6em;
     margin-top: var(--size-32px);
 }
 
@@ -3154,6 +3175,7 @@
 .contest-news>.register-contest-rules>.special-result {
     grid-template-columns: 17.5em 17.5em 17.5em 17.5em;
 }
+
 /* End-contest-news */
 
 
@@ -3194,6 +3216,14 @@
     .nav-web-four>.nav-web-right>.nav-web-content {
         font-size: 1em;
     }
+
+    /* Begin-Edupia-choose-province */
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        font-size: 1.3em;
+        left: 19%;
+    }
+
+    /* End-Edupia-choose-province */
 
     /* Begin-register-web */
     .register-container>.nav-web>.nav-web-content {
@@ -3236,6 +3266,14 @@
         margin-left: 0;
     }
 
+    /* Begin-Edupia-choose-province */
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 190px;
+        font-size: 1.2em;
+    }
+
+    /* End-Edupia-choose-province */
+
     /* Begin-register-web */
     .register-container>.register-contest-introduction {
         padding-left: 11em;
@@ -3271,7 +3309,6 @@
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
         width: 178px;
         height: 50px;
-        font-size: var(--font-size-24px);
     }
 
     /* End-Edupia-choose-province */
@@ -3355,7 +3392,19 @@
     }
 
     /* Begin-Edupia-choose-province */
+
+    .choose-province-container>.nav-web {
+        padding-left: 5.5em;
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up {
+        padding-left: 4em;
+        grid-gap:0;
+    }
+
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        height: 40px;
+        font-size: 1em;
         left: 15%;
     }
 
@@ -3435,6 +3484,7 @@
     .contest-news>.register-contest-rules>.special-result {
         grid-template-columns: 15em 15em 15em 15em;
     }
+
     /* End-contest-news */
 }
 
@@ -3462,10 +3512,6 @@
         grid-template-columns: 15% 63.5% 21.5%;
     }
 
-    .nav-web>.nav-web-content {
-        grid-template-columns: 15% 63.5% 21.5% !important;
-    }
-
     /* End-register-web */
 }
 
@@ -3473,8 +3519,8 @@
 
     /* Begin-Edupia-choose-province */
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
-        width: 170px;
-        height: 38px;
+        width: 155px;
+        height: 35px;
         font-size: var(--size-16px);
     }
 
@@ -3563,9 +3609,9 @@
 
     /* Begin-Edupia-choose-province */
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
-        width: 145px;
-        height: 32px;
-        font-size: var(--size-16px);
+        width: 130px;
+        height: 26px;
+        font-size: var(--primary-font-size-14px);
     }
 
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-content {
@@ -3670,6 +3716,7 @@
     .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
         margin-top: 2em;
     }
+
     /* End-contest-news */
 }
 
@@ -3697,7 +3744,7 @@
     .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
         font-size: 0.8em;
     }
-
+    
     /* Thông tin cá nhân */
     .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn {
         margin-right: 30%;
@@ -3706,10 +3753,23 @@
     /*end Thông tin cá nhân */
 
     /* Begin-Edupia-choose-province */
+    .choose-province-container>.nav-web{
+        padding-left: 4em;
+        padding-right: 5em;
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up{
+        grid-template-columns: 32% 32% 32%;
+        grid-gap:0;
+        padding-left: 3em;
+        padding-right: 2em
+    }
+
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
-        width: 120px;
-        height: 28px;
-        font-size: var(--size-16px);
+        width: 110px;
+        height: 24px;
+        font-size: 12px;
+        left: 24%;
     }
 
     .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-comingsoon,
@@ -4144,7 +4204,7 @@
         margin: 0;
         padding-top: 2em;
     }
-    
+
     .contest-news>.register-contest-rules>.ranking>.ranking-header {
         display: flex;
         justify-content: center;
@@ -4173,6 +4233,7 @@
     .contest-news>.register-contest-rules>.register-contest-result-laptop {
         display: none;
     }
+
     /* End-contest-news */
 }
 
