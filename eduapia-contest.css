@@ -428,7 +428,8 @@
     color: var(--btn-background-color-blue) !important;
 }
 
-.nav-web>.nav-web-content>.btn-login {
+.nav-web>.nav-web-content>div>.btn-login {
+    float: right;
     height: 2.5em;
     width: 8.6875em;
     background-color: var(--color-yellow);
@@ -449,7 +450,6 @@
     list-style-type: none;
     gap: 4%;
     margin-top: 0.5em;
-    justify-content: flex-start !important;
 }
 
 .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi {
@@ -603,7 +603,8 @@
     color: var(--btn-background-color-blue) !important;
 }
 
-.nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
+.nav-web-four>.nav-web-right>.nav-web-content>div>.btn-login {
+    float: right;
     height: 2.5em;
     width: 8.6875em;
     background-color: var(--color-yellow);
@@ -613,7 +614,7 @@
 
 .nav-web-four>.nav-web-right>.nav-web-content {
     display: grid;
-    grid-template-columns: 82% 13%;
+    grid-template-columns: 82% 13.5%;
     gap: 4.5%;
     padding: 1em 0em;
     align-items: center;
@@ -625,7 +626,6 @@
     list-style-type: none;
     gap: 6%;
     margin-top: 0.5em;
-    justify-content: flex-start !important;
     padding-left: 0;
 }
 
@@ -1933,7 +1933,7 @@
     padding-right: 8em;
 }
 
-.choose-province-container>.nav-web>.nav-web-content>.btn-login {
+.choose-province-container>.nav-web>.nav-web-content>div>.btn-login {
     margin-left: 0;
 }
 
@@ -2292,7 +2292,7 @@
     gap: 2%;
 }
 
-.register-container>.nav-web>.nav-web-content>.btn-login {
+.register-container>.nav-web>.nav-web-content>div>.btn-login {
     margin-left: 0;
 }
 
@@ -3452,6 +3452,60 @@
     border: none;
     background: none;
 }
+.btn-record {
+    width: 184px;
+    height: 64px;
+    left: 20px;
+    top: 20px;
+    background: #E2E5EA;
+    border-radius: 8px;
+    padding: 8px 12px;
+    gap: 0.5em;
+    color: #4DA1F3;
+}
+.btn-record>div>button{
+    border: none;
+    background: none;
+}
+.btn-listen-again {
+    width: 275px;
+    height: 64px;
+    left: 20px;
+    top: 20px;
+    background: #E2E5EA;
+    border-radius: 8px;
+    padding: 8px 12px;
+    gap: 0.5em;
+    color: #313131;;
+}
+.btn-listen-again>div>button{
+    border: none;
+    background: none;
+}
+.btn-mark-green-frame {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(118, 118, 128, 0.12);
+}
+.btn-mark-green {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #3AB384;
+}
+.btn-mark-red-frame {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(118, 118, 128, 0.12);
+}
+.btn-mark-red {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #EC1212;
+}
 /*end btn-web game */
 @media screen and (max-width: 1700px) {
 
@@ -3490,7 +3544,7 @@
         font-size: 0.55em;
     }
 
-    .nav-web>.nav-web-content>.btn-login {
+    .nav-web>.nav-web-content>div>.btn-login {
         margin-left: var(--size-32px);
     }
 
