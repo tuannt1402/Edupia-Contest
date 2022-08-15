@@ -1972,6 +1972,12 @@
     color: #48484A;
 }
 
+.web-game-container>.web-game-content>.web-game-test>.web-game-test-btn>.btn-next {
+    justify-content: flex-end;
+    margin-right: 9%;
+    margin-top: 7%;
+}
+
 /* End-web-games */
 
 /* Begin-Edupia-choose-province */
@@ -3658,6 +3664,7 @@
     justify-content: space-between;
     color: #FFF;
     font-size: 16px;
+    border: none;
 }
 /*end btn-web game */
 @media screen and (max-width: 1700px) {
