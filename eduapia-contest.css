@@ -292,6 +292,10 @@
     margin-top: var(--btn-border-radius-05em)
 }
 
+.footer-container-mobile-inside>.footer-mobile-hotline {
+    margin-top: 1.5em;
+}
+
 .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-content>.hotline-content-phone {
     justify-content: flex-start;
     color: var(--color-white);
@@ -310,7 +314,7 @@
 
 .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode {
     display: grid;
-    grid-template-columns: 31% 31%;
+    grid-template-columns: 40% 40%;
     grid-gap: var(--size-16px);
     justify-items: flex-start;
     color: var(--color-white);
@@ -1726,8 +1730,8 @@
     background-color: var(--color-white);
     border: thin solid #E0E0E0;
     border-radius: var(--size-16px);
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 10em;
+    margin-right: 10.7em;
 }
 
 .ranking>.ranking-table-select>.form-select {
@@ -1994,13 +1998,14 @@
 .register-container>.register-information {
     background-color: var(--background-color-blue);
     padding-top: 3em;
+    padding-left: 9em;
+    padding-right: 9em;
 }
 
 .register-container>.register-information>.row>.col>.register-information-inside {
     display: grid;
-    grid-template-columns: 45% 45%;
-    grid-gap: 3em;
-    padding: 0 4em 3em 9em;
+    grid-template-columns: 49% 49%;
+    grid-gap: 1em;
     margin-top: var(--size-32px)
 }
 
@@ -2071,6 +2076,8 @@
 
 .register-container>.register-contest-rules {
     background-color: rgba(54, 191, 199, 0.05);
+    padding-left: 10em;
+    padding-right: 11em;
 }
 
 .register-container>.rules-for-mobile-ranking {
@@ -2224,9 +2231,8 @@
 
 .register-container>.register-contest-rules>.register-contest-result-laptop {
     display: grid;
-    grid-template-columns: 44% 25% 25%;
+    grid-template-columns: 49.2% 24.5% 24.5%;
     grid-gap: 1em;
-    margin-left: 5.5em;
     margin-top: 2em;
 }
 
@@ -2264,7 +2270,7 @@
     padding-right: var(--size-16px);
 }
 
-.register-container>.register-contest-rules>.register-contest-footer {
+.register-contest-footer {
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -2275,7 +2281,7 @@
 
 .register-container>.nav-web {
     padding-left: 10em;
-    padding-right: 11em;
+    padding-right: 10em;
 }
 
 .register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-text,
@@ -2326,8 +2332,6 @@
 
 .register-container>.rules-for-laptop>.register-contest-rules-register-form {
     height: 17.875em;
-    width: 92%;
-    margin-left: 5em;
     border-radius: 0.5em;
 }
 
@@ -2420,9 +2424,18 @@
     width: 21.125em;
 }
 
+.register-container>.register-contest-footer {
+    background-color: rgba(54, 191, 199, 0.05);
+}
 /* End-register-mobile */
 
 /* Begin-mobile-ranking */
+.register-container>.round-of-exams>.row>.col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
 .register-container>.ranking>.ranking-table-mobile {
     background-color: #F3F4F5;
 }
@@ -3070,7 +3083,11 @@
 /* Begin-round-of-exams */
 .round-of-exams {
     background-color: #EFEFEF;
+    padding-left: 9em;
+    padding-right: 10em;
 }
+
+
 
 .round-of-exams>.row>.col>.round-of-content {
     font-size: 2.5em;
@@ -3081,11 +3098,9 @@
 
 .round-of-exams>.row>.col>.round-of-header {
     display: grid;
-    grid-template-columns: 25% 24% 24% 24%;
+    grid-template-columns: 24% 24% 24% 24%;
     grid-gap: 1em;
     margin-top: 2em;
-    margin-left: 8.5em;
-    margin-right: 11em;
 }
 
 .round-of-exams>.row>.col>.round-of-header>.round-of-header-content {
@@ -3183,8 +3198,7 @@
     grid-gap: 1em;
     margin-top: var(--size-16px);
     margin-bottom: 3em;
-    margin-left: 4.5em;
-    margin-right: 3.5em;
+    margin-right: 1em;
     padding: var(--size-16px);
     background-color: var(--color-white);
     border-radius: 0px 0px 8px 8px;
@@ -3240,6 +3254,15 @@
 /* End-round-of-exams */
 
 /* Begin-contest-news */
+.contest-news>.register-contest-footer {
+    background-color: #EFEFEF;
+}
+
+.contest-news>.register-contest-rules>.contest-for-laptop {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 .contest-news>.register-contest-rules {
     background-color: #EFEFEF;
 }
@@ -3280,7 +3303,7 @@
 }
 
 .contest-news>.register-contest-rules>.special-result {
-    grid-template-columns: 23.2% 23.2% 23.2% 23.2%;
+    grid-template-columns: 24% 24% 24% 24%;
 }
 
 /* btn-web game */
@@ -3529,9 +3552,6 @@
         height: 97%;
     }
 
-    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
-
-    }
     /* End-ranking-web */
 }
 
@@ -3572,14 +3592,13 @@
     /* End-register-web */
 
     /* Begin-ranking-web */
-    .register-container>.rules-for-laptop>.register-contest-rules-register-form {
-        width: 91%;
+    .round-of-exams>.row>.col>.cover-round-of-exams {
+        margin-right: 0;
     }
 
-    .round-of-exams>.row>.col>.round-of-header {
-        grid-template-columns: 24% 24% 24% 24%;
+    .ranking>.ranking-table {
+        margin-right: 10em;
     }
-
     /* End-ranking-web */
 }
 
@@ -3666,7 +3685,7 @@
     }
 
     .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content {
-        align-items: center;
+        align-items: baseline;
     }
 
     .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content {
@@ -3678,8 +3697,6 @@
     /* Begin-round-of-exams */
     .round-of-exams>.row>.col>.round-of-header {
         font-size: 0.8em;
-        margin-left: 5.5em;
-        margin-right: 3.8em;
     }
 
     /* End-round-of-exams */
@@ -3759,10 +3776,6 @@
     /* End-Edupia-choose-province */
 
     /* Begin-register-web */
-    .register-container>.nav-web {
-        padding-left: 6em;
-        padding-right: 6em;
-    }
 
     .register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-text,
     .register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-number {
@@ -3783,7 +3796,7 @@
 
     .register-container>.register-contest-rules>.register-contest-result-laptop {
         display: grid;
-        grid-template-columns: 44% 25% 25%;
+        grid-template-columns: 44% 24.5% 24.5%;
         grid-gap: 1em;
         justify-content: center;
     }
@@ -3800,13 +3813,15 @@
         margin-top: 3em;
     }
 
+    .register-container>.nav-web>.nav-web-content>div>.btn-login {
+        float: right;
+    }
+
     /* End-register-web */
 
     /* Begin-round-of-exams */
     .round-of-exams>.row>.col>.round-of-header {
         font-size: 0.7em;
-        margin-left: 6.3em;
-        margin-right: 4.1em;
     }
 
     .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number>.inside-topic-number-content>.inside-topic-number-content-text {
@@ -3825,8 +3840,12 @@
         margin-right: 7.8em;
     }
 
-    .contest-news>.register-contest-rules>.special-result {
-        grid-template-columns: 23.2% 23.2% 23.2% 23.2%;
+    .register-container>.register-contest-rules>.register-contest-result-laptop {
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.special-result {
+        display: none;
     }
 
     /* End-contest-news */
@@ -3889,11 +3908,6 @@
         font-size: 0.8em;
     }
 
-    .register-container>.register-contest-rules>.register-contest-result-laptop {
-        grid-template-columns: 42% 23% 23%;
-        margin-left: 4.5em;
-    }
-
     .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
         height: 310px;
     }
@@ -3909,16 +3923,10 @@
     /* Begin-round-of-exams */
     .round-of-exams>.row>.col>.round-of-header {
         font-size: 0.63em;
-        margin-left: 7em;
-        margin-right: 4.7em;
     }
 
     .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number {
         font-size: 0.8em
-    }
-
-    .contest-news>.register-contest-rules>.special-result {
-        grid-template-columns: 21.5% 21.5% 21.5% 21.5%;
     }
 
     .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
@@ -4178,10 +4186,6 @@
         margin-right: 5.9em;
     }
 
-    .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside {
-        font-size: 0.8em;
-    }
-
     .contest-news>.register-contest-rules>.special-result {
         grid-template-columns: 10.7em 10.7em 10.7em 10.7em;
     }
@@ -4193,7 +4197,7 @@
     /* End-round-of-exams */
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
 
     .form-information-inside>.form-information-phone,
     .form-information-phone,
@@ -4265,6 +4269,43 @@
         font-size: 0.6em;
     }
 
+     /* Begin-Edupia-choose-province */
+     .choose-province-container>.choose-province-cover-pop-up {
+        grid-template-columns: none;
+        padding: 0;
+    }
+
+    .choose-province-container>.choose-province-content>.row>.col>.choose-province-content-inside {
+        width: 100%;
+        font-size: 0.9375em;
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 178px;
+        height: 50px;
+        font-size: var(--font-size-24px);
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-content,
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-comingsoon,
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-register,
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join,
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
+        font-size: var(--size-16px);
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.footer-choose-province>.btn-choose-province {
+        width: 15.625em;
+        height: var(--size-32px);
+        font-size: var(--size-16px);
+    }
+
+    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join {
+        width: 8.3125em;
+    }
+
+    /* End-Edupia-choose-province */
+
     /* End-Edupia-choose-province */
 
     /* Begin-register-web */
@@ -4309,7 +4350,7 @@
     }
 
     .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside {
-        margin-top: 12%;
+        margin-top: 1.5em;
     }
 
     .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col {
@@ -4323,7 +4364,7 @@
     }
 
     .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-img {
-        right: -3%;
+        right: -1%;
         top: -17%;
     }
 
@@ -4375,6 +4416,8 @@
 
     .register-container>.rules-for-mobile {
         display: block;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .register-container>.rules-for-laptop {
@@ -4382,7 +4425,7 @@
     }
 
     .register-container>.register-information {
-        padding-top: 0;
+        padding: 0;
     }
 
     .register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside>.register-contest-result-inside-img>img {
@@ -4395,6 +4438,10 @@
 
     .register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-btn>.btn-register {
         width: 100%;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
+        right: -2.8%;
     }
 
     /* End-register-web */
@@ -4432,7 +4479,7 @@
     }
 
     .register-container>.round-of-exams {
-        padding-bottom: 0;
+        padding: 0;
     }
 
     /* End-mobile-ranking */
@@ -4462,12 +4509,11 @@
 
     .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number {
         font-size: var(--primary-font-size-14px);
+        margin-top: 1em;
     }
 
     .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.btn-register {
         height: 36px;
-        width: 80px;
-        font-size: 0.8em;
         font-weight: var(--primary-font-weight-600);
     }
 
@@ -4529,10 +4575,10 @@
     }
 
     .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.header-round-status-mobile {
-        font-size: var(--size-12px);
+        font-size: var(--primary-font-size-14px);
         font-weight: var(--mobile-text-font-weight-400);
         margin-top: 0.3em;
-        margin-left: 1.5em;
+        margin-left: 1.3em;
     }
 
     .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status>.round-header-line-mobile {
@@ -4573,8 +4619,15 @@
         width: 12em;
     }
 
+    .contest-news>.register-contest-rules {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .contest-news>.rules-for-laptop {
         display: block;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .contest-news>.register-contest-rules>.register-contest-result {
@@ -4591,40 +4644,5 @@
 
 @media screen and (max-width: 700px) {
 
-    /* Begin-Edupia-choose-province */
-    .choose-province-container>.choose-province-cover-pop-up {
-        grid-template-columns: none;
-        padding: 0;
-    }
-
-    .choose-province-container>.choose-province-content>.row>.col>.choose-province-content-inside {
-        width: 100%;
-        font-size: 0.9375em;
-    }
-
-    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
-        width: 178px;
-        height: 50px;
-        font-size: var(--font-size-24px);
-    }
-
-    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-content,
-    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-comingsoon,
-    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-register,
-    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join,
-    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
-        font-size: var(--size-16px);
-    }
-
-    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.footer-choose-province>.btn-choose-province {
-        width: 15.625em;
-        height: var(--size-32px);
-        font-size: var(--size-16px);
-    }
-
-    .choose-province-container>.choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join {
-        width: 8.3125em;
-    }
-
-    /* End-Edupia-choose-province */
+   
 }
