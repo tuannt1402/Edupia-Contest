@@ -83,16 +83,22 @@ $(document).ready(function () {
   let resizePixed = (window.innerWidth / 16 * 9);
   $(window).on('resize', function changeResize(e) {
     resizePixed = (window.innerWidth / 16 * 9);
-    resizeWindow();
+    transform();
   })
   // Thay đổi kích cỡ của web games
-  function resizeWindow() {
-    
-    $('.web-game-container').css({
-      height: resizePixed + 'px',
-      width: window.innerWidth +'px'
-    })
+  transform();
 
+  function transform() {
+    if (window.screen.height >= 768) {
+      $('.web-game-container').css({
+        transform: 'scale(' + (window.screen.width) / 1366 + ')'
+      })
+    } else {
+      $('.web-game-container').css({
+        transform: 'scale(' + (window.screen.height) / 768 + ')'
+      })
+    }
+    
   }
-  resizeWindow();
+  transform();
 });

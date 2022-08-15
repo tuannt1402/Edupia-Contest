@@ -52,6 +52,10 @@
     position: relative;
 }
 
+.aspect {
+    aspect-ratio: 16/9;
+}
+
 .tranform-arrow {
     transform: rotate(-90deg);
 }
@@ -1816,8 +1820,16 @@
 /* End-form-ranking-non-date */
 
 /* Begin-web-games */
+.body-web-game{
+    height: 100vh;
+    overflow: hidden;
+}
+
 .web-game-container {
     color: var(--color-white);
+    width: 1366px;
+    overflow: hidden;
+    transform-origin: top left;
 }
 
 .web-game-container>.web-game-nav {
@@ -1846,9 +1858,9 @@
     margin: auto;
 }
 
-.web-game-container>.web-game-content {
+/* .web-game-container>.web-game-content {
     height: 90%;
-}
+} */
 
 .web-game-container>.web-game-content>.web-game-content-times {
     background-color: #F1F5F8;
@@ -1936,6 +1948,28 @@
 
 .web-game-container>.web-game-content>.web-game-content-times>.web-game-content-times-btn {
     margin-top: 18%;
+}
+
+.web-game-container>.web-game-content>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap:90px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.web-game-container>.web-game-content>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.btn-FFFFFF>span {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.web-game-container>.web-game-content>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.btn-FFFFFF>button {
+    justify-content: flex-start;
+    font-size: 14px;
+    font-weight: 400;
+    color: #48484A;
 }
 
 /* End-web-games */
@@ -3348,7 +3382,7 @@
 
 }
 
-.btn-C7C7C77>button {
+.btn-C7C7C77 {
     width: 220px;
     height: 56px;
     font-size: 20px;
