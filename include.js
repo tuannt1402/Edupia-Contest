@@ -78,19 +78,21 @@ $(document).ready(function () {
     }
   })
 
+
+  // Web-game
+  let resizePixed = (window.innerWidth / 16 * 9);
   $(window).on('resize', function changeResize(e) {
+    resizePixed = (window.innerWidth / 16 * 9);
     resizeWindow();
   })
   // Thay đổi kích cỡ của web games
   function resizeWindow() {
-    let resizePixed = (window.innerWidth / 16 * 9) 
-
+    
     $('.web-game-container').css({
-      height: resizePixed + 'px'
+      height: resizePixed + 'px',
+      width: window.innerWidth +'px'
     })
 
   }
   resizeWindow();
 });
-
-
