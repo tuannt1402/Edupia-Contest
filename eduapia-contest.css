@@ -1821,7 +1821,7 @@
 }
 
 .web-game-container>.web-game-nav {
-    background-color:#1B7ECA;
+    background-color: #1B7ECA;
     height: 9%;
     margin-bottom: 1%;
     justify-content: flex-start;
@@ -1847,11 +1847,11 @@
 }
 
 .web-game-container>.web-game-content {
-    height:90%;
+    height: 90%;
 }
 
 .web-game-container>.web-game-content>.web-game-content-times {
-    background-color:#F1F5F8;
+    background-color: #F1F5F8;
     height: 100%;
     width: 24%;
     margin-right: 1%;
@@ -1879,7 +1879,7 @@
 .web-game-container>.web-game-content>.web-game-content-times>.cover-answer>.web-game-content-times-answer {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
-    grid-gap:1%;
+    grid-gap: 1%;
     margin-top: 5%;
     margin-left: 15%;
 }
@@ -1904,21 +1904,34 @@
     height: 100%;
     width: 75%;
     font-size: 20px;
-    background-color:#F1F5F8;
+    background-color: #F1F5F8;
     color: black;
 }
 
 .web-game-container>.web-game-content>.web-game-test>.web-game-test-header {
+    height: 64px;
     margin: 4%;
     justify-content: flex-start;
 }
 
 .web-game-container>.web-game-content>.web-game-test>.web-game-test-header>.web-game-test-header-text {
-    font-weight: var(--btn-font-weight-700);
+    height: 100%;
+    font-size: 20px;
+    font-weight: var(--primary-font-weight-600)
 }
 
 .web-game-container>.web-game-content>.web-game-test>.web-game-test-header>.web-game-test-header-icon {
+    margin-left: 3%;
+}
 
+.web-game-container>.web-game-content>.web-game-test>.web-game-test-content>.web-game-test-content-text {
+    height: 28px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.web-game-container>.web-game-content>.web-game-test>.web-game-test-content>.web-game-test-content-img {
+    margin-top: 2%;
 }
 
 /* End-web-games-nav */
@@ -2076,6 +2089,8 @@
 
 .register-container>.register-contest-rules {
     background-color: rgba(54, 191, 199, 0.05);
+    padding-left: 10em;
+    padding-right: 11em;
 }
 
 .register-container>.rules-for-mobile-ranking {
@@ -2425,6 +2440,7 @@
 .register-container>.register-contest-footer {
     background-color: rgba(54, 191, 199, 0.05);
 }
+
 /* End-register-mobile */
 
 /* Begin-mobile-ranking */
@@ -2716,7 +2732,6 @@
     grid-template-columns: 10% 40% 40%;
     gap: 2%;
     justify-content: center;
-    margin: 0 10em;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text {
@@ -2908,6 +2923,9 @@
     color: #1F2230;
 }
 
+.contest-ttcn>.footer-container-mobile>.row>.col>.footer-container-mobile-inside {
+    padding-left: 2.5em;
+}
 /* End thông tin cá nhân đầy đủ */
 
 
@@ -2925,7 +2943,7 @@
     background: #FFFFFF;
     border-radius: 12px;
     position: absolute;
-    top: 65%;
+    bottom: -102px;
     left: 1em;
     right: 1em;
 }
@@ -3006,7 +3024,6 @@
 /* web */
 .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
     position: relative;
-    padding: 0 10em;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>img {
@@ -3018,9 +3035,9 @@
     background: #FFFFFF;
     border-radius: 12px;
     position: absolute;
-    bottom: 2em;
-    left: 12em;
-    right: 12em;
+    bottom: -2em;
+    left: 1em;
+    right: 1em;
 }
 
 .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>button {
@@ -3308,48 +3325,35 @@
 .btn-white {
     width: 140px;
     height: 48px;
+    left: 1853px;
+    top: 64px;
     background: #FFFFFF;
     border-radius: 24px;
 }
-.btn-white>button {
-    background: initial;
-    width: 100%;
-    height: 100%;
-    padding: 14px 40px;
-    border-radius: 24px;
-    border: none;
-}
+
 .btn-36C0C8 {
     background: #36C0C8;
     border-radius: 24px;
     width: 220px;
     height: 56px;
-}
-.btn-36C0C8>button {
-    background: initial;
-    width: 100%;
-    height: 100%;
+    left: 1843px;
+    top: 152px;
     padding: 14px 40px;
-    border-radius: 24px;
-    border: none;
 }
+
 .btn-C7C7C77 {
     width: 220px;
     height: 56px;
+    left: 1843px;
+    top: 228px;
     background: #C7C7C7;
     border-radius: 24px;
 }
-.btn-C7C7C77>button {
-    background: initial;
-    width: 100%;
-    height: 100%;
-    padding: 14px 40px;
-    border-radius: 24px;
-    border: none;
-}
-.circle-frame{
+
+.circle-frame {
     gap: 1em;
 }
+
 .circle-white {
     width: 30px;
     height: 30px;
@@ -3366,6 +3370,7 @@
     border-radius: 15px;
     padding: 7px 2px;
 }
+
 .circle-EC1212 {
     padding: 7px 2px;
     width: 30px;
@@ -3373,6 +3378,7 @@
     background: #EC1212;
     border-radius: 15px;
 }
+
 .circle-0083CE {
     padding: 7px 2px;
     width: 30px;
@@ -3380,9 +3386,11 @@
     background: #0083CE;
     border-radius: 15px;
 }
-.circle-frame-text{
+
+.circle-frame-text {
     gap: 1em;
 }
+
 .circle-white-text {
     width: 30px;
     height: 30px;
@@ -3395,6 +3403,7 @@
     line-height: 16px;
     color: #48484A;
 }
+
 .circle-04B431-text {
     width: 30px;
     height: 30px;
@@ -3406,6 +3415,7 @@
     line-height: 16px;
     color: var(--color-white);
 }
+
 .circle-EC1212-text {
     padding: 7px 2px;
     width: 30px;
@@ -3418,6 +3428,7 @@
     color: var(--color-white);
 
 }
+
 .circle-0083CE-text {
     padding: 7px 2px;
     width: 30px;
@@ -3430,8 +3441,9 @@
     color: var(--color-white);
 
 }
+
 .btn-listen {
-    width: 184px;
+    width: 190px;
     height: 64px;
     left: 20px;
     top: 20px;
@@ -3440,11 +3452,15 @@
     padding: 8px 12px;
     gap: 0.5em;
     color: #4DA1F3;
+    font-size: 18px;
+    font-weight: 400;
 }
-.btn-listen>div>button{
+
+.btn-listen>div>button {
     border: none;
     background: none;
 }
+
 .btn-playing {
     width: 184px;
     height: 64px;
@@ -3456,10 +3472,12 @@
     gap: 0.5em;
     color: #4DA1F3;
 }
-.btn-playing>div>button{
+
+.btn-playing>div>button {
     border: none;
     background: none;
 }
+
 .btn-speak {
     width: 184px;
     height: 64px;
@@ -3471,10 +3489,12 @@
     gap: 0.5em;
     color: #4DA1F3;
 }
-.btn-speak>div>button{
+
+.btn-speak>div>button {
     border: none;
     background: none;
 }
+
 .btn-speak-stop {
     width: 184px;
     height: 64px;
@@ -3486,10 +3506,12 @@
     gap: 0.5em;
     color: #EC1212;
 }
-.btn-speak-stop>div>button{
+
+.btn-speak-stop>div>button {
     border: none;
     background: none;
 }
+
 .btn-record {
     width: 184px;
     height: 64px;
@@ -3501,10 +3523,12 @@
     gap: 0.5em;
     color: #4DA1F3;
 }
-.btn-record>div>button{
+
+.btn-record>div>button {
     border: none;
     background: none;
 }
+
 .btn-listen-again {
     width: 275px;
     height: 64px;
@@ -3514,36 +3538,43 @@
     border-radius: 8px;
     padding: 8px 12px;
     gap: 0.5em;
-    color: #313131;;
+    color: #313131;
+    ;
 }
-.btn-listen-again>div>button{
+
+.btn-listen-again>div>button {
     border: none;
     background: none;
 }
+
 .btn-mark-green-frame {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background: rgba(118, 118, 128, 0.12);
 }
+
 .btn-mark-green {
     height: 25px;
     width: 25px;
     border-radius: 50%;
     background: #3AB384;
 }
+
 .btn-mark-red-frame {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background: rgba(118, 118, 128, 0.12);
 }
+
 .btn-mark-red {
     height: 25px;
     width: 25px;
     border-radius: 50%;
     background: #EC1212;
 }
+
 /*end btn-web game */
 @media screen and (max-width: 1700px) {
 
@@ -3572,9 +3603,6 @@
 
 
 @media screen and (max-width: 1500px) {
-    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web{
-        margin: 0 5em;
-    }
     .nav-web>.nav-web-content>.nav-web-content-login>.nav-web-content-login-text>.nav-web-content-login-text-bottom {
         font-size: 0.55em;
     }
@@ -3614,20 +3642,13 @@
     .ranking>.ranking-table {
         margin-right: 10em;
     }
+
     /* End-ranking-web */
 }
 
 @media screen and (max-width: 1400px) {
 
     /* news-detail */
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
-        padding: 0 5em;
-    }
-
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content {
-        left: 7em;
-        right: 7em;
-    }
 
     .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content {
         padding: 0 8em;
@@ -3720,9 +3741,10 @@
 
 @media screen and (max-width: 1220px) {
 
-    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web{
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web {
         margin: 0 2em;
     }
+
     /* Thông tin cá nhân */
     .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center {
         margin-left: 2.5em;
@@ -3738,17 +3760,8 @@
         padding-right: 10em;
     }
 
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
-        padding: 0 2em;
-    }
-
     .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content {
         padding: 0 4em;
-    }
-
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content {
-        left: 6em;
-        right: 6em;
     }
 
     /* end thông tin cá nhân */
@@ -3871,12 +3884,6 @@
     /* new detail */
     .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
         padding: 0;
-    }
-
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content {
-        left: 2em;
-        right: 2em;
-        bottom: 0;
     }
 
     /* end new detail */
@@ -4091,11 +4098,6 @@
 @media screen and (max-width: 900px) {
 
     /* news-detail */
-    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content {
-        left: 2em;
-        right: 2em;
-    }
-
     .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>.register-contest-rules-News-web-header-content-text {
         font-size: 20px;
     }
@@ -4228,6 +4230,15 @@
     }
 
     /* news detail */
+    .register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content {
+        bottom: -102px;
+    }
+
+    .contest-news-detail>.register-contest-rules {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
     .register-container>.register-contest-rules>.register-contest-rules-News-web {
         display: none;
     }
@@ -4238,6 +4249,14 @@
 
     /* end news detail */
     /* thông tin cá nhân */
+    .register-container>.register-contest-rules {
+        padding: 0;
+    }
+
+    .contest-ttcn>.footer-container-mobile>.row>.col>.footer-container-mobile-inside {
+        padding: 0;
+    }
+
     .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile {
         display: block;
     }
@@ -4284,8 +4303,8 @@
         font-size: 0.6em;
     }
 
-     /* Begin-Edupia-choose-province */
-     .choose-province-container>.choose-province-cover-pop-up {
+    /* Begin-Edupia-choose-province */
+    .choose-province-container>.choose-province-cover-pop-up {
         grid-template-columns: none;
         padding: 0;
     }
@@ -4657,7 +4676,4 @@
     /* End-contest-news */
 }
 
-@media screen and (max-width: 700px) {
-
-   
-}
+@media screen and (max-width: 700px) {}
