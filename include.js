@@ -98,7 +98,6 @@ $(document).ready(function () {
         transform: 'scale(' + (window.screen.height) / 768 + ')'
       })
     }
-    
   }
   transform();
 });

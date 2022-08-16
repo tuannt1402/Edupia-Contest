@@ -3666,7 +3666,64 @@
     font-size: 16px;
     border: none;
 }
+.btn-back>button {
+    background: #FFF;
+    border-radius: 24px;
+    padding: 12px 32px;
+    width: 140px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    color: #2B2B2B;
+    font-size: 16px;
+    border: none;
+}
+.web-game-container>.web3>.web-game-test>.web-game-test-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 42px;
+}
+.web-game-container>.web3>.web-game-test>.web-game-test-btn>.btn-next{
+    margin: 0;
+}
 /*end btn-web game */
+.web-game-container>.web2>.web-game-test>.web-game-test-btn>.btn-next{
+    justify-content: flex-end;
+    margin-right: 9%;
+    margin-top: 13%;
+}
+.web-game-container>.web2>.web-game-content-times>.web-game-content-times-btn>.cover-btn>.btn-C7C7C77{
+    background-color: #00CCCC;
+}
+.web-game-container>.web3>.web-game-content-times>.web-game-content-times-btn>.cover-btn>.btn-C7C7C77{
+    background-color: #00CCCC;
+}
+.web-game-container>.web3>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 23px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.web-game-container>.web3>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.btn-FFFFFF {
+    padding: 8px 16px;
+    width: 65px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #48484A;
+}
+.web-game-container>.web3>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-answer>div{
+    width: 503px;
+    height: 0px;
+    border: 1px solid #636366;
+    margin-top: 95px;
+}
 @media screen and (max-width: 1700px) {
 
     /* Begin-register-mobile */
