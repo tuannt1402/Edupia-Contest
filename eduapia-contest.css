@@ -2885,7 +2885,75 @@
     justify-content: space-between;
     padding: 1em 0 0;
 }
-
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame{
+    display: flex;
+    gap: 20px;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>input[type="radio"]{
+    display: none;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>label{
+    border: 1px solid #CDCED6;
+    padding: 10px 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    width: 35%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>label::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 1px solid #BABFC5;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile>.row>.col>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>input[type="radio"]:checked + label::before{
+    background: #36BFC7;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #FFFFFF;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame{
+    display: flex;
+    gap: 20px;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>input[type="radio"]{
+    display: none;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>label{
+    border: 1px solid #CDCED6;
+    padding: 10px 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    width: 35%;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>label::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 1px solid #BABFC5;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.register-contest-rules-ttcn-content-gioitinh-frame>label::after{
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #FFF;
+    margin-left: 5px;
+}
+.register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame>input[type="radio"]:checked + label::before{
+    background: #36BFC7;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #FFFFFF;
+}
 /* End Contest-ttcn */
 
 /* Thông tin cá nhân đầy đủ */
@@ -3723,6 +3791,22 @@
     height: 0px;
     border: 1px solid #636366;
     margin-top: 95px;
+}
+.register-container>.rules-for-laptop>.frameone-Eduapia{
+    height: 7.875em;
+}
+.register-container>.rules-for-laptop>.frameone-Eduapia>.row>.col>.register-contest-rules-register-form-inside{
+    justify-content: center;
+}
+.register-container>.rules-for-laptop>.frameone-Eduapia>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header{
+    justify-content: center;
+    margin: 0;
+}
+.register-container>.rules-for-laptop>.frameone-Eduapia>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content{
+    margin-bottom: 1em;
+}
+.register-container>.rules-for-laptop>.frameone-Eduapia>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-btn{
+    width: 100%;
 }
 @media screen and (max-width: 1700px) {
 
