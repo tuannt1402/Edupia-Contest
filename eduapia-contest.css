@@ -4247,8 +4247,74 @@
 }
 .web-game-container>.web30>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.web-game-test-answer-inside-content-btn-frame>.textdiem {
     position: absolute;
-    left: 13px;
-    top: 13px;
+    left: 0;
+    top: -48px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #015488;
+}
+.web-game-container>.web30>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.web-game-test-answer-inside-content-btn-frame>.texttongdiem {
+    position: absolute;
+    left: 65px;
+    top: 105px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7D808E;
+}
+.web-game-container>.web30>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.web-game-test-answer-inside-content-btn-frame>.frame {
+    position: absolute;
+    left: 85px;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.btn-white-frame>button {
+    width: 220px;
+    padding: 14px 40px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2A2A2A;
+    display: flex;
+}
+.web-game-container>.web30>.web-game-test>.web-game-test-btn{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 20px;
+}
+.btn-blue-frame>button {
+    width: 220px;
+    padding: 14px 40px;
+    background: #36C0C8;
+    border-radius: 24px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color:#FFFFFF;
+    display: flex;
+}
+.web-game-container>.web31>.web-game-test>.web-game-test-content>.web-game-test-content-text {
+    margin-top: 250px;
+}
+.web-game-container>.web31>.web-game-test>.web-game-test-btn {
+    display: flex;
+    justify-content: center;
+    padding: 145px 0;
+    gap: 20px;
 }
 /* end Với các bài thi không làm bài */
 @media screen and (max-width: 1700px) {
