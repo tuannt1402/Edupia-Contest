@@ -1913,10 +1913,6 @@
     font-weight: var(--btn-font-weight-700);
 }
 
-.web-game-container>.web-game-content>.web-game-test>.web-game-test-header>.web-game-test-header-icon {
-
-}
-
 /* End-web-games-nav */
 
 /* Begin-Edupia-choose-province */
@@ -3476,9 +3472,6 @@
         height: 97%;
     }
 
-    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
-
-    }
     /* End-ranking-web */
 }
 
