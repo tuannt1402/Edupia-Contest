@@ -4078,7 +4078,6 @@
 }
 .web-game-container>.web-game-content>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-answer {
     gap: 50px;
-    margin-left: -60px;
 }
 .web-game-container>.web16>.web-game-test>.web-game-test-btn{
     display: flex;
@@ -4091,7 +4090,167 @@
 .web-game-container>.web16>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn{
     grid-column-gap: 25px;
 }
+.web-game-container>.web17>.web-game-test>.web-game-test-content>.web-game-test-content-text>div{
+    border-bottom: 2px solid black;
+    margin: 0 10px;
+}
+.web-game-container>.web17>.web-game-test>.web-game-test-content>.web-game-test-content-text>.btn-mark-green-frame{
+    border: none;
+}
+.web-game-container>.web18>.web-game-test>.web-game-test-btn{
+    display: flex;
+    justify-content:space-between;
+    padding: 110px 42px;
+}
+.web-game-container>.web18>.web-game-test>.web-game-test-content>.web-game-test-content-text{
+    margin-left: -100px;
+}
+.web-game-container>.web18>.web-game-test>.web-game-test-content>.web-game-test-content-text>.btn-mark-green-frame{
+    margin-right: 100px;
+}
+.web-game-container>.web18>.web-game-test>.web-game-test-btn>.btn-next{
+    margin: 0;
+}.web-game-container>.web19>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-answer {
+    gap: 20px;
+    margin-left: -50px;
+}
+.web-game-container>.web19>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 23px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.web-game-container>.web19>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.btn-FFFFFF {
+    padding: 8px 16px;
+    width: 65px;
+    height: 40px;
+    background: #D3D3D3;
+    border: 1px solid #D3D3D3;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #48484A;
+}
+.web-game-container>.web19>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-answer>.web-game-test-answer-inside-answer-frame {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 23px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.web-game-container>.web19>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-answer>.web-game-test-answer-inside-answer-frame>.btn-FFFFFF {
+    padding: 8px 16px;
+    width: 65px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #48484A;
+}
+.web-game-container>.web19>.web-game-test>.web-game-test-btn{
+    display: flex;
+    justify-content:space-between;
+    padding: 52px 42px;
+}
+.web-game-container>.web19>.web-game-test>.web-game-test-btn>.btn-next{
+    margin: 0;
+}
+.web-game-container>.web20>.web-game-test>.web-game-test-btn{
+    display: flex;
+    justify-content:space-between;
+    padding: 335px 42px;
+}
+.web-game-container>.web20>.web-game-test>.web-game-test-btn>.btn-next{
+    margin: 0;
+}
+.web-game-container>.web21>.web-game-test>.web-game-test-btn{
+    display: flex;
+    justify-content:space-between;
+    padding: 110px 42px;
+}
+.web-game-container>.web21>.web-game-test>.web-game-test-btn>.btn-next{
+    margin: 0;
+}
+.web-game-container>.web21>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn{
+    grid-column-gap: 25px;
+    margin-top: 185px;
+}
+.web-game-container>.web21>.web-game-test>.web-game-test-result{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0083CE;
+    padding: 20px;
+}
+.web-game-container>.web22>.web-game-test>.web-game-test-content>.web-game-test-content-text>.btn-mark-red-frame{
+    margin-right: 20px;
+}
+.web-game-container>.web22>.web-game-test>.web-game-test-content>.web-game-test-content-text>.boder{
+    border-bottom: 2px solid black;
+    width: 80px;
+    margin: 0 10px;
+    height: 20px;
+}
+.web-game-container>.web18>.web-game-test>.web-game-test-content>.web-game-test-content-text>.btn-mark-red-frame{
+    margin-right: 100px;
+}
 /* end Với các bài thi có submit bài và có kết quả điểm */
+
+
+/* Với các bài thi không làm bài */
+.web-game-container>.web25>.web-game-test>.web-game-test-btn{
+    display: flex;
+    justify-content:space-between;
+    padding: 90px 42px;
+}
+.web-game-container>.web25>.web-game-test>.web-game-test-btn>.btn-next{
+    margin: 0;
+}
+.web-game-container>.web26>.web-game-test>.web-game-test-btn{
+    display: flex;
+    justify-content:space-between;
+    padding: 150px 42px;
+}
+.web-game-container>.web26>.web-game-test>.web-game-test-btn>.btn-next{
+    margin: 0;
+}
+.web-game-container>.web30>.web-game-test>.web-game-test-content>.web-game-test-content-text{
+    margin-top: 90px;
+}
+.web-game-container>.web30>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn{
+    display: flex;
+}
+.web-game-container>.web30>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.web-game-test-answer-inside-content-btn-frame {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #FFFFFF;
+    border: 1px solid #D7F5F8;
+    border-radius: 50%;
+}
+.web-game-container>.web30>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.web-game-test-answer-inside-content-btn-frame>.big {
+    position: absolute;
+    left: 13px;
+    top: 13px;
+}
+.web-game-container>.web30>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.web-game-test-answer-inside-content-btn-frame>.small {
+    position: absolute;
+    left: 13px;
+    top: 13px;
+}
+.web-game-container>.web30>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-content>.web-game-test-answer-inside-content-btn>.web-game-test-answer-inside-content-btn-frame>.textdiem {
+    position: absolute;
+    left: 13px;
+    top: 13px;
+}
+/* end Với các bài thi không làm bài */
 @media screen and (max-width: 1700px) {
 
     /* Begin-register-mobile */
