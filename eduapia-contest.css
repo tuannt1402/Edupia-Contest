@@ -1229,6 +1229,9 @@
     width: 28%;
     border: none;
 }
+.form-noinfor-full>.form-noinfor>.row>.col>.form-noinfor-inside>.form-noinfor-inside-header>.form-noinfor-inside-header-bottom>span {
+    font-weight: 700;
+}
 
 .form-noinfor-inside>.form-noinfor-inside-btn>.form-noinfor-inside-btn-confirm {
     padding: 0.5em 2em;
