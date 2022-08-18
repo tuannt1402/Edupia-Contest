@@ -1262,6 +1262,7 @@
     border-radius: 0.75em;
     border: #d4d4d4;
     height: 100%;
+    width: 500px;
 }
 
 .form-notification>.row>.col>.form-notification-inside>.form-notification-inside-header {
@@ -2577,13 +2578,20 @@
 
 
 /* Contest-ttcn */
+.noti-one>.form-notification>.row>.col>.form-notification-inside>.form-notification-inside-content>img{
+    width: 100%;
+    height: 100%;
+}
 .form-information {
     padding: 0.75em 0;
     border: 1px solid #E3E4EC;
     border-radius: 1em;
     background: #F6F7F8;
+    width: 506px;
 }
-
+.form-infor-full>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information{
+    width: auto;
+}
 .form-information-inside>.form-information-phone,
 .form-information-phone,
 .form-information-city,
@@ -2980,6 +2988,7 @@
     border-radius: 0.75em;
     border: #d4d4d4;
     height: 100%;
+    width: 570px;
 }
 
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header {
