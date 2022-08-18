@@ -2571,6 +2571,9 @@
 .register-container>.ranking>.ranking-table-mobile>.row>.col>.ranking-table-mobile-inside>.ranking-table-mobile-inside-header>.ranking-table-mobile-inside-header-text>.ranking-table-mobile-inside-header-text-scholl {
     font-weight: var(--mobile-text-font-weight-400);
 }
+.register-information-inside>.form-input-phone-number-inside>.form-noinfor{
+    width: auto;
+}
 
 /* End-mobile-ranking */
 
@@ -2589,7 +2592,7 @@
     background: #F6F7F8;
     width: 506px;
 }
-.form-infor-full>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information{
+.form-noinfor-inside-ttcn>.form-information{
     width: auto;
 }
 .form-information-inside>.form-information-phone,
