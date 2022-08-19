@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Cabin';
+    font-style: normal;
 }
 
 :root {
@@ -172,10 +172,10 @@
 }
 
 .pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
-    width: 212px;
+    width: max-content;
     height: 56px;
     font-weight: var(--btn-font-weight-700);
-    font-size: var(--font-size-24px);
+    font-size: 20px;
     border-radius: var(--btn-border-radius-05em);
     background-color: white;
     position: absolute;
@@ -184,6 +184,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    padding: 20px;
 }
 
 .pop-up-inside>.row>.col>.pop-up-inside-header>img {
@@ -712,6 +713,9 @@
     color: #E3E4EC;
 }
 
+.nav-web-content-menu-ontapcungedupia,.nav-web-content-menu-tuluyen,.nav-web-content-menu-tintuc {
+    opacity: 0.7;
+}
 /* end nav web */
 
 /* form đăng nhập */
