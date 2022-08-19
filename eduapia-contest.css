@@ -3846,16 +3846,23 @@
 .web-game-container>.web4>.web-game-test>.web-game-test-header{
     justify-content: space-between;
 }
-.web-game-container>.web4>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-answer>div{
+.web-game-container>.web4>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-answer>input {
     width: 503px;
-    height: 0px;
     border: 1px solid #636366;
     margin-top: 95px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: inherit;
+    padding: 10px;
+}
+.web-game-container>.web4>.web-game-test>.web-game-test-answer>.web-game-test-answer-inside>.web-game-test-answer-inside-answer>input:focus{
+    outline: none;
 }
 .web-game-container>.web4>.web-game-test>.web-game-test-btn {
     display: flex;
     justify-content: space-between;
-    padding: 356px 42px 85px 42px;
+    padding: 310px 42px 85px 42px;
 }
 .web-game-container>.web4>.web-game-test>.web-game-test-btn>.btn-next{
     margin: 0;
