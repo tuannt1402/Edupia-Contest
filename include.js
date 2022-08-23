@@ -30,7 +30,7 @@ function includeHTML() {
 
 $(document).ready(function () {
   // Bấm vào đăng nhập thì hiện ra khung ben trang chooseprovince mobile
-  let navMobile = $('.nav-mobile-login-viewmobile');
+  let navMobile = $('.nav-mobile-login-list');
 
   function letCloseNav(e) {
     $('.nav-mobile-login-viewmobile-frame').find('svg').first().on('click', function () {
