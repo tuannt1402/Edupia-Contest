@@ -3405,10 +3405,6 @@
 /* End-round-of-exams */
 
 /* Begin-contest-news */
-.contest-for-laptop>.container-lg>.contest-rules>.row-contest-news {
-    margin-top: 30px !important;
-}
-
 .contest-news>.register-contest-footer {
     background-color: #EFEFEF;
 }
@@ -5779,10 +5775,10 @@
         margin-top: 30px;
     }
 
-    .contest-for-laptop>.container-lg>.contest-rules>.row>.col-special,
-    .cover-container>.container-contest>.container-lg>.contest-rules>.row>.col-xl-3>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+    .contest-for-laptop>.container-lg>.contest-rules>.row>.col-special {
         margin-top: 0;
     }
+
 
     /* End-web-contest-news */
 }
@@ -5895,10 +5891,6 @@
 
     .cover-chooseprovince-content>.container-lg>.row>.col-lg-4 {
         margin-top: 20px;
-    }
-
-    .cover-container>.nav-chooseprovince {
-        display: none;
     }
 
     /* End-web-chooseprovince */
@@ -6088,7 +6080,6 @@
     .contest-for-laptop>.container-lg>.contest-rules>.row>.first-col-margin {
         margin-top: 30px;
     }
-
     /* End-web-contest-news */
 
     /* Begin-web-contest-new-detail */
@@ -6104,3 +6095,1100 @@
 
     /* End-web-contest-new-detail */
 }
+
+
+/* end Với các bài thi không làm bài */
+@media screen and (max-width: 1700px) {
+
+    /* Begin-register-mobile */
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+        gap: 3em;
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+        font-size: 1.3em;
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-header {
+        font-size: 2em;
+    }
+
+    /* End-register-mobile */
+
+    /* Begin-ranking-web */
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside {
+        height: 97%;
+    }
+
+    /* End-ranking-web */
+}
+
+@media screen and (max-width: 1500px) {
+    .nav-web{
+        padding: 0 5em;
+    }
+
+    .nav-web>.nav-web-content>div>.btn-login {
+        margin-left: var(--size-32px);
+    }
+
+    .nav-web>.nav-web-content {
+        font-size: 1em;
+    }
+
+    .nav-web-four>.nav-web-right>.nav-web-content {
+        font-size: 1em;
+    }
+
+    /* Begin-register-web */
+    .register-container>.nav-web>.nav-web-content {
+        font-size: var(--size-16px);
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+        font-size: 1.2em;
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-header {
+        font-size: 1.5em;
+    }
+
+    /* End-register-web */
+
+    /* Begin-ranking-web */
+    .round-of-exams>.row>.col>.cover-round-of-exams {
+        margin-right: 0;
+    }
+
+    .ranking>.ranking-table {
+        margin-right: 10em;
+    }
+
+    /* End-ranking-web */
+}
+
+@media screen and (max-width: 1400px) {
+
+    /* news-detail */
+    .contest-news-detail>.register-contest-rules, .nav-web{
+        padding: 0 5em;
+    }
+    .contest-news-detail>.nav-web{
+        padding: 0 5em;
+    }
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content {
+        padding: 0 8em;
+    }
+
+    /* end-new detail */
+    .nav-web>.nav-web-content>.btn-login {
+        margin-left: 1em;
+    }
+
+    .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
+        margin-left: 0;
+    }
+
+    /* Begin-Edupia-choose-province */
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 190px;
+        font-size: 1.2em;
+    }
+
+    /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+    .register-container>.register-contest-introduction {
+        padding-left: 11em;
+        padding-right: 9em;
+    }
+
+    /* End-register-web */
+
+    /* Begin-round-of-exams */
+    .round-of-exams>.row>.col>.round-of-header {
+        font-size: 0.9em;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.status-special {
+        padding-bottom: 1em;
+    }
+
+    /* End-round-of-exams */
+}
+
+@media screen and (max-width: 1300px) {
+
+    /* end news-detail */
+
+    .nav-web>.nav-web-content>.btn-login {
+        margin-left: 0;
+    }
+
+    /* Begin-Edupia-choose-province */
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 178px;
+        height: 50px;
+    }
+
+    /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.header-content-special-text {
+        font-size: 2em;
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+        font-size: 1em;
+    }
+
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content {
+        align-items: baseline;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content {
+        font-size: 1em;
+    }
+
+    /* End-register-web */
+
+    /* Begin-round-of-exams */
+    .round-of-exams>.row>.col>.round-of-header {
+        font-size: 0.8em;
+    }
+
+    /* End-round-of-exams */
+
+}
+
+@media screen and (max-width: 1220px) {
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>.register-contest-rules-News-web-header-content-text{
+        font-size: 22px;
+    }
+
+    /* Thông tin cá nhân */
+
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn {
+        margin-right: 40%;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-content {
+        padding: 0 4em;
+    }
+
+    /* end thông tin cá nhân */
+    .nav-web>.nav-web-content>.btn-login {
+        font-size: 0.9em;
+    }
+
+
+    .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
+        font-size: 0.9em;
+    }
+
+    .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi,
+    .nav-web-content-menu-textontapcungedupia,
+    .nav-web-content-menu-textuluyen,
+    .nav-web-content-menu-textintuc {
+        font-size: 0.8em;
+    }
+
+    /* Begin-Edupia-choose-province */
+
+    .nav-web {
+        padding-left: 5.5em;
+    }
+
+    .choose-province-cover-pop-up {
+        padding-left: 4em;
+        grid-gap: 0;
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        height: 40px;
+        font-size: 1em;
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-content {
+        font-size: var(--size-12px);
+    }
+
+    /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+
+    .register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-text,
+    .register-container>.nav-web>.nav-web-header>.nav-web-header-left>.nav-web-header-number {
+        font-size: var(--size-16px);
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside {
+        font-size: 0.9em;
+    }
+
+    .register-container>.nav-web>.nav-web-content {
+        grid-template-columns: 15% 68.5% 21.5%;
+    }
+
+    .register-container>.nav-web>.nav-web-content>.btn-login {
+        margin-left: var(--size-16px);
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop {
+        display: grid;
+        grid-template-columns: 44% 24.5% 24.5%;
+        grid-gap: 1em;
+        justify-content: center;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
+        height: 22em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.result-inside-special {
+        margin-top: 1em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 3em;
+    }
+
+    .register-container>.nav-web>.nav-web-content>div>.btn-login {
+        float: right;
+    }
+
+    /* End-register-web */
+
+    /* Begin-round-of-exams */
+    .round-of-exams>.row>.col>.round-of-header {
+        font-size: 0.7em;
+    }
+
+    .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number>.inside-topic-number-content>.inside-topic-number-content-text {
+        font-size: var(--size-16px);
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn {
+        font-size: 0.8em;
+    }
+
+    /* End-round-of-exams */
+
+    /* Begin-contest-news */
+    .contest-news>.register-contest-rules>.ranking {
+        margin-left: 6.5em;
+        margin-right: 7.8em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop {
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.special-result {
+        display: none;
+    }
+
+    /* End-contest-news */
+}
+
+@media screen and (max-width: 1150px) {
+
+    /* new detail */
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
+        padding: 0;
+    }
+
+    /* end new detail */
+    /* Begin-register-web */
+
+
+    .register-container>.nav-web>.nav-web-content {
+        grid-template-columns: 15% 63.5% 21.5%;
+    }
+
+    /* End-register-web */
+}
+
+@media screen and (max-width: 1100px) {
+
+    /* Begin-Edupia-choose-province */
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 155px;
+        height: 35px;
+        font-size: var(--size-16px);
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.footer-choose-province>.btn-choose-province {
+        width: 19.625em;
+        height: 3.5em;
+        font-size: 0.7em;
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-register {
+        font-size: var(--primary-font-size-14px);
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join {
+        width: 7em;
+        font-size: var(--primary-font-size-14px);
+    }
+
+    /* End-Edupia-choose-province */
+    /* Begin-register-web */
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content {
+        font-size: 0.8em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
+        height: 310px;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 4em;
+    }
+
+    /* End-register-web */
+
+    /* End-register-web */
+
+    /* Begin-round-of-exams */
+    .round-of-exams>.row>.col>.round-of-header {
+        font-size: 0.63em;
+    }
+
+    .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number {
+        font-size: 0.8em
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 2em;
+    }
+
+    /* End-round-of-exams */
+}
+
+@media screen and (max-width: 1000px) {
+
+    .nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi,
+    .nav-web-content-menu-textontapcungedupia,
+    .nav-web-content-menu-textuluye,
+    .nav-web-content-menu-textintuc {
+        font-size: 0.8em;
+    }
+
+
+    .nav-web-four>.nav-web-right>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi,
+    .nav-web-content-menu-textontapcungedupia,
+    .nav-web-content-menu-textuluyen {
+        font-size: 0.8em;
+    }
+
+    .nav-web>.nav-web-content>.nav-web-content-menu {
+        gap: 0 !important;
+    }
+
+    .ranking>.ranking-table>table>tbody>tr>td>.ranking-table-td-text {
+        font-size: var(--size-12px);
+    }
+
+    /* Begin-Edupia-choose-province */
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 130px;
+        height: 26px;
+        font-size: var(--primary-font-size-14px);
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-content {
+        font-size: 0.6em;
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-register {
+        font-size: 0.7em;
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join {
+        width: 80px;
+        font-size: 0.7em;
+    }
+
+    /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+    .register-container>.nav-web {
+        padding-left: 3em;
+        padding-right: 0;
+    }
+
+    .nav-web {
+        padding-left: 3em;
+        padding-right: 0;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside {
+        padding: 0 2em 1.5em 5em;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header>.form-input-phone-number-header-content {
+        font-size: var(--size-16px);
+    }
+
+    .register-container>.nav-web>.nav-web-content>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen-framesapramat {
+        right: 2em;
+        top: -1em;
+    }
+
+    .register-container>.register-contest-introduction {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form {
+        height: 17.875em;
+        width: 82%;
+        margin-left: 5em;
+        border-radius: 0.5em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop {
+        grid-template-columns: 37% 20% 20%;
+        margin-left: 0;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
+        height: 18em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 1em;
+    }
+
+    /* End-register-web */
+
+    /* Begin-round-of-exams */
+    .round-of-exams>.row>.col>.round-of-header {
+        font-size: 0.6em;
+        margin-left: 7.3em;
+        margin-right: 5.4em;
+    }
+
+    .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside {
+        font-size: 0.9em;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
+        width: 9em;
+        right: -5.8%;
+        top: -1em;
+    }
+
+    /* End-round-of-exams */
+
+    /* Begin-contest-news */
+    .contest-news>.register-contest-rules>.ranking {
+        margin-left: 3em;
+        margin-right: 2.2em;
+    }
+
+    .contest-news>.register-contest-rules>.special-result {
+        grid-template-columns: 18.7% 18.7% 18.7% 18.7%;
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.result-inside-special {
+        font-size: 0.8em;
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 2em;
+    }
+
+    /* End-contest-news */
+}
+
+@media screen and (max-width: 900px) {
+
+    /* news-detail */
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header>.register-contest-rules-News-web-header-content>.register-contest-rules-News-web-header-content-text {
+        font-size: 20px;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-web>.register-contest-rules-News-web-header {
+        padding: 0;
+    }
+
+    /* end new detail */
+    .nav-web>.nav-web-content>.btn-login {
+        font-size: 0.8em;
+    }
+
+    .nav-web-four>.nav-web-right>.nav-web-content>.btn-login {
+        font-size: 0.8em;
+    }
+
+    /* Thông tin cá nhân */
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web>.register-contest-rules-ttcn-content-btn {
+        margin-right: 30%;
+    }
+
+    /*end Thông tin cá nhân */
+
+    /* Begin-Edupia-choose-province */
+    .nav-web {
+        padding-left: 4em;
+        padding-right: 5em;
+    }
+
+    .choose-province-cover-pop-up {
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 0;
+        padding-left: 3em;
+        padding-right: 2em
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 110px;
+        height: 24px;
+        font-size: 12px;
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-comingsoon,
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
+        font-size: var(--size-12px);
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web {
+        margin: 0 !important;
+    }
+
+    /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+    .register-container>.register-information>.row>.col>.register-information-inside {
+        font-size: 0.8em;
+    }
+
+    .form-input-phone-number-inside>.row>.col>.form-input-phone-number-header>.form-input-phone-number-header-content {
+        font-size: 0.75em;
+    }
+
+    .register-container>.register-contest-introduction {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-btn>.btn-register {
+        width: 16.125em;
+    }
+
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.rules-for-laptop-cover-content {
+        font-size: 0.8em;
+    }
+
+    .register-container>.rules-for-laptop>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-header>.register-contest-rules-register-form-inside-content {
+        font-size: 0.7em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-content {
+        font-size: 0.8em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop {
+        grid-template-columns: 20em 12em 12em;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result {
+        height: 240px;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 2.5em;
+    }
+
+    /* End-register-web */
+
+    /* Begin-round-of-exams */
+    .round-of-exams>.row>.col>.round-of-header {
+        font-size: 0.55em;
+        margin-left: 8em;
+        margin-right: 5.9em;
+    }
+
+    .contest-news>.register-contest-rules>.special-result {
+        grid-template-columns: 10.7em 10.7em 10.7em 10.7em;
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result-laptop>.register-contest-result>.register-contest-result-inside>.register-contest-result-inside-date {
+        margin-top: 1em;
+    }
+
+    /* End-round-of-exams */
+}
+
+@media screen and (max-width: 1024px) {
+
+    .form-information-inside>.form-information-phone,
+    .form-information-phone,
+    .form-information-city,
+    .form-information-district,
+    .form-information-ward,
+    .form-information-school,
+    .form-information-unit,
+    .form-information-class,
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>.form-noinfor-inside-ttcn-content-text,
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-footer>.form-noinfor-inside-ttcn-footer-text {
+        font-weight: 500;
+    }
+
+    /* news detail */
+    .register-container>.register-contest-rules>.register-contest-rules-News-mobile>.register-contest-rules-News-mobile-header>.register-contest-rules-News-mobile-header-content {
+        bottom: -80px;
+    }
+
+    .contest-news-detail>.register-contest-rules {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .register-container>.register-contest-rules>.register-contest-rules-News-web {
+        display: none;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-News-mobile {
+        display: block;
+    }
+
+    /* end news detail */
+    /* thông tin cá nhân */
+    .register-container>.register-contest-rules {
+        padding: 0;
+    }
+
+    .footer-container-mobile>.row>.col>.footer-container-mobile-inside {
+        padding: 0;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-mobile {
+        display: block;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-ttcn-content-web {
+        display: none;
+    }
+
+    /* end thông tin cá nhân */
+    .footer-container-mobile-inside>.footer-mobile-location,
+    .footer-container-mobile-inside>.footer-mobile-text {
+        margin-top: 0.5em;
+    }
+
+    .footer-container-mobile>.row>.col>.footer-container-mobile-inside {
+        grid-template-columns: none;
+        grid-gap: var(--size-16px);
+    }
+
+    .footer-container-mobile>.row>.col>.footer-container-mobile-inside>.footer-mobile-location>.location-content {
+        justify-content: flex-start;
+    }
+
+    .footer-container-mobile-inside>.footer-mobile-hotline>.hotline-qrcode {
+        grid-template-columns: 50% 50%;
+    }
+
+    /* Begin-Edupia-choose-province */
+    .nav-mobile-login {
+        display: flex;
+    }
+
+    .nav-web {
+        display: none;
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 100px;
+        height: 21px;
+        font-size: 12px;
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
+        font-size: 0.6em;
+    }
+
+    /* Begin-Edupia-choose-province */
+    .choose-province-cover-pop-up {
+        grid-template-columns: none;
+        padding: 0;
+    }
+
+    .choose-province-content>.row>.col>.choose-province-content-inside {
+        width: 100%;
+        font-size: 0.9375em;
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-header>.pop-up-inside-header-text {
+        width: 178px;
+        height: 50px;
+        font-size: var(--font-size-24px);
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-content,
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-comingsoon,
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-register,
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join,
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.primary-happening {
+        font-size: var(--size-16px);
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.footer-choose-province>.btn-choose-province {
+        width: 15.625em;
+        height: var(--size-32px);
+        font-size: var(--size-16px);
+    }
+
+    .choose-province-cover-pop-up>.pop-up>.row>.col>.pop-up-inside>.row>.col>.pop-up-inside-footer>.btn-join {
+        width: 8.3125em;
+    }
+
+    /* End-Edupia-choose-province */
+
+    /* End-Edupia-choose-province */
+
+    /* Begin-register-web */
+    .register-container>.nav-mobile-login {
+        display: flex;
+    }
+
+    .register-container>.nav-web {
+        display: none;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside {
+        display: block;
+        font-size: var(--size-16px);
+        padding: 0;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-content {
+        font-size: var(--font-size-24px);
+        font-weight: var(--btn-font-weight-700);
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-img>img {
+        height: 100%;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content {
+        font-size: var(--primary-font-size-14px);
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-content>p {
+        font-size: var(--size-16px);
+        margin-top: var(--size-16px);
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.register-information-inside-cover>.register-information-inside-header>.header-content-special-text {
+        font-size: var(--font-size-24px);
+    }
+
+    .register-container>.nav-web {
+        padding-left: 0;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside {
+        margin-top: 1.5em;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col {
+        font-size: unset;
+        padding-left: var(--size-16px);
+        padding-right: var(--size-16px);
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
+        margin-top: var(--font-size-24px)
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-img {
+        right: -1%;
+        top: -17%;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-img>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.register-contest-rules-register-form-inside-btn {
+        margin-top: 0;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content {
+        margin-top: var(--size-16px);
+    }
+
+    .register-container>.register-contest-introduction {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside {
+        display: block;
+        margin-top: var(--size-32px);
+        gap: unset;
+        font-size: var(--primary-font-size-14px);
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content {
+        margin-top: var(--size-32px);
+    }
+
+    .register-container>.register-contest-introduction>.row>.col>.register-contest-introduction-inside>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-header {
+        font-size: var(--font-size-28px);
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-header {
+        padding-top: var(--size-32px);
+        padding-bottom: var(--size-32px);
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-header>.register-contest-rules-header-text {
+        font-size: var(--font-size-28px);
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-header>.register-contest-rules-header-input>.primary-location-radius {
+        font-size: var(--size-16px);
+    }
+
+    .register-container>.rules-for-mobile {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .register-container>.rules-for-laptop {
+        display: none;
+    }
+
+    .register-container>.register-information {
+        padding: 0;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result>.row>.col>.register-contest-result-inside>.register-contest-result-inside-img>img {
+        width: -webkit-fill-available;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-result {
+        display: block;
+    }
+
+    .register-container>.register-contest-rules>.register-contest-rules-register-form>.row>.col>.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-btn>.btn-register {
+        width: 100%;
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
+        right: -2.8%;
+    }
+
+    /* End-register-web */
+
+    /* Begin-form-ranking */
+    .ranking-table {
+        display: none;
+    }
+
+    .ranking>.ranking-header {
+        font-size: var(--font-size-24px);
+    }
+
+    /* End-form-ranking */
+
+    /* Begin-mobile-ranking */
+    .register-container>.ranking>.ranking-table-mobile {
+        display: block;
+    }
+
+    .register-container>.ranking>.other-number {
+        display: none;
+    }
+
+    .register-container>.ranking-button-mobile {
+        display: flex;
+        margin-bottom: var(--size-16px);
+    }
+
+    .register-container>.ranking-button-mobile>.btn-join {
+        font-size: var(--primary-font-size-14px);
+        font-weight: var(--primary-font-weight-600);
+        color: #1F2230;
+        background-color: #F9D742;
+    }
+
+    .register-container>.round-of-exams {
+        padding: 0;
+    }
+
+    /* End-mobile-ranking */
+
+    /* Begin-round-of-exams  */
+    .round-of-exams>.row>.col {
+        padding: 0;
+    }
+
+    .round-of-exams>.row>.col>.cover-round-of-exams {
+        display: block;
+        font-size: var(--size-16px);
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header {
+        grid-template-columns: 100%;
+        font-size: 1em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .round-of-exams>.row>.col>.round-of-content {
+        font-size: var(--font-size-28px);
+    }
+
+    .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number {
+        font-size: var(--primary-font-size-14px);
+        margin-top: 1em;
+    }
+
+    .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.btn-register {
+        height: 36px;
+        font-weight: var(--primary-font-weight-600);
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content {
+        border: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status {
+        padding-left: 2em;
+        padding-right: 2em;
+        justify-content: space-between;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.mobile-header-content,
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-footer,
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status>.round-of-header-content-status-name,
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status>.round-of-header-content-status-name-second-icon {
+        display: none;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text {
+        border-bottom: unset;
+        padding-bottom: 0;
+        line-height: initial;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status>.status-img-for-mobile,
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status>.round-of-header-content-status-img>.status-img-text-for-mobile {
+        display: block;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status>.round-of-header-content-status-img {
+        margin-left: 0;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status>.round-of-header-content-status-img>.status-img-text-for-mobile {
+        font-weight: var(--primary-font-weight-600);
+        color: var(--color-blue-0AB5DB);
+        text-align: center;
+        margin-top: 0.5em;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status>.round-of-header-content-status-img>img {
+        padding-left: 0.4em;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.header-round-text-mobile,
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.header-round-status-mobile {
+        display: block;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.header-round-text-mobile {
+        font-weight: var(--btn-font-weight-700);
+        color: var(--color-blue-0AB5DB);
+        margin-top: 1.3em;
+        margin-left: 1.1em;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.header-round-status-mobile {
+        font-size: var(--primary-font-size-14px);
+        font-weight: var(--mobile-text-font-weight-400);
+        margin-top: 0.3em;
+        margin-left: 1.3em;
+    }
+
+    .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status>.round-header-line-mobile {
+        position: absolute;
+        height: 1px;
+        width: 25%;
+        bottom: 0%;
+        left: 0%;
+        background-color: var(--color-blue-0AB5DB);
+    }
+
+    .register-container>.register-information>.row>.col>.register-information-inside>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>svg {
+        width: 26px;
+    }
+
+    /* End-round-of-exams  */
+
+    /* Begin-contest-news */
+    .contest-news>.register-contest-rules>.ranking {
+        display: block;
+        margin: 0;
+        padding-top: 2em;
+    }
+
+    .contest-news>.register-contest-rules>.ranking>.ranking-header {
+        display: flex;
+        justify-content: center;
+        font-size: var(--font-size-28px);
+        font-weight: var(--btn-font-weight-700);
+        margin-bottom: 0.7em;
+    }
+
+    .contest-news>.register-contest-rules>.ranking>.cover-select {
+        justify-content: center;
+    }
+
+    .contest-news>.register-contest-rules>.ranking>.cover-select>.second-select>select {
+        width: 12em;
+    }
+
+    .contest-news>.register-contest-rules {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contest-news>.rules-for-laptop {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result {
+        margin-top: 0;
+        padding-top: var(--size-16px);
+    }
+
+    .contest-news>.register-contest-rules>.register-contest-result-laptop {
+        display: none;
+    }
+
+    /* End-contest-news */
+}
+
+@media screen and (max-width: 700px) {}

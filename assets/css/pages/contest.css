@@ -4408,15 +4408,16 @@
     padding-left: 0;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi,.nav-web-content-menu-textcuocthi>a {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     height: 25px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi:hover{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi>a:hover{
     font-size: 16px;
     color: #FFFFFF;
     transition: font-size 0.1s;
@@ -4430,14 +4431,15 @@
     width: 100%;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia>.nav-web-content-menu-textontapcungedupia {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia>.nav-web-content-menu-textontapcungedupia,.nav-web-content-menu-textontapcungedupia>a {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     height: 25px;
     cursor: pointer;
+    text-decoration: none;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia>.nav-web-content-menu-textontapcungedupia:hover{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia>.nav-web-content-menu-textontapcungedupia>a:hover{
     font-size: 16px;
     color: #FFFFFF;
     transition: font-size 0.1s;
@@ -4451,14 +4453,15 @@
     width: 100%;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen,.nav-web-content-menu-textuluyen>a {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     height: 25px;
     cursor: pointer;
+    text-decoration: none;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen:hover{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen>a:hover{
     font-size: 16px;
     color: #FFFFFF;
     transition: font-size 0.1s;
@@ -4472,14 +4475,15 @@
     width: 100%;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tintuc>.nav-web-content-menu-textintuc {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tintuc>.nav-web-content-menu-textintuc,.nav-web-content-menu-textintuc>a {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     height: 25px;
     cursor: pointer;
+    text-decoration: none;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tintuc>.nav-web-content-menu-textintuc:hover{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tintuc>.nav-web-content-menu-textintuc>a:hover{
     font-size: 16px;
     color: #FFFFFF;
     transition: font-size 0.1s;
