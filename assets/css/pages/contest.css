@@ -3802,6 +3802,14 @@
     width: 100%;
 }
 /* với các câu chưa làm */
+.web-game-container>.web2>.web-game-test>.web-game-test-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 135px 42px;
+}
+.web-game-container>.web2>.web-game-test>.web-game-test-btn>.btn-next{
+    margin: 0;
+}
 .web-game-container>.web3>.web-game-test>.web-game-test-btn{
     display: flex;
     justify-content: space-between;
@@ -3812,8 +3820,6 @@
 }
 .web-game-container>.web2>.web-game-test>.web-game-test-btn>.btn-next{
     justify-content: flex-end;
-    margin-right: 9%;
-    margin-top: 13%;
 }
 .web-game-container>.web2>.web-game-content-times>.web-game-content-times-btn>.cover-btn>.btn-C7C7C77{
     background-color: #00CCCC;
