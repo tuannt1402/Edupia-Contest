@@ -4423,7 +4423,7 @@
     text-decoration: none;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi:hover{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi:hover,.nav-web-content-menu-textontapcungedupia:hover,.nav-web-content-menu-textuluyen:hover,.nav-web-content-menu-textintuc:hover{
     font-size: 16px;
     color: #FFFFFF;
     transition: font-size 0.1s;
@@ -4445,11 +4445,6 @@
     cursor: pointer;
     text-decoration: none;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia>.nav-web-content-menu-textontapcungedupia:hover{
-    font-size: 16px;
-    color: #FFFFFF;
-    transition: font-size 0.1s;
-}
 .cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia>.nav-web-content-menu-textontapcungedupia>.nav-web-content-menu-textontapcungedupia-boder{
     transition: width 0.3s;
     width: 0%;
@@ -4466,11 +4461,6 @@
     height: 25px;
     cursor: pointer;
     text-decoration: none;
-}
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen:hover{
-    font-size: 16px;
-    color: #FFFFFF;
-    transition: font-size 0.1s;
 }
 .cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen>.nav-web-content-menu-textuluyen-boder{
     transition: width 0.3s;
@@ -4489,11 +4479,7 @@
     cursor: pointer;
     text-decoration: none;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tintuc>.nav-web-content-menu-textintuc:hover{
-    font-size: 16px;
-    color: #FFFFFF;
-    transition: font-size 0.1s;
-}
+
 .cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tintuc>.nav-web-content-menu-textintuc>.nav-web-content-menu-textintuc-boder{
     transition: width 0.3s;
     width: 0%;
