@@ -4722,27 +4722,28 @@
     font-weight: 700;
 }
 
-.cover-container>.container-contest>.container-lg>.contest-rules>.row-contest-btn {
+.cover-container>.container-content>.container-lg>.cover-information>.row>.row-contest-btn {
     background-color: white;
     text-align: center;
     font-weight: 400;
+    margin-top: 20px;
 }
 
-.cover-container>.container-contest>.container-lg>.contest-rules>.row-contest-btn>.contest-time-to-register {
+.cover-container>.container-content>.container-lg>.cover-information>.row>.row-contest-btn>.contest-time-to-register {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.cover-container>.container-contest>.container-lg>.contest-rules>.row>.contest-time-to-register>span {
+.cover-container>.container-content>.container-lg>.cover-information>.row>.row-contest-btn>.contest-time-to-register>span {
     font-weight: 700;
     font-size: 16px;
 }
 
-.cover-container>.container-contest>.container-lg>.contest-rules>.row-contest-btn>.register-contest-rules-register-form-inside-btn {
+.cover-container>.container-content>.container-lg>.cover-information>.row>.row-contest-btn>.register-contest-rules-register-form-inside-btn {
     margin-bottom: 20px;
 }
 
-.cover-container>.container-contest>.container-lg>.contest-rules>.row-contest-btn>.register-contest-rules-register-form-inside-btn>.btn-register {
+.cover-container>.container-content>.container-lg>.cover-information>.row>.row-contest-btn>.register-contest-rules-register-form-inside-btn>.btn-register {
     width: 338px;
     height: 40px;
 }
@@ -4798,10 +4799,6 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
-
-
-
 
 
 
@@ -6047,6 +6044,10 @@
 
     .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content {
         margin-top: 30px;
+    }
+
+    .cover-container>.container-content>.container-lg>.cover-information>.row>.row-contest-btn {
+        margin-top: 0;
     }
 
     /* End-web-register */
