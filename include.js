@@ -45,6 +45,7 @@ $(document).ready(function () {
       $('.cover-chooseprovince-content').removeClass('opacity-background');
       $('.container-round-of-exams').removeClass('opacity-background');
       $('.container-content').removeClass('opacity-background');
+      $('.container-information').removeClass('opacity-background');
     })
 
     $('.nav-mobile-login-viewmobile-frame-right').on('click', function () {
@@ -55,6 +56,7 @@ $(document).ready(function () {
       $('.cover-chooseprovince-content').removeClass('opacity-background');
       $('.container-round-of-exams').removeClass('opacity-background');
       $('.container-content').removeClass('opacity-background');
+      $('.container-information').removeClass('opacity-background');
       navMobile.css({
         right: '100%'
       })
@@ -73,6 +75,7 @@ $(document).ready(function () {
     $('.cover-chooseprovince-content').addClass('opacity-background');
     $('.container-round-of-exams').addClass('opacity-background');
     $('.container-content').addClass('opacity-background');
+    $('.container-information').addClass('opacity-background');
     letCloseNav(e);
   })
 

@@ -4388,7 +4388,8 @@
 
 
 /* Begin-web-register */
-.cover-container>.container-header {
+.cover-container>.container-header,
+.cover-container>.container-information {
     background: #005487;
     padding-bottom: 20px;
 }
@@ -4555,27 +4556,26 @@
     height: 40px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content {
-    margin-top: 80px;
+.cover-container>.container-information>.container-lg>.cover-content {
+    padding-top: 80px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header {
-    margin-top: 40px;
+.cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header {
     justify-content: flex-start;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-img>img {
+.cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-img>img {
     width: 112px;
     height: 128px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header>.header-content-special-text {
+.cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header>.header-content-special-text {
     font-weight: 700;
     font-size: 40px;
     color: #F9D742;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content {
+.cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content {
     font-weight: 400;
     font-size: 16px;
     color: var(--color-white);
@@ -4583,28 +4583,28 @@
     text-align: justify;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content>.register-information-inside-content-special-text {
+.cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content>.register-information-inside-content-special-text {
     color: #F9D742;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content>p {
+.cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content>p {
     margin-top: 20px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col {
+.cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col {
     padding-left: 35px;
     padding-right: 35px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
+.cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
     margin-top: 73px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content {
+.cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content {
     margin-top: 50px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.register-contest-rules-register-form-inside-btn>.btn-register {
+.cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.register-contest-rules-register-form-inside-btn>.btn-register {
     width: 338px;
     height: 40px;
     margin-top: 50px;
@@ -5051,7 +5051,7 @@
 
 /* End-web-register */
 
-.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor {
+.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor {
     font-size: 14px;
     font-weight: 400;
     width: 100%;
@@ -5483,6 +5483,9 @@
     font-weight: var(--btn-font-weight-700);
 }
 
+.cover-container >.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor {
+    width: 100%;
+}
 
 
 
@@ -5771,8 +5774,8 @@
 @media screen and (max-width: 1199px) {
 
     /* Begin-web-register */
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header,
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content {
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header,
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content {
         margin-top: 0;
     }
 
@@ -5780,7 +5783,7 @@
         margin-top: 0;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.register-contest-rules-register-form-inside-btn>.btn-register {
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.register-contest-rules-register-form-inside-btn>.btn-register {
         width: 100%;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -5847,25 +5850,25 @@
         display: flex;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content {
-        margin-top: 20px;
+    .cover-container>.container-information>.container-lg>.cover-content {
+        padding-top: 30px;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside {
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside {
         margin-top: 30px;
         margin-bottom: 30px;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
         margin-top: 20px;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content {
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content {
         margin-top: 20px;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover,
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside {
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover,
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside {
         height: auto;
     }
 
@@ -5895,7 +5898,7 @@
 
     /* Begin-web-ranking */
 
-    .container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
+    .container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
         right: -2.8%;
         top: -2em;
     }
@@ -6070,43 +6073,48 @@
         font-size: 28px;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col {
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col {
         padding: 0 10px 0 10px;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header>.header-content-special-text {
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header>.header-content-special-text {
         font-size: 24px;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-img>img {
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-header>.register-information-inside-header-img>img {
         width: 80px;
         height: 80px;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content,
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.register-information-inside-cover>.register-information-inside-content,
     .cover-container>.container-content>.container-lg>.cover-information>.row>.col-md-7>.register-contest-introduction-inside-content>.register-contest-introduction-inside-content-information>p {
         font-size: 14px;
         font-weight: 400;
     }
 
-    .cover-container>.container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content {
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content {
         margin-top: 30px;
+    }
+
+    .cover-container>.container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.row>.col>.register-contest-rules-register-form-inside-btn>.btn-register,
+    .cover-container>.container-content>.container-lg>.cover-information>.row>.row-contest-btn>.register-contest-rules-register-form-inside-btn>.btn-register {
+        width:100%;
     }
 
     /* End-web-register */
 
     /* Begin-web-ranking */
-    .container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-phone,
-    .container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-city,
-    .container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-district,
-    .container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-ward,
-    .container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-school,
-    .container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-unit {
+    .container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-phone,
+    .container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-city,
+    .container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-district,
+    .container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-ward,
+    .container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-school,
+    .container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-unit {
         font-size: 14px;
         font-weight: 400;
     }
 
-    .container-header>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
+    .container-information>.container-lg>.cover-content>.row>.col-lg-6>.form-input-phone-number-inside>.form-noinfor>.row>.col>.form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
         width: 90px;
         top: -2em;
     }
