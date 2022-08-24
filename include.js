@@ -29,7 +29,7 @@ function includeHTML() {
 
 
 $(document).ready(function () {
-  // Bấm vào đăng nhập thì hiện ra khung ben trang chooseprovince mobile
+  // Bấm vào đăng nhập thì hiện ra khung tren tat ca cac trang
   let navMobile = $('.nav-mobile-login-viewmobile');
   let navMobileBackground = $('.nav-mobile-login-viewmobile-frame-right');
 
