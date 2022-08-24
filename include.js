@@ -43,14 +43,18 @@ $(document).ready(function () {
       $('.container-header').removeClass('opacity-background');
       $('.container-contest').removeClass('opacity-background')
       $('.cover-chooseprovince-content').removeClass('opacity-background');
+      $('.container-round-of-exams').removeClass('opacity-background');
+      $('.container-content').removeClass('opacity-background');
     })
 
     $('.nav-mobile-login-viewmobile-frame-right').on('click', function () {
       $('body').removeClass('no-scroll');
       $(navMobileBackground).removeClass('opacity-nav');
       $('.container-header').removeClass('opacity-background');
-      $('.container-contest').removeClass('opacity-background')
+      $('.container-contest').removeClass('opacity-background');
       $('.cover-chooseprovince-content').removeClass('opacity-background');
+      $('.container-round-of-exams').removeClass('opacity-background');
+      $('.container-content').removeClass('opacity-background');
       navMobile.css({
         right: '100%'
       })
@@ -67,6 +71,8 @@ $(document).ready(function () {
     $('.container-header').addClass('opacity-background');
     $('.container-contest').addClass('opacity-background')
     $('.cover-chooseprovince-content').addClass('opacity-background');
+    $('.container-round-of-exams').addClass('opacity-background');
+    $('.container-content').addClass('opacity-background');
     letCloseNav(e);
   })
 
