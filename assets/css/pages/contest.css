@@ -5552,6 +5552,10 @@
     color: #3AB384;
 }
 
+.container-round-of-exams>.container-lg>.row>.row-two-first-table {
+    margin-top: 30px;
+}
+
 .container-round-of-exams>.container-lg>.row>.row-two-last-table {
     margin-top: 0;
 }
@@ -5653,7 +5657,15 @@
     width: 100%;
 }
 
+.container-round-of-exams>.container-lg>.row>.col-xl-3>.round-of-header-content>.round-of-header-content-space{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: -14%;
+    background-color: white;
+}
 
+/* End-form-ranking-non-date */
 
 /* Begin-web-chooseprovince */
 .cover-chooseprovince-content {
@@ -5934,9 +5946,6 @@
 
 
 
-
-
-
 @media screen and (max-width: 1199px) {
 
     /* Begin-web-register */
@@ -5980,6 +5989,10 @@
 
     .container-round-of-exams>.container-lg>.row>.row>.col-xl-6>.round-of-exams-inside>.inside-topic-number {
         margin: 0;
+    }
+
+    .container-round-of-exams>.container-lg>.row>.col-xl-3>.round-of-header-content>.round-of-header-content-space{
+        display: none;
     }
 
     /* End-web-ranking */
@@ -6069,7 +6082,7 @@
         top: -2em;
     }
 
-    .container-round-of-exams>.container-lg>.row>.col-round-laptop {
+    .container-round-of-exams>.container-lg>.row-ranking-table {
         display: none;
     }
 
