@@ -713,6 +713,7 @@
     color: #E3E4EC;
 }
 .nav-web-content-menu-cuocthi, .nav-web-content-menu-ontapcungedupia,.nav-web-content-menu-tuluyen,.nav-web-content-menu-tintuc {
+    position: relative;
     opacity: 0.7;
 }
 .nav-web-content-menu-cuocthi:hover,.nav-web-content-menu-ontapcungedupia:hover,.nav-web-content-menu-tuluyen:hover,.nav-web-content-menu-tintuc:hover {
@@ -4428,12 +4429,18 @@
     color: #FFFFFF;
     transition: font-size 0.1s;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi>.nav-web-content-menu-textcuocthi-boder{
+/* .nav-web-content-menu-cuocthi {
+    position: relative;
+} */
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi-boder{
     transition: width 0.3s;
     width: 0%;
     border-bottom: 2px solid var(--btn-background-color-blue) ;
+    position: absolute;
+    top: 28px;
+    left: 5px;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-cuocthi>.nav-web-content-menu-textcuocthi:hover>.nav-web-content-menu-textcuocthi-boder{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-cuocthi:hover>.nav-web-content-menu-textcuocthi-boder{
     width: 100%;
 }
 
@@ -4445,12 +4452,15 @@
     cursor: pointer;
     text-decoration: none;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia>.nav-web-content-menu-textontapcungedupia>.nav-web-content-menu-textontapcungedupia-boder{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia>.nav-web-content-menu-textontapcungedupia-boder{
     transition: width 0.3s;
     width: 0%;
     border-bottom: 2px solid var(--btn-background-color-blue) ;
+    position: absolute;
+    top: 28px;
+    left: 1px;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia>.nav-web-content-menu-textontapcungedupia:hover>.nav-web-content-menu-textontapcungedupia-boder{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-ontapcungedupia:hover>.nav-web-content-menu-textontapcungedupia-boder{
     width: 100%;
 }
 
@@ -4462,12 +4472,15 @@
     cursor: pointer;
     text-decoration: none;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen>.nav-web-content-menu-textuluyen-boder{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen-boder{
     transition: width 0.3s;
     width: 0%;
     border-bottom: 2px solid var(--btn-background-color-blue) ;
+    position: absolute;
+    top: 28px;
+    left: 1px;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tuluyen>.nav-web-content-menu-textuluyen:hover>.nav-web-content-menu-textuluyen-boder{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tuluyen:hover>.nav-web-content-menu-textuluyen-boder{
     width: 100%;
 }
 
@@ -4480,12 +4493,15 @@
     text-decoration: none;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tintuc>.nav-web-content-menu-textintuc>.nav-web-content-menu-textintuc-boder{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tintuc>.nav-web-content-menu-textintuc-boder{
     transition: width 0.3s;
     width: 0%;
     border-bottom: 2px solid var(--btn-background-color-blue) ;
+    position: absolute;
+    top: 28px;
+    left: 1px;
 }
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tintuc>.nav-web-content-menu-textintuc:hover>.nav-web-content-menu-textintuc-boder{
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.nav-web-content-menu-tintuc:hover>.nav-web-content-menu-textintuc-boder{
     width: 100%;
 }
 
