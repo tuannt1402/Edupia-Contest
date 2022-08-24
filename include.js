@@ -30,7 +30,8 @@ function includeHTML() {
 
 $(document).ready(function () {
   // Bấm vào đăng nhập thì hiện ra khung ben trang chooseprovince mobile
-  let navMobile = $('.nav-mobile-login-list');
+  let navMobile = $('.nav-mobile-login-viewmobile');
+  let navMobileBackground = $('.nav-mobile-login-viewmobile-frame-right');
 
   function letCloseNav(e) {
     $('.nav-mobile-login-viewmobile-frame').find('svg').first().on('click', function () {
@@ -38,27 +39,34 @@ $(document).ready(function () {
         right: '100%'
       })
       $('body').removeClass('no-scroll');
-      $('.nav-mobile-login').removeClass('opacity-background');
-      $('.choose-province-cover-pop-up').removeClass('opacity-background');
+      $(navMobileBackground).removeClass('opacity-nav');
+      $('.container-header').removeClass('opacity-background');
+      $('.container-contest').removeClass('opacity-background')
+      $('.cover-chooseprovince-content').removeClass('opacity-background');
     })
 
     $('.nav-mobile-login-viewmobile-frame-right').on('click', function () {
       $('body').removeClass('no-scroll');
-      $('.nav-mobile-login').removeClass('opacity-background');
-      $('.choose-province-cover-pop-up').removeClass('opacity-background');
+      $(navMobileBackground).removeClass('opacity-nav');
+      $('.container-header').removeClass('opacity-background');
+      $('.container-contest').removeClass('opacity-background')
+      $('.cover-chooseprovince-content').removeClass('opacity-background');
       navMobile.css({
         right: '100%'
       })
     })
   }
 
-  $('.list-login-form-choose-province').on('click', function openNav(e) {
+  $('.nav-mobile-login-list').on('click', function openNav(e) {
+    $(navMobile).addClass('transition');
     navMobile.css({
       right: '0%'
     })
     $('body').addClass('no-scroll');
-    $('.nav-mobile-login').addClass('opacity-background');
-    $('.choose-province-cover-pop-up').addClass('opacity-background');
+    $(navMobileBackground).addClass('opacity-nav');
+    $('.container-header').addClass('opacity-background');
+    $('.container-contest').addClass('opacity-background')
+    $('.cover-chooseprovince-content').addClass('opacity-background');
     letCloseNav(e);
   })
 
