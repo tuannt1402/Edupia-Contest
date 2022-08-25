@@ -719,10 +719,7 @@
     color: #E3E4EC;
 }
 
-.nav-web-content-menu-cuocthi,
-.nav-web-content-menu-ontapcungedupia,
-.nav-web-content-menu-tuluyen,
-.nav-web-content-menu-tintuc {
+.position {
     position: relative;
     opacity: 0.7;
     cursor: pointer;
@@ -4921,7 +4918,7 @@
 
 .cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu {
     height: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-left: 0;
 }
 
