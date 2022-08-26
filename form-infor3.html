@@ -15,6 +15,7 @@
     <title>Document</title>
 </head>
 <body>
+  <form action="" method="GET">
     <div class="modal d-block" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -27,23 +28,21 @@
             <div class="modal-body form-infor-body">
                 <div class="form-login-account-header">Tên đăng nhập / Số điện thoại</div>
                 <div class="form-infor-account-content">
-                <input class="form-infor-phone" value="0973934891">
+                <input name="tel" class="form-infor-phone" value="0973934891">
                 <button>Gửi</button>
                 </div>
 
                 <div class="form-login-account-header">Mã xác thực</div>
-                <input placeholder="Nhập mã xác thực 4 số">
+                <input type="number" name="number" placeholder="Nhập mã xác thực 4 số">
 
-                <div class="form-login-note">Quên mật khẩu?
-                        <span>Nhận mã xác thực gửi về số điện thoại để đăng nhập</span>
-                </div>
             </div>
             <div class="modal-footer pop-up-footer">
-            <button type="button" class="btn btn-secondary btn-back" data-bs-dismiss="modal">Quay lại</button>
-            <button type="button" class="btn btn-primary btn-confirm">Xác nhận</button>
+              <a href="file:///D:/code/Edupia-Contest.git/form-infor2.html" class="btn btn-secondary btn-back" data-bs-dismiss="modal">Quay lại</a>
+              <input type="submit" value="Xác nhận" class="btn btn-primary btn-confirm btn-left"></input>
             </div>
           </div>
         </div>
       </div> 
+  </form>
 </body>
 </html>

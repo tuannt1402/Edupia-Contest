@@ -73,6 +73,7 @@
     display: none;
 }
 
+
 .no-scroll {
     width: 100vw;
     height: 100vh;
@@ -787,10 +788,11 @@
     gap: 0.5em;
     color: #51545F;
 }
-.modal>.modal-dialog>.modal-content>.modal-body>.form-login-note>span {
+.modal>.modal-dialog>.modal-content>.modal-body>.form-login-note>a {
     color: #005487;
+    text-decoration: none;
 }
-.modal>.modal-dialog>.modal-content>.modal-footer>button{
+.modal>.modal-dialog>.modal-content>.modal-footer>input{
     height: 2.5em;
     width: 13.5em;
     padding: 0.5em 1.5em;
@@ -811,6 +813,9 @@
     color: #FFFFFF;
     width: 67%;
     border: none;
+}
+.btn-right{
+    width: max-content !important;
 }
 .modal>.modal-dialog>.modal-content>.modal-footer>.btn-back{
     gap: 1em;
@@ -919,7 +924,7 @@
     border-radius: 0.5em;
     border: 0.0625em solid #CDCED6;
     color: #51545F;
-    background: #FFFFFF;
+    /* background-image: url("") ; */
     display: flex;
     justify-content: space-between;
     align-items: center;
