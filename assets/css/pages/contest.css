@@ -5334,8 +5334,7 @@
 .cover-container>.container-contest>.container-lg>.contest-rules>.row>.col-xl-3>.register-contest-result {
     background-color: var(--color-white);
     height: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
 
 .cover-container>.container-contest>.container-lg>.contest-rules>.row>.col-xl-6>.register-contest-result>.register-contest-result-inside {
