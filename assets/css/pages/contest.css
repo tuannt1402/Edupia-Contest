@@ -4970,8 +4970,7 @@
     padding-left: 0;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>.nav-web-content-menu-textcuocthi,
-.nav-web-content-menu-textcuocthi>a {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
@@ -4989,10 +4988,7 @@
     transition: font-size 0.1s;
 }
 
-/* .nav-web-content-menu-cuocthi {
-    position: relative;
-} */
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>.nav-web-content-menu-textcuocthi::after {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a>.nav-web-content-menu-textcuocthi::after {
     content: "";
     transition: width 0.3s;
     width: 0%;
@@ -5002,32 +4998,34 @@
     left: 24px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position:hover>.nav-web-content-menu-textcuocthi::after,
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position.actived>.nav-web-content-menu-textcuocthi::after {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textcuocthi::after,
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a.actived>.nav-web-content-menu-textcuocthi::after {
     width: 75%;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>.nav-web-content-menu-textontapcungedupia,
-.nav-web-content-menu-textontapcungedupia>a {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a{
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     height: 25px;
     text-decoration: none;
-    margin-left: 2px;
 }
-
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>.nav-web-content-menu-textontapcungedupia::after {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a>.nav-web-content-menu-textontapcungedupia,
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a>.nav-web-content-menu-textuluyen,
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a>.nav-web-content-menu-textintuc{
+    margin-left: 3px;
+}
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a>.nav-web-content-menu-textontapcungedupia::after {
     content: "";
     transition: width 0.3s;
     width: 0%;
     border-bottom: 2px solid var(--btn-background-color-blue);
     position: absolute;
     top: 22px;
-    left: 28px;
+    left: 26px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position:hover>.nav-web-content-menu-textontapcungedupia::after {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textontapcungedupia::after {
     width: 75%;
 }
 
@@ -5041,31 +5039,29 @@
     margin-left: 2px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>.nav-web-content-menu-textuluyen::after {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a>.nav-web-content-menu-textuluyen::after {
     content: "";
     transition: width 0.3s;
     width: 0%;
     border-bottom: 2px solid var(--btn-background-color-blue);
     position: absolute;
     top: 22px;
-    left: 28px;
+    left: 26px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position:hover>.nav-web-content-menu-textuluyen::after {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textuluyen::after {
     width: 84%;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>.nav-web-content-menu-textintuc,
-.nav-web-content-menu-textintuc>a {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     height: 25px;
     text-decoration: none;
-    margin-left: 2px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>.nav-web-content-menu-textintuc::after {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a>.nav-web-content-menu-textintuc::after {
     content: "";
     transition: width 0.3s;
     width: 0%;
@@ -5075,12 +5071,12 @@
     left: 28px;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position:hover>.nav-web-content-menu-textintuc::after {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textintuc::after {
     width: 70%;
 }
 
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>.nav-web-content-menu-textuluyen-framesapramat {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a>.nav-web-content-menu-textuluyen-framesapramat {
     position: absolute;
     width: 3.9375em;
     right: var(--size-16px);
@@ -5091,7 +5087,7 @@
     right: 0;
 }
 
-.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>.nav-web-content-menu-textuluyen-framesapramat>.nav-web-content-menu-textuluyen-textsapramat {
+.cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a>.nav-web-content-menu-textuluyen-framesapramat>.nav-web-content-menu-textuluyen-textsapramat {
     font-weight: 700;
     font-size: 0.625em;
     color: var(--btn-background-color-blue);
