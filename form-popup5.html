@@ -15,6 +15,7 @@
     <title>Document</title>
 </head>
 <body>
+  <form action="" method="GET">
     <div class="modal d-block" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -41,16 +42,17 @@
                 </div>
 
                 <div class="form-login-account-header">Họ và tên học sinh</div>
-                <input placeholder="Họ và tên học sinh">
+                <input type="text" name="fullname" placeholder="Họ và tên học sinh">
             <div class="form-login-account-header">Tên đăng nhập / Số điện thoại</div>
-            <input class="form-infor-phone" value="0973934891">
+            <input type="tel" name="tel" class="form-infor-phone" value="0973934891">
 
             </div>
             <div class="modal-footer pop-up-footer">
-              <button type="button" class="btn btn-primary">Đăng ký nhận tư vấn</button>
+              <input type="submit" value="Đăng ký nhận tư vấn" class="btn btn-primary btn-confirm btn-right"></input>
             </div>
           </div>
         </div>
       </div> 
+    </form>
 </body>
 </html>
