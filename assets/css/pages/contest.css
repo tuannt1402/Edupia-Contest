@@ -4966,8 +4966,7 @@
 
 .cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu {
     height: 100%;
-    justify-content: space-around;
-    padding-left: 0;
+    justify-content: space-evenly;
 }
 
 .cover-container>.container-header>.container-lg>.cover-nav>.nav-second>.row>.col-lg-7>.nav-web-content-menu>.position>a {
