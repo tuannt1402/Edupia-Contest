@@ -4453,7 +4453,7 @@
     margin-left: 5px;
 }
 
-.register-contest-rules-register-form-inside .register-contest-rules-register-form-inside-content-text>span {
+.register-contest-rules-register-form-inside>.register-contest-rules-register-form-inside-content>.register-contest-rules-register-form-inside-content-text>span {
     font-weight: var(--btn-font-weight-700);
 }
 
@@ -5337,9 +5337,13 @@
 
 /* End-web-contest-new-detail */
 
+.contest-for-register {
+    background: rgba(54, 191, 199, 0.05) !important;
+}
 
-
-
+.cover-container .contest-text-news {
+    margin-top: 30px !important;
+}
 
 
 
