@@ -2498,14 +2498,7 @@
     width: auto;
 }
 
-.form-information-inside>.form-information-phone,
-.form-information-phone,
-.form-information-city,
-.form-information-district,
-.form-information-ward,
-.form-information-school,
-.form-information-unit,
-.form-information-class {
+.form-information-inside>.form-information-frame {
     font-weight: 500;
     font-size: 1em;
     line-height: 1.5em;
@@ -2515,43 +2508,11 @@
 
 }
 
-.form-information-inside>.form-information-phone>.form-information-phone-head {
+.form-information-inside .form-information-frame-left {
     color: #7D808E;
 }
 
-.form-information-inside>.form-information-city>.form-information-city-head {
-    color: #7D808E;
-}
-
-.form-information-inside>.form-information-district>.form-information-district-head {
-    color: #7D808E;
-}
-
-.form-information-inside>.form-information-ward>.form-information-ward-head {
-    color: #7D808E;
-}
-
-.form-information-inside>.form-information-school>.form-information-school-head {
-    color: #7D808E;
-}
-
-.form-information-inside>.form-information-unit>.form-information-unit-head {
-    color: #7D808E;
-}
-
-.form-information-inside>.form-information-class>.form-information-class-head {
-    color: #7D808E;
-}
-
-
-.register-contest-rules-ttcn-content-web>.form-information>.row>.col>.form-information-inside>.form-information-phone,
-.form-information-phone,
-.form-information-city,
-.form-information-district,
-.form-information-ward,
-.form-information-school,
-.form-information-unit,
-.form-information-class {
+.register-contest-rules-ttcn-content-web .form-information-frame{
     font-weight: 500;
     font-size: 1em;
     line-height: 24px;
@@ -5694,12 +5655,7 @@
     /* End-web-register */
 
     /* Begin-web-ranking */
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-phone,
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-city,
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-district,
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-ward,
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-school,
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-unit {
+    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-frame {
         font-size: 14px;
         font-weight: 400;
     }
