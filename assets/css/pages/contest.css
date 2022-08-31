@@ -4018,10 +4018,11 @@
     height: 25px;
     text-decoration: none;
 }
+
 .nav-web-content-menu>.position>a>.nav-web-content-menu-textontapcungedupia,
 .nav-web-content-menu>.position>a>.nav-web-content-menu-textuluyen,
 .nav-web-content-menu>.position>a>.nav-web-content-menu-textintuc{
-    margin-left: 3px;
+    margin-left: 6px;
 }
 .nav-web-content-menu>.position>a>.nav-web-content-menu-textontapcungedupia::after {
     content: "";
