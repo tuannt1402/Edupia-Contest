@@ -4003,11 +4003,13 @@
     border-bottom: 2px solid var(--btn-background-color-blue);
     position: absolute;
     top: 22px;
-    left: 24px;
+    left: 25px;
 }
-
+.actived{
+    opacity: 1 !important;
+}
 .nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textcuocthi::after,
-.nav-web-content-menu>.position>a.actived>.nav-web-content-menu-textcuocthi::after {
+.nav-web-content-menu>.position.actived>a>.nav-web-content-menu-textcuocthi::after {
     width: 75%;
 }
 
@@ -4031,10 +4033,11 @@
     border-bottom: 2px solid var(--btn-background-color-blue);
     position: absolute;
     top: 22px;
-    left: 26px;
+    left: 30px;
 }
 
-.nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textontapcungedupia::after {
+.nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textontapcungedupia::after,
+.nav-web-content-menu>.position.actived>a>.nav-web-content-menu-textontapcungedupia::after {
     width: 75%;
 }
 
@@ -4055,10 +4058,11 @@
     border-bottom: 2px solid var(--btn-background-color-blue);
     position: absolute;
     top: 22px;
-    left: 26px;
+    left: 30px;
 }
 
-.nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textuluyen::after {
+.nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textuluyen::after,
+.nav-web-content-menu>.position.actived>a>.nav-web-content-menu-textuluyen::after {
     width: 84%;
 }
 
@@ -4077,10 +4081,11 @@
     border-bottom: 2px solid var(--btn-background-color-blue);
     position: absolute;
     top: 22px;
-    left: 28px;
+    left: 30px;
 }
 
-.nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textintuc::after {
+.nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textintuc::after,
+.nav-web-content-menu>.position.actived>a>.nav-web-content-menu-textintuc::after {
     width: 70%;
 }
 
