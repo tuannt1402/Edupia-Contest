@@ -4003,7 +4003,7 @@
     border-bottom: 2px solid var(--btn-background-color-blue);
     position: absolute;
     top: 22px;
-    left: 24px;
+    left: 25px;
 }
 .actived{
     opacity: 1 !important;
@@ -4033,7 +4033,7 @@
     border-bottom: 2px solid var(--btn-background-color-blue);
     position: absolute;
     top: 22px;
-    left: 26px;
+    left: 30px;
 }
 
 .nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textontapcungedupia::after,
@@ -4058,7 +4058,7 @@
     border-bottom: 2px solid var(--btn-background-color-blue);
     position: absolute;
     top: 22px;
-    left: 26px;
+    left: 30px;
 }
 
 .nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textuluyen::after,
@@ -4081,7 +4081,7 @@
     border-bottom: 2px solid var(--btn-background-color-blue);
     position: absolute;
     top: 22px;
-    left: 28px;
+    left: 30px;
 }
 
 .nav-web-content-menu>.position>a:hover>.nav-web-content-menu-textintuc::after,
