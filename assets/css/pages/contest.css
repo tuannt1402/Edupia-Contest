@@ -2559,14 +2559,7 @@
     width: auto;
 }
 
-.form-information-inside>.form-information-phone,
-.form-information-phone,
-.form-information-city,
-.form-information-district,
-.form-information-ward,
-.form-information-school,
-.form-information-unit,
-.form-information-class {
+.form-information-inside>.form-information-frame {
     font-weight: 500;
     font-size: 1em;
     line-height: 1.5em;
@@ -2576,43 +2569,11 @@
 
 }
 
-.form-information-inside>.form-information-phone>.form-information-phone-head {
+.form-information-inside .form-information-frame-left {
     color: #7D808E;
 }
 
-.form-information-inside>.form-information-city>.form-information-city-head {
-    color: #7D808E;
-}
-
-.form-information-inside>.form-information-district>.form-information-district-head {
-    color: #7D808E;
-}
-
-.form-information-inside>.form-information-ward>.form-information-ward-head {
-    color: #7D808E;
-}
-
-.form-information-inside>.form-information-school>.form-information-school-head {
-    color: #7D808E;
-}
-
-.form-information-inside>.form-information-unit>.form-information-unit-head {
-    color: #7D808E;
-}
-
-.form-information-inside>.form-information-class>.form-information-class-head {
-    color: #7D808E;
-}
-
-
-.register-contest-rules-ttcn-content-web>.form-information>.row>.col>.form-information-inside>.form-information-phone,
-.form-information-phone,
-.form-information-city,
-.form-information-district,
-.form-information-ward,
-.form-information-school,
-.form-information-unit,
-.form-information-class {
+.register-contest-rules-ttcn-content-web .form-information-frame{
     font-weight: 500;
     font-size: 1em;
     line-height: 24px;
@@ -5280,40 +5241,53 @@
     padding: 20px;
 }
 
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname {
+.cover-container .register-ttcn-frame {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #515861;
-}
-
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text,
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
     margin-bottom: 5px;
 }
-
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-input,
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-frame {
+.cover-container .register-ttcn-frame>input{
     border: 1px solid #CDCED6;
     border-radius: 8px;
     padding: 12px 16px;
     width: 100%;
+    margin-top: 5px;
 }
 
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-head,
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #515861;
-    margin-top: 10px;
-    margin-bottom: 0.5em;
-
+.cover-container .cover-gioitinh>.register-ttcn-frame-checkbox{
+    border: 1px solid #CDCED6;
+    padding-left: 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    width: 120px;
+    height: 44px;
+    justify-content: flex-start;
+    margin-right: 10px;
 }
-
-.register-contest-rules-ttcn-content-web-center>.cover-gioitinh {
+.cover-container .cover-gioitinh>.register-ttcn-frame-checkbox>label{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.cover-container .cover-gioitinh {
     justify-content: flex-start;
 }
+.register-ttcn-submit>input{
+    padding: 8px 32px;
+    background: #00CCCC;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 .register-contest-rules-ttcn-content-web-center>.cover-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame {
     border: 1px solid #CDCED6;
@@ -5837,12 +5811,7 @@
     /* End-web-register */
 
     /* Begin-web-ranking */
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-phone,
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-city,
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-district,
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-ward,
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-school,
-    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-unit {
+    .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-frame {
         font-size: 14px;
         font-weight: 400;
     }

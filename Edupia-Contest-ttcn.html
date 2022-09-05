@@ -19,6 +19,8 @@
 </head>
 
 <body>
+    <form action="" method="GET">
+
     <div class="cover-container">
         <div class="nav-mobile-login-viewmobile ">
             <div class="nav-mobile-login-viewmobile-frame">
@@ -288,30 +290,25 @@
 
                         <div class="col-xl-5 col-lg-5">
                             <div class="register-contest-rules-ttcn-content-web-center">
-                                <div class="register-contest-rules-ttcn-content-fullname">
-                                    <div class="register-contest-rules-ttcn-content-fullname-text">Họ và tên học
-                                        sinh</div>
-                                    <input class="register-contest-rules-ttcn-content-fullname-input"
-                                        value="Lê Văn Hùng">
+                                <div class="register-ttcn-frame">
+                                    <div>Họ và tên học sinh</div>
+                                    <input type="text" name="fullname" value="Lê Văn Hùng">
                                 </div>
-                                <div class="register-contest-rules-ttcn-content-date">
-                                    <div class="register-contest-rules-ttcn-content-date-head">Ngày sinh</div>
-                                    <input class="register-contest-rules-ttcn-content-date-frame" type="date">
+                                <div class="register-ttcn-frame">
+                                    <div>Ngày sinh</div>
+                                    <input name="date"  type="date">
                                 </div>
-
-                                <div class="register-contest-rules-ttcn-content-gioitinh">
-                                    <div class="register-contest-rules-ttcn-content-gioitinh-header">Giới tính</div>
-                                </div>
+                                <div class="register-ttcn-frame">Giới tính</div>
 
                                 <div class="cover-gioitinh flex">
-                                    <div class="register-contest-rules-ttcn-content-gioitinh-frame flex">
+                                    <div class="register-ttcn-frame-checkbox">
                                         <input class="form-check-input" type="radio" name="gioitinh-web"
                                             id="checkboxmale-web">
                                         <label class="form-check-label ml-3" for="checkboxmale-web">Nam</label>
                                     </div>
 
                                     <div
-                                        class="register-contest-rules-ttcn-content-gioitinh-frame framer-gioitinh-second flex">
+                                        class="register-ttcn-frame-checkbox">
                                         <input class="form-check-input" type="radio" name="gioitinh-web"
                                             id="checkboxfemale-web">
                                         <label class="form-check-label ml-3" for="checkboxfemale-web">Nữ</label>
@@ -319,10 +316,8 @@
                                 </div>
                             </div>
 
-                            <div class="register-contest-rules-ttcn-content-web">
-                                <div class="register-contest-rules-ttcn-content-btn">
-                                    <button>Lưu thay đổi</button>
-                                </div>
+                            <div class="register-ttcn-submit">
+                                    <input type="submit" value="Lưu thay đổi">
                             </div>
                         </div>
 
@@ -331,38 +326,38 @@
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-information-inside">
-                                            <div class="form-information-phone">
-                                                <div class="form-information-phone-head">Số điện thoại:</div>
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Số điện thoại:</div>
 
                                                 <div class="form-information-phone-text">0973934891</div>
                                             </div>
 
-                                            <div class="form-information-city">
-                                                <div class="form-information-city-head">Thành phố / Tỉnh:</div>
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Thành phố / Tỉnh:</div>
 
                                                 <div class="form-information-city-text">Bà Rịa - Vũng Tàu</div>
                                             </div>
 
-                                            <div class="form-information-district">
-                                                <div class="form-information-district-head">Quận / Huyện:</div>
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Quận / Huyện:</div>
 
                                                 <div class="form-information--district-text">Huyện Châu Đức</div>
                                             </div>
 
-                                            <div class="form-information-school">
-                                                <div class="form-information-school-head">Trường:</div>
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Trường:</div>
 
                                                 <div class="form-information-school-text">Trường Tiểu học Lê Quý Đôn
                                                 </div>
                                             </div>
 
-                                            <div class="form-information-unit">
-                                                <div class="form-information-unit-head">Khối:</div>
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Khối:</div>
                                                 <div class="form-information-unit-text">4</div>
                                             </div>
 
-                                            <div class="form-information-class">
-                                                <div class="form-information-class-head">Lớp:</div>
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Lớp:</div>
                                                 <div class="form-information-class-text">3C</div>
                                             </div>
                                         </div>
@@ -378,83 +373,76 @@
                         <div class="col">
                             <img src="assets/images/Frame 10922.png">
 
-                            <div class="register-contest-rules-ttcn-content-fullname">
-                                <div class="register-contest-rules-ttcn-content-fullname-text">Họ và tên học sinh
-                                </div>
-
-                                <input class="register-contest-rules-ttcn-content-fullname-input" value="Lê Văn Hùng">
+                            <div class="register-ttcn-frame">
+                                <div>Họ và tên học sinh</div>
+                                <input type="text" name="fullname" value="Lê Văn Hùng">
                             </div>
 
                             <div class="form-information">
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-information-inside">
-                                            <div class="form-information-phone">
-                                                <div class="form-information-phone-head">Số điện thoại:</div>
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Số điện thoại:</div>
 
                                                 <div class="form-information-phone-text">0973934891</div>
                                             </div>
 
-                                            <div class="form-information-city">
-                                                <div class="form-information-city-head">Thành phố / Tỉnh:</div>
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Thành phố / Tỉnh:</div>
 
                                                 <div class="form-information-city-text">Bà Rịa - Vũng Tàu</div>
                                             </div>
 
-                                            <div class="form-information-district">
-                                                <div class="form-information-district-head">Quận / Huyện:</div>
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Quận / Huyện:</div>
 
                                                 <div class="form-information--district-text">Huyện Châu Đức</div>
                                             </div>
 
-                                            <div class="form-information-school">
-                                                <div class="form-information-school-head">Trường:</div>
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Trường:</div>
 
                                                 <div class="form-information-school-text">Trường Tiểu học Lê Quý Đôn
                                                 </div>
                                             </div>
 
-                                            <div class="form-information-unit">
-                                                <div class="form-information-unit-head">Khối:</div>
-
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Khối:</div>
                                                 <div class="form-information-unit-text">4</div>
                                             </div>
 
-                                            <div class="form-information-class">
-                                                <div class="form-information-class-head">Lớp:</div>
-
+                                            <div class="form-information-frame">
+                                                <div class="form-information-frame-left">Lớp:</div>
                                                 <div class="form-information-class-text">3C</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="register-contest-rules-ttcn-content-date">
-                                <div class="register-contest-rules-ttcn-content-date-head">Ngày sinh</div>
-
-                                <input class="register-contest-rules-ttcn-content-date-frame" type="date">
+                            <div class="register-ttcn-frame">
+                                <div>Ngày sinh</div>
+                                <input name="date" type="date">
                             </div>
 
-                            <div class="register-contest-rules-ttcn-content-gioitinh">
-                                <div class="register-contest-rules-ttcn-content-gioitinh-header">Giới tính</div>
-
+                            <div class="register-ttcn-frame">Giới tính</div>
                                 <div class="cover-gioitinh flex">
-                                    <div class="register-contest-rules-ttcn-content-gioitinh-frame flex">
+                                    <div class="register-ttcn-frame-checkbox">
                                         <input class="form-check-input" type="radio" name="gioitinh-web"
                                             id="checkboxmale-web">
                                         <label class="form-check-label ml-3" for="checkboxmale-web">Nam</label>
                                     </div>
 
                                     <div
-                                        class="register-contest-rules-ttcn-content-gioitinh-frame framer-gioitinh-second flex">
+                                        class="register-ttcn-frame-checkbox">
                                         <input class="form-check-input" type="radio" name="gioitinh-web"
                                             id="checkboxfemale-web">
                                         <label class="form-check-label ml-3" for="checkboxfemale-web">Nữ</label>
                                     </div>
                                 </div>
-                            </div>
-
-                            <button class="register-contest-rules-ttcn-content-btn">Lưu thay đổi</button>
+                                <div class="register-ttcn-submit">
+                                    <input type="submit" value="Lưu thay đổi">
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -629,4 +617,5 @@
             </div>
         </div>
     </div>
+    </form>
 </body>
