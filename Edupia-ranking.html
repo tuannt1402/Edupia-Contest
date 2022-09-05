@@ -500,9 +500,8 @@
                     </div>
                 </div>
 
-                <div class="accordion" id="accordionExample">
+                <div class="container">
                     <div class="row row-ranking-table">
-
                         <div class="col-xl-3 col-lg-6 col-round-laptop">
                             <div class="round-of-header-content position-relative">
                                 <div class="flex position-relative round-of-header-content-status">
@@ -643,12 +642,11 @@
                                     </div>
                                 </div>
 
-                                <a class="btn btn-details" data-bs-toggle="collapse" href="#collapseExample"
-                                    role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <button class="btn btn-details" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample">
                                     Xem chi tiết
-                                </a>
-
-                                <div class="line"></div>
+                                </button>
                             </div>
                         </div>
 
@@ -819,10 +817,11 @@
                                     </div>
                                 </div>
 
-                                <a class="btn btn-details" data-bs-toggle="collapse" href="#collapseExample2"
-                                    role="button" aria-expanded="false" aria-controls="collapseExample2">
+                                <button class="btn btn-details" type="button" data-bs-toggle="collapse"
+                                    aria-controls="collapseExample2" data-bs-target="#collapseExample2"
+                                    data-parent="#myGroup">
                                     Xem chi tiết
-                                </a>
+                                </button>
                             </div>
                         </div>
 
@@ -1013,6 +1012,11 @@
                                     </div>
                                 </div>
 
+                                <button class="btn btn-details" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample3" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample3">
+                                    Xem chi tiết
+                                </button>
                             </div>
                         </div>
 
@@ -1133,216 +1137,433 @@
                                     </div>
                                 </div>
 
-
+                                <button class="btn btn-details" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample4" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample4">
+                                    Xem chi tiết
+                                </button>
                             </div>
                         </div>
 
 
-                        <div class="collapse" id="collapseExample" data-parent="#myGroup">
-                            <div class="card card-body">
-                                <div class="row row-two-first-table">
-                                    <div class="col-xl-6">
-                                        <div class="round-of-exams-inside">
-                                            <div class="flex inside-topic-number table-first">
-                                                <div class="inside-topic-number-content">
-                                                    <div class="inside-topic-number-content-text">Đề thi
-                                                        cấp trường lớp 4 - đề
-                                                        số 1
+                        <div id="myGroup">
+                            <div class="collapse" id="collapseExample" data-bs-parent="#myGroup">
+                                <div class="card card-body">
+                                    <div class="row row-two-first-table">
+                                        <div class="col-xl-6">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-first">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 1
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
                                                     </div>
 
-                                                    <div class="inside-topic-number-content-score">Điểm:
-                                                        --/100</div>
-
-                                                    <div class="inside-topic-number-content-times">Thời
-                                                        gian: 03/03/2022</div>
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register">Làm
+                                                            bài</button>
+                                                    </div>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                                <div class="inside-topic-number-status">
-                                                    <button class="btn-border-radius btn-register">Làm
-                                                        bài</button>
+                                        <div class="col-xl-6">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-second">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 2
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
+                                                    </div>
+
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register topic-second">Sắp
+                                                            diễn
+                                                            ra</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-xl-6">
-                                        <div class="round-of-exams-inside">
-                                            <div class="flex inside-topic-number table-second">
-                                                <div class="inside-topic-number-content">
-                                                    <div class="inside-topic-number-content-text">Đề thi
-                                                        cấp trường lớp 4 - đề
-                                                        số 2
+                                    <div class="row row-two-last-table">
+                                        <div class="col-xl-6 col-border-radius-left">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-first">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 3
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
                                                     </div>
 
-                                                    <div class="inside-topic-number-content-score">Điểm:
-                                                        --/100</div>
-
-                                                    <div class="inside-topic-number-content-times">Thời
-                                                        gian: 03/03/2022</div>
-                                                </div>
-
-                                                <div class="inside-topic-number-status">
-                                                    <button class="btn-border-radius btn-register topic-second">Sắp
-                                                        diễn
-                                                        ra</button>
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register topic-third">Xem
+                                                            lại bài
+                                                            thi</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
 
-                                <div class="row row-two-last-table">
-                                    <div class="col-xl-6 col-border-radius-left">
-                                        <div class="round-of-exams-inside">
-                                            <div class="flex inside-topic-number table-first">
-                                                <div class="inside-topic-number-content">
-                                                    <div class="inside-topic-number-content-text">Đề thi
-                                                        cấp trường lớp 4 - đề
-                                                        số 3
+                                        <div class="col-xl-6 col-border-radius-right">
+                                            <div class="round-of-exams-inside inside-topic-third">
+                                                <div class="flex inside-topic-number table-second">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 4
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
                                                     </div>
 
-                                                    <div class="inside-topic-number-content-score">Điểm:
-                                                        --/100</div>
-
-                                                    <div class="inside-topic-number-content-times">Thời
-                                                        gian: 03/03/2022</div>
-                                                </div>
-
-                                                <div class="inside-topic-number-status">
-                                                    <button class="btn-border-radius btn-register topic-third">Xem
-                                                        lại bài
-                                                        thi</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xl-6 col-border-radius-right">
-                                        <div class="round-of-exams-inside inside-topic-third">
-                                            <div class="flex inside-topic-number table-second">
-                                                <div class="inside-topic-number-content">
-                                                    <div class="inside-topic-number-content-text">Đề thi
-                                                        cấp trường lớp 4 - đề
-                                                        số 4
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register">Làm
+                                                            bài</button>
                                                     </div>
-
-                                                    <div class="inside-topic-number-content-score">Điểm:
-                                                        --/100</div>
-
-                                                    <div class="inside-topic-number-content-times">Thời
-                                                        gian: 03/03/2022</div>
-                                                </div>
-
-                                                <div class="inside-topic-number-status">
-                                                    <button class="btn-border-radius btn-register">Làm
-                                                        bài</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
+                            <div class="collapse" id="collapseExample2" data-bs-parent="#myGroup">
+                                <div class="card card-body">
+                                    <div class="row row-two-first-table">
+                                        <div class="col-xl-6">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-first">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 1
+                                                        </div>
 
-                        <div class="collapse" id="collapseExample2" data-parent="#myGroup">
-                            <div class="card card-body">
-                                <div class="row row-two-first-table">
-                                    <div class="col-xl-6">
-                                        <div class="round-of-exams-inside">
-                                            <div class="flex inside-topic-number table-first">
-                                                <div class="inside-topic-number-content">
-                                                    <div class="inside-topic-number-content-text">Đề thi
-                                                        cấp trường lớp 4 - đề
-                                                        số 1
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
                                                     </div>
 
-                                                    <div class="inside-topic-number-content-score">Điểm:
-                                                        --/100</div>
-
-                                                    <div class="inside-topic-number-content-times">Thời
-                                                        gian: 03/03/2022</div>
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register">Làm
+                                                            bài</button>
+                                                    </div>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                                <div class="inside-topic-number-status">
-                                                    <button class="btn-border-radius btn-register">Làm
-                                                        bài</button>
+                                        <div class="col-xl-6">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-second">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 2
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
+                                                    </div>
+
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register topic-second">Sắp
+                                                            diễn
+                                                            ra</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-xl-6">
-                                        <div class="round-of-exams-inside">
-                                            <div class="flex inside-topic-number table-second">
-                                                <div class="inside-topic-number-content">
-                                                    <div class="inside-topic-number-content-text">Đề thi
-                                                        cấp trường lớp 4 - đề
-                                                        số 2
+                                    <div class="row row-two-last-table">
+                                        <div class="col-xl-6 col-border-radius-left">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-first">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 3
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
                                                     </div>
 
-                                                    <div class="inside-topic-number-content-score">Điểm:
-                                                        --/100</div>
-
-                                                    <div class="inside-topic-number-content-times">Thời
-                                                        gian: 03/03/2022</div>
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register topic-third">Xem
+                                                            lại bài
+                                                            thi</button>
+                                                    </div>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                                <div class="inside-topic-number-status">
-                                                    <button class="btn-border-radius btn-register topic-second">Sắp
-                                                        diễn
-                                                        ra</button>
+                                        <div class="col-xl-6 col-border-radius-right">
+                                            <div class="round-of-exams-inside inside-topic-third">
+                                                <div class="flex inside-topic-number table-second">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 4
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
+                                                    </div>
+
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register">Làm
+                                                            bài</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="row row-two-last-table">
-                                    <div class="col-xl-6 col-border-radius-left">
-                                        <div class="round-of-exams-inside">
-                                            <div class="flex inside-topic-number table-first">
-                                                <div class="inside-topic-number-content">
-                                                    <div class="inside-topic-number-content-text">Đề thi
-                                                        cấp trường lớp 4 - đề
-                                                        số 3
+                            <div class="collapse" id="collapseExample3" data-bs-parent="#myGroup">
+                                <div class="card card-body">
+                                    <div class="row row-two-first-table">
+                                        <div class="col-xl-6">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-first">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 1
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
                                                     </div>
 
-                                                    <div class="inside-topic-number-content-score">Điểm:
-                                                        --/100</div>
-
-                                                    <div class="inside-topic-number-content-times">Thời
-                                                        gian: 03/03/2022</div>
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register">Làm
+                                                            bài</button>
+                                                    </div>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                                <div class="inside-topic-number-status">
-                                                    <button class="btn-border-radius btn-register topic-third">Xem
-                                                        lại bài
-                                                        thi</button>
+                                        <div class="col-xl-6">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-second">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 2
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
+                                                    </div>
+
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register topic-second">Sắp
+                                                            diễn
+                                                            ra</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-xl-6 col-border-radius-right">
-                                        <div class="round-of-exams-inside inside-topic-third">
-                                            <div class="flex inside-topic-number table-second">
-                                                <div class="inside-topic-number-content">
-                                                    <div class="inside-topic-number-content-text">Đề thi
-                                                        cấp trường lớp 4 - đề
-                                                        số 4
+                                    <div class="row row-two-last-table">
+                                        <div class="col-xl-6 col-border-radius-left">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-first">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 3
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
                                                     </div>
 
-                                                    <div class="inside-topic-number-content-score">Điểm:
-                                                        --/100</div>
-
-                                                    <div class="inside-topic-number-content-times">Thời
-                                                        gian: 03/03/2022</div>
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register topic-third">Xem
+                                                            lại bài
+                                                            thi</button>
+                                                    </div>
                                                 </div>
+                                            </div>
+                                        </div>
 
-                                                <div class="inside-topic-number-status">
-                                                    <button class="btn-border-radius btn-register">Làm
-                                                        bài</button>
+                                        <div class="col-xl-6 col-border-radius-right">
+                                            <div class="round-of-exams-inside inside-topic-third">
+                                                <div class="flex inside-topic-number table-second">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 4
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
+                                                    </div>
+
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register">Làm
+                                                            bài</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="collapse" id="collapseExample4" data-bs-parent="#myGroup">
+                                <div class="card card-body">
+                                    <div class="row row-two-first-table">
+                                        <div class="col-xl-6">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-first">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 1
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
+                                                    </div>
+
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register">Làm
+                                                            bài</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-6">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-second">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 2
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
+                                                    </div>
+
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register topic-second">Sắp
+                                                            diễn
+                                                            ra</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row row-two-last-table">
+                                        <div class="col-xl-6 col-border-radius-left">
+                                            <div class="round-of-exams-inside">
+                                                <div class="flex inside-topic-number table-first">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 3
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
+                                                    </div>
+
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register topic-third">Xem
+                                                            lại bài
+                                                            thi</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-6 col-border-radius-right">
+                                            <div class="round-of-exams-inside inside-topic-third">
+                                                <div class="flex inside-topic-number table-second">
+                                                    <div class="inside-topic-number-content">
+                                                        <div class="inside-topic-number-content-text">Đề thi
+                                                            cấp trường lớp 4 - đề
+                                                            số 4
+                                                        </div>
+
+                                                        <div class="inside-topic-number-content-score">Điểm:
+                                                            --/100</div>
+
+                                                        <div class="inside-topic-number-content-times">Thời
+                                                            gian: 03/03/2022</div>
+                                                    </div>
+
+                                                    <div class="inside-topic-number-status">
+                                                        <button class="btn-border-radius btn-register">Làm
+                                                            bài</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
