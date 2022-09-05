@@ -94,14 +94,14 @@ $(document).ready(function () {
       isClicked = true;
     }
   })
-  
-// Bấm vào đăng ký dưới thì trượt thanh cuộn lên
-$('#top-page').on('click', function() {
-  window.scrollTo({
+
+  // Bấm vào đăng ký dưới thì trượt thanh cuộn lên
+  $('#top-page').on('click', function () {
+    window.scrollTo({
       top: 0,
       behavior: 'smooth'
-  });
-})
+    });
+  })
 
   // Web-game
   let resizePixed = (window.innerWidth / 16 * 9);
