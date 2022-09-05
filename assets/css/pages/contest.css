@@ -5133,40 +5133,53 @@
     padding: 20px;
 }
 
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname {
+.cover-container .register-ttcn-frame {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #515861;
-}
-
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text,
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
     margin-bottom: 5px;
 }
-
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-input,
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-frame {
+.cover-container .register-ttcn-frame>input{
     border: 1px solid #CDCED6;
     border-radius: 8px;
     padding: 12px 16px;
     width: 100%;
+    margin-top: 5px;
 }
 
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-date>.register-contest-rules-ttcn-content-date-head,
-.register-contest-rules-ttcn-content-web-center>.register-contest-rules-ttcn-content-gioitinh>.register-contest-rules-ttcn-content-gioitinh-header {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #515861;
-    margin-top: 10px;
-    margin-bottom: 0.5em;
-
+.cover-container .cover-gioitinh>.register-ttcn-frame-checkbox{
+    border: 1px solid #CDCED6;
+    padding-left: 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    width: 120px;
+    height: 44px;
+    justify-content: flex-start;
+    margin-right: 10px;
 }
-
-.register-contest-rules-ttcn-content-web-center>.cover-gioitinh {
+.cover-container .cover-gioitinh>.register-ttcn-frame-checkbox>label{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.cover-container .cover-gioitinh {
     justify-content: flex-start;
 }
+.register-ttcn-submit>input{
+    padding: 8px 32px;
+    background: #00CCCC;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 .register-contest-rules-ttcn-content-web-center>.cover-gioitinh>.register-contest-rules-ttcn-content-gioitinh-frame {
     border: 1px solid #CDCED6;
