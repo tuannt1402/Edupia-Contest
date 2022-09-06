@@ -126,6 +126,12 @@ $(document).ready(function () {
     })
   })
 
+  // Initialize tooltips
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+
   //Bấm vào xem chi tiết laptop thì quay mũi tên và hiện ra bảng
   let currentExpandIndex = -1;
 
@@ -140,7 +146,7 @@ $(document).ready(function () {
   }
 
   $('.btn-laptop').each(function (index, ele) {
-    $(ele).on('click',function() {
+    $(ele).on('click', function () {
       collapseAll();
       if (index === currentExpandIndex) {
         currentExpandIndex = -1;
