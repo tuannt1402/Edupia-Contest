@@ -103,25 +103,26 @@ $(document).ready(function () {
     });
   })
   
-  //Chạy tooltip web-ranking
-  let isClickedTest = true;
-  function slideShow() {
-    if (isClickedTest) {
-      $('.line').css({
-        display:'none'
-      })
-      return isClickedTest = !isClickedTest;
-    } else {
-      $('.line').css({
-        display:'block'
-      })
-      return isClickedTest = true;
-    }
-  }
-
-  $('.accordion-button').each(function(index,ele) {
-    console.log(ele);
-    $(ele).attr('aria-expanded','false');
+  $('.img-mobile').each(function(index,ele) {
+    $(ele).on('click',function() {
+      if (index == 0) {
+        $('.line-mobile').css({
+          left:'0%'
+        })
+      } if (index == 1) {
+        $('.line-mobile').css({
+          left:'25%'
+        })
+      } if (index == 2) {
+        $('.line-mobile').css({
+          left:'50%'
+        })
+      } if (index == 3) {
+        $('.line-mobile').css({
+          left:'75%'
+        })
+      }
+    })
   })
 
 

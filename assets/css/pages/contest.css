@@ -2573,7 +2573,7 @@
     color: #7D808E;
 }
 
-.register-contest-rules-ttcn-content-web .form-information-frame{
+.register-contest-rules-ttcn-content-web .form-information-frame {
     font-weight: 500;
     font-size: 1em;
     line-height: 24px;
@@ -4947,13 +4947,19 @@
     border-bottom: thin solid #E0E0E0;
 }
 
-.container-round-of-exams>.container-lg>.row>.row>.line {
+.container-round-of-exams .line-mobile {
     position: absolute;
     height: 0.01em;
     width: 25%;
     bottom: 0%;
     left: 0%;
     background-color: var(--color-blue-0AB5DB);
+    transition: left 0.5s;
+}
+
+#myGroupMobile .card-body {
+    border: unset;
+    border-radius: unset;
 }
 
 .container-round-of-exams>.container-lg>.row-topic>.row {
@@ -4962,28 +4968,28 @@
     margin-top: 20px;
 }
 
-.row-topic .round-school-mobile {
+.container-round-of-exams .round-school-mobile {
     font-weight: 700;
     font-size: 16px;
     color: #0AB5DB;
 }
 
-.row-topic .small-text-school {
+.container-round-of-exams .small-text-school {
     font-size: 12px;
     color: #51545F;
     justify-content: flex-start;
 }
 
-.container-round-of-exams>.container-lg>.row-topic>.row>.round-of-header-content-text>.round-of-header-content-text-score {
+.container-round-of-exams .round-of-header-content-text-score {
     justify-content: flex-start;
     margin-top: 10px;
 }
 
-.container-round-of-exams>.container-lg>.row-topic>.row>.round-of-header-content-text>.round-of-header-content-text-score>.round-of-header-content-text-score-text {
+.container-round-of-exams .round-of-header-content-text-score-text {
     margin-left: 5px;
 }
 
-.container-round-of-exams>.container-lg>.row-topic>.row>.round-of-header-content-text>.round-of-header-content-text-score>.round-of-header-content-text-score-number {
+.container-round-of-exams .round-of-header-content-text-score-number {
     flex: 1;
     justify-content: flex-end;
     font-weight: 700;
@@ -4991,8 +4997,12 @@
     color: #005487;
 }
 
-.container-round-of-exams>.container-lg>.row-topic>.row>.round-of-header-content-text>.round-of-header-content-text-score>.result-text-done {
+.container-round-of-exams .result-text-done {
     color: #3AB384;
+}
+
+.container-round-of-exams .status-img-text-for-mobile {
+    color: #0AB5DB;
 }
 
 .line {
@@ -5033,11 +5043,15 @@
 }
 
 .cover-container .btn-secondary:focus {
-    box-shadow:none;
+    box-shadow: none;
+}
+
+#myGroupMobile {
+    display: none;
 }
 
 div.tooltip-inner {
-    text-align:start;
+    text-align: start;
     font-size: 14px;
     background: #51545F;
 }
@@ -5268,7 +5282,8 @@ div.tooltip-inner {
     color: #515861;
     margin-bottom: 5px;
 }
-.cover-container .register-ttcn-frame>input{
+
+.cover-container .register-ttcn-frame>input {
     border: 1px solid #CDCED6;
     border-radius: 8px;
     padding: 12px 16px;
@@ -5276,7 +5291,7 @@ div.tooltip-inner {
     margin-top: 5px;
 }
 
-.cover-container .cover-gioitinh>.register-ttcn-frame-checkbox{
+.cover-container .cover-gioitinh>.register-ttcn-frame-checkbox {
     border: 1px solid #CDCED6;
     padding-left: 8px;
     border-radius: 10px;
@@ -5288,14 +5303,17 @@ div.tooltip-inner {
     justify-content: flex-start;
     margin-right: 10px;
 }
-.cover-container .cover-gioitinh>.register-ttcn-frame-checkbox>label{
+
+.cover-container .cover-gioitinh>.register-ttcn-frame-checkbox>label {
     margin-left: 5px;
     margin-top: 2px;
 }
+
 .cover-container .cover-gioitinh {
     justify-content: flex-start;
 }
-.register-ttcn-submit>input{
+
+.register-ttcn-submit>input {
     padding: 8px 32px;
     background: #00CCCC;
     border-radius: 8px;
@@ -5503,53 +5521,10 @@ div.tooltip-inner {
         display: none;
     }
 
-    .cover-container  .accordion {
-        display: none;
-    }
-
     .container-round-of-exams .row-two-last-table {
         margin-top: 0 !important;
     }
 
-    .container-round-of-exams>.container-lg>.row-topic {
-        display: block;
-    }
-
-    .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
-        right: -2.8%;
-        top: -2em;
-    }
-
-    .container-round-of-exams>.container-lg>.row-ranking-table {
-        display: none;
-    }
-
-    .container-round-of-exams>.container-lg,
-    .ranking>.container-lg,
-    .ranking>.container-lg>.row>.col {
-        padding: 0;
-    }
-
-    .container-round-of-exams>.container-lg>.row-topic {
-        display: block;
-    }
-
-    .ranking>.container-lg>.row>.col>.ranking-table {
-        display: none;
-    }
-
-    .ranking>.container-lg>.row>.col>.your-number,
-    .ranking>.container-lg>.row>.col>.top-number {
-        display: block;
-    }
-
-    .ranking>.container-lg>.row>.col>.ranking-button-mobile {
-        display: flex;
-    }
-
-    .container-round-of-exams {
-        padding-bottom: 0;
-    }
 
     /* End-web-ranking */
 
@@ -5630,6 +5605,57 @@ div.tooltip-inner {
     }
 
     /* End-web-register */
+
+    /* Begin-web-ranking */
+    #myGroupMobile {
+        display: block;
+    }
+
+    .container-round-of-exams .container {
+        display: none;
+    }
+
+    .container-round-of-exams>.container-lg>.row-topic {
+        display: block;
+    }
+
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
+        right: -2.8%;
+        top: -2em;
+    }
+
+    .container-round-of-exams>.container-lg>.row-ranking-table {
+        display: none;
+    }
+
+    .container-round-of-exams>.container-lg,
+    .ranking>.container-lg,
+    .ranking>.container-lg>.row>.col {
+        padding: 0;
+    }
+
+    .container-round-of-exams>.container-lg>.row-topic {
+        display: block;
+    }
+
+    .ranking>.container-lg>.row>.col>.ranking-table {
+        display: none;
+    }
+
+    .ranking>.container-lg>.row>.col>.your-number,
+    .ranking>.container-lg>.row>.col>.top-number {
+        display: block;
+    }
+
+    .ranking>.container-lg>.row>.col>.ranking-button-mobile {
+        display: flex;
+    }
+
+    .container-round-of-exams {
+        padding-bottom: 0;
+    }
+
+    /* End-web-ranking */
 
 
     /* Begin-web-chooseprovince */
