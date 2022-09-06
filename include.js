@@ -102,6 +102,28 @@ $(document).ready(function () {
       behavior: 'smooth'
     });
   })
+  
+  //Chạy tooltip web-ranking
+  let isClickedTest = true;
+  function slideShow() {
+    if (isClickedTest) {
+      $('.line').css({
+        display:'none'
+      })
+      return isClickedTest = !isClickedTest;
+    } else {
+      $('.line').css({
+        display:'block'
+      })
+      return isClickedTest = true;
+    }
+  }
+
+  $('.accordion-button').each(function(index,ele) {
+    console.log(ele);
+    $(ele).attr('aria-expanded','false');
+  })
+
 
   // Web-game
   let resizePixed = (window.innerWidth / 16 * 9);

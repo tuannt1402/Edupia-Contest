@@ -4290,7 +4290,7 @@
 }
 
 .register-contest-rules-register-form-inside-header>.rules-for-laptop-cover-content,
-.register-contest-rules-register-form-inside-header>.round-scholl-content-laptop {
+.register-contest-rules-register-form-inside-header>.round-school-content-laptop {
     justify-content: flex-start;
     margin-bottom: 5px;
 }
@@ -4962,13 +4962,13 @@
     margin-top: 20px;
 }
 
-.container-round-of-exams>.container-lg>.row-topic>.row>.round-of-header-content-status-name>.round-of-header-content-status-name-first {
+.row-topic .round-school-mobile {
     font-weight: 700;
     font-size: 16px;
     color: #0AB5DB;
 }
 
-.container-round-of-exams>.container-lg>.row-topic>.row>.round-of-header-content-status-name>.round-of-header-content-status-name-second {
+.row-topic .small-text-school {
     font-size: 12px;
     color: #51545F;
     justify-content: flex-start;
@@ -4995,23 +4995,28 @@
     color: #3AB384;
 }
 
-#collapseOne {
-    width: 1268px;
+.line {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: white;
+    bottom: -37px;
 }
 
-#collapseTwo {
-    width: 1268px;
-    margin-left: -324px;
+.container-round-of-exams .btn-details {
+    width: 100%;
+    background-color: unset;
+    border: unset;
 }
 
-#collapseThree {
-    width: 1268px;
-    margin-left: -648px;
+.accordion-button:not(.collapsed) {
+    background-color: unset;
+    color: #51545F;
+    box-shadow: none;
 }
 
-#collapseFour {
-    width: 1268px;
-    margin-left: -972px;
+.accordion-item {
+    border: unset;
 }
 
 .accordion-body {
@@ -5022,7 +5027,22 @@
     padding-left: 33%;
 }
 
-.container-round-of-exams .row-two-first-table {
+.cover-container .btn-secondary {
+    background: unset;
+    border: unset;
+}
+
+.cover-container .btn-secondary:focus {
+    box-shadow:none;
+}
+
+div.tooltip-inner {
+    text-align:start;
+    font-size: 14px;
+    background: #51545F;
+}
+
+.container-round-of-exams .col-xl-12 {
     margin-top: 15px;
 }
 
@@ -5050,7 +5070,7 @@
     margin-left: var(--size-16px);
 }
 
-.ranking-table-mobile-inside>.ranking-table-mobile-inside-header>.ranking-table-mobile-inside-header-text>.ranking-table-mobile-inside-header-text-scholl {
+.ranking-table-mobile-inside>.ranking-table-mobile-inside-header>.ranking-table-mobile-inside-header-text>.ranking-table-mobile-inside-header-text-school {
     font-weight: var(--mobile-text-font-weight-400);
 }
 
@@ -5434,30 +5454,6 @@
 }
 
 
-
-
-@media screen and (max-width: 1400px) {
-    #collapseOne {
-        width: 1088px;
-    }
-    
-    #collapseTwo {
-        width: 1088px;
-        margin-left: -279px;
-    }
-    
-    #collapseThree {
-        width: 1088px;
-        margin-left: -558px;
-    }
-    
-    #collapseFour {
-        width: 1088px;
-        margin-left: -837px;
-    }
-}
-
-
 @media screen and (max-width: 1199px) {
 
     /* Begin-web-register */
@@ -5517,6 +5513,42 @@
 
     .container-round-of-exams>.container-lg>.row-topic {
         display: block;
+    }
+
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
+        right: -2.8%;
+        top: -2em;
+    }
+
+    .container-round-of-exams>.container-lg>.row-ranking-table {
+        display: none;
+    }
+
+    .container-round-of-exams>.container-lg,
+    .ranking>.container-lg,
+    .ranking>.container-lg>.row>.col {
+        padding: 0;
+    }
+
+    .container-round-of-exams>.container-lg>.row-topic {
+        display: block;
+    }
+
+    .ranking>.container-lg>.row>.col>.ranking-table {
+        display: none;
+    }
+
+    .ranking>.container-lg>.row>.col>.your-number,
+    .ranking>.container-lg>.row>.col>.top-number {
+        display: block;
+    }
+
+    .ranking>.container-lg>.row>.col>.ranking-button-mobile {
+        display: flex;
+    }
+
+    .container-round-of-exams {
+        padding-bottom: 0;
     }
 
     /* End-web-ranking */
@@ -5599,41 +5631,6 @@
 
     /* End-web-register */
 
-    /* Begin-web-ranking */
-
-    .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
-        right: -2.8%;
-        top: -2em;
-    }
-
-    .container-round-of-exams>.container-lg>.row-ranking-table {
-        display: none;
-    }
-
-    .container-round-of-exams>.container-lg,
-    .ranking>.container-lg,
-    .ranking>.container-lg>.row>.col {
-        padding: 0;
-    }
-
-    .container-round-of-exams>.container-lg>.row-topic {
-        display: block;
-    }
-
-    .ranking>.container-lg>.row>.col>.ranking-table {
-        display: none;
-    }
-
-    .ranking>.container-lg>.row>.col>.your-number,
-    .ranking>.container-lg>.row>.col>.top-number {
-        display: block;
-    }
-
-    .ranking>.container-lg>.row>.col>.ranking-button-mobile {
-        display: flex;
-    }
-
-    /* End-web-ranking */
 
     /* Begin-web-chooseprovince */
     .cover-chooseprovince-content {
