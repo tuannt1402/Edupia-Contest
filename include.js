@@ -102,26 +102,51 @@ $(document).ready(function () {
       behavior: 'smooth'
     });
   })
-  
-  $('.img-mobile').each(function(index,ele) {
-    $(ele).on('click',function() {
+
+  // Bấm vào vòng thi mobile thi trượt line-mobile
+  $('.img-mobile').each(function (index, ele) {
+    $(ele).on('click', function () {
       if (index == 0) {
         $('.line-mobile').css({
-          left:'0%'
+          left: '0%'
         })
       } if (index == 1) {
         $('.line-mobile').css({
-          left:'25%'
+          left: '25%'
         })
       } if (index == 2) {
         $('.line-mobile').css({
-          left:'50%'
+          left: '50%'
         })
       } if (index == 3) {
         $('.line-mobile').css({
-          left:'75%'
+          left: '75%'
         })
       }
+    })
+  })
+
+  //Bấm vào xem chi tiết laptop thì quay mũi tên và hiện ra bảng
+  let currentExpandIndex = -1;
+
+  function collapseAll() {
+    $('.btn-laptop span svg').removeClass('tranform-arrow-rotate');
+    $('.line').removeClass('line-move');
+  }
+
+  function expand(index) {
+    $($('.line')[index]).addClass('line-move');
+    $($('.btn-laptop span svg')[index]).addClass('tranform-arrow-rotate');
+  }
+
+  $('.btn-laptop').each(function (index, ele) {
+    $(ele).on('click',function() {
+      collapseAll();
+      if (index === currentExpandIndex) {
+        return;
+      }
+      expand(index);
+      currentExpandIndex = index;
     })
   })
 
