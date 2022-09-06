@@ -2168,26 +2168,22 @@
     height: 100%;
 }
 
-.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
-    margin-top: var(--size-32px);
-}
 
-.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header>.form-input-phone-number-header-content {
+
+.form-input-phone-number-inside .form-input-phone-number-header-content {
     font-size: var(--font-size-24px);
     font-weight: var(--btn-font-weight-700);
 }
 
-.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header>.form-input-phone-number-header-text,
-.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content>.form-input-phone-number-content-text {
+.form-input-phone-number-inside .form-input-phone-number-header-text,
+.form-input-phone-number-inside .form-input-phone-number-content-text {
     font-size: var(--primary-font-size-14px);
     font-weight: var(--mobile-text-font-weight-400);
 }
 
-.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content {
-    margin-top: var(--size-16px);
-}
 
-.form-input-phone-number-inside>.row>.col>.form-input-phone-number-content>.form-input-phone-number-content-input>input {
+
+.form-input-phone-number-inside .form-input-phone-number-content-input>input {
     height: 3em;
     width: 100%;
     border: thin solid #CDCED6;
@@ -2196,13 +2192,13 @@
     padding-left: var(--size-16px);
 }
 
-.form-input-phone-number-inside>.row>.col>.register-contest-rules-register-form-inside-btn>.btn-register {
+.form-input-phone-number-inside .register-contest-rules-register-form-inside-btn>.btn-register {
     width: 100%;
     margin-top: var(--size-32px);
     margin-bottom: var(--size-32px);
 }
 
-.form-input-phone-number-inside>.row>.col>.form-input-phone-number-img {
+.form-input-phone-number-inside .form-input-phone-number-img {
     position: absolute;
     right: -3%;
     top: -17%;
@@ -4212,7 +4208,7 @@
     padding-right: 35px;
 }
 
-.form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
+.form-input-phone-number-inside .form-input-phone-number-header {
     margin-top: 73px;
 }
 
@@ -5838,7 +5834,7 @@ div.tooltip-inner {
         margin-top: 30px;
     }
 
-    .form-input-phone-number-inside>.row>.col>.register-contest-rules-register-form-inside-btn>.btn-register,
+    .form-input-phone-number-inside .btn-register,
     .cover-container>.container-content>.container-lg>.cover-information>.row>.col-xl-8>.row-contest-btn>.register-contest-rules-register-form-inside-btn>.btn-register {
         width: 100%;
     }
