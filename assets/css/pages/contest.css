@@ -5031,17 +5031,18 @@
 }
 
 .line {
-    transition: height 0.5s;
+    transition: height 0.5s, bottom 0.5s;
     position: absolute;
     width: 100%;
     height: 0;
     background: white;
-    bottom: -37px;
+    bottom: 0;
     z-index: 1;
 }
 
 .line-move{
     height: 50px;
+    bottom:-37px;
 }
 
 .container-round-of-exams .btn-details {

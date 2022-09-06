@@ -143,6 +143,7 @@ $(document).ready(function () {
     $(ele).on('click',function() {
       collapseAll();
       if (index === currentExpandIndex) {
+        currentExpandIndex = -1;
         return;
       }
       expand(index);
