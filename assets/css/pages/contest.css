@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-style: normal;
+    font-family: Cabin;
 }
 
 :root {
@@ -2615,7 +2616,22 @@
     display: flex;
     gap: 1em;
 }
-
+.form-noinfor-inside-ttcn>.form-noinfor-inside-header>.form-noinfor-inside-header-icon>img{
+    width: 48px;
+    height: 48px;
+}
+.register-contest-rules-register-form-inside-img>img{
+    width: 270px;
+    height: 270px;
+}
+.register-form-inside-header-img>img{
+    width: 60px;
+    height: 60px;
+}
+.nav-web-content-login>img{
+    width: 40px;
+    height: 40px;
+}
 .form-noinfor {
     background: var(--color-white);
     border-radius: 0.75em;
