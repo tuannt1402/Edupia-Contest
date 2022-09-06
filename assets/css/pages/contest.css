@@ -2615,6 +2615,18 @@
     width: 48px;
     height: 48px;
 }
+.register-contest-rules-register-form-inside-img>img{
+    width: 270px;
+    height: 270px;
+}
+.register-form-inside-header-img>img{
+    width: 60px;
+    height: 60px;
+}
+.nav-web-content-login>img{
+    width: 40px;
+    height: 40px;
+}
 .form-noinfor {
     background: var(--color-white);
     border-radius: 0.75em;
