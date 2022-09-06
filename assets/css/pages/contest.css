@@ -2611,7 +2611,10 @@
     display: flex;
     gap: 1em;
 }
-
+.form-noinfor-inside-ttcn>.form-noinfor-inside-header>.form-noinfor-inside-header-icon>img{
+    width: 48px;
+    height: 48px;
+}
 .form-noinfor {
     background: var(--color-white);
     border-radius: 0.75em;
