@@ -3537,7 +3537,10 @@
 .web-game-container>.web11>.web-game-test>.web-game-test-btn>.btn-next {
     margin: 0;
 }
-
+.logoedu>img {
+    width: 120px;
+    height: 120px;
+}
 /* end với các câu đã làm */
 
 /* Với các bài thi có submit bài và có kết quả điểm */
