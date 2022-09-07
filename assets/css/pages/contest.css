@@ -5536,28 +5536,52 @@ div.tooltip-inner {
     /* End-web-register */
 
     /* Begin-web-ranking */
-    .container-round-of-exams>.container-lg>.row-ranking-table>.col-xl-3 {
-        margin-top: 1em;
+    #myGroupMobile {
+        display: block;
     }
 
-    .container-round-of-exams>.container-lg>.row>.row>.col-border-radius-left {
-        border-bottom-left-radius: unset;
-    }
-
-    .container-round-of-exams>.container-lg>.row>.row>.col-border-radius-right {
-        border-bottom-left-radius: 10px;
-    }
-
-    .round-of-exams-inside>.inside-topic-number {
-        margin: 0;
-    }
-
-    .round-of-header-content>.round-of-header-content-space {
+    .container-round-of-exams .container {
         display: none;
     }
 
-    .container-round-of-exams .row-two-last-table {
-        margin-top: 0 !important;
+    .container-round-of-exams>.container-lg>.row-topic {
+        display: block;
+    }
+
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
+        right: -2.8%;
+        top: -2em;
+    }
+
+    .container-round-of-exams>.container-lg>.row-ranking-table {
+        display: none;
+    }
+
+    .container-round-of-exams>.container-lg,
+    .ranking>.container-lg,
+    .ranking>.container-lg>.row>.col {
+        padding: 0;
+    }
+
+    .container-round-of-exams>.container-lg>.row-topic {
+        display: block;
+    }
+
+    .ranking>.container-lg>.row>.col>.ranking-table {
+        display: none;
+    }
+
+    .ranking>.container-lg>.row>.col>.your-number,
+    .ranking>.container-lg>.row>.col>.top-number {
+        display: block;
+    }
+
+    .ranking>.container-lg>.row>.col>.ranking-button-mobile {
+        display: flex;
+    }
+
+    .container-round-of-exams {
+        padding-bottom: 0;
     }
 
 
