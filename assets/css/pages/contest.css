@@ -794,9 +794,10 @@
 
 
 
-.modal>.modal-dialog>.modal-content>.modal-body>.form-login-note>a {
+.modal>.modal-dialog>.modal-content>.modal-body>.form-login-note>span {
     color: #005487;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .modal>.modal-dialog>.modal-content>.modal-footer>input {
