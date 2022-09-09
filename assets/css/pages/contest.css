@@ -809,9 +809,17 @@
 .form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"], .was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"]{
     background-image: unset;
 }
+<<<<<<< HEAD
 .modal>.modal-dialog>.modal-content>.modal-body>.form-login-note>a {
+=======
+
+
+
+.modal>.modal-dialog>.modal-content>.modal-body>.form-login-note>span {
+>>>>>>> 00433ad6258bb3402d0477d3b99a926bdab9beda
     color: #005487;
     text-decoration: none;
+    cursor: pointer;
 }
 .form-select{
     width: 100%;
