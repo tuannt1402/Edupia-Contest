@@ -15,7 +15,7 @@
     <title>Document</title>
 </head>
 <body>
-  <form action="" method="GET">
+  <form action="" method="GET" class="row g-3 needs-validation" novalidate>
     <div class="modal d-block" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -40,11 +40,20 @@
                     <div class="form-notification-text-bottom">Đã hết thời hạn đăng ký tham gia cuộc thi. Bạn có muốn đăng ký học trên Edupia không?</div>
                 </div>
                 </div>
-
-                <div class="form-login-account-header">Họ và tên học sinh</div>
-                <input type="text" name="fullname" placeholder="Họ và tên học sinh">
-            <div class="form-login-account-header">Tên đăng nhập / Số điện thoại</div>
-            <input type="tel" name="tel" class="form-infor-phone" value="0973934891">
+                <div class="col">
+                  <label for="validationCustom0" class="form-label">Họ và tên học sinh</label>
+                  <input type="text" class="form-control" name="fullname" id="validationCustom0" required value="" placeholder="Họ và tên học sinh">
+                  <div class="invalid-feedback">
+                      Vui lòng nhập thông tin này
+                  </div>
+              </div>
+                <div class="col">
+                  <label for="validationCustom01" class="form-label">Tên đăng nhập / Số điện thoại</label>
+                  <input type="text" class="form-control" name="account" id="validationCustom01" required value="0973934891" placeholder="0973934891">
+                  <div class="invalid-feedback">
+                      Vui lòng nhập thông tin này
+                  </div>
+                </div>
 
             </div>
             <div class="modal-footer pop-up-footer">

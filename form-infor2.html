@@ -15,22 +15,31 @@
     <title>Document</title>
 </head>
 <body>
-<form action="" method="GET">
+<form action="" method="GET" class="row g-3 needs-validation" novalidate>
     <div class="modal d-block" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header form-infor-header">
-              <div class="modal-title form-infor-header-top">Xin chào 09764357821</div>
+              <div class="modal-title form-infor-header-top">Đăng nhập cuộc thi</div>
               <div class="modal-title form-infor-header-bottom">Số điện thoại 0973934891 đã đăng ký tham gia
                 cuộc thi thành công. Vui lòng đăng nhập để tiếp tục</div>
             <img src="assets/images/OBJECTS.svg">
             </div>
             <div class="modal-body form-infor-body">
-                <div class="form-login-account-header">Tên đăng nhập / Số điện thoại</div>
-                <input type="tel" name="tel" class="form-infor-phone background" value="0973934891">
-
-                <div class="form-login-account-header">Mật khẩu</div>
-                <input type="password" name="password" placeholder="Nhập mật khẩu">
+              <div class="col">
+                <label for="validationCustom01" class="form-label">Tên đăng nhập / Số điện thoại</label>
+                <input type="text" class="form-control" name="account" id="validationCustom01" required value="0973934891" placeholder="0973934891">
+                <div class="invalid-feedback">
+                    Vui lòng nhập thông tin này
+                </div>
+              </div>
+              <div class="col">
+                <label for="validationCustom0" class="form-label">Mật khẩu</label>
+                <input type="password" class="form-control" name="password" id="validationCustom0" required value="" placeholder="Nhập mật khẩu">
+                <div class="invalid-feedback">
+                    Vui lòng nhập thông tin này
+                </div>
+              </div>
 
                 <div class="form-login-note frame-login">Quên mật khẩu?
                         <a href="file:///D:/code/Edupia-Contest.git/form-infor3.html">Nhận mã xác thực gửi về số điện thoại để đăng nhập</a>

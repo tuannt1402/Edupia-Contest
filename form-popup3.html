@@ -15,7 +15,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="GET">
+    <form action="" method="GET" class="row g-3 needs-validation" novalidate>
     <div class="modal d-block" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -78,11 +78,20 @@
                         khoản của bạn</div>
                 </div>
                 </div>
-            <div class="form-login-account-header">Tên đăng nhập / Số điện thoại</div>
-            <input name="tel" class="form-infor-phone" value="0973934891">
-
-            <div class="form-login-account-header">Mật khẩu</div>
-            <input type="password" name="password" placeholder="Nhập mật khẩu">
+                <div class="col">
+                    <label for="validationCustom01" class="form-label">Tên đăng nhập / Số điện thoại</label>
+                    <input type="text" name="account" class="form-control fullname" id="validationCustom01" required value="0973934891" placeholder="0973934891">
+                    <div class="invalid-feedback">
+                        Vui lòng nhập thông tin này
+                    </div>
+                  </div>
+                  <div class="col">
+                    <label for="validationCustom0" class="form-label">Mật khẩu</label>
+                    <input type="password" name="password" class="form-control fullname" id="validationCustom0" required value="" placeholder="Nhập mật khẩu">
+                    <div class="invalid-feedback">
+                        Vui lòng nhập thông tin này
+                    </div>
+                </div>
 
             <div class="form-login-note">Quên mật khẩu?
                 <a href="file:///D:/code/Edupia-Contest.git/form-infor3.html">Nhận mã xác thực gửi về số điện thoại để đăng nhập</a>
