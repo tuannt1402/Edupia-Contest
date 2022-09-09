@@ -805,8 +805,10 @@
 }
 .form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"], .was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size="1"]{
     background-image: unset;
+    padding-right: 1rem;
 }
 .form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"], .was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"]{
+    padding-right: 1rem;
     background-image: unset;
 }
 .modal>.modal-dialog>.modal-content>.modal-body>.form-login-note>a {
@@ -4935,7 +4937,6 @@ p {
 }
 
 .ranking>.container-lg>.row>.col>.ranking-table-select>.form-select {
-    height: 2.5em;
     width: 12.5625em;
     font-size: var(--primary-font-size-14px);
     font-weight: var(--primary-font-weight-600);
