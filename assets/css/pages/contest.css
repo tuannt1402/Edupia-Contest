@@ -792,31 +792,45 @@
     border: 0.0625em solid #E3E4EC;
     border-radius: 8px;
 }
-.form-control{
+
+.form-control {
     height: 3em;
     width: 100%;
     padding: var(--size-12px) 1em;
     border-radius: 12px;
 }
-.form-select{
+
+.form-select {
     border-radius: 12px !important;
 }
-.form-control.is-invalid, .was-validated .form-control:invalid{
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
     background-image: none;
 }
-.form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"], .was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size="1"]{
+
+.form-select.is-valid:not([multiple]):not([size]),
+.form-select.is-valid:not([multiple])[size="1"],
+.was-validated .form-select:valid:not([multiple]):not([size]),
+.was-validated .form-select:valid:not([multiple])[size="1"] {
     background-image: unset;
     padding-right: 1rem;
 }
-.form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"], .was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"]{
+
+.form-select.is-invalid:not([multiple]):not([size]),
+.form-select.is-invalid:not([multiple])[size="1"],
+.was-validated .form-select:invalid:not([multiple]):not([size]),
+.was-validated .form-select:invalid:not([multiple])[size="1"] {
     padding-right: 1rem;
     background-image: unset;
 }
+
 .modal>.modal-dialog>.modal-content>.modal-body>.form-login-note>a {
     color: #005487;
     text-decoration: none;
 }
-.form-select{
+
+.form-select {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
@@ -826,9 +840,12 @@
     justify-content: space-between;
     align-items: center;
 }
-.form-select.is-valid, .was-validated .form-select:valid{
+
+.form-select.is-valid,
+.was-validated .form-select:valid {
     background-color: #F3F4F5;
 }
+
 .form-label {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
@@ -837,10 +854,13 @@
     line-height: 20px;
     color: #51545F;
 }
-.form-control.is-valid, .was-validated .form-control:valid{
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
     background-image: unset;
-    background: #F3F4F5 ;
+    background: #F3F4F5;
 }
+
 .modal>.modal-dialog>.modal-content>.modal-footer>input {
     height: 2.5em;
     width: 13.5em;
@@ -936,9 +956,11 @@
     color: #1F2230;
     opacity: 0.9;
 }
+
 p {
     margin: 0;
 }
+
 .modal>.modal-dialog>.modal-content>.modal-header>.form-infor-header-bottom>span {
     font-weight: 700;
 }
@@ -946,7 +968,7 @@ p {
 .modal>.modal-dialog>.modal-content>.form-infor-header {
     display: block;
     position: relative;
-    border-bottom: none ;
+    border-bottom: none;
 }
 
 .modal>.modal-dialog>.modal-content>.form-infor-header>img {
@@ -999,6 +1021,7 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+
 .modal>.modal-dialog>.modal-content>.form-infor-body>.form-infor-account-content>.form-infor-phone {
     height: 3em;
     width: 100%;
@@ -1009,9 +1032,11 @@ p {
     font-weight: 400;
     background: #F3F4F5;
 }
-.modal>.modal-dialog>.modal-content>.modal-body>.background{
+
+.modal>.modal-dialog>.modal-content>.modal-body>.background {
     background: #F3F4F5;
 }
+
 .modal>.modal-dialog>.modal-content>.form-infor-body>.form-infor-account-content {
     position: relative;
 }
@@ -1028,6 +1053,7 @@ p {
     font-size: 0.875em;
     line-height: 1.25em;
 }
+
 .modal>.modal-dialog>.modal-content>.form-infor-body>.frame-login>.btn-back {
     position: absolute;
     right: 1em;
@@ -1047,7 +1073,7 @@ p {
     font-size: 0.875em;
     line-height: 1.25em;
     color: #015488;
-    margin-bottom: 0.5em ;
+    margin-bottom: 0.5em;
 }
 
 .modal>.modal-dialog>.modal-content>.form-infor-body>.form-infor-verification {
@@ -1067,6 +1093,7 @@ p {
     color: #DD3448;
     margin-top: 0.5em;
 }
+
 .modal>.modal-dialog>.modal-content>.modal-body>.frame-login {
     padding: 1em 0;
     font-weight: 600;
@@ -1076,6 +1103,7 @@ p {
     color: #51545F;
     position: relative;
 }
+
 .modal>.modal-dialog>.modal-content>.pop-up-two-body>.pop-up-two-body-header {
     display: flex;
     margin-bottom: 1em;
@@ -1307,6 +1335,7 @@ p {
     border: 0.0625em solid #E3E4EC;
     border-radius: var(--size-12px);
 }
+
 .modal .form-login-note {
     font-weight: 600;
     font-size: 14px;
@@ -1314,9 +1343,11 @@ p {
     color: #51545F;
     padding: 1em 0;
 }
-.modal-footer{
-    border-top: none ;
+
+.modal-footer {
+    border-top: none;
 }
+
 .form-login-inside>.form-login-note {
     display: flex;
     padding: 1em 1.5em 1em 1.5em;
@@ -2667,22 +2698,27 @@ p {
     display: flex;
     gap: 1em;
 }
-.form-noinfor-inside-ttcn>.form-noinfor-inside-header>.form-noinfor-inside-header-icon>img{
+
+.form-noinfor-inside-ttcn>.form-noinfor-inside-header>.form-noinfor-inside-header-icon>img {
     width: 48px;
     height: 48px;
 }
-.register-contest-rules-register-form-inside-img>img{
+
+.register-contest-rules-register-form-inside-img>img {
     width: 270px;
     height: 270px;
 }
-.register-form-inside-header-img>img{
+
+.register-form-inside-header-img>img {
     width: 60px;
     height: 60px;
 }
-.nav-web-content-login>img{
+
+.nav-web-content-login>img {
     width: 40px;
     height: 40px;
 }
+
 .form-noinfor {
     background: var(--color-white);
     border-radius: 0.75em;
@@ -3592,10 +3628,12 @@ p {
 .web-game-container>.web11>.web-game-test>.web-game-test-btn>.btn-next {
     margin: 0;
 }
+
 .logoedu>img {
     width: 120px;
     height: 120px;
 }
+
 /* end với các câu đã làm */
 
 /* Với các bài thi có submit bài và có kết quả điểm */
@@ -4043,10 +4081,14 @@ p {
 
 
 /* Begin-web-register */
-.cover-container .container-header,
 .cover-container .container-information {
     background: #005487;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-header {
+    background: #005487;
 }
 
 .cover-container .nav-web-header-left {
@@ -4229,10 +4271,6 @@ p {
 .cover-container .img-logo {
     width: 100%;
     height: 40px;
-}
-
-.cover-container>.container-information>.container-lg>.cover-content {
-    padding-top: 80px;
 }
 
 .register-information-inside-cover>.register-information-inside-header {
@@ -5094,9 +5132,9 @@ p {
     z-index: 1;
 }
 
-.line-move{
+.line-move {
     height: 50px;
-    bottom:-37px;
+    bottom: -37px;
 }
 
 .container-round-of-exams .btn-details {
@@ -5674,6 +5712,7 @@ div.tooltip-inner {
     .contest-for-laptop>.container-lg>.register-contest-rules>.row-contest-content>.col-xl-2 {
         margin-left: 0;
     }
+
     /* End-web-contest-ttcn */
 }
 
@@ -5734,6 +5773,12 @@ div.tooltip-inner {
 
     .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-4>.footer-mobile-hotline>.hotline-qrcode {
         justify-content: flex-start;
+    }
+
+    .cover-container .container-header,
+    .cover-container .container-information {
+        background: #005487;
+        padding-bottom: 0px;
     }
 
     /* End-web-register */
