@@ -768,7 +768,7 @@
     gap: 10px;
 }
 
-.modal>.modal-dialog>.modal-content>.modal-body>.form-login-account-header {
+.modal .modal-body>.form-login-account-header {
     font-weight: 500;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -777,14 +777,14 @@
     padding-top: 1em;
 }
 
-.modal>.modal-dialog>.modal-content>.modal-header>.modal-title {
+.modal .modal-header>.modal-title {
     font-weight: 700;
     font-size: 1.125em;
     line-height: 1.625em;
     color: #1F2230;
 }
 
-.modal>.modal-dialog>.modal-content>.modal-body>input {
+.modal .modal-body>input {
     height: 3em;
     width: 100%;
     padding: var(--size-12px) 1em;
@@ -824,8 +824,7 @@
     padding-right: 1rem;
     background-image: unset;
 }
-
-.modal>.modal-dialog>.modal-content>.modal-body>.form-login-note>a {
+.modal .form-login-note>a {
     color: #005487;
     text-decoration: none;
 }
@@ -844,6 +843,8 @@
 .form-select.is-valid,
 .was-validated .form-select:valid {
     background-color: #F3F4F5;
+    border-color: #E3E4EC;
+
 }
 
 .form-label {
@@ -858,10 +859,10 @@
 .form-control.is-valid,
 .was-validated .form-control:valid {
     background-image: unset;
-    background: #F3F4F5;
+    background: #F3F4F5 ;
+    border-color: #E3E4EC;
 }
-
-.modal>.modal-dialog>.modal-content>.modal-footer>input {
+.modal .modal-footer>input {
     height: 2.5em;
     width: 13.5em;
     padding: 0.5em 1.5em;
@@ -872,7 +873,7 @@
     font-weight: 700;
 }
 
-.modal>.modal-dialog>.modal-content>.modal-footer>.btn-confirm {
+.modal .modal-footer>.btn-confirm {
     padding: 0.5em 2em;
     gap: 1em;
     background: #00CCCC;
@@ -889,7 +890,7 @@
     width: max-content !important;
 }
 
-.modal>.modal-dialog>.modal-content>.modal-footer>.btn-back {
+.modal .modal-footer>.btn-back {
     gap: 1em;
     background: #ECEDF1;
     border-radius: 0.5em;
@@ -903,24 +904,25 @@
 
 .modal-footer {
     justify-content: center;
+    margin-top: 0;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-body {
+.modal .pop-up-body {
     display: flex;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-body>.form-notification-text {
+.modal .pop-up-body>.form-notification-text {
     margin-left: 1em;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-body>.form-notification-text>.form-notification-text-top {
+.modal .pop-up-body>.form-notification-text>.form-notification-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
     padding-bottom: 0.5em;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-body>.form-notification-text>.form-notification-text-bottom {
+.modal .pop-up-body>.form-notification-text>.form-notification-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -929,7 +931,7 @@
     align-items: center;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-body>.form-notification-text>.form-notification-text-bottom>span {
+.modal .pop-up-body>.form-notification-text>.form-notification-text-bottom>span {
     width: 0.9375em;
     height: 1.25em;
     font-weight: 900;
@@ -937,11 +939,11 @@
     justify-content: center;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-footer {
+.modal .modal-content>.pop-up-footer {
     border-top: none;
 }
 
-.modal>.modal-dialog>.modal-content>.modal-header>.form-infor-header-top {
+.modal .modal-header>.form-infor-header-top {
     font-weight: 700;
     font-size: 1.5em;
     line-height: 2em;
@@ -949,7 +951,7 @@
     padding-top: 1em;
 }
 
-.modal>.modal-dialog>.modal-content>.modal-header>.form-infor-header-bottom {
+.modal .modal-header>.form-infor-header-bottom {
     font-weight: 400;
     font-size: 1em;
     line-height: 1.5em;
@@ -960,31 +962,30 @@
 p {
     margin: 0;
 }
-
-.modal>.modal-dialog>.modal-content>.modal-header>.form-infor-header-bottom>span {
+.modal .modal-header>.form-infor-header-bottom>span {
     font-weight: 700;
 }
 
-.modal>.modal-dialog>.modal-content>.form-infor-header {
+.modal .form-infor-header {
     display: block;
     position: relative;
     border-bottom: none;
 }
 
-.modal>.modal-dialog>.modal-content>.form-infor-header>img {
+.modal .form-infor-header>img {
     position: absolute;
     right: -3.8%;
     top: -2em;
 }
 
-.modal>.modal-dialog>.modal-content>.form-infor-body>.full-name {
+.modal .form-infor-body>.full-name {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
     border: 0.0625em solid #E3E4EC;
 }
 
-.modal>.modal-dialog>.modal-content>.form-infor-body>.full-name-noti {
+.modal .form-infor-body>.full-name-noti {
     font-weight: 400;
     font-size: 0.75em;
     line-height: 1em;
@@ -992,7 +993,7 @@ p {
     padding-top: 0.5em;
 }
 
-.modal>.modal-dialog>.modal-content>.form-infor-body>.form-infor-content {
+.modal .form-infor-body>.form-infor-content {
     gap: 1em;
     display: grid;
     grid-template-columns: 48.3% 48.3%;
@@ -1000,7 +1001,7 @@ p {
     margin-top: 1em;
 }
 
-.modal>.modal-dialog>.modal-content>.form-infor-body>.form-infor-content>.form-infor-content-conscious>input {
+.modal .form-infor-body>.form-infor-content>.form-infor-content-conscious>input {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
@@ -1010,7 +1011,7 @@ p {
     font-weight: 400;
 }
 
-.modal>.modal-dialog>.modal-content>.form-infor-body>.form-infor-content>.form-infor-all {
+.modal .form-infor-body>.form-infor-content>.form-infor-all {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
@@ -1021,8 +1022,7 @@ p {
     justify-content: space-between;
     align-items: center;
 }
-
-.modal>.modal-dialog>.modal-content>.form-infor-body>.form-infor-account-content>.form-infor-phone {
+.modal .form-infor-body>.form-infor-account-content>.form-infor-phone {
     height: 3em;
     width: 100%;
     padding: var(--size-12px) 1em;
@@ -1032,19 +1032,17 @@ p {
     font-weight: 400;
     background: #F3F4F5;
 }
-
-.modal>.modal-dialog>.modal-content>.modal-body>.background {
+.modal .modal-body>.background{
     background: #F3F4F5;
 }
-
-.modal>.modal-dialog>.modal-content>.form-infor-body>.form-infor-account-content {
+.modal .form-infor-body>.form-infor-account-content {
     position: relative;
 }
 
 .modal .button {
     position: absolute;
     right: 1em;
-    top: 5.2em;
+    top: 5em;
     padding: 0.25em 1em;
     background: #F9D742;
     border-radius: 0.5em;
@@ -1053,11 +1051,10 @@ p {
     font-size: 0.875em;
     line-height: 1.25em;
 }
-
-.modal>.modal-dialog>.modal-content>.form-infor-body>.frame-login>.btn-back {
+.modal .frame-login>.btn-back {
     position: absolute;
     right: 1em;
-    top: 5.2em;
+    top: 5em;
     padding: 0.25em 1em;
     background: #A3A6B1;
     border-radius: 0.5em;
@@ -1068,7 +1065,7 @@ p {
     color: var(--color-white);
 }
 
-.modal>.modal-dialog>.modal-content>.form-infor-body>p {
+.modal .form-infor-body>p {
     font-weight: 600;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1076,7 +1073,7 @@ p {
     margin-bottom: 0.5em;
 }
 
-.modal>.modal-dialog>.modal-content>.form-infor-body>.form-infor-verification {
+.modal .form-infor-body>.form-infor-verification {
     height: 3em;
     width: 100%;
     padding: var(--size-12px) 1em;
@@ -1085,7 +1082,7 @@ p {
     border-radius: var(--size-12px);
 }
 
-.modal>.modal-dialog>.modal-content>.form-infor-body>.form-login-note {
+.modal .form-infor-body>.form-login-note {
     padding: 0;
     font-weight: 400;
     font-size: 0.75em;
@@ -1093,8 +1090,7 @@ p {
     color: #DD3448;
     margin-top: 0.5em;
 }
-
-.modal>.modal-dialog>.modal-content>.modal-body>.frame-login {
+.modal .modal-body>.frame-login {
     padding: 1em 0;
     font-weight: 600;
     font-size: 0.875em;
@@ -1103,24 +1099,23 @@ p {
     color: #51545F;
     position: relative;
 }
-
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.pop-up-two-body-header {
+.modal .pop-up-two-body>.pop-up-two-body-header {
     display: flex;
     margin-bottom: 1em;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.pop-up-two-body-header>.form-notification-text {
+.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text {
     margin-left: 1em;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-top {
+.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
     padding-bottom: 0.5em;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-bottom {
+.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1129,7 +1124,7 @@ p {
     align-items: center;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-bottom>span {
+.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-bottom>span {
     width: 0.9375em;
     height: 1.25em;
     font-weight: 900;
@@ -1137,11 +1132,11 @@ p {
     justify-content: center;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.form-login-account-header {
+.modal .pop-up-two-body>.form-login-account-header {
     padding-top: 2em;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.form-infor-phone {
+.modal .pop-up-two-body>.form-infor-phone {
     height: 3em;
     width: 100%;
     padding: 1em 6em 1em 1em;
@@ -1152,7 +1147,7 @@ p {
     background: #F3F4F5;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-noinfor-content-text-bottom-two {
+.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-noinfor-content-text-bottom-two {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1161,7 +1156,7 @@ p {
     padding-top: 0.5em;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-noinfor-content-text-bottom-two>span {
+.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-noinfor-content-text-bottom-two>span {
     width: 0.9375em;
     height: 1.25em;
     font-weight: 900;
@@ -1169,7 +1164,7 @@ p {
     justify-content: center;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.form-noinfor-notification {
+.modal .pop-up-two-body>.form-noinfor-notification {
     margin-top: 1em;
     padding: 0.75em 1.25em;
     border: 0.0625em solid #E3E4EC;
@@ -1177,13 +1172,13 @@ p {
     background: #F6F7F8;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-top,
+.modal .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-top,
 .form-noinfor-notification-bottom {
     display: flex;
     justify-content: space-between;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-top>.form-noinfor-notification-top-text {
+.modal .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-top>.form-noinfor-notification-top-text {
     font-weight: 400;
     font-size: 1em;
     line-height: 1.5em;
@@ -1191,14 +1186,14 @@ p {
     padding-bottom: 1em;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-bottom>.form-noinfor-notification-bottom-text {
+.modal .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-bottom>.form-noinfor-notification-bottom-text {
     font-weight: 400;
     font-size: 1em;
     line-height: 1.5em;
     color: #7D808E;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-body>.form-notification-text>.form-notification-text-bottom {
+.modal .pop-up-body>.form-notification-text>.form-notification-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1207,27 +1202,27 @@ p {
     align-items: center;
 }
 
-.modal>.modal-dialog>.modal-content>.frame3 {
+.modal .frame3 {
     display: flex;
     justify-content: center;
 }
 
-.modal>.modal-dialog>.modal-content>.frame3>.pop-up-body-content>svg {
+.modal .frame3>.pop-up-body-content>svg {
     margin-left: 7px;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-body>.pop-up-body-content>.form-notification-text-top {
+.modal .pop-up-body>.pop-up-body-content>.form-notification-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
     padding-bottom: 0.5em;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-body>.pop-up-body-content {
+.modal .pop-up-body>.pop-up-body-content {
     height: 100%;
 }
 
-.modal>.modal-dialog>.modal-content>.pop-up-body>.pop-up-body-content>.form-notification-text-bottom {
+.modal .pop-up-body>.pop-up-body-content>.form-notification-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1236,7 +1231,7 @@ p {
     align-items: center;
 }
 
-.modal>.modal-dialog>.modal-content>.frame3>.pop-up-body-content>img {
+.modal .frame3>.pop-up-body-content>img {
     width: 100%;
     height: 100%;
 }
