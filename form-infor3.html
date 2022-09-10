@@ -15,26 +15,32 @@
     <title>Document</title>
 </head>
 <body>
-  <form action="" method="GET">
+  <form action="" method="GET" class="row g-3 needs-validation" novalidate>
     <div class="modal d-block" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header form-infor-header">
-              <div class="modal-title form-infor-header-top">Xin chào 09764357821</div>
+              <div class="modal-title form-infor-header-top">Đăng nhập cuộc thi</div>
               <div class="modal-title form-infor-header-bottom">Số điện thoại 0973934891 đã đăng ký tham gia
                 cuộc thi thành công. Vui lòng đăng nhập để tiếp tục</div>
             <img src="assets/images/OBJECTS.svg">
             </div>
             <div class="modal-body form-infor-body">
-                <div class="form-login-account-header">Tên đăng nhập / Số điện thoại</div>
-                <div class="form-infor-account-content">
-                <input name="tel" class="form-infor-phone" value="0973934891">
-                <button>Gửi</button>
+              <div class="col frame-login">
+                <label for="validationCustom01" class="form-label">Tên đăng nhập / Số điện thoại</label>
+                <input type="text" class="form-control" name="account" id="validationCustom01" required value="0973934891" placeholder="0973934891">
+                <div class="invalid-feedback">
+                    Vui lòng nhập thông tin này
                 </div>
-
-                <div class="form-login-account-header">Mã xác thực</div>
-                <input type="number" name="number" placeholder="Nhập mã xác thực 4 số">
-
+                <button class="button">Gửi</button>
+              </div>
+              <div class="col">
+                <label for="validationCustom02" class="form-label">Mã xác thực</label>
+                <input type="number" name="password" class="form-control fullname" id="validationCustom02" required value="" placeholder="Nhập mã xác thực 4 số">
+                <div class="invalid-feedback">
+                    Vui lòng nhập thông tin này
+                </div>
+              </div>
             </div>
             <div class="modal-footer pop-up-footer">
               <a href="file:///D:/code/Edupia-Contest.git/form-infor2.html" class="btn btn-secondary btn-back" data-bs-dismiss="modal">Quay lại</a>
