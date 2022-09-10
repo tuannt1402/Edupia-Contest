@@ -5346,6 +5346,17 @@ div.tooltip-inner {
     background-color: var(--color-white);
     padding: 20px 0 20px 0;
     border-radius: 10px;
+
+}
+
+.contest-for-laptop>.container-lg>.register-contest-rules>.row-contest-content>.col-xl-2 {
+    max-width: 140px;
+    margin-left: 15px;
+}
+
+.contest-for-laptop>.container-lg>.register-contest-rules>.row-contest-content>.col-xl-5:nth-child(3) {
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 .contest-for-laptop>.container-lg>.register-contest-rules>.row>.register-contest-rules-ttcn-header {
@@ -5653,6 +5664,17 @@ div.tooltip-inner {
     }
 
     /* End-web-contest-news */
+
+    /* Begin-web-contest-ttcn */
+    .contest-for-laptop>.container-lg>.register-contest-rules>.row-contest-content>.col-xl-5:nth-child(3) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contest-for-laptop>.container-lg>.register-contest-rules>.row-contest-content>.col-xl-2 {
+        margin-left: 0;
+    }
+    /* End-web-contest-ttcn */
 }
 
 @media screen and (max-width: 991px) {
