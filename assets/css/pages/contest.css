@@ -267,6 +267,7 @@
 
 .footer-container-mobile {
     background-color: var(--background-color-blue);
+    padding-bottom: 48px;
 }
 
 .footer-container-mobile-inside>.footer-mobile-location {
