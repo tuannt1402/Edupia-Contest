@@ -4364,6 +4364,9 @@ p {
 
 .ranking-table-select .form-select {
     padding: 0.75em 2em 0.75em 1em;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 /* Mobile-version-register */
