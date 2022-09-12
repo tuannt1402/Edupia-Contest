@@ -2447,6 +2447,11 @@ p {
     right: 100%;
 }
 
+.pop-up-inside .col {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 /* End-Edupia-choose-province */
 
 /* Begin-register-mobile */
