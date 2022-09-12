@@ -5323,7 +5323,7 @@ div.tooltip-inner {
     justify-content: center;
 }
 
-.cover-chooseprovince-content>.container-lg>.row>.col-xl-4>.pop-up>.pop-up-inside>.row>.col>.footer-choose-province>.btn-choose-province {
+.cover-chooseprovince-content .footer-choose-province>.btn-choose-province {
     width: max-content;
     padding-left: 10px;
     padding-right: 10px;
