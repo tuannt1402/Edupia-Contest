@@ -371,6 +371,8 @@ body{
     justify-content: flex-start;
     gap: var(--size-12px);
     padding: var(--size-16px);
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 .nav-mobile-login-list {
@@ -2445,6 +2447,11 @@ p {
     right: 100%;
 }
 
+.pop-up-inside .col {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 /* End-Edupia-choose-province */
 
 /* Begin-register-mobile */
@@ -3931,7 +3938,8 @@ p {
     flex-direction: row;
     align-items: center;
     gap: 0.25em;
-    padding: 1em 0em;
+    margin-top: 14px;
+    max-height: 24px;
 }
 
 .cover-container .nav-web-header-text {
@@ -3948,7 +3956,7 @@ p {
 
 .cover-container .nav-second-border {
     border-top: 0.03125em solid rgba(0, 204, 204, 0.2);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .nav-web-content-menu {
@@ -4505,10 +4513,11 @@ p {
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-3>.footer-mobile-information>.information-ul {
     padding-left: 0;
     list-style: none;
+    margin-bottom: 0;
 }
 
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-3>.footer-mobile-information>.information-ul>li {
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-3>.footer-mobile-information>.information-ul>:nth-child(1) {
@@ -4516,7 +4525,7 @@ p {
 }
 
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-3>.footer-mobile-information>.information-ul>:nth-child(2) {
-    margin-top: 30px;
+    margin-top: 24px;
 }
 
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-3>.footer-mobile-location>.location-content {
@@ -4538,7 +4547,7 @@ p {
 }
 
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-2>.footer-mobile-text>.footer-mobile-text-content {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-2>.footer-mobile-text>.footer-mobile-text-content>a {
@@ -4551,7 +4560,7 @@ p {
 }
 
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-4>.footer-mobile-hotline>.hotline-content>.hotline-content-phone>.hotline-content-phone-text {
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-4>.footer-mobile-hotline>.hotline-content>.hotline-content-number {
@@ -4563,6 +4572,15 @@ p {
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-4>.footer-mobile-hotline>.hotline-qrcode {
     justify-content: space-between;
     margin-top: 20px;
+}
+
+.cover-container .hotline-qrcode-content-img {
+    margin-top: 8px;
+}
+
+.cover-container .hotline-qrcode-content-img img {
+    height: 174px;
+    width: 174px;
 }
 
 .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-4>.footer-mobile-hotline>.hotline-socialmedia {
@@ -5136,10 +5154,22 @@ div.tooltip-inner {
 /* End-form-ranking-non-date */
 
 /* Begin-web-chooseprovince */
+.nav-second .row:nth-child(2) {
+    padding-bottom: 16px;
+}
+
+.nav-second .row .col-lg-2 {
+    max-width: 155px;
+}
+
+.nav-second .row .col-lg-3 {
+    max-width: 171px;
+}
+
 .cover-chooseprovince-content {
     background-color: #EFEFEF;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .cover-chooseprovince-content>.container-lg {
@@ -5148,10 +5178,6 @@ div.tooltip-inner {
 
 .row>.col-xl-12 {
     justify-content: center;
-}
-
-.cover-chooseprovince-content>.row>.col-xl-12 {
-    margin-bottom: 20px;
 }
 
 .cover-chooseprovince-content>.row>.col-xl-12>.choose-province-content-inside {
@@ -5173,7 +5199,7 @@ div.tooltip-inner {
     padding-right: 10px;
 }
 .container-header .nav-second {
-    padding: 14px 0;
+    padding-top: 16px;
 }
 /* End-web-chooseprovince */
 
@@ -5448,6 +5474,13 @@ div.tooltip-inner {
 }
 
 
+@media screen and (max-width: 1400px) {
+    .cover-container .hotline-qrcode-content-img img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1199px) {
 
     /* Begin-web-register */
@@ -5687,6 +5720,10 @@ div.tooltip-inner {
 
     .cover-chooseprovince-content>.container-lg>.row>.col-lg-4 {
         margin-top: 20px;
+    }
+
+    .cover-chooseprovince-content>.container-lg>.row>.col-lg-4:nth-child(1) {
+        margin-top: 0;
     }
 
     .cover-container>.nav-chooseprovince {
