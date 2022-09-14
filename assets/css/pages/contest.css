@@ -5388,16 +5388,13 @@ div.tooltip-inner {
     width: 100%;
 }
 
-.container-header>.container-lg>.cover-nav>.nav-first>.row>.col-lg:nth-child(2) {
-
-}
-
 .container-header>.container-lg>.cover-nav>.nav-first>.row>.col-lg>.nav-web-header-right-60ngayvip {
     max-height: 20px;
     font-weight: 400;
     font-size: 14px;
     color: var(--color-white);
     justify-content: end;
+    margin-top: 16px;
 }
 
 /* End-web-contest-ttcn */
