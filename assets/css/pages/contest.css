@@ -618,7 +618,7 @@ body{
     gap: 10px;
 }
 
-.modal .modal-body>.form-login-account-header {
+.modal-content .modal-body>.form-login-account-header {
     font-weight: 500;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -627,14 +627,14 @@ body{
     padding-top: 1em;
 }
 
-.modal .modal-header>.modal-title {
+.modal-content .modal-header>.modal-title {
     font-weight: 700;
     font-size: 1.125em;
     line-height: 1.625em;
     color: #1F2230;
 }
 
-.modal .modal-body>input {
+.modal-content .modal-body>input {
     height: 3em;
     width: 100%;
     padding: var(--size-12px) 1em;
@@ -674,7 +674,7 @@ body{
     padding-right: 1rem;
     background-image: unset;
 }
-.modal .form-login-note>a {
+.modal-content .form-login-note>a {
     color: #005487;
     text-decoration: none;
 }
@@ -712,7 +712,7 @@ body{
     background: #F3F4F5 ;
     border-color: #E3E4EC;
 }
-.modal .modal-footer>input {
+.modal-content .modal-footer>input {
     height: 2.5em;
     width: 13.5em;
     padding: 0.5em 1.5em;
@@ -723,7 +723,7 @@ body{
     font-weight: 700;
 }
 
-.modal .modal-footer>.btn-confirm {
+.modal-content .modal-footer>.btn-confirm {
     padding: 0.5em 2em;
     gap: 1em;
     background: #00CCCC;
@@ -740,7 +740,7 @@ body{
     width: max-content !important;
 }
 
-.modal .modal-footer>.btn-back {
+.modal-content .modal-footer>.btn-back {
     gap: 1em;
     background: #ECEDF1;
     border-radius: 0.5em;
@@ -757,22 +757,22 @@ body{
     margin-top: 0;
 }
 
-.modal .pop-up-body {
+.modal-content .pop-up-body {
     display: flex;
 }
 
-.modal .pop-up-body>.form-notification-text {
+.modal-content .pop-up-body>.form-notification-text {
     margin-left: 1em;
 }
 
-.modal .pop-up-body>.form-notification-text>.form-notification-text-top {
+.modal-content .pop-up-body>.form-notification-text>.form-notification-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
     padding-bottom: 0.5em;
 }
 
-.modal .pop-up-body>.form-notification-text>.form-notification-text-bottom {
+.modal-content .pop-up-body>.form-notification-text>.form-notification-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -781,7 +781,7 @@ body{
     align-items: center;
 }
 
-.modal .pop-up-body>.form-notification-text>.form-notification-text-bottom>span {
+.modal-content .pop-up-body>.form-notification-text>.form-notification-text-bottom>span {
     width: 0.9375em;
     height: 1.25em;
     font-weight: 900;
@@ -789,11 +789,11 @@ body{
     justify-content: center;
 }
 
-.modal .modal-content>.pop-up-footer {
+.modal-content .pop-up-footer {
     border-top: none;
 }
 
-.modal .modal-header>.form-infor-header-top {
+.modal-content .modal-header>.form-infor-header-top {
     font-weight: 700;
     font-size: 1.5em;
     line-height: 2em;
@@ -801,7 +801,7 @@ body{
     padding-top: 1em;
 }
 
-.modal .modal-header>.form-infor-header-bottom {
+.modal-content .modal-header>.form-infor-header-bottom {
     font-weight: 400;
     font-size: 1em;
     line-height: 1.5em;
@@ -812,30 +812,30 @@ body{
 p {
     margin: 0;
 }
-.modal .modal-header>.form-infor-header-bottom>span {
+.modal-content .modal-header>.form-infor-header-bottom>span {
     font-weight: 700;
 }
 
-.modal .form-infor-header {
+.modal-content .form-infor-header {
     display: block;
     position: relative;
     border-bottom: none;
 }
 
-.modal .form-infor-header>img {
+.modal-content .form-infor-header>img {
     position: absolute;
     right: -3.8%;
     top: -2em;
 }
 
-.modal .form-infor-body>.full-name {
+.modal-content .form-infor-body>.full-name {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
     border: 0.0625em solid #E3E4EC;
 }
 
-.modal .form-infor-body>.full-name-noti {
+.modal-content .form-infor-body>.full-name-noti {
     font-weight: 400;
     font-size: 0.75em;
     line-height: 1em;
@@ -843,7 +843,7 @@ p {
     padding-top: 0.5em;
 }
 
-.modal .form-infor-body>.form-infor-content {
+.modal-content .form-infor-body>.form-infor-content {
     gap: 1em;
     display: grid;
     grid-template-columns: 48.3% 48.3%;
@@ -851,7 +851,7 @@ p {
     margin-top: 1em;
 }
 
-.modal .form-infor-body>.form-infor-content>.form-infor-content-conscious>input {
+.modal-content .form-infor-body>.form-infor-content>.form-infor-content-conscious>input {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
@@ -861,7 +861,7 @@ p {
     font-weight: 400;
 }
 
-.modal .form-infor-body>.form-infor-content>.form-infor-all {
+.modal-content .form-infor-body>.form-infor-content>.form-infor-all {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
@@ -872,7 +872,7 @@ p {
     justify-content: space-between;
     align-items: center;
 }
-.modal .form-infor-body>.form-infor-account-content>.form-infor-phone {
+.modal-content .form-infor-body>.form-infor-account-content>.form-infor-phone {
     height: 3em;
     width: 100%;
     padding: var(--size-12px) 1em;
@@ -882,14 +882,14 @@ p {
     font-weight: 400;
     background: #F3F4F5;
 }
-.modal .modal-body>.background{
+.modal-content .modal-body>.background{
     background: #F3F4F5;
 }
-.modal .form-infor-body>.form-infor-account-content {
+.modal-content .form-infor-body>.form-infor-account-content {
     position: relative;
 }
 
-.modal .button {
+.modal-content .button {
     position: absolute;
     right: 1em;
     top: 5em;
@@ -901,7 +901,7 @@ p {
     font-size: 0.875em;
     line-height: 1.25em;
 }
-.modal .frame-login>.btn-back {
+.modal-content .frame-login>.btn-back {
     position: absolute;
     right: 1em;
     top: 5em;
@@ -915,7 +915,7 @@ p {
     color: var(--color-white);
 }
 
-.modal .form-infor-body>p {
+.modal-content .form-infor-body>p {
     font-weight: 600;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -923,7 +923,7 @@ p {
     margin-bottom: 0.5em;
 }
 
-.modal .form-infor-body>.form-infor-verification {
+.modal-content .form-infor-body>.form-infor-verification {
     height: 3em;
     width: 100%;
     padding: var(--size-12px) 1em;
@@ -932,7 +932,7 @@ p {
     border-radius: var(--size-12px);
 }
 
-.modal .form-infor-body>.form-login-note {
+.modal-content .form-infor-body>.form-login-note {
     padding: 0;
     font-weight: 400;
     font-size: 0.75em;
@@ -940,7 +940,7 @@ p {
     color: #DD3448;
     margin-top: 0.5em;
 }
-.modal .modal-body>.frame-login {
+.modal-content .modal-body>.frame-login {
     padding: 1em 0;
     font-weight: 600;
     font-size: 0.875em;
@@ -949,23 +949,23 @@ p {
     color: #51545F;
     position: relative;
 }
-.modal .pop-up-two-body>.pop-up-two-body-header {
+.modal-content .pop-up-two-body>.pop-up-two-body-header {
     display: flex;
     margin-bottom: 1em;
 }
 
-.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text {
+.modal-content .pop-up-two-body>.pop-up-two-body-header>.form-notification-text {
     margin-left: 1em;
 }
 
-.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-top {
+.modal-content .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
     padding-bottom: 0.5em;
 }
 
-.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-bottom {
+.modal-content .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -974,7 +974,7 @@ p {
     align-items: center;
 }
 
-.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-bottom>span {
+.modal-content .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-bottom>span {
     width: 0.9375em;
     height: 1.25em;
     font-weight: 900;
@@ -982,11 +982,11 @@ p {
     justify-content: center;
 }
 
-.modal .pop-up-two-body>.form-login-account-header {
+.modal-content .pop-up-two-body>.form-login-account-header {
     padding-top: 2em;
 }
 
-.modal .pop-up-two-body>.form-infor-phone {
+.modal-content .pop-up-two-body>.form-infor-phone {
     height: 3em;
     width: 100%;
     padding: 1em 6em 1em 1em;
@@ -997,7 +997,7 @@ p {
     background: #F3F4F5;
 }
 
-.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-noinfor-content-text-bottom-two {
+.modal-content .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-noinfor-content-text-bottom-two {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1006,7 +1006,7 @@ p {
     padding-top: 0.5em;
 }
 
-.modal .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-noinfor-content-text-bottom-two>span {
+.modal-content .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-noinfor-content-text-bottom-two>span {
     width: 0.9375em;
     height: 1.25em;
     font-weight: 900;
@@ -1014,7 +1014,7 @@ p {
     justify-content: center;
 }
 
-.modal .pop-up-two-body>.form-noinfor-notification {
+.modal-content .pop-up-two-body>.form-noinfor-notification {
     margin-top: 1em;
     padding: 0.75em 1.25em;
     border: 0.0625em solid #E3E4EC;
@@ -1022,13 +1022,13 @@ p {
     background: #F6F7F8;
 }
 
-.modal .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-top,
+.modal-content .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-top,
 .form-noinfor-notification-bottom {
     display: flex;
     justify-content: space-between;
 }
 
-.modal .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-top>.form-noinfor-notification-top-text {
+.modal-content .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-top>.form-noinfor-notification-top-text {
     font-weight: 400;
     font-size: 1em;
     line-height: 1.5em;
@@ -1036,14 +1036,14 @@ p {
     padding-bottom: 1em;
 }
 
-.modal .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-bottom>.form-noinfor-notification-bottom-text {
+.modal-content .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-bottom>.form-noinfor-notification-bottom-text {
     font-weight: 400;
     font-size: 1em;
     line-height: 1.5em;
     color: #7D808E;
 }
 
-.modal .pop-up-body>.form-notification-text>.form-notification-text-bottom {
+.modal-content .pop-up-body>.form-notification-text>.form-notification-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1052,27 +1052,27 @@ p {
     align-items: center;
 }
 
-.modal .frame3 {
+.modal-content .frame3 {
     display: flex;
     justify-content: center;
 }
 
-.modal .frame3>.pop-up-body-content>svg {
+.modal-content .frame3>.pop-up-body-content>svg {
     margin-left: 7px;
 }
 
-.modal .pop-up-body>.pop-up-body-content>.form-notification-text-top {
+.modal-content .pop-up-body>.pop-up-body-content>.form-notification-text-top {
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5em;
     padding-bottom: 0.5em;
 }
 
-.modal .pop-up-body>.pop-up-body-content {
+.modal-content .pop-up-body>.pop-up-body-content {
     height: 100%;
 }
 
-.modal .pop-up-body>.pop-up-body-content>.form-notification-text-bottom {
+.modal-content .pop-up-body>.pop-up-body-content>.form-notification-text-bottom {
     font-weight: 400;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1081,7 +1081,7 @@ p {
     align-items: center;
 }
 
-.modal .frame3>.pop-up-body-content>img {
+.modal-content .frame3>.pop-up-body-content>img {
     width: 100%;
     height: 100%;
 }
@@ -1181,7 +1181,7 @@ p {
     border-radius: var(--size-12px);
 }
 
-.modal .form-login-note {
+.modal-content .form-login-note {
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
