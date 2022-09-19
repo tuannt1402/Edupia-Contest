@@ -5819,7 +5819,7 @@ div.tooltip-inner {
         min-width: 0;
     }
     .container .modal-content{
-        padding: 70px;
+        padding: 0 70px;
     }
 
     /* Begin-web-register */
@@ -5930,6 +5930,9 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
+    .container{
+        max-width: 100%;
+    }
     .container .modal-content .btn-close{
         display: block;
     }
