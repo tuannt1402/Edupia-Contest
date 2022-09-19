@@ -5492,17 +5492,17 @@ div.tooltip-inner {
 .cover-container .contest-text-news {
     margin-top: 30px !important;
 }
-.login .col-6{
+.login .col-xl-6{
     padding: 0;
 }
-.login .col-6>img{
-    width: 100%;
-    height: 100%;
+.login .row .col-xl-6 img{
+    max-width: 100%;
+
 }
-.login .col-6 .modal-content{
+.login  .modal-content{
     padding: 106px 158px 232px 110px;
 }
-.login .col-6 .back button {
+.login  .back button {
     background: #FFA425;
     border-radius: 30px;
     padding: 4px 16px;
@@ -5515,28 +5515,31 @@ div.tooltip-inner {
     align-items: center;
     gap: 4px;
 }
-.login .col-6 .back img{
+.login  .back img{
     margin-top: 16px;
     margin-bottom: 32px;
 }
-.login .col-6 .back button img{
+.login  .back button img{
     margin: 0;
 }
-.login .col-6 .modal-body {
+.login  .modal-body {
     margin-top: 32px;
 }
-.login .col-6 .modal-content .modal-footer>input{
+.login  .modal-content .modal-footer>input{
     margin-top: 32px;
     margin-bottom: 16px;
     width: 100%;
 }
-.login .col-6 .modal-content .form-login-note{
+.login  .modal-content .form-login-note{
     margin: 0;
     padding: 0;
 }
 .login .form-label{
     margin-top: 16px;
     font-weight: 600;
+}
+.login .container-lg{
+    min-width: 1200px;
 }
 @media screen and (max-width: 1400px) {
     .cover-container .hotline-qrcode-content-img img {
@@ -5546,7 +5549,12 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 1199px) {
-
+    .login .container-lg{
+        min-width: 0;
+    }
+    .login .modal-content{
+        padding: 70px;
+    }
     /* Begin-web-register */
     .register-information-inside-cover>.register-information-inside-header,
     .register-information-inside-cover>.register-information-inside-content {
@@ -5655,7 +5663,12 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
-
+    .login .row .col-xl-6 img{
+        display: none;
+    }
+    .login .back img{
+        display: block !important;
+    }
     /* Begin-web-register */
     .cover-container>.container-header {
         padding-bottom: 0;
@@ -5962,6 +5975,9 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 768px) {
+    .login .modal-content {
+        padding: 24px;
+    }
 
     /* Begin-web-register */
     .register-contest-introduction-inside-content {
