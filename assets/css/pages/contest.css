@@ -13,7 +13,7 @@
     --color-blue-0AB5DB: #0AB5DB;
     --color-white: #FFFFFF;
     --colo-NeutraColors: #1F2230;
-
+    --color-dark-green: #015488;
     --background-color-blue: #005487;
     --btn-background-color-blue: #00CCCC;
     --btn-border-radius-05em: 0.5em;
@@ -43,6 +43,11 @@ body {
     font-family: 'Cabin' sans-serif;
 }
 
+input:read-only {
+    cursor: not-allowed;
+    background-color: #e9ecef;
+    opacity: 1;
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -773,7 +778,9 @@ a:hover{
     text-decoration: none;
     gap: 10px;
 }
-
+.popup-update-candidate-info .modal-body{
+    margin: 0;
+}
 .modal>.modal-dialog>.poup-logout>.modal-body>a {
     font-weight: 400;
     font-size: 14px;
@@ -796,11 +803,16 @@ a:hover{
 
 .modal-header>.modal-title {
     font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1F2230;
+}
+.container-fluid .modal-content .modal-header>.modal-title {
+    font-weight: 700;
     font-size: 28px;
     line-height: 36px;
     color: #1F2230;
 }
-
 .modal-body>input {
     height: 3em;
     width: 100%;
@@ -990,12 +1002,13 @@ p {
     display: block;
     position: relative;
     border-bottom: none;
+    margin: 0;
 }
 
 .form-infor-header>img {
     position: absolute;
-    right: -2.5em;
-    top: -3.5em;
+    right: -3em;
+    top: -2.5em;
 }
 
 .form-infor-body>.full-name {
@@ -1121,7 +1134,7 @@ p {
 }
 
 .modal-body>.frame-login {
-    padding: 1em 0;
+    padding: 1em 0 0.5em;
     font-weight: 600;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1196,10 +1209,10 @@ p {
 }
 
 .pop-up-two-body>.form-noinfor-notification {
-    margin-top: 1em;
-    padding: 0.75em 1.25em;
+    margin-top: 8px;
+    padding: 12px 16px;
     border: 0.0625em solid #E3E4EC;
-    border-radius: 0.5em;
+    border-radius: 12px;
     background: #F6F7F8;
 }
 
@@ -1209,12 +1222,12 @@ p {
     justify-content: space-between;
 }
 
-.pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-top>.form-noinfor-notification-top-text {
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 1.5em;
+.pop-up-two-body .form-noinfor-notification-top-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
     color: #7D808E;
-    padding-bottom: 1em;
+
 }
 
 .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-bottom>.form-noinfor-notification-bottom-text {
@@ -2283,6 +2296,7 @@ p {
     border-radius: var(--size-12px);
     border: thin solid #E0E0E0;
     height: 100%;
+    min-height: 458px;
 }
 
 
@@ -2317,7 +2331,7 @@ p {
 
 .form-input-phone-number-inside .form-input-phone-number-img {
     position: absolute;
-    right: -0.5em;
+    right: -1em;
     top: -2em;
 }
 
@@ -3031,6 +3045,7 @@ p {
 
 .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.btn-register {
     width: 8em;
+    height: auto;
 }
 
 .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-second {
@@ -4534,7 +4549,7 @@ p {
 }
 
 .cover-container .register-contest-rules-register-form-inside-btn {
-    margin-bottom: 36px;
+    margin-bottom: 60px;
 }
 
 .cover-container .register-contest-rules-register-form-inside-btn>.btn-register {
@@ -4586,18 +4601,18 @@ p {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.popup-update-candidate-info {
+#popup-update-candidate-info {
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     border-radius: 12px;
     padding: 24px 32px;
+    max-width: 571px;
 }
+
 .popup-update-candidate-info .modal-header>.form-infor-header-top{
     padding-top: 0;
 }
-.popup-update-candidate-info  .modal-header>.form-infor-header-bottom{
-    margin-bottom: 12px;
-}
+
 .popup-update-candidate-info  .modal-footer{
     justify-content: space-between;
     margin-top: 20px;
@@ -5079,9 +5094,9 @@ p {
 }
 
 .round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-third {
-    color: black;
-    border: thin solid #00CCCC;
-    background-color: #F6F7F8;
+    color: #00CCCC;
+    border: thin solid #E3E4EC;
+    background-color: #FFFF;
 }
 
 .ranking>.container-lg>.row>.col>.ranking-header {
@@ -5664,7 +5679,6 @@ div.tooltip-inner {
     font-size: 14px;
     color: var(--color-white);
     justify-content: end;
-    margin-top: 16px;
 }
 
 
@@ -5845,6 +5859,31 @@ div.tooltip-inner {
     color: #FFFF;
 }
 
+.text-dark-green {
+    color: var(--color-dark-green);
+}
+
+.fail-round {
+    background: white;
+    border: 1px solid #E0E0E0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.fail-round div:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F2230;
+    margin-top: 10px;
+}
+
+.fail-round div:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #DD3448;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 1199px) {
     .container {
         min-width: 0;
@@ -5961,7 +6000,9 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
-    
+    #popup-update-candidate-info{
+        margin: 30px 0;
+    }
     .container-fluid .modal-content .btn-close{
         display: block;
     }
@@ -6007,8 +6048,9 @@ div.tooltip-inner {
     }
 
     .nav-mobile-login>.btn-login {
-        margin-left: 12px;
-        max-width: 139px;
+        padding: 8px 22px;
+        width: auto;
+        height: auto;
     }
 
     .cover-container>.container-information>.container-lg>.cover-content {
@@ -6144,6 +6186,13 @@ div.tooltip-inner {
     /* End-web-register */
 
     /* Begin-web-ranking */
+    .container-round-of-exams .row-topic-header .col-3 {
+        padding:0 ;
+    }
+
+    .container-round-of-exams .row-topic-header .btn-details {
+        padding: 0;
+    }
     .round-of-exams-inside>.table-first {
         margin-left: 0;
     }
