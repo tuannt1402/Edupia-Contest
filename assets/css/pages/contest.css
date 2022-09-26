@@ -13,7 +13,7 @@
     --color-blue-0AB5DB: #0AB5DB;
     --color-white: #FFFFFF;
     --colo-NeutraColors: #1F2230;
-
+    --color-dark-green: #015488;
     --background-color-blue: #005487;
     --btn-background-color-blue: #00CCCC;
     --btn-border-radius-05em: 0.5em;
@@ -41,6 +41,16 @@
 
 body {
     font-family: 'Cabin' sans-serif;
+}
+
+input:read-only {
+    cursor: not-allowed;
+    background-color: #e9ecef;
+    opacity: 1;
+}
+input:read-only:focus {
+    border: 0;
+    background-color: #e9ecef;
 }
 
 a{
@@ -403,6 +413,9 @@ a:hover{
 
 .nav-mobile-login>.nav-mobile-login-content-svg {
     margin-left: var(--size-16px);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .nav-mobile-login>.nav-mobile-login-content>img {
@@ -773,7 +786,9 @@ a:hover{
     text-decoration: none;
     gap: 10px;
 }
-
+.popup-update-candidate-info .modal-body{
+    margin: 0;
+}
 .modal>.modal-dialog>.poup-logout>.modal-body>a {
     font-weight: 400;
     font-size: 14px;
@@ -796,11 +811,16 @@ a:hover{
 
 .modal-header>.modal-title {
     font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1F2230;
+}
+.container-fluid .modal-content .modal-header>.modal-title {
+    font-weight: 700;
     font-size: 28px;
     line-height: 36px;
     color: #1F2230;
 }
-
 .modal-body>input {
     height: 3em;
     width: 100%;
@@ -821,6 +841,12 @@ a:hover{
     border-radius: 12px !important;
 }
 
+.invalid-feedback{
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .form-control.is-invalid,
 .was-validated .form-control:invalid {
     background-image: none;
@@ -830,28 +856,45 @@ a:hover{
 .form-select.is-valid:not([multiple])[size="1"],
 .was-validated .form-select:valid:not([multiple]):not([size]),
 .was-validated .form-select:valid:not([multiple])[size="1"] {
-    background-image: unset;
+    background-image: url("data:image/svg+xml,%3Csvg aria-hidden=%27true%27 focusable=%27false%27 data-prefix=%27fas%27 data-icon=%27caret-down%27 class=%27svg-inline--fa fa-caret-down fa-w-10%27 role=%27img%27 xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 320 512%27%3E%3Cpath fill=%27rgb%2873, 80, 87%29%27 d=%27M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z%27%3E%3C/path%3E%3C/svg%3E");
     padding-right: 1rem;
+    background-size: 12px 20px;
+    box-shadow: none;
+}
+
+.form-select{
+    background-image: url("data:image/svg+xml,%3Csvg aria-hidden=%27true%27 focusable=%27false%27 data-prefix=%27fas%27 data-icon=%27caret-down%27 class=%27svg-inline--fa fa-caret-down fa-w-10%27 role=%27img%27 xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 320 512%27%3E%3Cpath fill=%27rgb%2873, 80, 87%29%27 d=%27M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z%27%3E%3C/path%3E%3C/svg%3E");
+    background-size: 12px 20px;
 }
 
 .form-select.is-invalid:not([multiple]):not([size]),
 .form-select.is-invalid:not([multiple])[size="1"],
 .was-validated .form-select:invalid:not([multiple]):not([size]),
 .was-validated .form-select:invalid:not([multiple])[size="1"] {
+    box-shadow: none;
     padding-right: 1rem;
-    background-image: unset;
+    background-size: 12px 20px;
+    background-image: url("data:image/svg+xml,%3Csvg aria-hidden=%27true%27 focusable=%27false%27 data-prefix=%27fas%27 data-icon=%27caret-down%27 class=%27svg-inline--fa fa-caret-down fa-w-10%27 role=%27img%27 xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 320 512%27%3E%3Cpath fill=%27rgb%2873, 80, 87%29%27 d=%27M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z%27%3E%3C/path%3E%3C/svg%3E");
 }
+.form-select.is-invalid, .was-validated .form-select:invalid{
+    border-color: #dc3545;
+    background-color: #FFF;
+    box-shadow: none;
 
+}
 .form-login-note>a {
     color: var(--background-color-blue);
     text-decoration: none;
 }
 
+.form-select:disabled {
+    background-color: #F3F4F5;
+}
 .form-select {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
-    border: 0.0625em solid #CDCED6;
+    border: 0.0625em solid #E3E4EC;
     color: #51545F;
     display: flex;
     justify-content: space-between;
@@ -860,7 +903,7 @@ a:hover{
 
 .form-select.is-valid,
 .was-validated .form-select:valid {
-    background-color: #F3F4F5;
+    background-color: #F3F4F5 !important;
     border-color: #E3E4EC;
 
 }
@@ -877,9 +920,24 @@ a:hover{
 .form-control.is-valid,
 .was-validated .form-control:valid {
     background-image: unset;
-    background: #F3F4F5;
+    background: #FFF !important;
     border-color: #E3E4EC;
+    box-shadow: none;
 }
+
+
+
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus{
+    box-shadow: none;
+    border-color: #00CCCC !important;
+}
+
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus ,.form-control:focus, .form-select:focus{
+    box-shadow: none;
+    border-color: #00CCCC !important;
+}
+
+
 
 .modal-footer>input {
     height: 2.5em;
@@ -990,12 +1048,13 @@ p {
     display: block;
     position: relative;
     border-bottom: none;
+    margin: 0;
 }
 
 .form-infor-header>img {
     position: absolute;
-    right: -2.5em;
-    top: -3.5em;
+    right: -3em;
+    top: -2.5em;
 }
 
 .form-infor-body>.full-name {
@@ -1121,7 +1180,7 @@ p {
 }
 
 .modal-body>.frame-login {
-    padding: 1em 0;
+    padding: 1em 0 0.5em;
     font-weight: 600;
     font-size: 0.875em;
     line-height: 1.25em;
@@ -1196,10 +1255,10 @@ p {
 }
 
 .pop-up-two-body>.form-noinfor-notification {
-    margin-top: 1em;
-    padding: 0.75em 1.25em;
+    margin-top: 8px;
+    padding: 12px 16px;
     border: 0.0625em solid #E3E4EC;
-    border-radius: 0.5em;
+    border-radius: 12px;
     background: #F6F7F8;
 }
 
@@ -1209,18 +1268,18 @@ p {
     justify-content: space-between;
 }
 
-.pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-top>.form-noinfor-notification-top-text {
+.pop-up-two-body .form-noinfor-notification-top-text {
     font-weight: 400;
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 16px;
+    line-height: 24px;
     color: #7D808E;
-    padding-bottom: 1em;
+
 }
 
 .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-bottom>.form-noinfor-notification-bottom-text {
     font-weight: 400;
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 16px;
+    line-height: 24px;
     color: #7D808E;
 }
 
@@ -1461,7 +1520,7 @@ p {
 
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame {
     height: 100%;
-    width: 50%;
+    width: 100%;
     background: var(--background-color-blue);
 }
 
@@ -1481,6 +1540,9 @@ p {
     border-radius: 0.5em;
     border: inherit;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame>.nav-mobile-login-viewmobile-content>.nav-mobile-login-viewmobile-content-cuocthi {
@@ -2283,6 +2345,7 @@ p {
     border-radius: var(--size-12px);
     border: thin solid #E0E0E0;
     height: 100%;
+    min-height: 458px;
 }
 
 
@@ -2317,7 +2380,7 @@ p {
 
 .form-input-phone-number-inside .form-input-phone-number-img {
     position: absolute;
-    right: -0.5em;
+    right: -2em;
     top: -2em;
 }
 
@@ -2415,7 +2478,7 @@ p {
     border-bottom: hidden;
 }
 
-.ranking>.non-date-table>.table>tbody>tr>.th-non-data>.text-th-non-data {
+.th-non-data>.text-th-non-data {
     text-align: center;
     font-weight: var(--mobile-text-font-weight-400);
 }
@@ -2676,7 +2739,7 @@ p {
 
 
 .form-information-inside>.form-information-frame {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
     display: flex;
@@ -2783,8 +2846,8 @@ p {
 
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
     position: absolute;
-    right: -4.8%;
-    top: -2em;
+    right: -4em;
+    top: -3em;
 }
 
 .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content {
@@ -2957,15 +3020,15 @@ p {
 
 }
 
-.round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.round-of-header-content-text-score>.result-text-done {
+.round-of-header-content-text .round-of-header-content-text-score .result-text-done {
     color: #3AB384;
 }
 
-.round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.round-of-header-content-text-score>.result-text-waiting {
+.round-of-header-content-text .round-of-header-content-text-score .result-text-waiting {
     color: #FFA425;
 }
 
-.round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.round-of-header-content-text-score>.result-text-failed {
+.round-of-header-content-text .round-of-header-content-text-score .result-text-failed {
     color: #DD3448;
 }
 
@@ -3031,6 +3094,7 @@ p {
 
 .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.btn-register {
     width: 8em;
+    height: auto;
 }
 
 .round-of-exams>.row>.col>.cover-round-of-exams>.round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-second {
@@ -4329,7 +4393,7 @@ p {
 
 .cover-container .btn-login {
     float: right;
-    padding: 8px 32px;
+    padding: 7px 22.11px;
     background-color: var(--color-yellow);
     color: var(--background-color-blue);
 }
@@ -4534,7 +4598,7 @@ p {
 }
 
 .cover-container .register-contest-rules-register-form-inside-btn {
-    margin-bottom: 36px;
+    margin-bottom: 60px;
 }
 
 .cover-container .register-contest-rules-register-form-inside-btn>.btn-register {
@@ -4586,18 +4650,18 @@ p {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.popup-update-candidate-info {
+#popup-update-candidate-info {
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     border-radius: 12px;
     padding: 24px 32px;
+    max-width: 571px;
 }
+
 .popup-update-candidate-info .modal-header>.form-infor-header-top{
     padding-top: 0;
 }
-.popup-update-candidate-info  .modal-header>.form-infor-header-bottom{
-    margin-bottom: 12px;
-}
+
 .popup-update-candidate-info  .modal-footer{
     justify-content: space-between;
     margin-top: 20px;
@@ -5047,6 +5111,7 @@ p {
     padding-top: 1em;
     padding-bottom: 1em;
     justify-content: space-between;
+    min-height: 130px;
 }
 
 .round-of-exams-inside>.inside-topic-number>.inside-topic-number-content {
@@ -5071,7 +5136,9 @@ p {
 }
 
 .round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.btn-register {
-    width: 8em;
+    width: 128px;
+    height: auto;
+
 }
 
 .round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-second {
@@ -5079,9 +5146,9 @@ p {
 }
 
 .round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-third {
-    color: black;
-    border: thin solid #00CCCC;
-    background-color: #F6F7F8;
+    color: #00CCCC;
+    border: thin solid #E3E4EC;
+    background-color: #FFFF;
 }
 
 .ranking>.container-lg>.row>.col>.ranking-header {
@@ -5448,7 +5515,9 @@ div.tooltip-inner {
     padding-left: 15px;
     padding-right: 15px;
 }
+.dropdown-item:focus, .dropdown-item:hover{
 
+}
 .cover-chooseprovince-content .pop-up-inside .col {
     padding: 16px 16px 0 16px;
 }
@@ -5550,6 +5619,18 @@ div.tooltip-inner {
 .contest-for-laptop>.container-lg .register-contest-rules-ttcn-content-web {
     background-color: var(--color-white);
     padding: 20px;
+}
+
+.register-ttcn-submit>button {
+    padding: 8px 32px;
+    background: #00CCCC;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
 }
 
 .cover-container .register-ttcn-frame {
@@ -5844,6 +5925,59 @@ div.tooltip-inner {
     color: #FFFF;
 }
 
+.text-dark-green {
+    color: var(--color-dark-green);
+}
+
+.fail-round {
+    background: white;
+    /*border: 1px solid #E0E0E0;*/
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.fail-round div:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F2230;
+    margin-top: 10px;
+}
+
+.fail-round div:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #DD3448;
+    margin-top: 10px;
+}
+
+.form-noinfor-notification-bottom {
+    margin-top: 10px;
+}
+
+.register-ttcn-frame-checkbox .form-check-input[type=radio]{
+    background-color: #FFF;
+}
+.register-ttcn-frame-checkbox .form-check-input:checked[type=radio] {
+    background-color: #00CCCC;
+    box-shadow: none;
+    outline: none;
+}
+.logoedu.cursor-pointer{
+    position: relative;
+}
+.edit-img-avata {
+    position: absolute;
+    bottom: -20px;
+    left: 108px;
+    width: 32px;
+    height: 32px;
+}
+.edit-img-avata img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 1199px) {
     .container {
         min-width: 0;
@@ -5892,8 +6026,8 @@ div.tooltip-inner {
     }
 
     .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
-        right: -2.8%;
-        top: -2em;
+        right: -4em;
+        top: -3em;
     }
 
     .container-round-of-exams>.container-lg>.row-ranking-table {
@@ -5960,7 +6094,55 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
-    
+    .round-of-exams-inside>.inside-topic-number{
+        min-height: 100px;
+    }
+    .register-contest-footer{
+        display: none;
+    }
+    .register-ttcn-submit>button{
+        margin-top: 24px;
+    }
+    .cover-container .cover-gioitinh>.register-ttcn-frame-checkbox{
+        margin-right: 12px;
+    }
+    .cover-container .ttcn-frame-mobile{
+        margin-bottom: 24px;
+    }
+    .cover-container .last-child{
+        margin-bottom: 3px;
+    }
+    .form-label{
+        margin-bottom: 0;
+    }
+    .cover-container>.container-contest {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    .cover-container>.container-content>.container-lg{
+        padding-top: 24px;
+        padding-bottom: 28px;
+    }
+    #popup-update-candidate-info{
+        margin: 30px auto;
+        margin-bottom: 0;
+    }
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>.form-noinfor-inside-ttcn-content-text, .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-footer>.form-noinfor-inside-ttcn-footer-text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-header{
+        padding-bottom: 16px;
+    }
+    .cover-container .container-information .cover-content .row>*{
+        padding: 0;
+    }
+    #popup-update-candidate-inf, form#form-register-contest{
+        max-width: 570px;
+        margin: 30px auto;
+        margin-bottom: 0;
+    }
     .container-fluid .modal-content .btn-close{
         display: block;
     }
@@ -6006,8 +6188,9 @@ div.tooltip-inner {
     }
 
     .nav-mobile-login>.btn-login {
-        margin-left: 12px;
-        max-width: 139px;
+        padding: 8px 22px;
+        width: auto;
+        height: auto;
     }
 
     .cover-container>.container-information>.container-lg>.cover-content {
@@ -6016,7 +6199,7 @@ div.tooltip-inner {
 
     .form-input-phone-number-inside {
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
     .form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
@@ -6024,7 +6207,7 @@ div.tooltip-inner {
     }
 
     .form-input-phone-number-inside .form-input-phone-number-img {
-        top: -8%;
+        top: -2em;
     }
 
     .form-input-phone-number-inside .form-input-phone-number-img img {
@@ -6083,13 +6266,14 @@ div.tooltip-inner {
         margin-bottom: 0;
     }
 
-    .form-input-phone-number-inside>.row>.col {
-        padding: 0 16px 0 16px;
+    .cover-container .container-information .form-input-phone-number-inside {
+        padding: 0 16px;
     }
 
     .register-contest-introduction-inside-content>.register-contest-introduction-inside-content-header {
         font-size: 28px;
         margin-bottom: 24px;
+        margin-top: 30px;
     }
 
     .cover-container>.rules-for-mobile>.register-contest-rules-header {
@@ -6143,6 +6327,13 @@ div.tooltip-inner {
     /* End-web-register */
 
     /* Begin-web-ranking */
+    .container-round-of-exams .row-topic-header .col-3 {
+        padding:0 ;
+    }
+
+    .container-round-of-exams .row-topic-header .btn-details {
+        padding: 0;
+    }
     .round-of-exams-inside>.table-first {
         margin-left: 0;
     }
@@ -6170,7 +6361,7 @@ div.tooltip-inner {
     }
 
     .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
-        right: -2.8%;
+        right: -2em;
         top: -2em;
     }
 
@@ -6297,20 +6488,24 @@ div.tooltip-inner {
         display: block;
         background-color: var(--color-white);
         border-radius: 10px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 
     .contest-for-laptop>.container-lg .row>.register-contest-rules-ttcn-header {
         font-size: 28px;
         font-weight: var(--btn-font-weight-700);
-        margin-bottom: 30px;
+        margin-bottom: 0;
+        padding-bottom: 36px
     }
 
     .form-information {
-        margin-top: 24px;
-        margin-bottom: 24px;
+        margin-top: 0;
         width: 100%;
+        padding-bottom: 12px;
+    }
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content{
+        margin-top: 0;
     }
 
     .register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text,
@@ -6419,6 +6614,7 @@ div.tooltip-inner {
 
     /* Begin-web-ranking */
     .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-frame {
+        line-height: 20px;
         font-size: 14px;
         font-weight: 400;
     }
@@ -6465,4 +6661,28 @@ div.tooltip-inner {
     }
 
     /* End-web-contest-new-detail */
+}
+@media screen and (max-width: 360px){
+    .cover-chooseprovince-content .container-lg .col-xl-4{
+        padding: 0;
+    }
+
+    .form-infor-header>img{
+        width: 96px;
+        height: 56px;
+    }
+    .modal-header>.form-infor-header-bottom{
+        font-size: 13px;
+    }
+    .form-infor-body>.form-infor-content{
+        display: grid;
+        grid-template-columns: 47.3% 47.3%;
+    }
+    .form-select, .popup-update-candidate-info .modal-footer, .form-control{
+        font-size: 13px;
+    }
+    .form-input-phone-number-inside{
+        min-height: 405.5px;
+    }
+
 }
