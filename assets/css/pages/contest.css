@@ -48,6 +48,11 @@ input:read-only {
     background-color: #e9ecef;
     opacity: 1;
 }
+input:read-only:focus {
+    border: 0;
+    background-color: #e9ecef;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -833,6 +838,12 @@ a:hover{
     border-radius: 12px !important;
 }
 
+.invalid-feedback{
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .form-control.is-invalid,
 .was-validated .form-control:invalid {
     background-image: none;
@@ -842,28 +853,45 @@ a:hover{
 .form-select.is-valid:not([multiple])[size="1"],
 .was-validated .form-select:valid:not([multiple]):not([size]),
 .was-validated .form-select:valid:not([multiple])[size="1"] {
-    background-image: unset;
+    background-image: url("data:image/svg+xml,%3Csvg aria-hidden=%27true%27 focusable=%27false%27 data-prefix=%27fas%27 data-icon=%27caret-down%27 class=%27svg-inline--fa fa-caret-down fa-w-10%27 role=%27img%27 xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 320 512%27%3E%3Cpath fill=%27rgb%2873, 80, 87%29%27 d=%27M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z%27%3E%3C/path%3E%3C/svg%3E");
     padding-right: 1rem;
+    background-size: 12px 20px;
+    box-shadow: none;
+}
+
+.form-select{
+    background-image: url("data:image/svg+xml,%3Csvg aria-hidden=%27true%27 focusable=%27false%27 data-prefix=%27fas%27 data-icon=%27caret-down%27 class=%27svg-inline--fa fa-caret-down fa-w-10%27 role=%27img%27 xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 320 512%27%3E%3Cpath fill=%27rgb%2873, 80, 87%29%27 d=%27M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z%27%3E%3C/path%3E%3C/svg%3E");
+    background-size: 12px 20px;
 }
 
 .form-select.is-invalid:not([multiple]):not([size]),
 .form-select.is-invalid:not([multiple])[size="1"],
 .was-validated .form-select:invalid:not([multiple]):not([size]),
 .was-validated .form-select:invalid:not([multiple])[size="1"] {
+    box-shadow: none;
     padding-right: 1rem;
-    background-image: unset;
+    background-size: 12px 20px;
+    background-image: url("data:image/svg+xml,%3Csvg aria-hidden=%27true%27 focusable=%27false%27 data-prefix=%27fas%27 data-icon=%27caret-down%27 class=%27svg-inline--fa fa-caret-down fa-w-10%27 role=%27img%27 xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 320 512%27%3E%3Cpath fill=%27rgb%2873, 80, 87%29%27 d=%27M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z%27%3E%3C/path%3E%3C/svg%3E");
 }
+.form-select.is-invalid, .was-validated .form-select:invalid{
+    border-color: #dc3545;
+    background-color: #FFF;
+    box-shadow: none;
 
+}
 .form-login-note>a {
     color: var(--background-color-blue);
     text-decoration: none;
 }
 
+.form-select:disabled {
+    background-color: #F3F4F5;
+}
 .form-select {
     width: 100%;
     padding: 0.75em 1em 0.75em 1em;
     border-radius: 0.5em;
-    border: 0.0625em solid #CDCED6;
+    border: 0.0625em solid #E3E4EC;
     color: #51545F;
     display: flex;
     justify-content: space-between;
@@ -872,7 +900,7 @@ a:hover{
 
 .form-select.is-valid,
 .was-validated .form-select:valid {
-    background-color: #F3F4F5;
+    background-color: #F3F4F5 !important;
     border-color: #E3E4EC;
 
 }
@@ -889,9 +917,24 @@ a:hover{
 .form-control.is-valid,
 .was-validated .form-control:valid {
     background-image: unset;
-    background: #F3F4F5;
+    background: #FFF !important;
     border-color: #E3E4EC;
+    box-shadow: none;
 }
+
+
+
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus{
+    box-shadow: none;
+    border-color: #00CCCC !important;
+}
+
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus ,.form-control:focus, .form-select:focus{
+    box-shadow: none;
+    border-color: #00CCCC !important;
+}
+
+
 
 .modal-footer>input {
     height: 2.5em;
@@ -1223,17 +1266,17 @@ p {
 }
 
 .pop-up-two-body .form-noinfor-notification-top-text {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: #7D808E;
 
 }
 
 .pop-up-two-body>.form-noinfor-notification>.form-noinfor-notification-bottom>.form-noinfor-notification-bottom-text {
     font-weight: 400;
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 16px;
+    line-height: 24px;
     color: #7D808E;
 }
 
@@ -1474,7 +1517,7 @@ p {
 
 .nav-mobile-login-viewmobile>.nav-mobile-login-viewmobile-frame {
     height: 100%;
-    width: 50%;
+    width: 100%;
     background: var(--background-color-blue);
 }
 
@@ -2331,7 +2374,7 @@ p {
 
 .form-input-phone-number-inside .form-input-phone-number-img {
     position: absolute;
-    right: -1em;
+    right: -2em;
     top: -2em;
 }
 
@@ -2429,7 +2472,7 @@ p {
     border-bottom: hidden;
 }
 
-.ranking>.non-date-table>.table>tbody>tr>.th-non-data>.text-th-non-data {
+.th-non-data>.text-th-non-data {
     text-align: center;
     font-weight: var(--mobile-text-font-weight-400);
 }
@@ -2654,10 +2697,14 @@ p {
 
 /* Begin-register-mobile */
 
-.register-contest-footer {
+.container-contest .register-contest-footer {
     justify-content: space-between;
     align-items: flex-end;
     margin-top: 70px;
+}
+
+.contest-for-register .register-contest-footer {
+    margin-top: 25px;
 }
 
 
@@ -2690,7 +2737,7 @@ p {
 
 
 .form-information-inside>.form-information-frame {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
     display: flex;
@@ -2797,8 +2844,8 @@ p {
 
 .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
     position: absolute;
-    right: -4.8%;
-    top: -2em;
+    right: -4em;
+    top: -3em;
 }
 
 .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content {
@@ -2971,15 +3018,15 @@ p {
 
 }
 
-.round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.round-of-header-content-text-score>.result-text-done {
+.round-of-header-content-text .round-of-header-content-text-score .result-text-done {
     color: #3AB384;
 }
 
-.round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.round-of-header-content-text-score>.result-text-waiting {
+.round-of-header-content-text .round-of-header-content-text-score .result-text-waiting {
     color: #FFA425;
 }
 
-.round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-text>.round-of-header-content-text-score>.result-text-failed {
+.round-of-header-content-text .round-of-header-content-text-score .result-text-failed {
     color: #DD3448;
 }
 
@@ -4344,7 +4391,7 @@ p {
 
 .cover-container .btn-login {
     float: right;
-    padding: 8px 32px;
+    padding: 7px 22.11px;
     background-color: var(--color-yellow);
     color: var(--background-color-blue);
 }
@@ -5086,7 +5133,9 @@ p {
 }
 
 .round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.btn-register {
-    width: 8em;
+    width: 128px;
+    height: auto;
+
 }
 
 .round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-second {
@@ -5463,7 +5512,9 @@ div.tooltip-inner {
     padding-left: 15px;
     padding-right: 15px;
 }
+.dropdown-item:focus, .dropdown-item:hover{
 
+}
 .cover-chooseprovince-content .pop-up-inside .col {
     padding: 16px 16px 0 16px;
 }
@@ -5565,6 +5616,18 @@ div.tooltip-inner {
 .contest-for-laptop>.container-lg .register-contest-rules-ttcn-content-web {
     background-color: var(--color-white);
     padding: 20px;
+}
+
+.register-ttcn-submit>button {
+    padding: 8px 32px;
+    background: #00CCCC;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
 }
 
 .cover-container .register-ttcn-frame {
@@ -5865,7 +5928,7 @@ div.tooltip-inner {
 
 .fail-round {
     background: white;
-    border: 1px solid #E0E0E0;
+    /*border: 1px solid #E0E0E0;*/
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -5882,6 +5945,10 @@ div.tooltip-inner {
     font-weight: 400;
     color: #DD3448;
     margin-top: 10px;
+}
+
+.register-ttcn-frame-checkbox>.input:read-only:focus {
+    background-color: unset;
 }
 
 @media screen and (max-width: 1199px) {
@@ -5932,8 +5999,8 @@ div.tooltip-inner {
     }
 
     .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
-        right: -2.8%;
-        top: -2em;
+        right: -4em;
+        top: -3em;
     }
 
     .container-round-of-exams>.container-lg>.row-ranking-table {
@@ -6000,8 +6067,51 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
+    .register-contest-footer{
+        display: none;
+    }
+    .register-ttcn-submit>button{
+        margin-top: 24px;
+    }
+    .cover-container .cover-gioitinh>.register-ttcn-frame-checkbox{
+        margin-right: 12px;
+    }
+    .cover-container .ttcn-frame-mobile{
+        margin-bottom: 24px;
+    }
+    .cover-container .last-child{
+        margin-bottom: 3px;
+    }
+    .form-label{
+        margin-bottom: 0;
+    }
+    .cover-container>.container-contest {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    .cover-container>.container-content>.container-lg{
+        padding-top: 24px;
+        padding-bottom: 28px;
+    }
     #popup-update-candidate-info{
-        margin: 30px 0;
+        margin: 30px auto;
+        margin-bottom: 0;
+    }
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content>.form-noinfor-inside-ttcn-content-text, .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-footer>.form-noinfor-inside-ttcn-footer-text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-header{
+        padding-bottom: 16px;
+    }
+    .cover-container .container-information .cover-content .row>*{
+        padding: 0;
+    }
+    #popup-update-candidate-inf, form#form-register-contest{
+        max-width: 570px;
+        margin: 30px auto;
+        margin-bottom: 0;
     }
     .container-fluid .modal-content .btn-close{
         display: block;
@@ -6059,7 +6169,7 @@ div.tooltip-inner {
 
     .form-input-phone-number-inside {
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
     .form-input-phone-number-inside>.row>.col>.form-input-phone-number-header {
@@ -6067,7 +6177,7 @@ div.tooltip-inner {
     }
 
     .form-input-phone-number-inside .form-input-phone-number-img {
-        top: -8%;
+        top: -2em;
     }
 
     .form-input-phone-number-inside .form-input-phone-number-img img {
@@ -6090,6 +6200,7 @@ div.tooltip-inner {
 
     .cover-container>.rules-for-mobile {
         display: block;
+        padding-bottom: 16px;
     }
 
     .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-3>.footer-mobile-location>.location-first,
@@ -6126,13 +6237,14 @@ div.tooltip-inner {
         margin-bottom: 0;
     }
 
-    .form-input-phone-number-inside>.row>.col {
-        padding: 0 16px 0 16px;
+    .cover-container .container-information .form-input-phone-number-inside {
+        padding: 0 16px;
     }
 
     .register-contest-introduction-inside-content>.register-contest-introduction-inside-content-header {
         font-size: 28px;
         margin-bottom: 24px;
+        margin-top: 30px;
     }
 
     .cover-container>.rules-for-mobile>.register-contest-rules-header {
@@ -6220,7 +6332,7 @@ div.tooltip-inner {
     }
 
     .form-noinfor-inside-ttcn>.form-noinfor-inside-header>img {
-        right: -2.8%;
+        right: -2em;
         top: -2em;
     }
 
@@ -6347,20 +6459,24 @@ div.tooltip-inner {
         display: block;
         background-color: var(--color-white);
         border-radius: 10px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 
     .contest-for-laptop>.container-lg .row>.register-contest-rules-ttcn-header {
         font-size: 28px;
         font-weight: var(--btn-font-weight-700);
-        margin-bottom: 30px;
+        margin-bottom: 0;
+        padding-bottom: 36px
     }
 
     .form-information {
-        margin-top: 24px;
-        margin-bottom: 24px;
+        margin-top: 0;
         width: 100%;
+        padding-bottom: 12px;
+    }
+    .form-noinfor-inside-ttcn>.form-noinfor-inside-ttcn-content{
+        margin-top: 0;
     }
 
     .register-contest-rules-ttcn-content-fullname>.register-contest-rules-ttcn-content-fullname-text,
@@ -6469,6 +6585,7 @@ div.tooltip-inner {
 
     /* Begin-web-ranking */
     .form-noinfor-inside-ttcn>.form-information>.row>.col>.form-information-inside>.form-information-frame {
+        line-height: 20px;
         font-size: 14px;
         font-weight: 400;
     }
@@ -6515,4 +6632,28 @@ div.tooltip-inner {
     }
 
     /* End-web-contest-new-detail */
+}
+@media screen and (max-width: 360px){
+    .cover-chooseprovince-content .container-lg .col-xl-4{
+        padding: 0;
+    }
+
+    .form-infor-header>img{
+        width: 96px;
+        height: 56px;
+    }
+    .modal-header>.form-infor-header-bottom{
+        font-size: 13px;
+    }
+    .form-infor-body>.form-infor-content{
+        display: grid;
+        grid-template-columns: 47.3% 47.3%;
+    }
+    .form-select, .popup-update-candidate-info .modal-footer, .form-control{
+        font-size: 13px;
+    }
+    .form-input-phone-number-inside{
+        min-height: 405.5px;
+    }
+
 }
