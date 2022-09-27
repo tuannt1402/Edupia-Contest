@@ -6110,8 +6110,21 @@ div.tooltip-inner {
     display: inline-block;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
-
+}
+.loader-framer p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff; 
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
     }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 .container-information .form-btn-team {
     margin-bottom: 0;
@@ -6244,14 +6257,6 @@ div.tooltip-inner {
     }
 
     /* End contest team */
-
-    @keyframes rotation {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
 }
 
 .container-information .register-information-inside-cover span:nth-child(2),
