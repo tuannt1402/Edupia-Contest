@@ -6244,20 +6244,7 @@ div.tooltip-inner {
 
 /* End contest team */
 
-@media screen and (max-width: 1199px) {
 
-    /* Begin contest team */
-    .container-information .col-lg-3 {
-        margin-right: auto;
-    }
-
-    .container-information .team-content {
-        margin-top: 12px !important;
-        margin-bottom: 12px !important;
-    }
-
-    /* End contest team */
-}
 
 .container-information .register-information-inside-cover span:nth-child(2),
 .container-information .register-information-inside-cover span:nth-child(4) {
