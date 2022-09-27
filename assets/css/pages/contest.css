@@ -1207,10 +1207,12 @@ p {
     color: #51545F;
     position: relative;
 }
-.pop-up-two-body-header>svg{
+
+.pop-up-two-body-header>svg {
     width: 80px;
     height: 80px;
 }
+
 .pop-up-two-body>.pop-up-two-body-header {
     display: flex;
     margin-bottom: 20px;
@@ -1218,7 +1220,7 @@ p {
     align-items: center;
 }
 
-.modal-body{
+.modal-body {
     padding-bottom: 0;
 }
 
@@ -6070,22 +6072,59 @@ div.tooltip-inner {
     justify-content: center;
     align-items: center;
 }
-.loader-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+
+/* Begin contest team */
+.register-information-inside-cover .register-information-inside-header span {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-right: 4px;
+}
+
+.container-information .information-header-team {
+    max-height: 56px;
+}
+
+.container-information .team-content {
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.container-information .col-lg-9 {
+    max-width: 848px;
+    height: 248px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    padding-right: 0 !important;
+}
+
+.container-information .col-lg-3 {
     margin: auto;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    margin-right: 32px;
+    padding: 0;
+    max-width: 240px;
+}
+
+.container-information .form-header-team {
+    margin-top: 0px;
+}
+
+.register-information-inside-cover .special-text-team {
+    margin-left: 0 !important;
+}
+
+.container-information .form-header-team .form-input-phone-number-header-content {
+    height: 32px;
+}
+
+.container-information .form-team {
+    min-height: 320px;
+    max-height: 320px;
 }
 .loader-framer {
     position: absolute;
-    width: 150px;
-    height: 220px;
+    width: 455px;
+    height: 304px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -6108,24 +6147,130 @@ div.tooltip-inner {
     display: inline-block;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
-    }
-
-    @keyframes rotation {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+        width: 338px !important;
+    height: 40px !important;
 }
 
-.loader-framer  p {
+.container-information .form-btn-team {
+    margin-bottom: 0;
+}
+
+.container-information .justify-content-start div:nth-child(2) {
+    margin-left: 60px;
+}
+
+.container-information .register-information-inside-cover div:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+.container-information .register-information-inside-cover span:nth-child(2),
+.container-information .register-information-inside-cover span:nth-child(4) {
+    color: white;
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.team-container {
+    background: #F7F7F7;
+    padding-top: 60px;
+}
+
+.team-container .team-cover {
+    background: white;
+    border-radius: 12px;
+}
+
+.team-information .flex:nth-child(1){
+    font-size: 32px;
+    font-weight: 700;
+    color: #005487;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.team-information .flex:nth-child(2) {
+    border-radius: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.team-information .flex:nth-child(2) .team-month {
+    width: 140.25px;
+    height:86px;
+    text-align: center;
+    background: #F7F7F7;
+    cursor: pointer;
+}
+
+.team-information .flex:nth-child(2) .team-month:nth-child(1) {
+    background: #51545F;
+    color: white;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.team-information .flex:nth-child(2) .team-month:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.team-information .flex:nth-child(2) .team-month:nth-child(2) {
+    background: #00CCCC;
+    color: white;
+}
+
+.team-information .flex:nth-child(2) .team-month:nth-child(2) svg {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    color: #FFF;
+    bottom: -8%;
+    left: 44%;
 }
+
+.team-information .flex:nth-child(2) .team-month div:nth-child(1) {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    color: #51545F;
+}
+
+.team-information .flex:nth-child(2) .team-month div:nth-child(2) {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #00CCCC;
+}
+
+.team-information .flex:nth-child(2) .team-month div:nth-child(3) {
+    font-size: 12px;
+    font-weight: 500;
+    color: #51545F;
+}
+
+.team-information .team-month .team-color-white {
+    color: white !important;
+}
+
+.team-exam-question {
+    margin-top: 30px;
+}
+
+    /* End contest team */
+
 @media screen and (max-width: 1199px) {
+
+    /* Begin contest team */
+    .container-information .col-lg-3 {
+        margin-right: auto;
+    }
+
+    .container-information .team-content {
+        margin-top: 12px !important;
+        margin-bottom: 12px !important;
+    }
+
+    /* End contest team */
     .container {
         min-width: 0;
     }
@@ -6242,21 +6387,101 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
-    .contest-for-laptop>.container-lg .row-contest-content>.col-xl-2{
-        max-width: 100%;
+    /* Begin contest team */
+    .container-information .form-team {
+        min-height: 266px;
+        max-height: 266px;
+        padding-top: 36px !important;
+        padding-bottom: 36px !important;
+        margin-bottom: 32px;
     }
-    .register-ttcn-frame .form-label{
-        margin-top: 0;
-    }
-    .contest-for-laptop>.container-lg .row-contest-content>.col-xl-5:nth-child(2){
+
+    .container-information .col-lg-9 {
         margin: 0;
-        max-width: 100%;
+        height: auto;
     }
-    .contest-for-laptop>.container-lg .row-contest-content{
-        gap: 24px;
-        margin: auto;
-        max-width: 600px;
+    .container-information .col-lg-3 {
+        display: none;
     }
+
+    .container-information .information-header-team {
+        max-height: 64px;
+    }
+    .container-information .justify-content-start {
+        display: block;
+    }
+
+    .container-information .justify-content-start div {
+        justify-content: flex-start;
+    }
+
+    .container-information .justify-content-start div:nth-child(2) {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .container-information .register-information-inside-cover div:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    .container-information .register-information-inside-cover span:nth-child(2), 
+    .container-information .register-information-inside-cover span:nth-child(4) {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .container-information .form-header-team {
+        margin-top: 0 !important;    
+    }
+
+    .container-information .form-header-team div {
+        font-size: 18px;
+        height: 26px !important;
+    }
+
+    .container-information .form-content-team {
+        margin-top: 24px !important;
+    }
+
+    .register-information-inside-cover .special-text-team,
+    .register-information-inside-cover .register-information-inside-header span {
+        font-size: 24px !important;
+    }
+
+    .container-information .btn-register-team {
+        width: 100% !important;
+        height: 40px !important;
+    }
+
+    .framesapramat-team {
+        left: 90px !important;
+        width: 63px !important;
+        height: 18px !important;
+    }
+
+    .text-mobile-team {
+        font-size: 10px;
+    }
+
+    .team-container {
+        padding-top: 0;
+    }
+
+    .team-container .container-lg,
+    .team-container .col-12 {
+        padding: 0 !important;
+    }
+
+    .team-information .flex:nth-child(1) {
+        font-size: 24px;
+        padding: 30px 16px;
+    }
+
+    .team-information .flex:nth-child(2) {
+        display: none;
+    }
+
+    /* End contest team */
     .round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.btn-register,
     .cover-container .btn-login {
         width: 80px;
@@ -6681,7 +6906,9 @@ div.tooltip-inner {
         padding: 0;
     }
 
-
+    .contest-for-laptop>.container-lg .row-contest-content {
+        display: none;
+    }
 
     .contest-for-laptop .register-contest-rules-ttcn-content-mobile {
         display: block;
