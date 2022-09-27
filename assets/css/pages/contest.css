@@ -2997,8 +2997,8 @@ p {
 }
 
 .round-of-exams>.row>.col>.round-of-header>.round-of-header-content>.round-of-header-content-status {
-    margin-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 19px;
+    padding-bottom: 19px;
     border-bottom: thin solid #E0E0E0;
     justify-content: flex-start;
 }
@@ -4440,6 +4440,10 @@ p {
     padding: 7px 22.11px;
     background-color: var(--color-yellow);
     color: var(--background-color-blue);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .cover-container .img-logo {
@@ -5062,7 +5066,7 @@ p {
 }
 
 .round-of-header-content>.round-of-header-content-status>.round-of-header-content-status-name {
-    width: 200px;
+    width: 100%;
     margin-left: 0.5em;
 }
 
@@ -5382,8 +5386,12 @@ p {
 }
 
 .line-move {
-    height: 50px;
-    bottom: -37px;
+    height: 33px;
+    bottom: -25px;
+    border-left: 1px solid #d2d2d2;
+    left: -1px;
+    border-right: 1px solid #d2d2d2;
+    width: calc(100% + 2px);
 }
 
 .container-round-of-exams .btn-details {
@@ -6113,14 +6121,33 @@ div.tooltip-inner {
     min-height: 320px;
     max-height: 320px;
 }
-
-.container-information .input-team {
-    max-width: 606px;
+.loader-framer {
+    position: absolute;
+    width: 455px;
+    height: 304px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 24px;
 }
-
-.container-information .btn-register-team {
-    margin-bottom: 36px !important;
-    width: 338px !important;
+.loader-framer .loader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border: 7px solid #21BDC6;
+    border-bottom-color: #ECEDF1;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+        width: 338px !important;
     height: 40px !important;
 }
 
@@ -6228,7 +6255,7 @@ div.tooltip-inner {
     margin-top: 30px;
 }
 
-/* End contest team */
+    /* End contest team */
 
 @media screen and (max-width: 1199px) {
 
