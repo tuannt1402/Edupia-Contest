@@ -982,6 +982,8 @@ a:hover{
 .modal-footer {
     justify-content: center;
     margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 24px;
 }
 
 .pop-up-body {
@@ -1188,27 +1190,41 @@ p {
     color: #51545F;
     position: relative;
 }
-
+.pop-up-two-body-header>svg{
+    width: 80px;
+    height: 80px;
+}
 .pop-up-two-body>.pop-up-two-body-header {
     display: flex;
-    margin-bottom: 1em;
+    margin-bottom: 20px;
+    min-height: 100%;
+    align-items: center;
+}
+
+.modal-body{
+    padding-bottom: 0;
 }
 
 .pop-up-two-body>.pop-up-two-body-header>.form-notification-text {
     margin-left: 1em;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-top {
     font-weight: 700;
-    font-size: 1em;
-    line-height: 1.5em;
-    padding-bottom: 0.5em;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 4px;
 }
 
 .pop-up-two-body>.pop-up-two-body-header>.form-notification-text>.form-notification-text-bottom {
     font-weight: 400;
-    font-size: 0.875em;
-    line-height: 1.25em;
+    font-size: 14px;
+    line-height: 20px;
     color: #1F2230;
     display: flex;
     align-items: center;
@@ -2703,10 +2719,14 @@ p {
 
 /* Begin-register-mobile */
 
-.register-contest-footer {
+.container-contest .register-contest-footer {
     justify-content: space-between;
     align-items: flex-end;
     margin-top: 70px;
+}
+
+.contest-for-register .register-contest-footer {
+    margin-top: 25px;
 }
 
 
@@ -5143,6 +5163,7 @@ p {
 
 .round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-second {
     background-color: #A3A6B1;
+    padding: 8px 0;
 }
 
 .round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-third {
@@ -5284,7 +5305,7 @@ p {
 }
 
 .container-round-of-exams .small-text-school {
-    font-size: 12px;
+    font-size: 14px;
     color: #51545F;
     justify-content: flex-start;
 }
@@ -5296,6 +5317,9 @@ p {
 
 .container-round-of-exams .round-of-header-content-text-score-text {
     margin-left: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .container-round-of-exams .round-of-header-content-text-score-number {
@@ -5312,6 +5336,8 @@ p {
 
 .container-round-of-exams .status-img-text-for-mobile {
     color: #0AB5DB;
+    font-size: 14px;
+    margin-top: 8px;
 }
 
 .line {
@@ -5383,7 +5409,8 @@ div.tooltip-inner {
 }
 
 .ranking>.container-lg>.row>.col>.your-number {
-    background-color: #F3F4F5 !important;
+    background-color: #018188 !important;
+    color: #FFF;
 }
 
 .ranking>.container-lg>.row>.col>.ranking-table-mobile {
@@ -5395,11 +5422,10 @@ div.tooltip-inner {
     font-weight: var(--primary-font-weight-600);
     justify-content: flex-start;
     margin-top: 1em;
-    margin-left: 1em;
 }
 
 .ranking-table-mobile-inside>.ranking-table-mobile-inside-header>.ranking-table-mobile-inside-header-text {
-    margin-left: var(--size-16px);
+    margin-left: 4px;
 }
 
 .ranking-table-mobile-inside>.ranking-table-mobile-inside-header>.ranking-table-mobile-inside-header-text>.ranking-table-mobile-inside-header-text-school {
@@ -5956,6 +5982,7 @@ div.tooltip-inner {
 
 .register-ttcn-frame-checkbox .form-check-input[type=radio]{
     background-color: #FFF;
+    cursor: pointer;
 }
 .register-ttcn-frame-checkbox .form-check-input:checked[type=radio] {
     background-color: #00CCCC;
@@ -5967,8 +5994,8 @@ div.tooltip-inner {
 }
 .edit-img-avata {
     position: absolute;
-    bottom: -20px;
-    left: 108px;
+    bottom: -5px;
+    left: 92px;
     width: 32px;
     height: 32px;
 }
@@ -5976,6 +6003,14 @@ div.tooltip-inner {
     width: 32px;
     height: 32px;
     border-radius: 50%;
+}
+
+.ranking-table-mobile-inside .ranking-table-mobile-inside-header-number {
+    min-width: 42px;
+    min-height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1199px) {
@@ -6230,6 +6265,7 @@ div.tooltip-inner {
 
     .cover-container>.rules-for-mobile {
         display: block;
+        padding-bottom: 16px;
     }
 
     .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-3>.footer-mobile-location>.location-first,

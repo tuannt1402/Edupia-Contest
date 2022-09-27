@@ -134,6 +134,8 @@ $(document).ready(function () {
 
   //Bấm vào xem chi tiết laptop thì quay mũi tên và hiện ra bảng
   let currentExpandIndex = -1;
+  let delayClicked = true;
+  let activeFunctionOneTime = true;
 
   function collapseAll() {
     $('.btn-laptop span svg').removeClass('tranform-arrow-rotate');
@@ -145,17 +147,35 @@ $(document).ready(function () {
     $($('.btn-laptop span svg')[index]).addClass('tranform-arrow-rotate');
   }
 
+  function btnClicked(index) {
+    setTimeout(() => {
+      delayClicked = true;
+    }, 350);
+    collapseAll();
+    if (index === currentExpandIndex) {
+      currentExpandIndex = -1;
+      return;
+    }
+    expand(index);
+    currentExpandIndex = index;
+  }
+
   $('.btn-laptop').each(function (index, ele) {
+    if (activeFunctionOneTime) {
+      btnClicked(index);
+      activeFunctionOneTime = !activeFunctionOneTime;
+    }
+
     $(ele).on('click', function () {
-      collapseAll();
-      if (index === currentExpandIndex) {
-        currentExpandIndex = -1;
-        return;
+      if (delayClicked) {
+        delayClicked = !delayClicked;
+        btnClicked(index);
       }
-      expand(index);
-      currentExpandIndex = index;
     })
   })
+
+  // $($('.line')[0]).addClass('line-move');
+  // $($('.btn-laptop span svg')[0]).addClass('tranform-arrow-rotate');
 
 
   // Web-game
@@ -179,24 +199,4 @@ $(document).ready(function () {
     }
   }
   transform();
-  // Example starter JavaScript for disabling form submissions if there are invalid fields
-  (function () {
-    'use strict'
-  
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.querySelectorAll('.needs-validation')
-  
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-      .forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-  
-          form.classList.add('was-validated')
-        }, false)
-      })
-  })()
 });
