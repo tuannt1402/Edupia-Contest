@@ -6415,7 +6415,11 @@ div.tooltip-inner {
 }
 
     /* End contest team */
-
+.nav-mobile-content-logged img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 @media screen and (max-width: 1199px) {
 
     /* Begin contest team */
@@ -7082,9 +7086,9 @@ div.tooltip-inner {
         padding: 0;
     }
 
-    .contest-for-laptop>.container-lg .row-contest-content {
+    /* .contest-for-laptop>.container-lg .row-contest-content {
         display: none;
-    }
+    } */
 
     .contest-for-laptop .register-contest-rules-ttcn-content-mobile {
         display: block;
