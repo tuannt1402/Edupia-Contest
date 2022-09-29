@@ -6219,11 +6219,9 @@ div.tooltip-inner {
 
 .container-information .form-team {
     min-height: 320px;
-    max-height: 320px;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     margin-bottom: 0;
-    max-width: 338px;
 }
 
 .container-information .btn-register-team {
@@ -6643,6 +6641,17 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
+    .nav-web-content-menu {
+        height: 100%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 36px;
+        margin-top: 48px;
+        padding: 0;
+    }
+    
     .form-team {
         padding: 24px 16px;
     }
