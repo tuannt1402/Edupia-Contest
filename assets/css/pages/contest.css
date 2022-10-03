@@ -6228,6 +6228,8 @@ div.tooltip-inner {
     border-radius: 12px;
     padding: 48px 80px;
     position: relative;
+    margin: auto;
+    margin-top: 61px;
 }
 
 .form-team__register .row .col-lg-3 {
@@ -6291,6 +6293,10 @@ div.tooltip-inner {
     position: absolute;
     bottom: 7%;
     left: 50%;
+}
+.team-footer .register-contest-footer{
+    justify-content: space-between;
+    align-items: flex-end;
 }
 /*end component-team */
 
@@ -6945,6 +6951,9 @@ div.tooltip-inner {
 
     .register-contest-footer {
         display: none;
+    }
+    .team-footer .register-contest-footer {
+        display: flex;
     }
 
     .register-ttcn-submit>button {
