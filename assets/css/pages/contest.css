@@ -7022,6 +7022,9 @@ div.tooltip-inner {
     display: none;
 }
 
+.team-footer {
+    background: rgba(54, 191, 199, 0.05);
+}
 /* End contest team */
 .nav-mobile-content-logged img {
     width: 40px;
