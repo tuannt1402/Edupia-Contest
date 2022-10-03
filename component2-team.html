@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://static.edupia.vn/css/font/cabin/cabin-normal.css">
+    <link rel="stylesheet" href="https://static.edupia.vn/css/font/cabin/cabin-swap.css">
+    <link href="assets/lib/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/lib/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/pages/contest.css">
+    <script src="assets/lib/js/jquery-3.6.0.js"></script>
+    <script src="assets/lib/js/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="assets/lib/js/jquery-ui.js"></script>
+    <script src="./include.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="col-lg-12" id="container-form-check-register-contest">
+        <form class="needs-validation" novalidate="" id="form-register-contest">
+            <div class="form-input-phone-number-inside form-team">
+                <div class="row">
+                    <div class="col col-lg-9 position-relative">
+
+                        <div class="modal-header form-infor-header">
+                            <div class="modal-title form-infor-header-top">Xin chào {{$phone}}</div>
+                            <div class="modal-title form-infor-header-bottom">Vui lòng hoàn thiện đầy đủ thông tin bên
+                                dưới
+                                để tham gia cuộc thi:
+                            </div>
+                        </div>
+                        <div class="modal-body form-infor-body">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 ">
+                                    <input type="text" class="form-control" name="fullname" id="validationCustom01"
+                                        required placeholder="Họ và tên học sinh">
+                                    <div class="invalid-feedback">
+                                        Vui lòng nhập thông tin này
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 ">
+                                    <select name="conscious" class="form-select" id="validationCustom02" required>
+                                        <option selected disabled value="Tỉnh Thái Bình">Tỉnh</option>
+                                        <option>Tỉnh Táo</option>
+                                        <option>Tỉnh Ngủ</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Vui lòng nhập thông tin này
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 ">
+                                    <select name="district" class="form-select" id="validationCustom03" required>
+                                        <option selected disabled value="">Quận / Huyện</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Vui lòng nhập thông tin này
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4  col-md-6 ">
+                                    <select name="school" class="form-select" id="validationCustom04" required>
+                                        <option selected disabled value="">Trường</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Vui lòng nhập thông tin này
+                                    </div>
+                                </div>
+                                <div class="col-lg-4  col-md-6 ">
+                                    <select name="district" class="form-select" id="validationCustom05" required>
+                                        <option selected disabled value="">Khối lớp</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Vui lòng nhập thông tin này
+                                    </div>
+                                </div>
+                                <div class="col-lg-4  col-md-6 ">
+                                    <input type="text" class="form-control" name="class" id="validationCustom06" required placeholder="Lớp">
+                                    <div class="invalid-feedback">
+                                      Vui lòng nhập thông tin này
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer pop-up-footer">
+                            <input type="submit" value="Quay lại" class="btn btn-secondary btn-back"
+                                data-bs-dismiss="modal"></input>
+                            <input type="submit" value="Xác nhận" class="btn btn-primary btn-confirm btn-left"></input>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 flex-fill flex">
+                        <img src="./assets/images/Những bài học mà trẻ yêu thích 1.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
