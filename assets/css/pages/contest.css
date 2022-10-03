@@ -6314,8 +6314,7 @@ div.tooltip-inner {
 }
 
 .container-information .form-team {
-    min-height: 320px;
-    padding-top: 0 !important;
+    padding-top: 30px;
     padding-bottom: 0 !important;
     margin-bottom: 0;
 }
@@ -7016,34 +7015,10 @@ div.tooltip-inner {
     padding: 4px 10px;
 }
 
-.team-chart-ranking .team-ranking-title {
-    display: inline-flex;
-    font-size: 14px;
-    font-weight: 400;
-}
+.team-chart-ranking .row-team-ranking 
 
-.team-ranking-title div:first-child {
-    width: 63px;
-}
-
-.team-ranking-title div:nth-child(2) {
-    width: 207px;
-}
-
-.team-ranking-title div:nth-child(3) {
-    width: 360px;
-}
-
-.team-ranking-title div:nth-child(4) {
-    width: 160px;
-}
-
-.team-ranking-title div:nth-child(5) {
-    width: 60px;
-}
-
-.team-ranking-title div:last-child {
-    width: 140px;
+.team-hide-laptop {
+    display: none;
 }
 
 /* End contest team */
@@ -7451,7 +7426,7 @@ div.tooltip-inner {
     }
 
     .team-logged-in .form-team {
-        max-height: 320px;
+        max-height: fit-content;
         min-height: auto;
     }
 
@@ -7474,7 +7449,9 @@ div.tooltip-inner {
         justify-content: flex-end;
     }
 
-
+    .team-hide-laptop {
+        display: block;
+    }
     /* End contest team */
 
     .container-round-of-exams>.container-lg>.row>.col>.round-of-content {
