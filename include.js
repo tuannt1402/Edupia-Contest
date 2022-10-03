@@ -47,6 +47,7 @@ $(document).ready(function () {
       $('.container-content').removeClass('opacity-background');
       $('.container-information').removeClass('opacity-background');
       $('.team-container').removeClass('opacity-background');
+      $('.team-content').removeClass('opacity-background');
     })
 
     $('.nav-mobile-login-viewmobile-frame-right').on('click', function () {
@@ -59,6 +60,7 @@ $(document).ready(function () {
       $('.container-content').removeClass('opacity-background');
       $('.container-information').removeClass('opacity-background');
       $('.team-container').removeClass('opacity-background');
+      $('.team-content').removeClass('opacity-background');
       navMobile.css({
         right: '100%'
       })
@@ -79,6 +81,7 @@ $(document).ready(function () {
     $('.container-content').addClass('opacity-background');
     $('.container-information').addClass('opacity-background');
     $('.team-container').addClass('opacity-background');
+    $('.team-content').addClass('opacity-background');
     letCloseNav(e);
   })
 
@@ -176,6 +179,23 @@ $(document).ready(function () {
       }
     })
   })
+
+  // Media col trong cuộc thi đồng đội
+  function myFunction(x) {
+    if (x.matches) { // If media query matches
+        $($('.team-col-data')[0]).addClass('d-flex');
+        $($('.team-col-data')[1]).addClass('d-flex');
+        $($('.team-col-data')[2]).addClass('d-flex');
+    } else { 
+        $($('.team-col-data')[0]).removeClass('d-flex');
+        $($('.team-col-data')[1]).removeClass('d-flex');
+        $($('.team-col-data')[2]).removeClass('d-flex');
+    }
+  }
+  
+  var x = window.matchMedia("(max-width: 991px)")
+  myFunction(x) // Call listener function at run time
+  x.addListener(myFunction) // Attach listener function on state changes
 
   // $($('.line')[0]).addClass('line-move');
   // $($('.btn-laptop span svg')[0]).addClass('tranform-arrow-rotate');
