@@ -6298,6 +6298,10 @@ div.tooltip-inner {
     justify-content: space-between;
     align-items: flex-end;
 }
+.team-footer .register-contest-footer .btn:first-child:hover, :not(.team-footer .register-contest-footer .btn-check)+ .team-footer .register-contest-footer .btn:hover{
+    background-color: #00CCCC;
+    color: #FFF;
+}
 /*end component-team */
 
 
