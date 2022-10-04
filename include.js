@@ -180,19 +180,41 @@ $(document).ready(function () {
     })
   })
 
+  // Bấm vào xem thêm thì hiện ra thêm 7 xếp hạng bên bảng xếp hạng mobile cuộc thi đồng đội
+  function buttonTeam() {
+    let isClicked = true;
+    $('.btn-join-ranking').on('click', function openMoreListRanking() {
+      if (isClicked) {
+        $('.team-other-number').each(function (index, elements) {
+          $(elements).slideDown();
+          $(elements).css({
+            display: 'flex'
+          })
+        })
+        return isClicked = !isClicked;
+      } else {
+        $('.team-other-number').each(function (index, elements) {
+          $(elements).slideUp();
+        })
+        isClicked = true;
+      }
+    })
+  }
+  buttonTeam();
+
   // Media col trong cuộc thi đồng đội
   function myFunction(x) {
     if (x.matches) { // If media query matches
-        $($('.team-col-data')[0]).addClass('d-flex');
-        $($('.team-col-data')[1]).addClass('d-flex');
-        $($('.team-col-data')[2]).addClass('d-flex');
-    } else { 
-        $($('.team-col-data')[0]).removeClass('d-flex');
-        $($('.team-col-data')[1]).removeClass('d-flex');
-        $($('.team-col-data')[2]).removeClass('d-flex');
+      $($('.team-col-data')[0]).addClass('d-flex');
+      $($('.team-col-data')[1]).addClass('d-flex');
+      $($('.team-col-data')[2]).addClass('d-flex');
+    } else {
+      $($('.team-col-data')[0]).removeClass('d-flex');
+      $($('.team-col-data')[1]).removeClass('d-flex');
+      $($('.team-col-data')[2]).removeClass('d-flex');
     }
   }
-  
+
   var x = window.matchMedia("(max-width: 991px)")
   myFunction(x) // Call listener function at run time
   x.addListener(myFunction) // Attach listener function on state changes
