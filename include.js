@@ -183,7 +183,7 @@ $(document).ready(function () {
   // Bấm vào xem thêm thì hiện ra thêm 7 xếp hạng bên bảng xếp hạng mobile cuộc thi đồng đội
   function buttonTeam() {
     let isClicked = true;
-    $('.btn-join-ranking').on('click', function openMoreListRanking() {
+    $('.btn-team-ranking').on('click', function openMoreListRanking() {
       if (isClicked) {
         $('.team-other-number').each(function (index, elements) {
           $(elements).slideDown();

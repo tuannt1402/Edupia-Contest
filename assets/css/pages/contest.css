@@ -7107,6 +7107,16 @@ div.tooltip-inner {
     text-align: center;
 }
 
+.btn-team-ranking {
+    font-size: var(--primary-font-size-14px);
+    font-weight: var(--primary-font-weight-600);
+    color: #1F2230;
+    background-color: #F9D742;
+    padding: 8px 32px;
+    height: auto;
+    width: auto;
+}
+
 
 /* End contest team */
 .nav-mobile-content-logged img {
@@ -7616,16 +7626,8 @@ div.tooltip-inner {
         padding-top: 25px;
     }
 
-    .team-chart-ranking .btn-join-ranking {
-        height: auto;
-        width: auto;
-        padding: 8px 32px;
-        background: #F9D742;
-        color: #1F2230;
-    }
-
     .team-other-number {
-        display: none;  
+        display: none;
     }
 
     .team-chart-ranking .row-team-ranking:nth-last-child(2) {
