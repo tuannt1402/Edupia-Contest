@@ -5294,10 +5294,14 @@ p {
 }
 
 .ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data {
-    position: absolute;
-    top: 9%;
-    left: 44%;
     border-bottom: hidden;
+}
+.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div{
+    height: 50em;
+}
+.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>img,
+.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>div{
+    height: 100%;
 }
 
 .container-round-of-exams>.container-lg>.row-topic>.row>.row>.col-3>.round-of-header-content-status-img>.status-img-text-for-mobile {
