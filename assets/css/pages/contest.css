@@ -5007,12 +5007,9 @@ p {
     justify-content: flex-start;
 }
 
-.contest-for-register .register-contest-rules-register-form-inside-content ul {
+.contest-for-register .register-contest-rules-register-form-inside-content ul, .register-contest-rules ul {
     padding-left: 0 !important;
     margin-bottom: 0;
-}
-
-.contest-for-register .register-contest-rules-register-form-inside-content ul li {
     list-style: none;
 }
 
@@ -8787,5 +8784,4 @@ div.tooltip-inner {
     .form-input-phone-number-inside {
         min-height: 405.5px;
     }
-
 }
