@@ -5300,7 +5300,7 @@ p {
 }
 .ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div{
     height: auto;
-    padding: 250px 0;
+    padding: 50px 0;
     flex-direction: column;
 }
 .ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>img,
@@ -7427,9 +7427,9 @@ div.tooltip-inner {
         height: auto !important;
     }
 
-    /* .ranking>.container-lg>.row>.col>.ranking-table>table>thead {
+    .ranking>.container-lg>.row>.col>.ranking-table>table>thead {
         display: none;
-    } */
+    }
 
     .ranking .ranking-table th {
         padding: 0;
