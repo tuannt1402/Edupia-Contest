@@ -5276,6 +5276,9 @@ p {
     background-color: #00CCCC;
     border-radius: 3px;
 }
+#ranking-table-candidate thead tr .th-header{
+    text-align: center;
+}
 
 .ranking>.container-lg>.row>.col>.ranking-table>table>tbody>tr>td>.ranking-table-td-text>.ranking-table-td-time-done {
     height: var(--font-size-28px);
@@ -5288,7 +5291,6 @@ p {
 
 /* Begin-form-ranking-non-date */
 .ranking .non-date-table .tr-non-data {
-    height: 50em;
     border-bottom: hidden;
     margin: 0 auto;
 }
@@ -5297,7 +5299,9 @@ p {
     border-bottom: hidden;
 }
 .ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div{
-    height: 50em;
+    height: auto;
+    padding: 250px 0;
+    flex-direction: column;
 }
 .ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>img,
 .ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>div{
@@ -7288,6 +7292,9 @@ div.tooltip-inner {
 
 
 @media screen and (max-width: 1199px) {
+    #ranking-table-candidate thead tr .th-header{
+        width: 10%;
+    }
     .container-round-of-exams .line-mobile{
         display: inline;
     }
@@ -7420,17 +7427,17 @@ div.tooltip-inner {
         height: auto !important;
     }
 
-    .ranking>.container-lg>.row>.col>.ranking-table>table>thead {
+    /* .ranking>.container-lg>.row>.col>.ranking-table>table>thead {
         display: none;
-    }
+    } */
 
     .ranking .ranking-table th {
         padding: 0;
     }
 
-    .ranking tbody .tr-laptop {
+    /* .ranking tbody .tr-laptop {
         display: none;
-    }
+    } */
 
     #myGroupMobile {
         display: block;
