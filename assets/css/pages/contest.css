@@ -1219,7 +1219,8 @@ p {
     min-height: 100%;
     align-items: center;
 }
-#form-register-trial .pop-up-two-body>.pop-up-two-body-header{
+
+#form-register-trial .pop-up-two-body>.pop-up-two-body-header {
     min-height: 0;
 }
 
@@ -4720,7 +4721,7 @@ p {
     padding: 0;
 }
 
-#form-login .modal-footer{
+#form-login .modal-footer {
     padding: 0;
 }
 
@@ -5006,7 +5007,8 @@ p {
     justify-content: flex-start;
 }
 
-.contest-for-register .register-contest-rules-register-form-inside-content ul, .register-contest-rules ul {
+.contest-for-register .register-contest-rules-register-form-inside-content ul,
+.register-contest-rules ul {
     padding-left: 0 !important;
     margin-bottom: 0;
     list-style: none;
@@ -5277,7 +5279,8 @@ p {
     background-color: #00CCCC;
     border-radius: 3px;
 }
-#ranking-table-candidate thead tr .th-header{
+
+#ranking-table-candidate thead tr .th-header {
     text-align: center;
 }
 
@@ -5299,21 +5302,24 @@ p {
 .ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data {
     border-bottom: hidden;
 }
-.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div{
+
+.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div {
     height: auto;
     padding: 50px 0;
     flex-direction: column;
 }
+
 .ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>img,
-.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>div{
+.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>div {
     height: 100%;
 }
 
-.ranking .not-data-ranking{
+.ranking .not-data-ranking {
     height: 50em;
 }
+
 .ranking .not-data-ranking>div,
-.ranking .not-data-ranking>img{
+.ranking .not-data-ranking>img {
     height: 100%;
 }
 
@@ -5419,7 +5425,7 @@ p {
     width: calc(100% + 2px);
 }
 
-.card-body{
+.card-body {
     border-color: #E0E0E0;
 }
 
@@ -6126,6 +6132,7 @@ div.tooltip-inner {
     justify-content: center;
     align-items: center;
 }
+
 .loader-overlay {
     position: fixed;
     top: 0;
@@ -6151,6 +6158,7 @@ div.tooltip-inner {
     margin: auto;
     border-radius: 24px;
 }
+
 .loader-framer .loader {
     position: absolute;
     top: 0;
@@ -6174,10 +6182,12 @@ div.tooltip-inner {
     left: 0;
     color: #fff;
 }
+
 @keyframes rotation {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -6203,7 +6213,8 @@ div.tooltip-inner {
 
 
 /* component-team */
-.form-team, .team-logged-in {
+.form-team,
+.team-logged-in {
     min-height: 328px;
     max-height: 328px;
     padding: 0;
@@ -7195,7 +7206,7 @@ div.tooltip-inner {
 }
 
 .team-col-logined {
-    padding:30px 32px ;
+    padding: 30px 32px;
 }
 
 /* End contest team */
@@ -7207,6 +7218,44 @@ div.tooltip-inner {
 
 
 @media screen and (max-width: 1199px) {
+    .team-information .team-time-line .team-month:first-child {
+        border-radius: 0;
+    }
+
+    .team-information .team-time-line .team-month div:first-child {
+        color: #51545F !important;
+    }
+
+    .team-information .team-month .team-color-white {
+        color: #00CCCC !important;
+    }
+    .team-information .team-time-line .team-month div:nth-child(2){
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .team-information .team-time-line .team-month div:nth-child(3) {
+        display: none;
+    }
+
+    .team-information .team-time-line .team-month {
+        min-width: 80px;
+        background: #FFF;
+    }
+
+    .team-information .team-time-line .team-month-second svg {
+        display: none;
+    }
+    .team-information .team-time-line .team-month
+    
+    .team-month__active::after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        left: 0;
+        right: 0;
+        background-color: #00CCCC;
+    }
 
     /* Begin contest team */
     .container-information .col-lg-3 {
@@ -7360,16 +7409,19 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
-    .row-contest-content .register-ttcn-frame .form-label{
+    .row-contest-content .register-ttcn-frame .form-label {
         margin-top: 0;
     }
-    .contest-for-laptop>.container-lg .row-contest-content>.col-xl-5:nth-child(2){
+
+    .contest-for-laptop>.container-lg .row-contest-content>.col-xl-5:nth-child(2) {
         margin: 0;
     }
+
     .contest-for-laptop>.container-lg .row-contest-content>.col-xl-2 {
         max-width: 100%;
     }
-    .contest-for-laptop>.container-lg .row-contest-content{
+
+    .contest-for-laptop>.container-lg .row-contest-content {
         gap: 24px;
         padding: 32px 16px;
     }
@@ -7439,15 +7491,17 @@ div.tooltip-inner {
 
     /* Begin contest team */
     .form-btn-team .btn-register-team {
-        width:100% !important;
+        width: 100% !important;
     }
 
     .form-team-logged {
         padding: 36px 16px !important;
     }
-    .form-team, .team-logged-in {
+
+    .form-team,
+    .team-logged-in {
         min-height: auto;
-        max-height:max-content;
+        max-height: max-content;
     }
 
     .form-team-logged .form-noinfor-inside-ttcn-footer {
@@ -7487,6 +7541,7 @@ div.tooltip-inner {
     .container-information .information-header-team {
         max-height: 64px;
     }
+
     .container-information .justify-content-start {
         display: block;
     }
@@ -7559,9 +7614,7 @@ div.tooltip-inner {
         padding: 30px 16px;
     }
 
-    .team-information .team-time-line {
-        display: none;
-    }
+
 
     .team-content .team-exam-question {
         margin-top: 0;
@@ -8298,6 +8351,11 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 768px) {
+    .team-information .team-time-line {
+        overflow: auto;
+        margin: 0 0 0 16px;
+        justify-content: flex-start;
+    }
 
     /* Begin contest team */
     .form-btn-team .btn-register-team {
@@ -8308,13 +8366,14 @@ div.tooltip-inner {
         padding: 12px 96.5px;
     }
 
-    .form-team-cover{
+    .form-team-cover {
         padding-bottom: 32px;
     }
 
     .container-information .btn-register-team {
         margin-top: 24px !important;
     }
+
     .team-exam-question {
         padding-left: 16px;
         padding-right: 16px;
@@ -8572,6 +8631,7 @@ div.tooltip-inner {
     .form-team-logged {
         min-height: 296px !important;
     }
+
     .team-exam-question .team-exam-img {
         background-image: url(/assets/images/image_25_mobile.png);
         height: 180px;
