@@ -53,7 +53,14 @@ input:read-only:focus {
     border: 0;
     background-color: #e9ecef;
 }
-
+/*===== BUTTON =====*/
+.bg-yellow {
+    background-color: #f9d742!important;
+}
+.color-dark-blue {
+    color: var(--background-color-blue)!important;
+}
+/*===== END BUTTON =====*/
 a {
     text-decoration: none;
     color: inherit;
@@ -420,7 +427,7 @@ a:hover {
 }
 
 .nav-mobile-login>.nav-mobile-login-content>img {
-    width: 150px;
+    max-width: 150px;
 }
 
 
@@ -5203,7 +5210,9 @@ p {
 
 }
 
-.round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-second {
+.round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-second,
+.round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.topic-second:visited
+{
     background-color: #A3A6B1;
     padding: 8px 0;
 }
@@ -5289,28 +5298,18 @@ p {
 
 /* Begin-form-ranking-non-date */
 .ranking .non-date-table .tr-non-data {
-    height: 50em;
     border-bottom: hidden;
     margin: 0 auto;
 }
 
 .ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
     width: 100%;
     border-bottom: hidden;
 }
 
 .ranking .not-data-ranking{
-    height: 50em;
-}
-.ranking .not-data-ranking>div,
-.ranking .not-data-ranking>img{
-    height: 100%;
-}
+    padding: 50px 0;
+    flex-direction: column;}
 
 .container-round-of-exams>.container-lg>.row-topic>.row>.row>.col-3>.round-of-header-content-status-img>.status-img-text-for-mobile {
     font-weight: 600;
@@ -7355,6 +7354,23 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
+    .ranking>.container-lg>.row>.col>.ranking-header,
+    .cover-container>.rules-for-mobile>.register-contest-rules-header>.register-contest-rules-header-text {
+        font-size: 24px;
+    }
+
+    .ranking>.container-lg>.row>.col>.ranking-header {
+        padding-top: 60px;
+    }
+
+    .round-of-exams-inside>.inside-topic-number>.inside-topic-number-status>.btn-register {
+        height: auto;
+        width: max-content;
+        min-width: 128px;
+        padding: 8px 7px;
+        font-size: 14px;
+    }
+
     .row-contest-content .register-ttcn-frame .form-label{
         margin-top: 0;
     }
@@ -7790,6 +7806,7 @@ div.tooltip-inner {
     .container-round-of-exams>.container-lg>.row>.col>.round-of-content {
         margin-top: 35px;
         margin-bottom: 10px;
+        font-size: 24px;
     }
 
     .round-of-exams-inside>.inside-topic-number {
@@ -7950,7 +7967,7 @@ div.tooltip-inner {
 
     .cover-container>.rules-for-mobile {
         display: block;
-        padding-bottom: 16px;
+        padding-bottom: 40px;
     }
 
     .cover-container>.footer-container-mobile>.container-lg>.row>.col-lg-3>.footer-mobile-location>.location-first,
@@ -8000,6 +8017,7 @@ div.tooltip-inner {
     .cover-container>.rules-for-mobile>.register-contest-rules-header {
         padding-top: 36px;
         padding-bottom: 0;
+        margin-bottom: 80px;
     }
 
     .cover-container>.rules-for-mobile>.register-contest-rules-header>.register-contest-rules-header-input {
@@ -8021,7 +8039,7 @@ div.tooltip-inner {
 
     .cover-container>.rules-for-mobile>.register-contest-rules-register-form {
         padding-bottom: 16px;
-        margin-top: 24px;
+        margin-top: 40px;
     }
 
     .cover-container>.rules-for-mobile>.register-contest-rules-header>p {
@@ -8560,13 +8578,17 @@ div.tooltip-inner {
     /* End-web-contest-new-detail */
 }
 
-@media screen and (max-width: 360px) {
-
-    /* Begin contest team */
-    .form-team,
-    .form-team-logged {
-        min-height: 296px !important;
+@media screen and (max-width: 500px) {
+    .container-round-of-exams .status-img-text-for-mobile {
+        font-size: 18px;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .container-round-of-exams .status-img-text-for-mobile {
+        font-size: 14px;
+    }
+    /* Begin contest team */
     .team-exam-question .team-exam-img {
         background-image: url(/assets/images/image_25_mobile.png);
         height: 180px;
