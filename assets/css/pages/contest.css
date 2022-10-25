@@ -6693,6 +6693,8 @@ p {
 }
 
 .ranking .not-data-ranking {
+    display: flex;
+    align-items: center;
     padding: 50px 0;
     flex-direction: column;
 }
