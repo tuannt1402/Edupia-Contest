@@ -8721,9 +8721,25 @@ div.tooltip-inner {
     align-items: flex-end;
     background: rgba(54, 191, 199, 0.05);
 }
+.cover-container .contest-text-news .content{
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, minmax(270px, 1fr));
+}
+.cover-container .contest-text-news .content>div:first-child {
+    grid-column: 1 / 3;
+}
+.cover-container .contest-text-news .content>div{
+    background-color: var(--color-white);
+    border-radius: 8px;
+}
 
 
 @media screen and (max-width: 1199px) {
+    .cover-container .contest-text-news .content{
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
+    }
     /* Begin contest team */
     .container-information .col-lg-3 {
         margin-right: auto;
@@ -8911,6 +8927,9 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
+    .cover-container .contest-text-news .content{
+        grid-template-columns: repeat(2, minmax(270px, 1fr));
+    }
     .cover-container .contest-text-news{
         padding-top: 0;
     }
@@ -9987,6 +10006,9 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 768px) {
+    .cover-container .contest-text-news .content{
+        grid-template-columns: repeat(2, minmax(270px, 1fr));
+    }
     /* Begin contest team */
     .form-btn-team .btn-register-team {
         padding: 8px 118px;
