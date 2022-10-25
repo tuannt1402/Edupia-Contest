@@ -7451,7 +7451,6 @@ div.tooltip-inner {
 .cover-container .contest-text-news {
     padding-top: 60px;
     margin: 0;
-    background: rgba(54, 191, 199, 0.05);
 }
 
 .container-fluid .row .col-xl-6 img {
@@ -8733,6 +8732,9 @@ div.tooltip-inner {
 .cover-container .contest-text-news .content>div{
     background-color: var(--color-white);
     border-radius: 8px;
+}
+.contest-text-news-frame{
+    background: rgba(54, 191, 199, 0.05);
 }
 
 
