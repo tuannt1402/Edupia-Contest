@@ -1414,7 +1414,8 @@ p {
     min-height: 100%;
     align-items: center;
 }
-#form-register-trial .pop-up-two-body>.pop-up-two-body-header{
+
+#form-register-trial .pop-up-two-body > .pop-up-two-body-header {
     min-height: 0;
 }
 
@@ -5573,12 +5574,7 @@ p {
 }
 
 .cover-container
-> .container-contest
-> .container-lg
-> .contest-rules
-> .row
-> .col
-> .register-contest-rules-header {
+.register-contest-rules-header {
     font-weight: 700;
     font-size: 40px;
     color: var(--background-color-blue);
@@ -5790,7 +5786,7 @@ p {
     padding: 0;
 }
 
-#form-login .modal-footer{
+#form-login .modal-footer {
     padding: 0;
 }
 
@@ -6277,7 +6273,8 @@ p {
     justify-content: flex-start;
 }
 
-.contest-for-register .register-contest-rules-register-form-inside-content ul, .register-contest-rules ul {
+.contest-for-register .register-contest-rules-register-form-inside-content ul,
+.register-contest-rules ul {
     padding-left: 0 !important;
     margin-bottom: 0;
     list-style: none;
@@ -6652,10 +6649,6 @@ p {
     border-radius: 3px;
 }
 
-#ranking-table-candidate thead tr .th-header {
-    text-align: center;
-}
-
 .ranking
 > .container-lg
 > .row
@@ -6694,24 +6687,11 @@ p {
     border-bottom: hidden;
 }
 
-.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div {
-    height: auto;
+.ranking .not-data-ranking {
+    display: flex;
+    align-items: center;
     padding: 50px 0;
     flex-direction: column;
-}
-
-.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>img,
-.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>div {
-    height: 100%;
-}
-
-.ranking .not-data-ranking {
-    height: 50em;
-}
-
-.ranking .not-data-ranking>div,
-.ranking .not-data-ranking>img {
-    height: 100%;
 }
 
 .container-round-of-exams
@@ -6823,8 +6803,8 @@ p {
     width: calc(100% + 2px);
 }
 
-.card-body{
-    border-color: #E0E0E0;
+.card-body {
+    border-color: #e0e0e0;
 }
 
 .container-round-of-exams .btn-details {
@@ -6862,9 +6842,9 @@ p {
     background: none;
 }
 
-/* #myGroupMobile {
+#myGroupMobile {
     display: none;
-} */
+}
 
 div.tooltip-inner {
     text-align: start;
@@ -7469,7 +7449,9 @@ div.tooltip-inner {
 }
 
 .cover-container .contest-text-news {
-    margin-top: 30px !important;
+    padding-top: 60px;
+    margin: 0;
+    background: rgba(54, 191, 199, 0.05);
 }
 
 .container-fluid .row .col-xl-6 img {
@@ -7637,6 +7619,7 @@ div.tooltip-inner {
     justify-content: center;
     align-items: center;
 }
+
 .loader-overlay {
     position: fixed;
     top: 0;
@@ -7662,6 +7645,7 @@ div.tooltip-inner {
     margin: auto;
     border-radius: 24px;
 }
+
 .loader-framer .loader {
     position: absolute;
     top: 0;
@@ -7685,11 +7669,11 @@ div.tooltip-inner {
     left: 0;
     color: #fff;
 }
+
 @keyframes rotation {
     0% {
         transform: rotate(0deg);
     }
-
     100% {
         transform: rotate(360deg);
     }
@@ -7714,7 +7698,8 @@ div.tooltip-inner {
 /* Begin contest team */
 
 /* component-team */
-.form-team, .team-logged-in {
+.form-team,
+.team-logged-in {
     min-height: 328px;
     max-height: 328px;
     padding: 0;
@@ -8700,14 +8685,6 @@ div.tooltip-inner {
     margin-top: 0;
 }
 
-.form-team-logged {
-    min-height: 328px;
-}
-
-.team-col-logined {
-    padding:30px 32px ;
-}
-
 /* End contest team */
 .nav-mobile-content-logged img {
     width: 40px;
@@ -8739,8 +8716,14 @@ div.tooltip-inner {
 }
 /* end list news */
 
-@media screen and (max-width: 1199px) {
+.cover-container .register-contest-footer{
+    justify-content: space-between;
+    align-items: flex-end;
+    background: rgba(54, 191, 199, 0.05);
+}
 
+
+@media screen and (max-width: 1199px) {
     /* Begin contest team */
     .container-information .col-lg-3 {
         margin-right: auto;
@@ -8828,9 +8811,9 @@ div.tooltip-inner {
         padding: 0;
     }
 
-    /* .ranking tbody .tr-laptop {
+    .ranking tbody .tr-laptop {
         display: none;
-    } */
+    }
 
     #myGroupMobile {
         display: block;
@@ -8928,16 +8911,48 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
-    .row-contest-content .register-ttcn-frame .form-label{
+    .cover-container .contest-text-news{
+        padding-top: 0;
+    }
+    .ranking > .container-lg > .row > .col > .ranking-header,
+    .cover-container
+    > .rules-for-mobile
+    > .register-contest-rules-header
+    > .register-contest-rules-header-text {
+        font-size: 24px;
+    }
+
+    .ranking > .container-lg > .row > .col > .ranking-header {
+        padding-top: 60px;
+    }
+
+    .round-of-exams-inside
+    > .inside-topic-number
+    > .inside-topic-number-status
+    > .btn-register {
+        height: auto;
+        width: max-content;
+        min-width: 128px;
+        padding: 8px 7px;
+        font-size: 14px;
+    }
+
+    .row-contest-content .register-ttcn-frame .form-label {
         margin-top: 0;
     }
-    .contest-for-laptop>.container-lg .row-contest-content>.col-xl-5:nth-child(2){
+
+    .contest-for-laptop
+    > .container-lg
+    .row-contest-content
+    > .col-xl-5:nth-child(2) {
         margin: 0;
     }
-    .contest-for-laptop>.container-lg .row-contest-content>.col-xl-2 {
+
+    .contest-for-laptop > .container-lg .row-contest-content > .col-xl-2 {
         max-width: 100%;
     }
-    .contest-for-laptop>.container-lg .row-contest-content{
+
+    .contest-for-laptop > .container-lg .row-contest-content {
         gap: 24px;
         padding: 32px 16px;
     }
@@ -9007,15 +9022,17 @@ div.tooltip-inner {
 
     /* Begin contest team */
     .form-btn-team .btn-register-team {
-        width:100% !important;
+        width: 100% !important;
     }
 
     .form-team-logged {
         padding: 36px 16px !important;
     }
-    .form-team, .team-logged-in {
+
+    .form-team,
+    .team-logged-in {
         min-height: auto;
-        max-height:max-content;
+        max-height: max-content;
     }
 
     .form-team-logged .form-noinfor-inside-ttcn-footer {
@@ -9054,6 +9071,7 @@ div.tooltip-inner {
     .container-information .information-header-team {
         max-height: 64px;
     }
+
     .container-information .justify-content-start {
         display: block;
     }
@@ -9130,7 +9148,9 @@ div.tooltip-inner {
         padding: 30px 16px;
     }
 
-
+    .team-information .team-time-line {
+        display: none;
+    }
 
     .team-content .team-exam-question {
         margin-top: 0;
@@ -9373,9 +9393,7 @@ div.tooltip-inner {
         min-height: 100px;
     }
 
-    .register-contest-footer {
-        display: none;
-    }
+
 
     .team-footer .register-contest-footer {
         display: flex;
@@ -9969,7 +9987,6 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 768px) {
-
     /* Begin contest team */
     .form-btn-team .btn-register-team {
         padding: 8px 118px;
@@ -9979,13 +9996,14 @@ div.tooltip-inner {
         padding: 12px 96.5px;
     }
 
-    .form-team-cover{
+    .form-team-cover {
         padding-bottom: 32px;
     }
 
     .container-information .btn-register-team {
         margin-top: 24px !important;
     }
+
     .team-exam-question {
         padding-left: 16px;
         padding-right: 16px;
@@ -10311,7 +10329,6 @@ div.tooltip-inner {
     }
 
     /* Begin contest team */
-
     .team-exam-question .team-exam-img {
         background-image: url(/assets/images/image_25_mobile.png);
         height: 180px;
