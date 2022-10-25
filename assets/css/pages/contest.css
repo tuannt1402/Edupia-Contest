@@ -5574,12 +5574,7 @@ p {
 }
 
 .cover-container
-> .container-contest
-> .container-lg
-> .contest-rules
-> .row
-> .col
-> .register-contest-rules-header {
+.register-contest-rules-header {
     font-weight: 700;
     font-size: 40px;
     color: var(--background-color-blue);
@@ -6705,6 +6700,8 @@ p {
 }
 
 .ranking .not-data-ranking {
+    display: flex;
+    align-items: center;
     padding: 50px 0;
     flex-direction: column;
 }
@@ -7464,7 +7461,9 @@ div.tooltip-inner {
 }
 
 .cover-container .contest-text-news {
-    margin-top: 30px !important;
+    padding-top: 60px;
+    margin: 0;
+    background: rgba(54, 191, 199, 0.05);
 }
 
 .container-fluid .row .col-xl-6 img {
@@ -8729,7 +8728,30 @@ div.tooltip-inner {
 }
 /* end list news */
 
+.cover-container .register-contest-footer{
+    justify-content: space-between;
+    align-items: flex-end;
+    background: rgba(54, 191, 199, 0.05);
+}
+.cover-container .contest-text-news .content{
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, minmax(270px, 1fr));
+}
+.cover-container .contest-text-news .content>div:first-child {
+    grid-column: 1 / 3;
+}
+.cover-container .contest-text-news .content>div{
+    background-color: var(--color-white);
+    border-radius: 8px;
+}
+
+
 @media screen and (max-width: 1199px) {
+    .cover-container .contest-text-news .content{
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
+    }
     /* Begin contest team */
     .container-information .col-lg-3 {
         margin-right: auto;
@@ -8917,6 +8939,12 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
+    .cover-container .contest-text-news .content{
+        grid-template-columns: repeat(2, minmax(270px, 1fr));
+    }
+    .cover-container .contest-text-news{
+        padding-top: 0;
+    }
     .ranking > .container-lg > .row > .col > .ranking-header,
     .cover-container
     > .rules-for-mobile
@@ -9396,9 +9424,7 @@ div.tooltip-inner {
         min-height: 100px;
     }
 
-    .register-contest-footer {
-        display: none;
-    }
+
 
     .team-footer .register-contest-footer {
         display: flex;
@@ -9992,6 +10018,9 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 768px) {
+    .cover-container .contest-text-news .content{
+        grid-template-columns: repeat(2, minmax(270px, 1fr));
+    }
     /* Begin contest team */
     .form-btn-team .btn-register-team {
         padding: 8px 118px;
