@@ -6648,9 +6648,6 @@ p {
     background-color: #00cccc;
     border-radius: 3px;
 }
-#ranking-table-candidate thead tr .th-header{
-    text-align: center;
-}
 
 .ranking
 > .container-lg
@@ -6688,15 +6685,6 @@ p {
 > .th-non-data {
     width: 100%;
     border-bottom: hidden;
-}
-.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div{
-    height: auto;
-    padding: 50px 0;
-    flex-direction: column;
-}
-.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>img,
-.ranking>.container-lg>.row>.col>.non-date-table>.table>tbody>tr>.th-non-data>div>div{
-    height: 100%;
 }
 
 .ranking .not-data-ranking {
@@ -6854,9 +6842,9 @@ p {
     background: none;
 }
 
-/* #myGroupMobile {
+#myGroupMobile {
     display: none;
-} */
+}
 
 div.tooltip-inner {
     text-align: start;
@@ -7463,7 +7451,6 @@ div.tooltip-inner {
 .cover-container .contest-text-news {
     padding-top: 60px;
     margin: 0;
-    background: rgba(54, 191, 199, 0.05);
 }
 
 .container-fluid .row .col-xl-6 img {
@@ -8746,6 +8733,9 @@ div.tooltip-inner {
     background-color: var(--color-white);
     border-radius: 8px;
 }
+.contest-text-news-frame{
+    background: rgba(54, 191, 199, 0.05);
+}
 
 
 @media screen and (max-width: 1199px) {
@@ -8839,9 +8829,9 @@ div.tooltip-inner {
         padding: 0;
     }
 
-    /* .ranking tbody .tr-laptop {
+    .ranking tbody .tr-laptop {
         display: none;
-    } */
+    }
 
     #myGroupMobile {
         display: block;
