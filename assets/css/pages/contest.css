@@ -2789,8 +2789,10 @@ p {
     background-color: var(--color-white);
     border-radius: var(--size-12px);
     border: thin solid #e0e0e0;
-    height: 100%;
-    min-height: 458px;
+}
+
+.form-input-phone-number-inside.form-team-logged {
+    padding: 36px 32px;
 }
 
 .form-input-phone-number-inside .form-input-phone-number-header-content {
@@ -5516,10 +5518,6 @@ p {
     margin-top: 20px;
 }
 
-.form-input-phone-number-inside > .row > .col {
-    padding-left: 32px;
-    padding-right: 32px;
-}
 
 .form-input-phone-number-inside .form-input-phone-number-header {
     margin-top: 84px;
@@ -7700,8 +7698,6 @@ div.tooltip-inner {
 /* component-team */
 .form-team,
 .team-logged-in {
-    min-height: 328px;
-    max-height: 328px;
     padding: 0;
     flex-direction: column;
     margin-bottom: 0;
