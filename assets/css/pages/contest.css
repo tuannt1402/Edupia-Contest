@@ -5381,10 +5381,10 @@ p {
     padding-left: 33%;
 }
 
-.cover-container .btn-secondary {
+/* .cover-container .btn-secondary {
     background: none;
     border: unset;
-}
+} */
 
 .cover-container .btn-secondary:focus {
     box-shadow: none;
@@ -6177,9 +6177,9 @@ div.tooltip-inner {
     opacity: 0.8;
 }
 
-.form-team .row>.col {
+/* .form-team .row>.col {
     padding-top: 36px;
-}
+} */
 
 .form-team .modal-footer {
     justify-content: flex-start;
@@ -7190,7 +7190,7 @@ div.tooltip-inner {
 
 .frame-form-team-pd .form-input-phone-number-inside {
     min-height: 100%;
-    padding: 36px 32px 36px 0;
+    /* padding: 36px 32px 36px 0; */
 }
 
 .container-information .frame-form-team-pd {
@@ -7520,9 +7520,7 @@ div.tooltip-inner {
     }
 
     .container-information .form-team {
-        min-height: 280px;
-        max-height: 280px;
-        padding-top: 36px !important;
+
         padding-bottom: 36px !important;
         margin-bottom: 0;
     }
@@ -7912,15 +7910,24 @@ div.tooltip-inner {
         padding-bottom: 16px;
     }
 
-    .cover-container .container-information .cover-content .row>* {
+    /* .cover-container .container-information .cover-content .row>* {
         padding: 0;
-    }
+    } */
 
     #popup-update-candidate-inf,
     form#form-register-contest {
         max-width: 570px;
         margin: 30px auto;
         margin-bottom: 0;
+    }
+
+    .container-information .frame-form-team-pd form#form-register-contest {
+        margin: auto;
+    }
+
+    .container-information .frame-form-team-pd .container-information .form-team {
+        max-height: 100%;
+        padding-top: 36px !important;
     }
 
     .container-fluid .modal-content .btn-close {
