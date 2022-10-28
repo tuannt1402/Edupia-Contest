@@ -8742,6 +8742,15 @@ div.tooltip-inner {
     padding: 36px 32px 36px 0;
 }
 
+.container-information #container-form-check-register-contest {
+    position: relative;
+}
+
+.container-information #container-form-check-register-contest .imgPe{
+    position: absolute;
+    top: 40px;
+    right: 32px;
+}
 
 @media screen and (max-width: 1199px) {
     .cover-container .contest-text-news .content{
