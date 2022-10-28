@@ -8943,6 +8943,9 @@ div.tooltip-inner {
 }
 
 @media screen and (max-width: 991px) {
+    .container-information #container-form-check-register-contest .imgPe{
+        display: none;
+    }
     .cover-container .contest-text-news .content{
         grid-template-columns: repeat(2, minmax(270px, 1fr));
     }
