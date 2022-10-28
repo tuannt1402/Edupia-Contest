@@ -7730,7 +7730,7 @@ div.tooltip-inner {
 }
 
 .form-team .row > .col {
-    padding: 36px 32px;
+    padding-top: 36px;
 }
 
 .form-team .modal-footer {
@@ -8735,6 +8735,11 @@ div.tooltip-inner {
 }
 .contest-text-news-frame{
     background: rgba(54, 191, 199, 0.05);
+}
+
+.frame-form-team-pd .form-input-phone-number-inside{
+    min-height: 100%;
+    padding: 36px 32px 36px 0;
 }
 
 
